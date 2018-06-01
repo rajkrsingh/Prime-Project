@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    <Login>     
+      <UserEmail><![CDATA[username]]></UserEmail> 
+      <!--<UserEmail><![CDATA[user_email]]></UserEmail> -->
+      <!--<Password><![CDATA[user_password]]></Password> -->
+      <!--Submit><![CDATA[//input[@type='submit']]]></Submit>  -->
+       <Password><![CDATA[password]]></Password>       
+      <Submit><![CDATA[go]]></Submit>      
+   </Login>
+   <SelectAccount>
+  		<ImgLock><![CDATA[//img[@alt='Lock']]]></ImgLock>
+  		<SelectedAcc><![CDATA[//div[@id='account-bar']/div/strong/span]]></SelectedAcc>
+  		<AccountName><![CDATA[account_name]]></AccountName>
+  		<SearchResult><![CDATA[//li[@class='ac_even ac_over']/strong]]></SearchResult>
+  		<SelectAccounttt><![CDATA[//a[@id='account-select']]]></SelectAccounttt>
+  		<SearchAccount><![CDATA[//input[@id='account-search-text']]]></SearchAccount>
+  		<SeleniumTestAccount><![CDATA[//div[@id='account-select-dialog']//li[contains(text(),'Selenium Test')]]]></SeleniumTestAccount>
+  		
+   </SelectAccount>
+</Locators>

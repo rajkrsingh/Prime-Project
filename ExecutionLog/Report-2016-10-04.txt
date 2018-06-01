@@ -1,0 +1,164 @@
+
+*****************************************************************************
+Oct 04,2016 10:16:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsAccountCol and Test method testSort_MetricsAccountCol
+*****************************************************************************
+Oct 04,2016 10:17:03 [info]  open application giturl
+Oct 04,2016 10:17:39 [info]  log-in into application
+Oct 04,2016 10:17:39 [info]  Select Selenium Test Ford Account if not selected
+Oct 04,2016 10:19:06 [info]  Verify sorting functionality of 'Account' column 
+Oct 04,2016 10:19:06 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsAccountCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 04,2016 10:35:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol and Test method testSort_AccountStatuses_DateCol
+*****************************************************************************
+Oct 04,2016 10:36:00 [info]  open application giturl
+Oct 04,2016 10:37:25 [info]  log-in into application
+Oct 04,2016 10:37:25 [info]  Select Selenium Test Ford Account if not selected
+Oct 04,2016 10:38:10 [info]  Oct 04,2016 10:38:10 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(),'Choose an Account Status')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SupportHelper.sort_AccountStatuses_DateCol(SupportHelper.java:853)
+	at com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol.testSort_AccountStatuses_DateCol(Sort_AccountStatuses_DateCol.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 04,2016 10:38:10 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 04,2016 10:38:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsAccountCol and Test method testSort_MetricsAccountCol
+*****************************************************************************
+Oct 04,2016 10:39:03 [info]  open application giturl
+Oct 04,2016 10:40:19 [info]  log-in into application
+Oct 04,2016 10:40:20 [info]  Select Selenium Test Ford Account if not selected
+Oct 04,2016 10:41:34 [info]  Verify sorting functionality of 'Account' column 
+Oct 04,2016 10:41:34 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsAccountCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 04,2016 10:42:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Create_Note_UsingTopIcon and Test method testCreate_Note_UsingTopIcon
+*****************************************************************************
+Oct 04,2016 10:42:43 [info]  open application giturl
+Oct 04,2016 10:43:13 [info]  log-in into application
+Oct 04,2016 10:43:14 [info]  Select Selenium Test Ford Account if not selected
+Oct 04,2016 10:43:20 [info]  click on top icon to create support note
+Oct 04,2016 10:44:19 [info]  Enter Note details using top icon
+Oct 04,2016 10:46:26 [info]  Oct 04,2016 10:46:26 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Support.Create_Note_UsingTopIcon.testCreate_Note_UsingTopIcon(Create_Note_UsingTopIcon.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 04,2016 10:46:26 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Create_Note_UsingTopIcon
+*****************************************************************************
+
+*****************************************************************************
+Oct 04,2016 10:56:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.CSVExport_AccountStatuses and Test method testCSVExport_AccountStatuses
+*****************************************************************************
+Oct 04,2016 10:56:27 [info]  open application giturl
+Oct 04,2016 10:57:41 [info]  log-in into application
+Oct 04,2016 10:57:41 [info]  Select Selenium Test Ford Account if not selected
+Oct 04,2016 10:58:54 [info]  Oct 04,2016 10:58:54 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.SupportHelper.csvExport_AccountStatuses(SupportHelper.java:387)
+	at com.primeresponse.testcases.Support.CSVExport_AccountStatuses.testCSVExport_AccountStatuses(CSVExport_AccountStatuses.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 04,2016 10:58:54 [info]  End Execution of Test Class com.primeresponse.testcases.Support.CSVExport_AccountStatuses
+*****************************************************************************
+
+*****************************************************************************
+Oct 04,2016 10:59:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Delete_Note and Test method testDelete_Note
+*****************************************************************************
+Oct 04,2016 10:59:35 [info]  open application giturl
+Oct 04,2016 11:01:11 [info]  log-in into application
+Oct 04,2016 11:01:11 [info]  Select Selenium Test Ford Account if not selected

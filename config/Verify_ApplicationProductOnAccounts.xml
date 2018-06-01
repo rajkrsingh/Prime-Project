@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" verbose="1" name="Verify_ApplicationProductOnAccounts"
+	annotations="JDK">
+	<test name="Verify_ApplicationProductOnAccounts" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Admin.Verify_ApplicationProductOnAccounts" />
+		</classes>
+	</test>
+</suite> 

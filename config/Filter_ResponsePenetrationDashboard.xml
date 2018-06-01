@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Filter_ResponsePenetrationDashboard"
+	annotations="JDK">
+	<test name="Filter_ResponsePenetrationDashboard" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Enterprise.Filter_ResponsePenetrationDashboard"/>
+		</classes>
+	</test>
+</suite> 
+

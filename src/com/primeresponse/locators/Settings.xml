@@ -1,0 +1,186 @@
+<Locators>
+	<Competitors>
+		<Row><![CDATA[//div[@id='data-wiselinks-container']//tbody/tr]]></Row>
+		<AddCompetitorsLink><![CDATA[//a[@href='/accounts_competitors/new']]]></AddCompetitorsLink>
+		<CompetitorDrpDwn><![CDATA[//div[@id='accounts_competitor_competitor_id_chzn']//span[contains(text(),'Select a competitor')]]]></CompetitorDrpDwn>
+		<SelectCompetitor><![CDATA[//li[contains(@id,'accounts_competitor_competitor_id_chzn_o_1')]]]></SelectCompetitor>
+		<NoOfCompetitors><![CDATA[//div[contains(@id,'accounts_competitor_competitor_id_chzn')]//li[contains(@id,'accounts_competitor_competitor_id_chzn_')]]]></NoOfCompetitors>
+		<Selector><![CDATA[//div[@class='selector']]]></Selector>
+		<Trackers><![CDATA[//div[@class='selector']]]></Trackers>
+		<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+		<DeleteIcon><![CDATA[//img[@alt='Cross-circle']]]></DeleteIcon>
+	</Competitors>
+
+	<TrackListeners>
+		<RowCount><![CDATA[//div[contains(@class,'clearfix track-setting')]]]></RowCount>
+		<RefreshIcon><![CDATA[//div[@class='grid_7']/a[1]/img[@alt='Arrow_refresh']]]></RefreshIcon>
+		<TotalReviews><![CDATA[//form[@id='edit_account_13594']//tr/td[2]//tr[1]/td[1]]]></TotalReviews>
+		<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+		<Row><![CDATA[//form[@id='edit_account_13594']/div/table/tbody/tr]]></Row>
+	</TrackListeners>
+
+	<Alert>
+		<NewAlertLink><![CDATA[//a[@href='/alerts/new']]]></NewAlertLink>
+		<SourceDrpDown><![CDATA[//div[@id='alerts-form']//button[@data-id='alert_source']]]></SourceDrpDown>
+		<AllCheckBox><![CDATA[alert_review_sources_attributes_0_source_id]]></AllCheckBox>
+		<TransactionDrpDown><![CDATA[//div[@id='alert_interaction_type_id_chzn']/a]]></TransactionDrpDown>
+		<SalesType><![CDATA[//li[contains(text(), 'Sales')]]]></SalesType>
+		<ReceipientsDrpDown><![CDATA[//div[@id='alerts-form']//button[contains(@data-id,'alert_recipients_attributes')]]]></ReceipientsDrpDown>
+		<SelectEmail><![CDATA[//div[@id='alerts-form']//span[contains(text(),'Email')]]]></SelectEmail>
+		<InputEmail><![CDATA[alert_recipients_attributes_0_value]]></InputEmail>
+		<Review><![CDATA[alert_recipients_attributes_0_value]]></Review>
+		<SubmitBtn><![CDATA[//input[@name='commit']]]></SubmitBtn>
+		<Row><![CDATA[//div[@class='table']/table/tbody/tr]]></Row>
+	</Alert>
+
+	<Integrations>
+		<FaceBook>
+			<FaceBookTab><![CDATA[//a[@href='#facebook']]]></FaceBookTab>
+			<ConnectFaceBookButton><![CDATA[//a[contains(text(), '| Connect with Facebook')]]]></ConnectFaceBookButton>
+			<RemoveButton><![CDATA[//a[contains(text(),'Remove All Kumar Yadav')]]]></RemoveButton>
+			<EmailPhoneField><![CDATA[//input[@id='email']]]></EmailPhoneField>
+			<Password><![CDATA[//input[@id='pass']]]></Password>
+			<LogInButton><![CDATA[//button[@id='loginbutton']]]></LogInButton>
+			<IntegratedFaceBookAccount><![CDATA[//h5[contains(text(), 'Kumar Yadav')]]]></IntegratedFaceBookAccount>
+			<DeleteMessage><![CDATA[//div[contains(text(),'Successfully destroyed authentication')]]]></DeleteMessage>
+			<OnButton1><![CDATA[//div[@id='facebook']//tr[1]//span[contains(text(),'ON')]]]></OnButton1>
+			<OnButton2><![CDATA[//div[@id='facebook']//tr[2]//span[contains(text(),'ON')]]]></OnButton2>
+			<VerifyButton1><![CDATA[//div[@id='facebook']//tr[1]//div[contains(@class,'switch-on')]]]></VerifyButton1>
+			<VerifyButton2><![CDATA[//div[@id='facebook']//tr[2]//div[contains(@class,'switch-on')]]]></VerifyButton2>
+			<OffButton1><![CDATA[//div[@id='facebook']//tr[1]//span[contains(text(),'ON')]]]></OffButton1>
+			<OffButton2><![CDATA[//div[@id='facebook']//tr[2]//span[contains(text(),'ON')]]]></OffButton2>
+		</FaceBook>
+
+		<Twitter>
+			<TwitterTab><![CDATA[//a[@href='#twitter']]]></TwitterTab>
+			<ConnectTwitterButton><![CDATA[//a[contains(text(), '| Connect with Twitter')]]]></ConnectTwitterButton>
+			<RemoveButton><![CDATA[//a[contains(text(),'Remove All test')]]]></RemoveButton>
+			<UsernameEmailField><![CDATA[//input[@id='username_or_email']]]></UsernameEmailField>
+			<Password><![CDATA[//input[@id='password']]]></Password>
+			<AuthorizeAppButton><![CDATA[//input[@value='Authorize app']]]></AuthorizeAppButton>
+			<IntegratedTwitterAccount><![CDATA[//h5[contains(text(),'test')]]]></IntegratedTwitterAccount>
+			<VerifyButton><![CDATA[//div[@id='twitter']//tr//div[contains(@class,'switch-on')]]]></VerifyButton>
+			<OnButton><![CDATA[//div[@id='twitter']//tr//span[contains(text(),'ON')]]]></OnButton>
+			<OffButton><![CDATA[//div[@id='twitter']//tr//span[contains(text(),'OFF')]]]></OffButton>
+		</Twitter>
+
+		<YouTube>
+			<YouTubeTab><![CDATA[//a[@href='#youtube']]]></YouTubeTab>
+			<ConnectYouTubeButton><![CDATA[//div[@id='youtube']/div/div/a]]></ConnectYouTubeButton>
+			<NextButton><![CDATA[//input[@id='next']]]></NextButton>
+			<RemoveButton><![CDATA[//a[contains(text(),'Remove All Qa 15')]]]></RemoveButton>
+			<EmailField><![CDATA[//input[@id='Email']]]></EmailField>
+			<Password><![CDATA[//input[@id='Passwd']]]></Password>
+			<SignInButton><![CDATA[//input[@id='signIn']]]></SignInButton>
+			<AcceptButton><![CDATA[//button[@id='submit_approve_access']]]></AcceptButton>
+			<IntegratedYouTubeAccount><![CDATA[//div[@id='social-integration-settings-top-level-container']//a[2][contains(text(),'Remove All')]]]></IntegratedYouTubeAccount>
+			<VerifyButton><![CDATA[//div[@id='youtube']//tr//div[contains(@class,'switch-on')]]]></VerifyButton>
+			<OnButton><![CDATA[//div[@id='youtube']//tr[1]//span[contains(text(),'ON')]]]></OnButton>
+			<OffButton><![CDATA[//div[@id='youtube']//tr[1]//span[contains(text(),'OFF')]]]></OffButton>
+			<ClickOn><![CDATA[//div[@id='youtube']//tr[1]//span[contains(text(),'ON')]]]></ClickOn>
+		</YouTube>
+		
+		<GooglePlus>
+				<GooglePlusTab><![CDATA[//a[contains(text(),'Google Plus')]]]></GooglePlusTab>
+				<IntegratedGooglePlus><![CDATA[//div[@id='google_plus']//h5[contains(text(),'Qa 15')]]]></IntegratedGooglePlus>
+				<RemoveButton><![CDATA[//div[@id='google_plus']//a[contains(text(),'Remove All Qa 15')]]]></RemoveButton>
+				<ConnectGooglePlus><![CDATA[//a[contains(text(),'| Connect with Google Plus')]]]></ConnectGooglePlus>
+				<EmailField><![CDATA[//input[@id='Email']]]></EmailField>
+				<Password><![CDATA[//input[@id='Passwd']]]></Password>
+				<SignInButton><![CDATA[//input[@id='signIn']]]></SignInButton>
+				<AcceptButton><![CDATA[//button[@id='submit_approve_access']]]></AcceptButton>
+				<AccountOff><![CDATA[//div[@id='google_plus']//span[contains(text(),'OFF')]]]></AccountOff>
+				<RemoveButton><![CDATA[//div[@id='google_plus']//a[contains(text(),'Remove All Qa 15')]]]></RemoveButton>
+		</GooglePlus>
+		         
+		<GoogleAnalytics>
+		         <GoogleAnalyticsTab><![CDATA[//a[@href='#google_analytics']]]></GoogleAnalyticsTab>
+		         <ConnectWithGoogleAnalyticsButton><![CDATA[//a[contains(text(),'Connect with Google Analytics')]]]></ConnectWithGoogleAnalyticsButton>
+		         <IntegratedGoogleAnalytics><![CDATA[//div[@id='google_plus']//h5[contains(text(),'Qa 15')]]]></IntegratedGoogleAnalytics>
+		         <EmailField><![CDATA[//input[@id='Email']]]></EmailField>
+				 <Password><![CDATA[//input[@id='Passwd']]]></Password>
+				 <SignInButton><![CDATA[//input[@id='next']]]></SignInButton>
+				 <SignInButton1><![CDATA[//input[@id='signIn']]]></SignInButton1>
+				 <AcceptButton><![CDATA[//button[@id='submit_approve_access']]]></AcceptButton>
+				 <AccountOff><![CDATA[//div[@id='google_analytics']//span[contains(text(),'OFF')]]]></AccountOff>
+				 <RemoveButton><![CDATA[//a[2][@href='/authentications/1482?provider=google_analytics'][contains(text(),'Remove All Qa 15')]]]></RemoveButton>
+				 <KpiTemplateDropDownList><![CDATA[//select[@class='authentication_kpi_template']]]></KpiTemplateDropDownList>
+				 <TotalKpiList><![CDATA[//div[@id='google_analytics']//tr[1]/td[4]//select[@class='authentication_kpi_template']/option]]></TotalKpiList>
+		
+		</GoogleAnalytics>
+	</Integrations>
+
+	<SiteMap>
+		<NewButton><![CDATA[//a[contains(text(),'New')]]]></NewButton>
+		<Name><![CDATA[//input[@id='site_map_name']]]></Name>
+		<Desription><![CDATA[//textarea[@id='site_map_description']]]></Desription>
+		<Url><![CDATA[//textarea[@id='site_map_url']]]></Url>
+		<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+		<RowCount><![CDATA[//tbody[@class='products-body']/tr]]></RowCount>
+	</SiteMap>
+
+	<Digests>
+		<NewDigestSubscriptionButton><![CDATA[//a[contains(text(),'New Digest Subscription')]]]></NewDigestSubscriptionButton>
+		<Name><![CDATA[//input[@id='digest_subscription_name']]]></Name>
+		<SourceDropDown><![CDATA[//div[@id='digest_subscription_source_chzn']/a/span[contains(text(),'Select an Option')]]]></SourceDropDown>
+		<AllReviewes><![CDATA[//li[contains(text(),'All Reviews')]]]></AllReviewes>
+		<InternalReview><![CDATA[//li[contains(text(),'Internal Review')]]]></InternalReview>
+		<ExternalReview><![CDATA[//li[contains(text(),'External Review')]]]></ExternalReview>
+		<ProductReview><![CDATA[//li[contains(text(),'Product Review')]]]></ProductReview>
+		<SourceDropDownCount><![CDATA[//div[@id='digest_subscription_source_chzn']//ul[@class='chzn-results']/li]]></SourceDropDownCount>
+		<TransactionType><![CDATA[//div[@id='digest_subscription_interaction_type_id_chzn']/a/span]]></TransactionType>
+		<SalesTypeTransaction><![CDATA[//li[@id='digest_subscription_interaction_type_id_chzn_o_1'][contains(text(),'Sales')]]]></SalesTypeTransaction>
+		<Recipients><![CDATA[//input[@id='digest_subscription_recipients_attributes_0_value']]]></Recipients>
+		<Distribute><![CDATA[//div[@id='digest_subscription_frequency_chzn']/a/span]]></Distribute>
+		<Daily><![CDATA[//li[contains(text(),'Daily')]]]></Daily>
+		<Weekly><![CDATA[//li[contains(text(),'Weekly')]]]></Weekly>
+		<Monthly><![CDATA[//li[contains(text(),'Monthly')]]]></Monthly>
+		<DistributeDropDownCount><![CDATA[//div[@id='digest_subscription_frequency_chzn']//div[@class='chzn-drop']/ul/li]]></DistributeDropDownCount>
+		<ConditionRating><![CDATA[//div[@id='digest_subscription_operator_chzn']/a/span]]></ConditionRating>
+		<ConditionRatingValue1><![CDATA[//li[@id='digest_subscription_operator_chzn_o_0'][contains(text(),'Greater than')]]]></ConditionRatingValue1>
+		<ConditionRatingValue2><![CDATA[//li[@id='digest_subscription_operator_chzn_o_1'][contains(text(),'Greater than or equal to')]]]></ConditionRatingValue2>
+		<ConditionRatingValue3><![CDATA[//li[@id='digest_subscription_operator_chzn_o_2'][contains(text(),'Less than')]]]></ConditionRatingValue3>
+		<ConditionRatingValue4><![CDATA[//li[@id='digest_subscription_operator_chzn_o_3'][contains(text(),'Less than or equal to')]]]></ConditionRatingValue4>
+		<ConditionRatingValue5><![CDATA[//li[@id='digest_subscription_operator_chzn_o_4'][contains(text(),'Equal to')]]]></ConditionRatingValue5>
+		<ConditionRatingValue6><![CDATA[//li[@id='digest_subscription_operator_chzn_o_5'][contains(text(),'Not equal to')]]]></ConditionRatingValue6>
+		<ConditionRatingDropDownCount><![CDATA[//div[@id='digest_subscription_operator_chzn']//div[@class='chzn-drop']/ul/li]]></ConditionRatingDropDownCount>
+		<ConditionStar><![CDATA[//div[@id='digest_subscription_value_chzn']/a/span]]></ConditionStar>
+		<ConditionStarValue1><![CDATA[//li[@id='digest_subscription_value_chzn_o_0'][contains(text(),'0')]]]></ConditionStarValue1>
+		<ConditionStarValue2><![CDATA[//li[@id='digest_subscription_value_chzn_o_1'][contains(text(),'0.5')]]]></ConditionStarValue2>
+		<ConditionStarValue3><![CDATA[//li[@id='digest_subscription_value_chzn_o_2'][contains(text(),'1')]]]></ConditionStarValue3>
+		<ConditionStarValue4><![CDATA[//li[@id='digest_subscription_value_chzn_o_3'][contains(text(),'1.5')]]]></ConditionStarValue4>
+		<ConditionStarValue5><![CDATA[//li[@id='digest_subscription_value_chzn_o_4'][contains(text(),'2')]]]></ConditionStarValue5>
+		<ConditionStarValue6><![CDATA[//li[@id='digest_subscription_value_chzn_o_5'][contains(text(),'2.5')]]]></ConditionStarValue6>
+		<ConditionStarValue7><![CDATA[//li[@id='digest_subscription_value_chzn_o_6'][contains(text(),'3')]]]></ConditionStarValue7>
+		<ConditionStarValue8><![CDATA[//li[@id='digest_subscription_value_chzn_o_7'][contains(text(),'3.5')]]]></ConditionStarValue8>
+		<ConditionStarValue9><![CDATA[//li[@id='digest_subscription_value_chzn_o_8'][contains(text(),'4')]]]></ConditionStarValue9>
+		<ConditionStarValue10><![CDATA[//li[@id='digest_subscription_value_chzn_o_9'][contains(text(),'4.5')]]]></ConditionStarValue10>
+		<ConditionStarValue11><![CDATA[//li[@id='digest_subscription_value_chzn_o_10'][contains(text(),'5')]]]></ConditionStarValue11>
+		<ConditionStarDropDownCount><![CDATA[//div[@id='digest_subscription_value_chzn']//div[@class='chzn-drop']/ul/li]]></ConditionStarDropDownCount>
+		<WhiteLabel><![CDATA[//div[@id='digest_subscription_white_labelable_attributes_white_label_id_chzn']/a/span]]></WhiteLabel>
+		<WhiteLabelDropDownValue><![CDATA[//div[@id='digest_subscription_white_labelable_attributes_white_label_id_chzn']//div[@class='chzn-drop']/ul/li]]></WhiteLabelDropDownValue>
+		<RowCount><![CDATA[//div[@id='data-wiselinks-container']/div/div/div/table/tbody/tr]]></RowCount>
+		<SubscribeButton><![CDATA[//a[@data-title='Subscribe']]]></SubscribeButton>
+		<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+
+	</Digests>
+	<Feeds>
+	    <Row><![CDATA[//div[@id='data-wiselinks-container']//tbody/tr]]></Row> 
+		<NewLink><![CDATA[//a[@href='/feeds/new']]]></NewLink>
+		<Name><![CDATA[//input[@id='feed_name']]]></Name>
+		<Description><![CDATA[//textarea[@id='feed_description']]]></Description>
+		<GroupList><![CDATA[//div[@id='feed_group_ids_chzn']/ul/li/input[@value='Select Some Options']]]></GroupList>
+		<RandyGroup><![CDATA[//li[contains(text(),'Randy Test Group')]]]></RandyGroup>
+		<AutoDistribution><![CDATA[//input[@id='feed_auto_distribution']]]></AutoDistribution>
+		<LimitNumberReviews><![CDATA[//input[@id='feed_limit_number_of_reviews']]]></LimitNumberReviews>
+		<NoOfReviews><![CDATA[//label[contains(text(),'Number of reviews')]]]></NoOfReviews>
+		<Rating><![CDATA[//div[@id='feed_operator_chzn']/a/span]]></Rating>
+		<Stars><![CDATA[//div[@id='feed_value_chzn']/a]]></Stars>
+		<TotalRating><![CDATA[//div[@id='feed_operator_chzn']//ul/li]]></TotalRating>
+		<TotalStar><![CDATA[//div[@id='feed_value_chzn']//ul/li]]></TotalStar>
+		<Sentiment><![CDATA[//div[@id='feed_sentiment_chzn']/a/span[contains(text(),'Select an Option')]]]></Sentiment>
+		<TotalSentiment><![CDATA[//div[@id='feed_sentiment_chzn']//ul/li]]></TotalSentiment>
+		<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+	</Feeds>
+	
+</Locators>

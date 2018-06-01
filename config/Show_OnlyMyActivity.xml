@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Show_OnlyMyActivity"
+	annotations="JDK">
+	<test name="Show_OnlyMyActivity" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Settings.Show_OnlyMyActivity" />
+		</classes>
+	</test>
+</suite> 
+

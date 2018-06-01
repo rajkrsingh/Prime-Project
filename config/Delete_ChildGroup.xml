@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Delete_ChildGroup"
+	annotations="JDK">
+	<test name="Delete_ChildGroup" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Admin.Delete_ChildGroup" />
+		</classes>
+	</test>
+</suite> 
+

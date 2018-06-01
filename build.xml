@@ -1,0 +1,1513 @@
+<?xml version="1.0"?>
+
+<project name="PrimeResponse" default="runAll" basedir=".">
+
+	<!-- ====== Initialize Properties ====== -->
+	<property environment="env" />
+	<property name="test.src" location="src/com/primeresponse" />
+	<property name="test.dest" location="build" />
+	<property name="test.lib" location="lib" />
+	<property name="test.result" location="test-output" />
+
+	<!-- ====== Include required jar files and set classpath ====== -->
+	<path id="test.classpath">
+		<pathelement location="${test.dest}" />
+		<fileset dir="${test.lib}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<!-- ====== Check for ANT setup ====== -->
+	<tstamp>
+		<format property="date" pattern="MMddyyyy" />
+		<format property="time" pattern="hhmmss" />
+	</tstamp>
+
+	<!-- ====== Delete old compiled classes ====== -->
+	<target name="clean">
+		<delete dir="test-output" />
+		<delete dir="${test.dest}" />
+	</target>
+
+	<!-- ====== TestNG task definition ====== -->
+	<taskdef name="testng" classpathref="test.classpath" classname="org.testng.TestNGAntTask" />
+
+	<!-- ====== Compile all java files ====== -->
+	<target name="compile" depends="clean">
+		<echo message="making directory..." />
+		<mkdir dir="test-output" />
+		<mkdir dir="${test.dest}" />
+		<echo message="classpath: ${test.classpath}" />
+		<echo message="compiling..." />
+		<javac debug="true" destdir="${test.dest}" includes="**/*.java, testcases/*/*.java" srcdir="${test.src}">
+			<classpath refid="test.classpath" />
+		</javac>
+	</target>
+
+	<!-- ====== Run All tests ====== -->
+	<target name="runAll" depends="compile">
+		<testng classpathref="test.classpath" suitename="AllTest">
+			<xmlfileset dir="config" includes="Suite.xml" />
+		</testng>
+		<antcall target="RunFailedTest" />
+	</target>
+
+	<target name="RunFailedTest">
+		<testng classpathref="test.classpath" suitename="AllTest">
+			<xmlfileset dir="test-output" includes="testng-failed.xml" />
+		</testng>
+	</target>
+	
+	<target name="Check_LoginIcon" depends="compile">
+		<testng classpathref="test.classpath" suitename="Check_LoginIcon" outputdir="test">
+			<xmlfileset dir="config" includes="Check_LoginIcon.xml" />
+		</testng>
+	</target>
+	
+	<target name="Create_AccessKey" depends="compile">
+		<testng classpathref="test.classpath" suitename="Create_AccessKey" outputdir="test">
+			<xmlfileset dir="config" includes="Create_AccessKey.xml" />
+		</testng>
+	</target>
+
+	<target name="Create_Account" depends="compile">
+		<testng classpathref="test.classpath" suitename="Create_Account" outputdir="test">
+			<xmlfileset dir="config" includes="Create_Account.xml" />
+		</testng>
+	</target>
+	
+	<target name="Delete_AccessKey" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_AccessKey" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_AccessKey.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_Account" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Account" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Account.xml" />
+			</testng>
+	</target>
+	
+	<target name="Mark_UserEmployee" depends="compile">
+			<testng classpathref="test.classpath" suitename="Mark_UserEmployee" outputdir="test">
+				<xmlfileset dir="config" includes="Mark_UserEmployee.xml" />
+			</testng>
+	</target>
+	
+	<target name="Search_Account" depends="compile">
+			<testng classpathref="test.classpath" suitename="Search_Account" outputdir="test">
+				<xmlfileset dir="config" includes="Search_Account.xml" />
+			</testng>
+	</target>
+	
+	<target name="Send_SocialIntegrationEmail" depends="compile">
+		<testng classpathref="test.classpath" suitename="Send_SocialIntegrationEmail" outputdir="test">
+			<xmlfileset dir="config" includes="Send_SocialIntegrationEmail.xml" />
+		</testng>
+	</target>
+	
+	<target name="Sort_AgeColumn" depends="compile">
+		<testng classpathref="test.classpath" suitename="Sort_AgeColumn" outputdir="test">
+			<xmlfileset dir="config" includes="Sort_AgeColumn.xml" />
+		</testng>
+	</target>
+	
+	<target name="Sort_CreatedColumn" depends="compile">
+		<testng classpathref="test.classpath" suitename="Sort_CreatedColumn" outputdir="test">
+			<xmlfileset dir="config" includes="Sort_CreatedColumn.xml" />
+		</testng>
+	</target>
+	
+	<target name="Verify_NameColDefaultSorting" depends="compile">
+		<testng classpathref="test.classpath" suitename="Verify_NameColDefaultSorting" outputdir="test">
+			<xmlfileset dir="config" includes="Verify_NameColDefaultSorting.xml" />
+		</testng>
+	</target>
+	
+	<target name="Verify_TimeZone" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_TimeZone" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_TimeZone.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_UserDetails" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_UserDetails" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_UserDetails.xml" />
+			</testng>
+	</target>
+	
+	
+	<target name="Check_GroupHierarchy" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_GroupHierarchy" outputdir="test">
+				<xmlfileset dir="config" includes="Check_GroupHierarchy.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_ApplicationProduct" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_ApplicationProduct" outputdir="test">
+				<xmlfileset dir="config" includes="Create_ApplicationProduct.xml" />
+			</testng>
+	</target>
+
+	<target name="Create_Category" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_Category" outputdir="test">
+				<xmlfileset dir="config" includes="Create_Category.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_ChildGroup" depends="compile">
+		<testng classpathref="test.classpath" suitename="Create_ChildGroup" outputdir="test">
+			<xmlfileset dir="config" includes="Create_ChildGroup.xml" />
+		</testng>
+	</target>
+	
+	<target name="Create_GreatPlainProduct" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_GreatPlainProduct" outputdir="test">
+				<xmlfileset dir="config" includes="Create_GreatPlainProduct.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_ParentGroup" depends="compile">
+		<testng classpathref="test.classpath" suitename="Create_ParentGroup" outputdir="test">
+			<xmlfileset dir="config" includes="Create_ParentGroup.xml" />
+		</testng>
+	</target>
+	
+	<target name="Create_Template" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_Template" outputdir="test">
+				<xmlfileset dir="config" includes="Create_Template.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_RecipientTemplate" depends="compile">
+		<testng classpathref="test.classpath" suitename="Create_RecipientTemplate" outputdir="test">
+			<xmlfileset dir="config" includes="Create_RecipientTemplate.xml" />
+		</testng>
+	</target>
+	
+	<target name="Create_User" depends="compile">
+				<testng classpathref="test.classpath" suitename="Create_User" outputdir="test">
+					<xmlfileset dir="config" includes="Create_User.xml" />
+				</testng>
+		</target>
+		
+		<target name="Search_User" depends="compile">
+				<testng classpathref="test.classpath" suitename="Search_User" outputdir="test">
+					<xmlfileset dir="config" includes="Search_User.xml" />
+				</testng>
+		</target>
+		
+		<target name="Delete_User" depends="compile">
+				<testng classpathref="test.classpath" suitename="Delete_User" outputdir="test">
+					<xmlfileset dir="config" includes="Delete_User.xml" />
+				</testng>
+		</target>
+			
+		<target name="Tracker_Package" depends="compile">
+				<testng classpathref="test.classpath" suitename="Tracker_Package" outputdir="test">
+					<xmlfileset dir="config" includes="Tracker_Package.xml" />
+				</testng>
+		</target>
+		
+		<target name="Delete_Package" depends="compile">
+				<testng classpathref="test.classpath" suitename="Delete_Package" outputdir="test">
+					<xmlfileset dir="config" includes="Delete_Package.xml" />
+				</testng>
+		</target>
+		
+		<target name="Create_Vertical" depends="compile">
+				<testng classpathref="test.classpath" suitename="Create_Vertical" outputdir="test">
+					<xmlfileset dir="config" includes="Create_Vertical.xml" />
+				</testng>
+		</target>
+		
+		<target name="Delete_Vertical" depends="compile">
+				<testng classpathref="test.classpath" suitename="Delete_Vertical" outputdir="test">
+					<xmlfileset dir="config" includes="Delete_Vertical.xml" />
+				</testng>
+		</target>
+
+	<target name="Delete_RecipientTemplate" depends="compile">
+		<testng classpathref="test.classpath" suitename="Delete_RecipientTemplate" outputdir="test">
+			<xmlfileset dir="config" includes="Delete_RecipientTemplate.xml" />
+		</testng>
+	</target>
+
+
+	<target name="Delete_GreatPlainProduct" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_GreatPlainProduct" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_GreatPlainProduct.xml" />
+			</testng>
+	</target>
+
+	<target name="Verify_ListenersList" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_ListenersList" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_ListenersList.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_Template" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Template" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Template.xml" />
+			</testng>
+	</target>
+
+	<target name="Delete_Category" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Category" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Category.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_WhiteLabel" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_WhiteLabel" outputdir="test">
+				<xmlfileset dir="config" includes="Create_WhiteLabel.xml" />
+			</testng>
+	</target>
+
+	<target name="Delete_WhiteLabel" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_WhiteLabel" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_WhiteLabel.xml" />
+			</testng>
+	</target>
+
+	<target name="Delete_ApplicationProduct" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_ApplicationProduct" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_ApplicationProduct.xml" />
+			</testng>
+	</target>
+
+	<target name="Delete_ParentGroup" depends="compile">
+		<testng classpathref="test.classpath" suitename="Delete_ParentGroup" outputdir="test">
+			<xmlfileset dir="config" includes="Delete_ParentGroup.xml" />
+		</testng>
+	</target>
+
+	<target name="Delete_ChildGroup" depends="compile">
+		<testng classpathref="test.classpath" suitename="Delete_ChildGroup" outputdir="test">
+			<xmlfileset dir="config" includes="Delete_ChildGroup.xml" />
+		</testng>
+	</target>
+	
+	
+	<target name="Add_Content" depends="compile">
+		<testng classpathref="test.classpath" suitename="Add_Content" outputdir="test">
+			<xmlfileset dir="config" includes="Add_Content.xml" />
+		</testng>
+	</target>
+	
+	<target name="Check_AddALink" depends="compile">
+		<testng classpathref="test.classpath" suitename="Check_AddALink" outputdir="test">
+			<xmlfileset dir="config" includes="Check_AddALink.xml" />
+		</testng>
+	</target>
+	
+	<target name="Check_AnalyzeHashtags" depends="compile">
+		<testng classpathref="test.classpath" suitename="Check_AnalyzeHashtags" outputdir="test">
+			<xmlfileset dir="config" includes="Check_AnalyzeHashtags.xml" />
+		</testng>
+	</target>
+	
+	<target name="Check_FBLikeAndComment" depends="compile">
+		<testng classpathref="test.classpath" suitename="Check_FBLikeAndComment" outputdir="test">
+			<xmlfileset dir="config" includes="Check_FBLikeAndComment.xml" />
+		</testng>
+	</target>
+	
+	<target name="Check_FilterResult" depends="compile">
+		<testng classpathref="test.classpath" suitename="Check_FilterResult" outputdir="test">
+			<xmlfileset dir="config" includes="Check_FilterResult.xml" />
+		</testng>
+	</target>
+	
+	<target name="Check_HashtagsResults" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_HashtagsResults" outputdir="test">
+				<xmlfileset dir="config" includes="Check_HashtagsResults.xml" />
+			</testng>
+	</target>
+	
+	<target name="Check_ShortenUrl" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_ShortenUrl" outputdir="test">
+				<xmlfileset dir="config" includes="Check_ShortenUrl.xml" />
+			</testng>
+	</target>
+	
+	<target name="CheckTwitterRetweet" depends="compile">
+			<testng classpathref="test.classpath" suitename="CheckTwitterRetweet" outputdir="test">
+				<xmlfileset dir="config" includes="CheckTwitterRetweet.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_SocialPost" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_SocialPost" outputdir="test">
+				<xmlfileset dir="config" includes="Create_SocialPost.xml" />
+			</testng>
+	</target>
+	
+	<target name="Mark_As_Favorites" depends="compile">
+			<testng classpathref="test.classpath" suitename="Mark_As_Favorites" outputdir="test">
+				<xmlfileset dir="config" includes="Mark_As_Favorites.xml" />
+			</testng>
+	</target>
+	
+	<target name="Mark_As_Flagged" depends="compile">
+			<testng classpathref="test.classpath" suitename="Mark_As_Flagged" outputdir="test">
+				<xmlfileset dir="config" includes="Mark_As_Flagged.xml" />
+			</testng>
+	</target>
+	
+	<target name="Search_Content" depends="compile">
+			<testng classpathref="test.classpath" suitename="Search_Content" outputdir="test">
+				<xmlfileset dir="config" includes="Search_Content.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_Categories" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_Categories" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_Categories.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_SocialDashboard" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_SocialDashboard" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_SocialDashboard.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_Campaign" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Campaign" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Campaign.xml" />
+			</testng>
+	</target>
+	
+	<target name="Upload_List" depends="compile">
+			<testng classpathref="test.classpath" suitename="Upload_List" outputdir="test">
+				<xmlfileset dir="config" includes="Upload_List.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_List" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_List" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_List.xml" />
+			</testng>
+	</target>
+
+	<target name="Create_Survey" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_Survey" outputdir="test">
+				<xmlfileset dir="config" includes="Create_Survey.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_Survey" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Survey" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Survey.xml" />
+			</testng>
+	</target>
+	
+	<target name="Download_CustomersCSV" depends="compile">
+			<testng classpathref="test.classpath" suitename="Download_CustomersCSV" outputdir="test">
+				<xmlfileset dir="config" includes="Download_CustomersCSV.xml" />
+			</testng>
+	</target>
+		
+	<target name="Submit_InternalReview" depends="compile">
+			<testng classpathref="test.classpath" suitename="Submit_InternalReview" outputdir="test">
+				<xmlfileset dir="config" includes="Submit_InternalReview.xml" />
+			</testng>
+	</target>
+	
+	<target name="Add_Customer" depends="compile">
+			<testng classpathref="test.classpath" suitename="Add_Customer" outputdir="test">
+				<xmlfileset dir="config" includes="Add_Customer.xml" />
+			</testng>
+	</target>
+	
+	<target name="Add_Multiple_Customers" depends="compile">
+			<testng classpathref="test.classpath" suitename="Add_Multiple_Customers" outputdir="test">
+				<xmlfileset dir="config" includes="Add_Multiple_Customers.xml" />
+			</testng>
+	</target>
+
+	<target name="Delete_Customers" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Customers" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Customers.xml" />
+			</testng>
+	</target>
+	
+	<target name="DeletePageCapture_Profile" depends="compile">
+			<testng classpathref="test.classpath" suitename="DeletePageCapture_Profile" outputdir="test">
+				<xmlfileset dir="config" includes="DeletePageCapture_Profile.xml" />
+			</testng>
+	</target>
+	
+	<target name="PageCapture_Profile" depends="compile">
+			<testng classpathref="test.classpath" suitename="PageCapture_Profile" outputdir="test">
+				<xmlfileset dir="config" includes="PageCapture_Profile.xml" />
+			</testng>
+	</target>
+	
+	<target name="Serp_Profile" depends="compile">
+			<testng classpathref="test.classpath" suitename="SERP_Profile" outputdir="test">
+				<xmlfileset dir="config" includes="SERP_Profile.xml" />
+			</testng>
+	</target>
+	
+	<target name="Check_Redirect_Counts" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_Redirect_Counts" outputdir="test">
+				<xmlfileset dir="config" includes="Check_Redirect_Counts.xml" />
+			</testng>
+	</target>
+	
+	<target name="Add_Redirects" depends="compile">
+			<testng classpathref="test.classpath" suitename="Add_Redirects" outputdir="test">
+				<xmlfileset dir="config" includes="Add_Redirects.xml" />
+			</testng>
+	</target>
+	
+	<target name="Check_ReviewCount" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_ReviewCount" outputdir="test">
+				<xmlfileset dir="config" includes="Check_ReviewCount.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_ExternalFeed" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_ExternalFeed" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_ExternalFeed.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_InternalFeed" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_InternalFeed" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_InternalFeed.xml" />
+			</testng>
+	</target>
+	
+	<target name="Resolve_ExternalFeed" depends="compile">
+			<testng classpathref="test.classpath" suitename="Resolve_ExternalFeed" outputdir="test">
+				<xmlfileset dir="config" includes="Resolve_ExternalFeed.xml" />
+			</testng>
+	</target>
+	
+	<target name="Resolve_InternalFeed" depends="compile">
+			<testng classpathref="test.classpath" suitename="Resolve_InternalFeed" outputdir="test">
+				<xmlfileset dir="config" includes="Resolve_InternalFeed.xml" />
+			</testng>
+	</target>
+	
+	<target name="Sort_DateInternalFeed" depends="compile">
+		<testng classpathref="test.classpath" suitename="Sort_DateInternalFeed" outputdir="test">
+			<xmlfileset dir="config" includes="Sort_DateInternalFeed.xml" />
+		</testng>
+	</target>
+		
+	<target name="Sort_PublishedExternalFeed" depends="compile">
+		<testng classpathref="test.classpath" suitename="Sort_PublishedExternalFeed" outputdir="test">
+			<xmlfileset dir="config" includes="Sort_PublishedExternalFeed.xml" />
+		</testng>
+	</target>
+	
+	<target name="Sort_RatingExternalFeed" depends="compile">
+		<testng classpathref="test.classpath" suitename="Sort_RatingExternalFeed" outputdir="test">
+			<xmlfileset dir="config" includes="Sort_RatingExternalFeed.xml" />
+		</testng>
+	</target>
+	
+	<target name="Sort_RatingInternalFeed" depends="compile">
+		<testng classpathref="test.classpath" suitename="Sort_RatingInternalFeed" outputdir="test">
+			<xmlfileset dir="config" includes="Sort_RatingInternalFeed.xml" />
+		</testng>
+	</target>
+	
+	<target name="Sort_SourceExternalFeed" depends="compile">
+		<testng classpathref="test.classpath" suitename="Sort_SourceExternalFeed" outputdir="test">
+			<xmlfileset dir="config" includes="Sort_SourceExternalFeed.xml" />
+		</testng>
+	</target>
+	
+	<target name="Verify_GoToSite_ExternalFeed" depends="compile">
+		<testng classpathref="test.classpath" suitename="Verify_GoToSite_ExternalFeed" outputdir="test">
+			<xmlfileset dir="config" includes="Verify_GoToSite_ExternalFeed.xml" />
+		</testng>
+	</target>
+	
+	<target name="VerifyWidgets_TrackSummary" depends="compile">
+		<testng classpathref="test.classpath" suitename="VerifyWidgets_TrackSummary" outputdir="test">
+			<xmlfileset dir="config" includes="VerifyWidgets_TrackSummary.xml" />
+		</testng>
+	</target>
+	
+	<target name="Delete_Redirect" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Redirect" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Redirect.xml" />
+			</testng>
+	</target>
+		
+	<target name="Delete_Serp" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Serp" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Serp.xml" />
+			</testng>
+	</target>
+	
+	<target name="Sort_MyAccount_NameCol" depends="compile">
+			<testng classpathref="test.classpath" suitename="Sort_MyAccount_NameCol" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_MyAccount_NameCol.xml" />
+			</testng>
+	</target>
+	
+	<target name="Sort_MyAccount_ReviewsCol" depends="compile">
+			<testng classpathref="test.classpath" suitename="Sort_MyAccount_ReviewsCol" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_MyAccount_ReviewsCol.xml" />
+			</testng>
+	</target>
+	
+	<target name="Sort_MyAccount_ReviewResponsesCol" depends="compile">
+			<testng classpathref="test.classpath" suitename="Sort_MyAccount_ReviewResponsesCol" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_MyAccount_ReviewResponsesCol.xml" />
+			</testng>
+	</target>
+	
+	<target name="Sort_MyAccount_StarRatingCol" depends="compile">
+			<testng classpathref="test.classpath" suitename="Sort_MyAccount_StarRatingCol" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_MyAccount_StarRatingCol.xml" />
+			</testng>
+	</target>
+	
+	<target name="Sort_MyAccount_FacebookLikesCol" depends="compile">
+			<testng classpathref="test.classpath" suitename="Sort_MyAccount_FacebookLikesCol" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_MyAccount_FacebookLikesCol.xml" />
+			</testng>
+	</target>
+	
+	<target name="Sort_Dashboard_NameCol" depends="compile">
+				<testng classpathref="test.classpath" suitename="Sort_Dashboard_NameCol" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_Dashboard_NameCol.xml" />
+				</testng>
+		</target>
+		
+		<target name="Sort_Dashboard_ReviewsCol" depends="compile">
+				<testng classpathref="test.classpath" suitename="Sort_Dashboard_ReviewsCol" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_Dashboard_ReviewsCol.xml" />
+				</testng>
+		</target>
+		
+		<target name="Sort_Dashboard_ReviewResponsesCol" depends="compile">
+				<testng classpathref="test.classpath" suitename="Sort_Dashboard_ReviewResponsesCol" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_Dashboard_ReviewResponsesCol.xml" />
+				</testng>
+		</target>
+		
+		<target name="Sort_Dashboard_StarRatingCol" depends="compile">
+				<testng classpathref="test.classpath" suitename="Sort_Dashboard_StarRatingCol" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_Dashboard_StarRatingCol.xml" />
+				</testng>
+		</target>
+		
+		<target name="Sort_Dashboard_FacebookLikesCol" depends="compile">
+				<testng classpathref="test.classpath" suitename="Sort_Dashboard_FacebookLikesCol" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_Dashboard_FacebookLikesCol.xml" />
+				</testng>
+		</target>
+	
+		<target name="Add_Communication_UsingTopButton" depends="compile">
+			<testng classpathref="test.classpath" suitename="Add_Communication_UsingTopButton" outputdir="test">
+				<xmlfileset dir="config" includes="Add_Communication_UsingTopButton.xml" />
+			</testng>
+		</target>
+	
+		<target name="Add_Communication" depends="compile">
+			<testng classpathref="test.classpath" suitename="Add_Communication" outputdir="test">
+				<xmlfileset dir="config" includes="Add_Communication.xml" />
+			</testng>
+		</target>
+		
+		<target name="Add_SupportCommunication" depends="compile">
+			<testng classpathref="test.classpath" suitename="Add_SupportCommunication" outputdir="test">
+				<xmlfileset dir="config" includes="Add_SupportCommunication.xml" />
+			</testng>
+		</target>
+	
+		<target name="Create_Note_UsingTopIcon" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_Note_UsingTopIcon" outputdir="test">
+				<xmlfileset dir="config" includes="Create_Note_UsingTopIcon.xml" />
+			</testng>
+		</target>
+		
+		<target name="Create_Note" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_Note" outputdir="test">
+				<xmlfileset dir="config" includes="Create_Note.xml" />
+			</testng>
+		</target>
+
+		<target name="Delete_Communication" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Communication" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Communication.xml" />
+			</testng>
+		</target>
+	
+		<target name="Delete_Note" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Note" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Note.xml" />
+			</testng>
+		</target>
+	
+		<target name="Delete_Report" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Report" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Report.xml" />
+			</testng>
+		</target>
+					
+		<target name="Create_Alert" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_Alert" outputdir="test">
+				<xmlfileset dir="config" includes="Create_Alert.xml" />
+			</testng>
+		</target>
+	
+		<target name="Delete_Alert" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Alert" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Alert.xml" />
+			</testng>
+		</target>
+	
+	<target name="Create_Competitor" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_Competitor" outputdir="test">
+				<xmlfileset dir="config" includes="Create_Competitor.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_Competitor" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_Competitor" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_Competitor.xml" />
+			</testng>
+	</target>
+	
+	<target name="Integrate_Accounts" depends="compile">
+			<testng classpathref="test.classpath" suitename="Integrate_Accounts" outputdir="test">
+				<xmlfileset dir="config" includes="Integrate_Accounts.xml" />
+			</testng>
+	</target>
+
+	<target name="Check_GroupTotals" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_GroupTotals" outputdir="test">
+				<xmlfileset dir="config" includes="Check_GroupTotals.xml" />
+			</testng>
+	</target>
+	
+	<target name="Check_MyAccountsTotals" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_MyAccountsTotals" outputdir="test">
+				<xmlfileset dir="config" includes="Check_MyAccountsTotals.xml" />
+			</testng>
+	</target>
+
+	<target name="MainNav_MenuList" depends="compile">
+			<testng classpathref="test.classpath" suitename="MainNav_MenuList" outputdir="test">
+				<xmlfileset dir="config" includes="MainNav_MenuList.xml" />
+			</testng>
+	</target>
+	
+	<target name="SegmentationButtons" depends="compile">
+			<testng classpathref="test.classpath" suitename="SegmentationButtons" outputdir="test">
+				<xmlfileset dir="config" includes="SegmentationButtons.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_RedirectionOfGotoSite" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_RedirectionOfGotoSite" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_RedirectionOfGotoSite.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_ExternalFeedsRatingSorting" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_ExternalFeedsRatingSorting" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_ExternalFeedsRatingSorting.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_EnterpriseSummaryReviewsCount" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_EnterpriseSummaryReviewsCount" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_EnterpriseSummaryReviewsCount.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_ExternalFeedsDefaultSorting" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_ExternalFeedsDefaultSorting" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_ExternalFeedsDefaultSorting.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_GroupOrAccount_List" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_GroupOrAccount_List" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_GroupOrAccount_List.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_InternalFeedDefaultSorting" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_InternalFeedDefaultSorting" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_InternalFeedDefaultSorting.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_InternalFeedRatingSorting" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_InternalFeedRatingSorting" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_InternalFeedRatingSorting.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_ViewOriginalExternalFeed" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_ViewOriginalExternalFeed" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_ViewOriginalExternalFeed.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_ViewOriginalInternalFeed" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_ViewOriginalInternalFeed" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_ViewOriginalInternalFeed.xml" />
+			</testng>
+	</target>
+	
+	<target name="Manage_OffIntegratedAccounts" depends="compile">
+			<testng classpathref="test.classpath" suitename="Manage_OffIntegratedAccounts" outputdir="test">
+				<xmlfileset dir="config" includes="Manage_OffIntegratedAccounts.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_ActiveCheckBoxAtTrackSettings" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_ActiveCheckBoxAtTrackSettings" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_ActiveCheckBoxAtTrackSettings.xml" />
+			</testng>
+	</target>
+					
+	<target name="Verify_GotoSiteAtTrackSettings" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_GotoSiteAtTrackSettings" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_GotoSiteAtTrackSettings.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_InternalFeedsMentionedAccounts" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_InternalFeedsMentionedAccounts" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_InternalFeedsMentionedAccounts.xml" />
+			</testng>
+	</target>
+	
+
+	<target name="Check_AlertSubscription" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_AlertSubscription" outputdir="test">
+				<xmlfileset dir="config" includes="Check_AlertSubscription.xml" />
+			</testng>
+	</target>
+	
+	<target name="Check_SiteMapEnteries" depends="compile">
+			<testng classpathref="test.classpath" suitename="Check_SiteMapEnteries" outputdir="test">
+				<xmlfileset dir="config" includes="Check_SiteMapEnteries.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_NewDigestSubscription" depends="compile">
+			<testng classpathref="test.classpath" suitename="Create_NewDigestSubscription" outputdir="test">
+				<xmlfileset dir="config" includes="Create_NewDigestSubscription.xml" />
+			</testng>
+	</target>
+	
+	<target name="Create_SiteMap" depends="compile">
+				<testng classpathref="test.classpath" suitename="Create_SiteMap" outputdir="test">
+					<xmlfileset dir="config" includes="Create_SiteMap.xml" />
+				</testng>
+	</target>
+	
+	<target name="Delete_IntegratedAccounts" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_IntegratedAccounts" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_IntegratedAccounts.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_NewDigestSubscription" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_NewDigestSubscription" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_NewDigestSubscription.xml" />
+			</testng>
+	</target>
+	
+	<target name="Delete_SiteMap" depends="compile">
+			<testng classpathref="test.classpath" suitename="Delete_SiteMap" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_SiteMap.xml" />
+			</testng>
+	</target>
+			
+	<target name="Show_OnlyMyActivity" depends="compile">
+			<testng classpathref="test.classpath" suitename="Show_OnlyMyActivity" outputdir="test">
+				<xmlfileset dir="config" includes="Show_OnlyMyActivity.xml" />
+			</testng>
+	</target>
+				
+	<target name="Send_CampaignPreview" depends="compile">
+			<testng classpathref="test.classpath" suitename="Send_CampaignPreview" outputdir="test">
+				<xmlfileset dir="config" includes="Send_CampaignPreview.xml" />
+			</testng>
+	</target>
+		
+	<target name="Copy_Survey" depends="compile">
+			<testng classpathref="test.classpath" suitename="Copy_Survey" outputdir="test">
+				<xmlfileset dir="config" includes="Copy_Survey.xml" />
+			</testng>
+	</target>
+	
+	<target name="Verify_SurveyQuestions" depends="compile">
+			<testng classpathref="test.classpath" suitename="Verify_SurveyQuestions" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_SurveyQuestions.xml" />
+			</testng>
+	</target>
+	
+	<target name="VerifyWidgets_InfluenceDashboard" depends="compile">
+			<testng classpathref="test.classpath" suitename="VerifyWidgets_InfluenceDashboard" outputdir="test">
+				<xmlfileset dir="config" includes="VerifyWidgets_InfluenceDashboard.xml" />
+			</testng>
+	</target>
+	<target name="Verify_GotoSiteReputationSiteRefferal" depends="compile">
+				<testng classpathref="test.classpath" suitename="Verify_GotoSiteReputationSiteRefferal" outputdir="test">
+					<xmlfileset dir="config" includes="Verify_GotoSiteReputationSiteRefferal.xml" />
+				</testng>
+		</target>
+	<target name="Create_NewSearchEngineResultPage" depends="compile">
+					<testng classpathref="test.classpath" suitename="Create_NewSearchEngineResultPage" outputdir="test">
+						<xmlfileset dir="config" includes="Create_NewSearchEngineResultPage.xml" />
+					</testng>
+			</target>	
+	<target name="Filter_ResponsePenetrationDashboard" depends="compile">
+						<testng classpathref="test.classpath" suitename="Filter_ResponsePenetrationDashboard" outputdir="test">
+							<xmlfileset dir="config" includes="Filter_ResponsePenetrationDashboard.xml" />
+						</testng>
+		
+				</target>
+	<target name="DownloadPdf_ResponsePenetrationDashboard" depends="compile">
+							<testng classpathref="test.classpath" suitename="DownloadPdf_ResponsePenetrationDashboard" outputdir="test">
+								<xmlfileset dir="config" includes="DownloadPdf_ResponsePenetrationDashboard.xml" />
+							</testng>
+			
+					</target>
+	<target name="Delete_SearchEngineResultPage" depends="compile">
+								<testng classpathref="test.classpath" suitename="Delete_SearchEngineResultPage" outputdir="test">
+									<xmlfileset dir="config" includes="Delete_SearchEngineResultPage.xml" />
+								</testng>
+				
+						</target>
+	<target name="Sort_ReputationSiteReferralAvgRating" depends="compile">
+									<testng classpathref="test.classpath" suitename="Sort_ReputationSiteReferralAvgRating" outputdir="test">
+										<xmlfileset dir="config" includes="Sort_ReputationSiteReferralAvgRating.xml" />
+									</testng>
+					
+							</target>
+	<target name="CSVExport_AccountStatuses" depends="compile">
+										<testng classpathref="test.classpath" suitename="CSVExport_AccountStatuses" outputdir="test">
+											<xmlfileset dir="config" includes="CSVExport_AccountStatuses.xml" />
+										</testng>
+						
+								</target>
+	
+	<target name="Filter_Engagement" depends="compile">
+											<testng classpathref="test.classpath" suitename="Filter_Engagement" outputdir="test">
+												<xmlfileset dir="config" includes="Filter_Engagement.xml" />
+											</testng>
+							
+									</target>
+	<target name="Delete_Feeds" depends="compile">
+												<testng classpathref="test.classpath" suitename="Delete_Feeds" outputdir="test">
+													<xmlfileset dir="config" includes="Delete_Feeds.xml" />
+												</testng>
+								
+										</target>
+	<target name="Check_DigestSubscriptions" depends="compile">
+													<testng classpathref="test.classpath" suitename="Check_DigestSubscriptions" outputdir="test">
+														<xmlfileset dir="config" includes="Check_DigestSubscriptions.xml" />
+													</testng>
+									
+											</target>
+	<target name="Create_Notification" depends="compile">
+														<testng classpathref="test.classpath" suitename="Create_Notification" outputdir="test">
+															<xmlfileset dir="config" includes="Create_Notification.xml" />
+														</testng>
+										
+												</target>
+	
+	<target name="Delete_Notification" depends="compile">
+															<testng classpathref="test.classpath" suitename="Delete_Notification" outputdir="test">
+																<xmlfileset dir="config" includes="Delete_Notification.xml" />
+															</testng>
+											
+													</target>
+	
+	<target name="Create_RssSeeds" depends="compile">
+																<testng classpathref="test.classpath" suitename="Create_RssSeeds" outputdir="test">
+																	<xmlfileset dir="config" includes="Create_RssSeeds.xml" />
+																</testng>
+												
+														</target>
+	
+	<target name="Delete_RssSeeds" depends="compile">
+																	<testng classpathref="test.classpath" suitename="Delete_RssSeeds" outputdir="test">
+																		<xmlfileset dir="config" includes="Delete_RssSeeds.xml" />
+																	</testng>
+													
+															</target>
+	
+	<target name="Create_AccountsGreatPlainsContracts" depends="compile">
+																			<testng classpathref="test.classpath" suitename="Create_AccountsGreatPlainsContracts" outputdir="test">
+																				<xmlfileset dir="config" includes="Create_AccountsGreatPlainsContracts.xml" />
+																			</testng>
+															
+																	</target>
+		<target name="Delete_AccountsGreatPlainsContracts" depends="compile">
+																				<testng classpathref="test.classpath" suitename="Delete_AccountsGreatPlainsContracts" outputdir="test">
+																					<xmlfileset dir="config" includes="Delete_AccountsGreatPlainsContracts.xml" />
+																				</testng>
+																
+																		</target>
+	
+	<target name="Verify_SocialPostReport" depends="compile">
+																					<testng classpathref="test.classpath" suitename="Verify_SocialPostReport" outputdir="test">
+																						<xmlfileset dir="config" includes="Verify_SocialPostReport.xml" />
+																					</testng>
+																	
+																			</target>
+	
+	<target name="Pdf_DownloadSocialDashboardReport" depends="compile">
+																						<testng classpathref="test.classpath" suitename="Pdf_DownloadSocialDashboardReport" outputdir="test">
+																							<xmlfileset dir="config" includes="Pdf_DownloadSocialDashboardReport.xml" />
+																						</testng>
+																		
+																				</target>
+	<target name="Verify_GooglePlusIntegration" depends="compile">
+																							<testng classpathref="test.classpath" suitename="Verify_GooglePlusIntegration" outputdir="test">
+																								<xmlfileset dir="config" includes="Verify_GooglePlusIntegration.xml" />
+																							</testng>
+																			
+																					</target>
+	<target name="Delete_IntegratedGooglePlusAccount" depends="compile">
+																							<testng classpathref="test.classpath" suitename="Delete_IntegratedGooglePlusAccount" outputdir="test">
+																								<xmlfileset dir="config" includes="Delete_IntegratedGooglePlusAccount.xml" />
+																							</testng>
+																			
+																					</target>
+	
+	<target name="Search_ExternalFeed" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Search_ExternalFeed" outputdir="test">
+																									<xmlfileset dir="config" includes="Search_ExternalFeed.xml" />
+																								</testng>
+																				
+																						</target>
+	<target name="Share_ExternalFeed" depends="compile">
+																									<testng classpathref="test.classpath" suitename="Share_ExternalFeed" outputdir="test">
+																										<xmlfileset dir="config" includes="Share_ExternalFeed.xml" />
+																									</testng>
+																					
+																							</target>
+	
+	<target name="Verify_TrackCompetitiorsGoToSite" depends="compile">
+																							   <testng classpathref="test.classpath" suitename="Verify_TrackCompetitiorsGoToSite" outputdir="test">
+																									<xmlfileset dir="config" includes="Verify_TrackCompetitiorsGoToSite.xml" />
+																							    </testng>
+																						
+																							</target>
+	<target name="Sort_TrackCompetitiorsRating" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Sort_TrackCompetitiorsRating" outputdir="test">
+																									<xmlfileset dir="config" includes="Sort_TrackCompetitiorsRating.xml" />
+																								</testng>
+																							
+																							</target>
+	
+	<target name="Sort_TrackCompetitiorsAccountCol" depends="compile">
+																							   	<testng classpathref="test.classpath" suitename="Sort_TrackCompetitiorsAccountCol" outputdir="test">
+																										<xmlfileset dir="config" includes="Sort_TrackCompetitiorsAccountCol.xml" />
+																								</testng>
+																								
+																							</target>
+	<target name="Sort_TrackCompetitiorsDescriptionCol" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Sort_TrackCompetitiorsDescriptionCol" outputdir="test">
+																										<xmlfileset dir="config" includes="Sort_TrackCompetitiorsDescriptionCol.xml" />
+																								</testng>
+																									
+																							 </target>
+	
+	<target name="Verify_AccountNameOnList" depends="compile">
+																								  <testng classpathref="test.classpath" suitename="Verify_AccountNameOnList" outputdir="test">
+																										<xmlfileset dir="config" includes="Verify_AccountNameOnList.xml" />
+																								   </testng>
+																										
+																								</target>
+	<target name="Filter_AccountsAndVerifyResults" depends="compile">
+																									<testng classpathref="test.classpath" suitename="Filter_AccountsAndVerifyResults" outputdir="test">
+																										<xmlfileset dir="config" includes="Filter_AccountsAndVerifyResults.xml" />
+																									</testng>
+																											
+																								</target>
+		
+	<target name="DownloadCSV_List" depends="compile">
+																							   <testng classpathref="test.classpath" suitename="DownloadCSV_List" outputdir="test">
+																										<xmlfileset dir="config" includes="DownloadCSV_List.xml" />
+																							   </testng>
+																												
+																							</target>
+	
+	<target name="Submit_NewSupportNote" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Submit_NewSupportNote" outputdir="test">
+																										<xmlfileset dir="config" includes="Submit_NewSupportNote.xml" />
+																								</testng>
+																													
+																							</target>
+	
+	<target name="Submit_NoteToLoggedInUser" depends="compile">
+																							  	<testng classpathref="test.classpath" suitename="Submit_NoteToLoggedInUser" outputdir="test">
+																										<xmlfileset dir="config" includes="Submit_NoteToLoggedInUser.xml" />
+																								</testng>
+																														
+																							</target>
+				
+			
+	<target name="Sort_MetricsExternalReviewsCol" depends="compile">
+																							 	<testng classpathref="test.classpath" suitename="Sort_MetricsExternalReviewsCol" outputdir="test">
+																											<xmlfileset dir="config" includes="Sort_MetricsExternalReviewsCol.xml" />
+																								</testng>
+																															
+																								</target>
+	
+	<target name="Sort_MetricsLastSupportCol" depends="compile">
+																							 	<testng classpathref="test.classpath" suitename="Sort_MetricsLastSupportCol" outputdir="test">
+																												<xmlfileset dir="config" includes="Sort_MetricsLastSupportCol.xml" />
+																								</testng>
+																															
+																								</target>
+	<target name="Sort_MetricsAccountCol" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Sort_MetricsAccountCol" outputdir="test">
+																												<xmlfileset dir="config" includes="Sort_MetricsAccountCol.xml" />
+																								</testng>
+																															
+																								</target>
+	
+	<target name="Sort_MetricsLastDataUploadCol" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Sort_MetricsLastDataUploadCol" outputdir="test">
+																												<xmlfileset dir="config" includes="Sort_MetricsLastDataUploadCol.xml" />
+																								</testng>
+																																
+																								</target>
+	
+	<target name="Verify_TrackProductReviewFeed" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Verify_TrackProductReviewFeed" outputdir="test">
+																												<xmlfileset dir="config" includes="Verify_TrackProductReviewFeed.xml" />
+																								</testng>
+																																	
+																								</target>
+	
+	<target name="Verify_ExternalFeedReviewDetails" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Verify_ExternalFeedReviewDetails" outputdir="test">
+																												<xmlfileset dir="config" includes="Verify_ExternalFeedReviewDetails.xml" />
+																								</testng>
+																																		
+																								</target>
+	
+	<target name="Verify_SupportSettings" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Verify_SupportSettings" outputdir="test">
+																											<xmlfileset dir="config" includes="Verify_SupportSettings.xml" />
+																								</testng>
+																																			
+																								</target>
+	
+	<target name="Sort_NameCol" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Sort_NameCol" outputdir="test">
+																											<xmlfileset dir="config" includes="Sort_NameCol.xml" />
+																								</testng>
+																																				
+																								</target>
+	
+	<target name="Create_LandingPages" depends="compile">
+																								<testng classpathref="test.classpath" suitename="Create_LandingPages" outputdir="test">
+																											<xmlfileset dir="config" includes="Create_LandingPages.xml" />
+																								</testng>
+																																					
+																								</target>
+		
+	<target name="Delete_LandingPages" depends="compile">
+																							<testng classpathref="test.classpath" suitename="Delete_LandingPages" outputdir="test">
+																										<xmlfileset dir="config" includes="Delete_LandingPages.xml" />
+																							</testng>
+																																					
+																							</target>
+	
+
+	<target name="Verify_ReportsEmailToMe" depends="compile">
+																						<testng classpathref="test.classpath" suitename="Verify_ReportsEmailToMe " outputdir="test">
+																									<xmlfileset dir="config" includes="Verify_ReportsEmailToMe.xml" />
+																						</testng>
+																																					
+																						</target>
+	
+	<target name="Generate_PdfReport " depends="compile">
+																						<testng classpathref="test.classpath" suitename="Generate_PdfReport " outputdir="test">
+																									<xmlfileset dir="config" includes="Generate_PdfReport.xml" />
+																						</testng>
+																																					
+																						</target>
+	<target name="Verify_ReportsOverView" depends="compile">
+																					<testng classpathref="test.classpath" suitename="Verify_ReportsOverView" outputdir="test">
+																					<xmlfileset dir="config" includes="Verify_ReportsOverView.xml" />
+																					</testng>
+																																						
+																					</target>
+	
+	<target name="Filter_ConversionRatesDrilldown" depends="compile">
+																				<testng classpathref="test.classpath" suitename="Filter_ConversionRatesDrilldown" outputdir="test">
+																				<xmlfileset dir="config" includes="Filter_ConversionRatesDrilldown.xml" />
+																				</testng>
+																																					
+																				</target>
+	
+<target name="Pdf_DownloadConversionRates" depends="compile">
+																			<testng classpathref="test.classpath" suitename="Pdf_DownloadConversionRates" outputdir="test">
+																			<xmlfileset dir="config" includes="Pdf_DownloadConversionRates.xml" />
+																			</testng>
+																																						
+																			</target>
+	
+<target name="Verify_EngagementReport" depends="compile">
+																		<testng classpathref="test.classpath" suitename="Verify_EngagementReport" outputdir="test">
+																		<xmlfileset dir="config" includes="Verify_EngagementReport.xml" />
+																		</testng>
+																																						
+																		</target>
+	
+<target name="Sort_MetricsVerticalsCol" depends="compile">
+																	  <testng classpathref="test.classpath" suitename="Sort_MetricsVerticalsCol" outputdir="test">
+																	  <xmlfileset dir="config" includes="Sort_MetricsVerticalsCol.xml" />
+																	 </testng>
+																																							
+																	 </target>
+	
+<target name="Sort_MetricsEmailSentCol" depends="compile">
+																	<testng classpathref="test.classpath" suitename="Sort_MetricsEmailSentCol" outputdir="test">
+																	<xmlfileset dir="config" includes="Sort_MetricsEmailSentCol.xml" />
+																	</testng>
+																																								
+																	</target>
+
+<target name="Verify_DrillDownToAccount" depends="compile">
+																   <testng classpathref="test.classpath" suitename="Verify_DrillDownToAccount" outputdir="test">
+																	<xmlfileset dir="config" includes="Verify_DrillDownToAccount.xml"/>
+																	</testng>
+																																									
+																	</target>
+<target name="Pdf_DownloadEngagementReport" depends="compile">
+																	<testng classpathref="test.classpath" suitename="Pdf_DownloadEngagementReport" outputdir="test">
+																	<xmlfileset dir="config" includes="Pdf_DownloadEngagementReport.xml"/>
+																	</testng>
+																																										
+																	</target>
+
+<target name="Create_NewPage" depends="compile">
+																   <testng classpathref="test.classpath" suitename="Create_NewPage" outputdir="test">
+																	<xmlfileset dir="config" includes="Create_NewPage.xml"/>
+																	</testng>
+																																											
+																	</target>
+
+<target name="Delete_NewPage" depends="compile">
+															<testng classpathref="test.classpath" suitename="Delete_NewPage" outputdir="test">
+															<xmlfileset dir="config" includes="Delete_NewPage.xml"/>
+															</testng>
+																																												
+															</target>
+	
+<target name="Pdf_DownloadFaq" depends="compile">
+															<testng classpathref="test.classpath" suitename="Pdf_DownloadFaq" outputdir="test">
+															<xmlfileset dir="config" includes="Pdf_DownloadFaq.xml"/>
+															</testng>
+																																													
+															</target>
+	
+<target name="Create_Categories" depends="compile">
+															<testng classpathref="test.classpath" suitename="Create_Categories" outputdir="test">
+															<xmlfileset dir="config" includes="Create_Categories.xml"/>
+															</testng>
+																																														
+															</target>
+	
+<target name="Verify_TotalRatingsOnExternalFeedAndSummary" depends="compile">
+															<testng classpathref="test.classpath" suitename="Verify_TotalRatingsOnExternalFeedAndSummary" outputdir="test">
+															<xmlfileset dir="config" includes="Verify_TotalRatingsOnExternalFeedAndSummary.xml"/>
+															</testng>
+																																															
+															</target>
+
+<target name="Verify_TotalResponsesOnExternalFeedAndSummary" depends="compile">
+															<testng classpathref="test.classpath" suitename="Verify_TotalResponsesOnExternalFeedAndSummary" outputdir="test">
+															<xmlfileset dir="config" includes="Verify_TotalResponsesOnExternalFeedAndSummary.xml"/>
+															</testng>
+																																																
+															</target>
+
+<target name="Verify_WebinarRedirectSameUrl" depends="compile">
+															<testng classpathref="test.classpath" suitename="Verify_WebinarRedirectSameUrl" outputdir="test">
+															<xmlfileset dir="config" includes="Verify_WebinarRedirectSameUrl.xml"/>
+															</testng>
+																																																	
+															</target>
+
+
+<target name="Pdf_DownloadRecommendedGuideLine" depends="compile">
+														<testng classpathref="test.classpath" suitename="Pdf_DownloadRecommendedGuideLine" outputdir="test">
+														<xmlfileset dir="config" includes="Pdf_DownloadRecommendedGuideLine.xml"/>
+														</testng>
+																																																
+														</target>
+
+<target name="Sort_ReputationSiteReferralsSourceCol" depends="compile">
+													<testng classpathref="test.classpath" suitename="Sort_ReputationSiteReferralsSourceCol" outputdir="test">
+													<xmlfileset dir="config" includes="Sort_ReputationSiteReferralsSourceCol.xml"/>
+													</testng>
+																																																	
+													</target>
+
+<target name="Sort_ReputationSiteReferralsNumberOfReviewsCol" depends="compile">
+													<testng classpathref="test.classpath" suitename="Sort_ReputationSiteReferralsNumberOfReviewsCol" outputdir="test">
+													<xmlfileset dir="config" includes="Sort_ReputationSiteReferralsNumberOfReviewsCol.xml"/>
+													</testng>
+																																																		
+													</target>
+
+<target name="Sort_SocialSiteReferralTrafficCol" depends="compile">
+												<testng classpathref="test.classpath" suitename="Sort_SocialSiteReferralTrafficCol" outputdir="test">
+												<xmlfileset dir="config" includes="Sort_SocialSiteReferralTrafficCol.xml"/>
+												</testng>
+																																																			
+												</target>
+
+<target name="Sort_SocialSiteReferralBounceRateCol" depends="compile">
+											<testng classpathref="test.classpath" suitename="Sort_SocialSiteReferralBounceRateCol" outputdir="test">
+											<xmlfileset dir="config" includes="Sort_SocialSiteReferralBounceRateCol.xml"/>
+											</testng>
+																																																				
+											</target>
+
+<target name="Create_Goals" depends="compile">
+											<testng classpathref="test.classpath" suitename="Create_Goals" outputdir="test">
+											<xmlfileset dir="config" includes="Create_Goals.xml"/>
+											</testng>
+											</target>
+
+<target name="Delete_Goals" depends="compile">
+										<testng classpathref="test.classpath" suitename="Delete_Goals" outputdir="test">
+										<xmlfileset dir="config" includes="Delete_Goals.xml"/>
+										</testng>
+										</target>
+
+<target name="VerifyAdminNotesOnPages" depends="compile">
+									<testng classpathref="test.classpath" suitename="VerifyAdminNotesOnPages" outputdir="test">
+									<xmlfileset dir="config" includes="VerifyAdminNotesOnPages.xml"/>
+									</testng>
+									</target>
+
+<target name="Sort_SocialSiteReferralAvgTimeOnSiteCol" depends="compile">
+									<testng classpathref="test.classpath" suitename="Sort_SocialSiteReferralAvgTimeOnSiteCol" outputdir="test">
+									<xmlfileset dir="config" includes="Sort_SocialSiteReferralAvgTimeOnSiteCol.xml"/>
+									</testng>
+									</target>
+	
+<target name="Create_GoogleCampaigns" depends="compile">
+										<testng classpathref="test.classpath" suitename="Create_GoogleCampaigns" outputdir="test">
+										<xmlfileset dir="config" includes="Create_GoogleCampaigns.xml"/>
+										</testng>
+										</target>
+	
+<target name="Verify_CampaignReport" depends="compile">
+										<testng classpathref="test.classpath" suitename="Verify_CampaignReport" outputdir="test">
+										<xmlfileset dir="config" includes="Verify_CampaignReport.xml"/>
+										</testng>
+										</target>
+	
+<target name="Delete_GreatPlainsImportFiles" depends="compile">
+									<testng classpathref="test.classpath" suitename="Delete_GreatPlainsImportFiles" outputdir="test">
+									<xmlfileset dir="config" includes="Delete_GreatPlainsImportFiles.xml"/>
+									</testng>
+ 									</target>
+	
+
+<target name="Filter_JobsQueue" depends="compile">
+								<testng classpathref="test.classpath" suitename="Filter_JobsQueue" outputdir="test">
+								<xmlfileset dir="config" includes="Filter_JobsQueue.xml"/>
+								</testng>
+								</target>
+	
+<target name="Verify_SearchByTags" depends="compile">
+							<testng classpathref="test.classpath" suitename="Verify_SearchByTags" outputdir="test">
+							<xmlfileset dir="config" includes="Verify_SearchByTags.xml"/>
+							</testng>
+							</target>
+	
+<target name="Sort_SocialSiteReferralsPagesVisit" depends="compile">
+						<testng classpathref="test.classpath" suitename="Sort_SocialSiteReferralsPagesVisit" outputdir="test">
+						<xmlfileset dir="config" includes="Sort_SocialSiteReferralsPagesVisit.xml"/>
+						</testng>
+						</target>
+
+<target name="Sort_SocialSiteRefTotalSocialTraffic" depends="compile">
+						<testng classpathref="test.classpath" suitename="Sort_SocialSiteRefTotalSocialTraffic" outputdir="test">
+						<xmlfileset dir="config" includes="Sort_SocialSiteRefTotalSocialTraffic.xml"/>
+						</testng>
+						</target>
+
+<target name="Verify_PreviewOfLandingPage" depends="compile">
+					<testng classpathref="test.classpath" suitename="Verify_PreviewOfLandingPage" outputdir="test">
+					<xmlfileset dir="config" includes="Verify_PreviewOfLandingPage.xml"/>
+					</testng>
+					</target>
+
+<target name="Sort_SurveyName" depends="compile">
+					<testng classpathref="test.classpath" suitename="Sort_SurveyName" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_SurveyName.xml"/>
+					</testng>
+					</target>
+	
+
+<target name="Sort_SurveyStartDate" depends="compile">
+					<testng classpathref="test.classpath" suitename="Sort_SurveyStartDate" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_SurveyStartDate.xml"/>
+					</testng>
+					</target>
+	
+<target name="Sort_PreSurveyCompleteDate" depends="compile">
+					<testng classpathref="test.classpath" suitename="Sort_PreSurveyCompleteDate" outputdir="test">
+					<xmlfileset dir="config" includes="Sort_PreSurveyCompleteDate.xml"/>
+					</testng>
+					</target>
+	
+<target name="Sort_SurveyCompleteDate" depends="compile">
+				<testng classpathref="test.classpath" suitename="Sort_SurveyCompleteDate" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_SurveyCompleteDate.xml"/>
+				</testng>
+				</target>
+	
+<target name="Create_KPI_Template" depends="compile">
+				<testng classpathref="test.classpath" suitename="Create_KPI_Template" outputdir="test">
+				<xmlfileset dir="config" includes="Create_KPI_Template.xml"/>
+				</testng>
+				</target>
+
+	
+<target name="Delete_KPI_Template" depends="compile">
+    			<testng classpathref="test.classpath" suitename="Delete_KPI_Template" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_KPI_Template.xml"/>
+				</testng>
+				</target>
+	
+
+<target name="Filter_ContentThisAccountAndPublic" depends="compile">
+    			<testng classpathref="test.classpath" suitename="Filter_ContentThisAccountAndPublic" outputdir="test">
+				<xmlfileset dir="config" includes="Filter_ContentThisAccountAndPublic.xml"/>
+				</testng>
+				</target>
+
+<target name="Filter_CampaignReport" depends="compile">
+    			<testng classpathref="test.classpath" suitename="Filter_CampaignReport" outputdir="test">
+				<xmlfileset dir="config" includes="Filter_CampaignReport.xml"/>
+				</testng>
+				</target>
+	
+
+<target name="Sort_ReputationSite_TotalReputationTraffic" depends="compile">
+    			<testng classpathref="test.classpath" suitename="Sort_ReputationSite_TotalReputationTraffic" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_ReputationSite_TotalReputationTraffic.xml"/>
+				</testng>
+				</target>
+
+<target name="Sort_ReputationSite_AvgTimeOnSite" depends="compile">
+    			<testng classpathref="test.classpath" suitename="Sort_ReputationSite_AvgTimeOnSite" outputdir="test">
+				<xmlfileset dir="config" includes="Sort_ReputationSite_AvgTimeOnSite.xml"/>
+				</testng>
+				</target>
+	
+
+<target name="Verify_GoogleAnalyticsIntegrations" depends="compile">
+	    		<testng classpathref="test.classpath" suitename="Verify_GoogleAnalyticsIntegrations" outputdir="test">
+				<xmlfileset dir="config" includes="Verify_GoogleAnalyticsIntegrations.xml"/>
+				</testng>
+				</target>
+	
+
+<target name="Delete_IntegratedGoogleAnalyticsAccount" depends="compile">
+	    		<testng classpathref="test.classpath" suitename="Delete_IntegratedGoogleAnalyticsAccount" outputdir="test">
+				<xmlfileset dir="config" includes="Delete_IntegratedGoogleAnalyticsAccount.xml"/>
+				</testng>
+				</target>
+
+<target name="Verify_ContentDetails" depends="compile">
+	    	 <testng classpathref="test.classpath" suitename="Verify_ContentDetails" outputdir="test">
+			 <xmlfileset dir="config" includes="Verify_ContentDetails.xml"/>
+			 </testng>
+			 </target>
+	
+<target name="Mark_PinContent" depends="compile">
+	    	 <testng classpathref="test.classpath" suitename="Mark_PinContent" outputdir="test">
+			 <xmlfileset dir="config" includes="Mark_PinContent.xml"/>
+			 </testng>
+			 </target>
+
+
+<target name="Verify_KpiTemplateOnIntegrations" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Verify_KpiTemplateOnIntegrations" outputdir="test">
+		 <xmlfileset dir="config" includes="Verify_KpiTemplateOnIntegrations.xml"/>
+		 </testng>
+    	 </target>
+	
+<target name="Verify_ApplicationProductOnAccounts" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Verify_ApplicationProductOnAccounts" outputdir="test">
+		 <xmlfileset dir="config" includes="Verify_ApplicationProductOnAccounts.xml"/>
+		 </testng>
+    	 </target>
+	
+<target name="Verify_GoogleCampaignsOnSiteMapPosts" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Verify_GoogleCampaignsOnSiteMapPosts" outputdir="test">
+		 <xmlfileset dir="config" includes="Verify_GoogleCampaignsOnSiteMapPosts.xml"/>
+		 </testng>
+	     </target>
+	
+
+<target name="Verify_OnOffGoogleCampaigns" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Verify_OnOffGoogleCampaigns" outputdir="test">
+		 <xmlfileset dir="config" includes="Verify_OnOffGoogleCampaigns.xml"/>
+		 </testng>
+	     </target>
+
+
+<target name="Verify_TrackerPackages" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Verify_TrackerPackages" outputdir="test">
+		 <xmlfileset dir="config" includes="Verify_TrackerPackages.xml"/>
+		 </testng>
+	     </target>
+
+<target name="Verify_PinnedContentReport" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Verify_PinnedContentReport" outputdir="test">
+		 <xmlfileset dir="config" includes="Verify_PinnedContentReport.xml"/>
+		 </testng>
+	     </target>
+	
+<target name="PdfDownload_PinnedContentReport" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="PdfDownload_PinnedContentReport" outputdir="test">
+		 <xmlfileset dir="config" includes="PdfDownload_PinnedContentReport.xml"/>
+		 </testng>
+	     </target>
+
+
+<target name="Verify_Utm_ContentParameter" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Verify_Utm_ContentParameter" outputdir="test">
+		 <xmlfileset dir="config" includes="Verify_Utm_ContentParameter.xml"/>
+		 </testng>
+	     </target>
+
+<target name="Create_TrackingUrls" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Create_TrackingUrls" outputdir="test">
+		 <xmlfileset dir="config" includes="Create_TrackingUrls.xml"/>
+		 </testng>
+	     </target>
+
+<target name="Create_DarkPost" depends="compile">
+    	 <testng classpathref="test.classpath" suitename="Create_DarkPost" outputdir="test">
+		 <xmlfileset dir="config" includes="Create_DarkPost.xml"/>
+		 </testng>
+	     </target>
+	
+
+</project>

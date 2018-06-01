@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Search_Account"
+	annotations="JDK">
+	<test name="Search_Account" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Accounts.Search_Account" />
+		</classes>
+	</test>
+</suite> 
+

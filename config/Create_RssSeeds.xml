@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Create_RssSeeds"
+	annotations="JDK">
+	<test name="Create_RssSeed" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Admin.Create_RssSeeds" />
+		</classes>
+	</test>
+</suite> 

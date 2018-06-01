@@ -1,0 +1,590 @@
+
+*****************************************************************************
+Sep 13,2016 12:02:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 13,2016 12:02:26 [info]  open application giturl
+Sep 13,2016 12:04:14 [info]  log-in into application
+Sep 13,2016 12:04:15 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 12:04:29 [info]  Search for account and match the Result
+Sep 13,2016 12:04:35 [info]  Check login Icon is not present for this account
+Sep 13,2016 12:04:41 [info]  Check success message that account has been logged out
+Sep 13,2016 12:05:28 [info]  Sep 13,2016 12:05:28 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.08 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: f67d5c7e-ca9a-4c26-9f5d-3d30301d7292
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickOnAccountAll(HeaderHelper.java:239)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:59)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1366824125805535800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1366824125805535800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1366824125805535800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1366824125805535800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Sep 13,2016 12:05:28 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 12:09:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 13,2016 12:09:44 [info]  open application giturl
+Sep 13,2016 12:11:08 [info]  log-in into application
+Sep 13,2016 12:11:27 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 12:11:42 [info]  Search for account and match the Result
+Sep 13,2016 12:11:47 [info]  Check login Icon is not present for this account
+Sep 13,2016 12:11:56 [info]  Check success message that account has been logged out
+Sep 13,2016 12:12:48 [info]  Go to Accounts > All
+Sep 13,2016 12:12:58 [info]  Check Login Icon should present and if so then click on it to login again
+Sep 13,2016 12:12:58 [info]  Clicking on login icon should display success message
+Sep 13,2016 12:12:58 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 12:14:16 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Create_AccessKey and Test method testCreate_AccessKey
+*****************************************************************************
+Sep 13,2016 12:14:25 [info]  open application giturl
+Sep 13,2016 12:15:41 [info]  log-in into application
+Sep 13,2016 12:15:41 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 12:15:52 [info]  Click on logged in user edit link
+Sep 13,2016 12:16:05 [info]  Click on Accounts->Access Keys
+Sep 13,2016 12:16:18 [info]  Method to Create Access Keys
+Sep 13,2016 12:16:19 [info]  success message
+Sep 13,2016 12:16:19 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Create_AccessKey
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 12:18:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Create_Account and Test method testCreate_Account
+*****************************************************************************
+Sep 13,2016 12:18:41 [info]  open application giturl
+Sep 13,2016 12:20:05 [info]  log-in into application
+Sep 13,2016 12:20:05 [info]  Select Selemium Test Account if not selected
+Sep 13,2016 12:20:19 [info]  Click on 'New Account'navigation link and verify 'Account Information' element is present on Account Information page
+Sep 13,2016 12:20:36 [info]  Fill all details on Account Information page
+Sep 13,2016 12:20:37 [info]  Account creation success message
+Sep 13,2016 12:20:38 [info]  Check Accounts Menu List after Accounts Created 
+Sep 13,2016 12:21:16 [info]  Submit Official Profile Details
+Sep 13,2016 12:21:17 [info]  Official Profile updating success message
+Sep 13,2016 12:21:25 [info]  Verify logged in email with Profile page
+Sep 13,2016 12:21:42 [info]  Submit Contacts Details
+Sep 13,2016 12:21:43 [info]  Contacts updating success message
+Sep 13,2016 12:22:02 [info]  Submit Employee Details
+Sep 13,2016 12:22:03 [info]  Contacts updating success message
+Sep 13,2016 12:22:41 [info]  Verify default account type is demo
+Sep 13,2016 12:22:41 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Create_Account
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 12:24:17 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Create_AccountsGreatPlainsContracts and Test method testCreate_GreatPlainsContracts
+*****************************************************************************
+Sep 13,2016 12:24:34 [info]  open application giturl
+Sep 13,2016 12:26:35 [info]  log-in into application
+Sep 13,2016 12:26:35 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 12:26:46 [info]  Click on logged in user edit link
+Sep 13,2016 12:27:08 [info]  Method to CREATE Great Plains Contracts
+Sep 13,2016 12:27:08 [info]  success message
+Sep 13,2016 12:27:08 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Create_AccountsGreatPlainsContracts
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 12:29:30 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_AccessKey and Test method testDelete_AccessKey
+*****************************************************************************
+Sep 13,2016 12:29:30 [info]  open application giturl
+Sep 13,2016 12:32:04 [info]  log-in into application
+Sep 13,2016 12:32:04 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 12:32:46 [info]  Click on logged in user edit link
+Sep 13,2016 12:32:56 [info]  Method to Create Access Keys
+Sep 13,2016 12:33:01 [info]  success message
+Sep 13,2016 12:33:01 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_AccessKey
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 12:37:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Sep 13,2016 12:38:07 [info]  open application giturl
+Sep 13,2016 12:39:36 [info]  log-in into application
+Sep 13,2016 12:39:36 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 12:40:04 [info]  Sep 13,2016 12:40:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.70 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: b73dd822-d861-45c1-a284-a5bc6a096816
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1007)
+	at com.primeresponse.util.DriverHelper.acceptAlert(DriverHelper.java:357)
+	at com.primeresponse.pagehelper.AccountsHelper.deleteAccount(AccountsHelper.java:242)
+	at com.primeresponse.testcases.Accounts.Delete_Account.testDeleteAccount(Delete_Account.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 13,2016 12:40:04 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 13:29:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Sep 13,2016 13:30:00 [info]  open application giturl
+Sep 13,2016 13:31:23 [info]  log-in into application
+Sep 13,2016 13:31:23 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 13:31:48 [info]  Sep 13,2016 13:31:48 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 5.75 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 1f13155e-225a-4c99-adaf-efbadeeefe8f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1007)
+	at com.primeresponse.util.DriverHelper.acceptAlert(DriverHelper.java:357)
+	at com.primeresponse.pagehelper.AccountsHelper.deleteAccount(AccountsHelper.java:242)
+	at com.primeresponse.testcases.Accounts.Delete_Account.testDeleteAccount(Delete_Account.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 13,2016 13:31:48 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:04:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_AccountsGreatPlainsContracts and Test method testDelete_AccountsGreatPlainsContracts
+*****************************************************************************
+Sep 13,2016 14:04:41 [info]  open application giturl
+Sep 13,2016 14:06:08 [info]  log-in into application
+Sep 13,2016 14:06:08 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:06:19 [info]  Click on logged in user edit link
+Sep 13,2016 14:06:28 [info]  Method to DELETE Great Plains Contracts
+Sep 13,2016 14:06:34 [info]  success message
+Sep 13,2016 14:06:34 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_AccountsGreatPlainsContracts
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:07:03 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Filter_AccountsAndVerifyResults and Test method testFilter_AccountsAndVerifyResults
+*****************************************************************************
+Sep 13,2016 14:07:14 [info]  open application giturl
+Sep 13,2016 14:08:23 [info]  log-in into application
+Sep 13,2016 14:08:23 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:08:38 [info]  Filter Accounts and verify its filter results.
+Sep 13,2016 14:08:38 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Filter_AccountsAndVerifyResults
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:09:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Sep 13,2016 14:09:16 [info]  open application giturl
+Sep 13,2016 14:10:37 [info]  log-in into application
+Sep 13,2016 14:10:37 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:10:48 [info]  Click on logged in account edit icon
+Sep 13,2016 14:11:01 [info]  Method to tick employee check box 
+Sep 13,2016 14:11:12 [info]  Click on Accounts->Users
+Sep 13,2016 14:11:17 [info]  Verify user tick icon on Users page
+Sep 13,2016 14:11:28 [info]  Click on Accounts->Users
+Sep 13,2016 14:11:40 [info]  Verify untick icon on users page
+Sep 13,2016 14:11:40 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:12:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Search_Account and Test method testSearch_Account
+*****************************************************************************
+Sep 13,2016 14:12:20 [info]  open application giturl
+Sep 13,2016 14:13:51 [info]  log-in into application
+Sep 13,2016 14:13:52 [info]  select Account if its not selected
+Sep 13,2016 14:14:05 [info]  Random click on any page count
+Sep 13,2016 14:14:16 [info]  Search for account and match the Result
+Sep 13,2016 14:14:16 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Search_Account
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:14:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Send_SocialIntegrationEmail and Test method testSend_SocialIntegrationEmail
+*****************************************************************************
+Sep 13,2016 14:14:55 [info]  open application giturl
+Sep 13,2016 14:16:10 [info]  log-in into application
+Sep 13,2016 14:16:10 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:16:21 [info]  Click on logged in account edit icon
+Sep 13,2016 14:16:33 [info]  Method to Send Social Integration
+Sep 13,2016 14:16:38 [info]  success message
+Sep 13,2016 14:16:38 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Send_SocialIntegrationEmail
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:17:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Sort_AgeColumn and Test method testSort_AgeColumn
+*****************************************************************************
+Sep 13,2016 14:17:28 [info]  open application giturl
+Sep 13,2016 14:18:38 [info]  log-in into application
+Sep 13,2016 14:18:38 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:19:07 [info]  Sep 13,2016 14:19:07 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Sorting functionality is not working correctly
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.primeresponse.pagehelper.AccountsHelper.sortAgeColumn(AccountsHelper.java:568)
+	at com.primeresponse.testcases.Accounts.Sort_AgeColumn.testSort_AgeColumn(Sort_AgeColumn.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 13,2016 14:19:07 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Sort_AgeColumn
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:20:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Sort_AgeColumn and Test method testSort_AgeColumn
+*****************************************************************************
+Sep 13,2016 14:20:27 [info]  open application giturl
+Sep 13,2016 14:21:51 [info]  log-in into application
+Sep 13,2016 14:21:51 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:22:24 [info]  Method to sort age column
+Sep 13,2016 14:22:24 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Sort_AgeColumn
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:24:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Sort_CreatedColumn and Test method testCreate_Account
+*****************************************************************************
+Sep 13,2016 14:24:34 [info]  open application giturl
+Sep 13,2016 14:26:05 [info]  log-in into application
+Sep 13,2016 14:26:06 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 14:26:19 [info]  Randomly go to any page count
+Sep 13,2016 14:26:45 [info]  Go to any sub menu of accounts
+Sep 13,2016 14:26:45 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Sort_CreatedColumn
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:29:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Sort_NameCol and Test method testSort_NameCol
+*****************************************************************************
+Sep 13,2016 14:29:45 [info]  open application giturl
+Sep 13,2016 14:31:30 [info]  log-in into application
+Sep 13,2016 14:31:30 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 14:31:44 [info]  Randomly go to any page count
+Sep 13,2016 14:32:15 [info]  Check sorting of name columns
+Sep 13,2016 14:32:15 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Sort_NameCol
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:32:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Submit_NewSupportNote and Test method testCreate_AccessKey
+*****************************************************************************
+Sep 13,2016 14:32:45 [info]  open application giturl
+Sep 13,2016 14:34:45 [info]  log-in into application
+Sep 13,2016 14:34:45 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:35:03 [info]  Verify process of submiting new support note.
+Sep 13,2016 14:35:05 [info]  success message
+Sep 13,2016 14:35:05 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Submit_NewSupportNote
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:36:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Submit_NoteToLoggedInUser and Test method testSubmit_NoteToLoggedInUser
+*****************************************************************************
+Sep 13,2016 14:36:28 [info]  open application giturl
+Sep 13,2016 14:38:03 [info]  log-in into application
+Sep 13,2016 14:38:03 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:38:10 [info]  Verify process of submiting new support note.
+Sep 13,2016 14:38:10 [info]  success message
+Sep 13,2016 14:38:10 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Submit_NoteToLoggedInUser
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:38:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_AbServiceAndIvmCvdInventory_NonUniqueKey and Test method testVerifyAdminNotesOnPages
+*****************************************************************************
+Sep 13,2016 14:38:41 [info]  open application giturl
+Sep 13,2016 14:40:14 [info]  log-in into application
+Sep 13,2016 14:40:14 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:40:37 [info]  Fetch 'AB Service CID' and 'Ivm cvd inventory dealer lot key' from Admin settings page.
+Sep 13,2016 14:40:37 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_AbServiceAndIvmCvdInventory_NonUniqueKey
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:41:16 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_AccountNameOnList and Test method testVerify_AccountNameOnList
+*****************************************************************************
+Sep 13,2016 14:41:24 [info]  open application giturl
+Sep 13,2016 14:42:29 [info]  log-in into application
+Sep 13,2016 14:42:38 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:42:54 [info]  Randomly select any account and verify its name on edit page and Account list
+Sep 13,2016 14:42:54 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_AccountNameOnList
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:43:47 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_AccountOnOfficialProfile and Test method testVerify_AccountOnOfficialProfile
+*****************************************************************************
+Sep 13,2016 14:43:47 [info]  open application giturl
+Sep 13,2016 14:45:22 [info]  log-in into application
+Sep 13,2016 14:45:22 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:45:34 [info]  Click on logged in user edit link
+Sep 13,2016 14:45:43 [info]  Go to Account > Official Profile
+Sep 13,2016 14:48:45 [info]  Verify current logged in account on official profile page
+Sep 13,2016 14:48:45 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_AccountOnOfficialProfile
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:49:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_NameColDefaultSorting and Test method testCreate_Account
+*****************************************************************************
+Sep 13,2016 14:49:54 [info]  open application giturl
+Sep 13,2016 14:51:11 [info]  log-in into application
+Sep 13,2016 14:51:11 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 14:51:26 [info]  Randomly go to any page count
+Sep 13,2016 14:52:10 [info]  Go to any sub menu of accounts
+Sep 13,2016 14:52:10 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_NameColDefaultSorting
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 14:53:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_SupportSettings and Test method testVerify_SupportSettings
+*****************************************************************************
+Sep 13,2016 14:53:21 [info]  open application giturl
+Sep 13,2016 14:54:57 [info]  log-in into application
+Sep 13,2016 14:54:57 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 14:55:08 [info]  Click on logged in user edit link
+Sep 13,2016 14:55:21 [info]  Verify that support settings is successfully updated
+Sep 13,2016 14:55:21 [info]  success message
+Sep 13,2016 14:55:21 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_SupportSettings
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 15:12:38 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_TimeZone and Test method testVerify_TimeZone
+*****************************************************************************
+Sep 13,2016 15:12:49 [info]  open application giturl
+Sep 13,2016 15:14:17 [info]  log-in into application
+Sep 13,2016 15:14:17 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 15:14:50 [info]  Click on edit icon of logged in user
+Sep 13,2016 15:14:50 [info]  Method to fetch timezone from user information page
+Sep 13,2016 15:15:01 [info]  Click on logged in user account
+Sep 13,2016 15:15:20 [info]  Method to fetch State from Account Information
+Sep 13,2016 15:15:33 [info]  Go to Social > Posts
+Sep 13,2016 15:15:38 [info]  Method to verify TimeZone on Post page
+Sep 13,2016 15:15:38 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_TimeZone
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 15:16:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_UserDetails and Test method testVerify_UserDetails
+*****************************************************************************
+Sep 13,2016 15:16:43 [info]  open application giturl
+Sep 13,2016 15:17:54 [info]  log-in into application
+Sep 13,2016 15:17:55 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 15:18:06 [info]  Click on logged in account edit icon
+Sep 13,2016 15:18:24 [info]  Method to verify user details
+Sep 13,2016 15:18:54 [info]  Search user on Admin's user page
+Sep 13,2016 15:19:12 [info]  Verify Account's user information on Admin's users page
+Sep 13,2016 15:19:13 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_UserDetails
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 15:21:36 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Sep 13,2016 15:21:46 [info]  open application giturl
+Sep 13,2016 15:23:42 [info]  log-in into application
+Sep 13,2016 15:23:43 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 15:24:10 [info]  Sep 13,2016 15:24:10 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.15 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: b1904edf-7d5b-463e-9cb1-3103801c9c18
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1007)
+	at com.primeresponse.util.DriverHelper.acceptAlert(DriverHelper.java:357)
+	at com.primeresponse.pagehelper.AccountsHelper.deleteAccount(AccountsHelper.java:242)
+	at com.primeresponse.testcases.Accounts.Delete_Account.testDeleteAccount(Delete_Account.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 13,2016 15:24:10 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 16:24:03 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Sep 13,2016 16:24:12 [info]  open application giturl
+Sep 13,2016 16:26:12 [info]  log-in into application
+Sep 13,2016 16:26:13 [info]  Select ABC Ford Account if not selected
+Sep 13,2016 16:26:35 [info]  Search for acocunt and delete it
+Sep 13,2016 16:26:41 [info]  success message
+Sep 13,2016 16:26:41 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 16:53:05 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Check_GroupHierarchy and Test method testCheck_GroupHierarchy
+*****************************************************************************
+Sep 13,2016 16:53:14 [info]  open application giturl
+Sep 13,2016 16:54:50 [info]  log-in into application
+Sep 13,2016 16:54:50 [info]  Select Selenium Test Account if not selected
+Sep 13,2016 16:55:25 [info]  Method to check Group Hierarchy
+Sep 13,2016 16:55:37 [info]  Go to Enterprise > Dashboard
+Sep 13,2016 16:55:53 [info]  Method to verify  Group Hierarchy on Dashboard page
+
+*****************************************************************************
+Sep 13,2016 16:56:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_ApplicationProduct and Test method testCreate_ApplicationProduct
+*****************************************************************************
+Sep 13,2016 16:56:33 [info]  open application giturl
+Sep 13,2016 16:58:03 [info]  log-in into application
+Sep 13,2016 16:58:04 [info]  Select Selenium Test Ford Account if not selected
+Sep 13,2016 16:58:31 [info]  Click on Admin > Application Products
+Sep 13,2016 16:58:31 [info]  success message
+Sep 13,2016 16:58:43 [info]  Go to Edit account
+Sep 13,2016 16:58:57 [info]  Assign the same product to account
+Sep 13,2016 16:58:57 [info]  success message
+Sep 13,2016 16:58:57 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Create_ApplicationProduct
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 16:59:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_Category and Test method testCreate_Category
+*****************************************************************************
+Sep 13,2016 17:00:07 [info]  open application giturl
+Sep 13,2016 17:01:26 [info]  log-in into application
+Sep 13,2016 17:01:27 [info]  Select Selenium Test Ford Account if not selected
+Sep 13,2016 17:02:04 [info]  Submit Category details and create it
+Sep 13,2016 17:02:04 [info]  success message
+Sep 13,2016 17:02:42 [info]  Go to Social > Content
+Sep 13,2016 17:02:43 [info]  Verify created category thumbnail
+Sep 13,2016 17:02:43 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Create_Category
+*****************************************************************************
+
+*****************************************************************************
+Sep 13,2016 17:13:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_ChildGroup and Test method testCreate_ChildGroup
+*****************************************************************************
+Sep 13,2016 17:13:30 [info]  open application giturl
+Sep 13,2016 17:14:36 [info]  log-in into application
+Sep 13,2016 17:14:37 [info]  Select Selenium Test Ford Account if not selected
+Sep 13,2016 17:16:04 [info]  Enter child group details and submit it
+Sep 13,2016 17:16:04 [info]  success message
+Sep 13,2016 17:16:04 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Create_ChildGroup
+*****************************************************************************

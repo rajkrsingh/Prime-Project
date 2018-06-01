@@ -1,0 +1,847 @@
+
+*****************************************************************************
+Sep 19,2016 12:32:28 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_Vertical and Test method testDelete_Vertical
+*****************************************************************************
+Sep 19,2016 12:32:53 [info]  open application giturl
+Sep 19,2016 12:35:22 [info]  log-in into application
+Sep 19,2016 12:35:22 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 12:35:34 [info]  Delete the Vertical
+
+*****************************************************************************
+Sep 19,2016 12:41:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_Vertical and Test method testCreate_Vertical
+*****************************************************************************
+Sep 19,2016 12:41:21 [info]  open application giturl
+Sep 19,2016 12:41:49 [info]  log-in into application
+Sep 19,2016 12:41:50 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 12:42:06 [info]  Submit Available List Column Details
+Sep 19,2016 12:42:07 [info]  Submit Transaction Type Details
+Sep 19,2016 12:42:08 [info]  Submit products Details
+Sep 19,2016 12:42:17 [info]  Submit Marketing Product Details
+Sep 19,2016 12:42:25 [info]  Submit Account Attributes Details
+Sep 19,2016 12:42:25 [info]  success message
+Sep 19,2016 12:42:25 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Create_Vertical
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 12:43:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_Vertical and Test method testDelete_Vertical
+*****************************************************************************
+Sep 19,2016 12:43:21 [info]  open application giturl
+Sep 19,2016 12:45:09 [info]  log-in into application
+Sep 19,2016 12:45:09 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 12:45:17 [info]  Delete the Vertical
+
+*****************************************************************************
+Sep 19,2016 12:46:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_Vertical and Test method testCreate_Vertical
+*****************************************************************************
+Sep 19,2016 12:46:55 [info]  open application giturl
+Sep 19,2016 12:49:11 [info]  log-in into application
+Sep 19,2016 12:49:12 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 12:49:36 [info]  Submit Available List Column Details
+Sep 19,2016 12:49:37 [info]  Submit Transaction Type Details
+Sep 19,2016 12:49:39 [info]  Submit products Details
+Sep 19,2016 12:49:48 [info]  Submit Marketing Product Details
+Sep 19,2016 12:49:58 [info]  Submit Account Attributes Details
+Sep 19,2016 12:49:58 [info]  success message
+Sep 19,2016 12:49:58 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Create_Vertical
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 13:31:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_Vertical and Test method testDelete_Vertical
+*****************************************************************************
+Sep 19,2016 13:31:35 [info]  open application giturl
+Sep 19,2016 13:32:43 [info]  log-in into application
+Sep 19,2016 13:32:43 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 13:32:52 [info]  Delete the Vertical
+Sep 19,2016 13:32:57 [info]  success message
+Sep 19,2016 13:32:57 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_Vertical
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 13:48:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol and Test method testSort_MyAccount_FacebookLikesCol
+*****************************************************************************
+Sep 19,2016 13:48:51 [info]  open application giturl
+Sep 19,2016 13:51:18 [info]  log-in into application
+Sep 19,2016 13:51:18 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 13:51:29 [info]  Go to Enterprise > My Accounts
+Sep 19,2016 13:51:30 [info]  Find out no. of rows
+Sep 19,2016 13:56:40 [info]  Sep 19,2016 13:56:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Facebook Likes')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkFacebookLikesSort(EnterpriseHelper.java:203)
+	at com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol.testSort_MyAccount_FacebookLikesCol(Sort_MyAccount_FacebookLikesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 13:56:40 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 13:58:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol and Test method testSort_MyAccount_FacebookLikesCol
+*****************************************************************************
+Sep 19,2016 13:58:20 [info]  open application giturl
+Sep 19,2016 13:59:02 [info]  log-in into application
+Sep 19,2016 13:59:02 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 13:59:12 [info]  Go to Enterprise > My Accounts
+Sep 19,2016 13:59:12 [info]  Find out no. of rows
+Sep 19,2016 14:04:26 [info]  Sep 19,2016 14:04:26 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Facebook Likes')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkFacebookLikesSort(EnterpriseHelper.java:203)
+	at com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol.testSort_MyAccount_FacebookLikesCol(Sort_MyAccount_FacebookLikesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 14:04:26 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 14:09:02 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol and Test method testSort_MyAccount_FacebookLikesCol
+*****************************************************************************
+Sep 19,2016 14:09:12 [info]  open application giturl
+Sep 19,2016 14:11:20 [info]  log-in into application
+Sep 19,2016 14:11:20 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 14:11:31 [info]  Go to Enterprise > My Accounts
+Sep 19,2016 14:11:31 [info]  Find out no. of rows
+Sep 19,2016 14:16:42 [info]  Sep 19,2016 14:16:42 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Facebook Likes')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkFacebookLikesSort(EnterpriseHelper.java:203)
+	at com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol.testSort_MyAccount_FacebookLikesCol(Sort_MyAccount_FacebookLikesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 14:16:42 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 14:45:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 19,2016 14:45:11 [info]  open application giturl
+Sep 19,2016 14:47:10 [info]  log-in into application
+Sep 19,2016 14:47:11 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 14:47:22 [info]  Go to Enterprise > External Feed
+Sep 19,2016 14:47:23 [info]  Select Group at external feed screen
+Sep 19,2016 14:52:39 [info]  Sep 19,2016 14:52:39 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='external_feed_filter_chzn']/a/span[contains(text(),'Select a Source')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.selectSource(EnterpriseHelper.java:521)
+	at com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite.testVerify_RedirectionOfGotoSite_List(Verify_RedirectionOfGotoSite.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 14:52:39 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 15:02:57 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_EnterpriseSummaryReviewsCount and Test method testVerify_EnterpriseSummaryReviewsCount
+*****************************************************************************
+Sep 19,2016 15:03:10 [info]  open application giturl
+Sep 19,2016 15:05:28 [info]  log-in into application
+Sep 19,2016 15:05:28 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 15:06:07 [info]  Go to  Enterprise > Summary
+Sep 19,2016 15:06:08 [info]  Select Group at external feed screen
+Sep 19,2016 15:06:23 [info]  Add all listers into one array and count in to another array also total rating and total average
+Sep 19,2016 15:06:35 [info]  Click on Admin > Groups
+Sep 19,2016 15:07:02 [info]  Enter into the Randy Test Group and store all account in to array 
+Sep 19,2016 15:07:35 [info]  Go to Track > Summary
+
+*****************************************************************************
+Sep 19,2016 15:12:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_EnterpriseSummaryReviewsCount and Test method testVerify_EnterpriseSummaryReviewsCount
+*****************************************************************************
+Sep 19,2016 15:12:19 [info]  open application giturl
+Sep 19,2016 15:13:10 [info]  log-in into application
+Sep 19,2016 15:13:18 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 15:13:33 [info]  Go to  Enterprise > Summary
+Sep 19,2016 15:13:34 [info]  Select Group at external feed screen
+Sep 19,2016 15:13:49 [info]  Add all listers into one array and count in to another array also total rating and total average
+Sep 19,2016 15:13:59 [info]  Click on Admin > Groups
+Sep 19,2016 15:14:18 [info]  Enter into the Randy Test Group and store all account in to array 
+Sep 19,2016 15:14:47 [info]  Go to Track > Summary
+Sep 19,2016 15:20:18 [info]  Sep 19,2016 15:20:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='header']//li[3]/a[contains(text(),'Reputation')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonTrackSummary(HeaderHelper.java:524)
+	at com.primeresponse.testcases.Enterprise.Verify_EnterpriseSummaryReviewsCount.testVerify_EnterpriseSummaryReviewsCount(Verify_EnterpriseSummaryReviewsCount.java:80)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 15:20:18 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_EnterpriseSummaryReviewsCount
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 15:22:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_ViewOriginalExternalFeed and Test method testVerify_ViewOriginalExternalFeed
+*****************************************************************************
+Sep 19,2016 15:22:09 [info]  open application giturl
+Sep 19,2016 15:23:07 [info]  log-in into application
+Sep 19,2016 15:23:16 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 15:23:26 [info]  Go to Enterprise > External Feed
+Sep 19,2016 15:23:27 [info]  Select Group at external feed screen
+Sep 19,2016 15:28:40 [info]  Sep 19,2016 15:28:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://tbody[@id='dashboard-external-reviews']/tr[3]//a[@data-original-title='View Original'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.external_clickOnViewIcon(EnterpriseHelper.java:662)
+	at com.primeresponse.testcases.Enterprise.Verify_ViewOriginalExternalFeed.testVerify_ViewOriginalExternalFeed(Verify_ViewOriginalExternalFeed.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 15:28:40 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_ViewOriginalExternalFeed
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 15:48:17 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_Survey and Test method testCreate_Survey
+*****************************************************************************
+Sep 19,2016 15:48:17 [info]  open application giturl
+Sep 19,2016 15:48:50 [info]  log-in into application
+Sep 19,2016 15:48:51 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 15:48:56 [info]  click on create new Survey link
+Sep 19,2016 15:52:41 [info]  Enter Surveys Details
+Sep 19,2016 15:52:42 [info]  success message
+Sep 19,2016 15:52:42 [info]  Verify the notification when no question provided
+Sep 19,2016 15:54:45 [info]  Check visibility of question popup
+Sep 19,2016 15:54:45 [info]  Verify the notification when no question provided
+Sep 19,2016 15:54:47 [info]  Add 5 Star question with Overall category 
+Sep 19,2016 15:56:49 [info]  Check visibility of another question popup
+Sep 19,2016 15:56:52 [info]  Add Long Text question with Customer Service category  
+Sep 19,2016 15:58:53 [info]  Check visibility of another question popup
+Sep 19,2016 15:58:55 [info]  Add Short Text question with Customer Service category 
+Sep 19,2016 16:00:58 [info]  Check visibility of another question popup
+Sep 19,2016 16:01:00 [info]  Add Single Select question with Customer Service category 
+Sep 19,2016 16:03:02 [info]  Check visibility of answer popup
+Sep 19,2016 16:03:02 [info]  check message Question was successfully created. Now add an answer.
+Sep 19,2016 16:03:02 [info]  Add answer of Single Select Question  
+Sep 19,2016 16:03:02 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Create_Survey
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:03:21 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Sep 19,2016 16:03:21 [info]  open application giturl
+Sep 19,2016 16:04:06 [info]  log-in into application
+Sep 19,2016 16:04:06 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:04:17 [info]  Go to Ifluence > Lists
+Sep 19,2016 16:04:25 [info]  Sep 19,2016 16:04:25 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:236)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 16:04:25 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:04:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Campaign and Test method testDelete_Campaign
+*****************************************************************************
+Sep 19,2016 16:04:43 [info]  open application giturl
+Sep 19,2016 16:06:23 [info]  log-in into application
+Sep 19,2016 16:06:24 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:06:37 [info]  Go to Ifluence > Campaigns
+Sep 19,2016 16:06:53 [info]  Check if campaign status is sent then delete icon should not display else delete it
+Sep 19,2016 16:06:53 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Campaign
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:07:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Send_CampaignPreview and Test method testSend_CampaignPreview
+*****************************************************************************
+Sep 19,2016 16:07:25 [info]  open application giturl
+Sep 19,2016 16:07:50 [info]  log-in into application
+Sep 19,2016 16:07:50 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:08:03 [info]  Go to Influence > Campaigns
+Sep 19,2016 16:08:11 [info]  Method to verify the functionality of sending campaign preview
+Sep 19,2016 16:08:12 [info]  success message
+Sep 19,2016 16:08:13 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Send_CampaignPreview
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:08:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Sep 19,2016 16:08:55 [info]  open application giturl
+Sep 19,2016 16:09:18 [info]  log-in into application
+Sep 19,2016 16:09:18 [info]  Select Selenium Test Account if not selected
+Sep 19,2016 16:09:29 [info]  Go to Ifluence > Customers
+Sep 19,2016 16:09:41 [info]  Sep 19,2016 16:09:41 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.NoClassDefFoundError: Could not initialize class org.sikuli.script.Finder
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCustomersCSV(InfluenceHelper.java:748)
+	at com.primeresponse.testcases.Influence.Download_CustomersCSV.testDownload_CustomersCSV(Download_CustomersCSV.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 16:09:41 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:10:00 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Sep 19,2016 16:10:09 [info]  open application giturl
+Sep 19,2016 16:10:32 [info]  log-in into application
+Sep 19,2016 16:10:32 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:10:44 [info]  Go to Ifluence > Survey
+Sep 19,2016 16:12:30 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Sep 19,2016 16:12:35 [info]  Enter Customer Details
+Sep 19,2016 16:17:45 [info]  Sep 19,2016 16:17:45 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='answer 5_stars']/div[6]/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.fillSurvey(InfluenceHelper.java:422)
+	at com.primeresponse.testcases.Influence.Submit_InternalReview.testSubmit_InternalReview(Submit_InternalReview.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 16:17:45 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:18:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Verify_SurveysReport and Test method testVerify_SurveysReport
+*****************************************************************************
+Sep 19,2016 16:18:30 [info]  open application giturl
+Sep 19,2016 16:18:53 [info]  log-in into application
+Sep 19,2016 16:18:53 [info]  Select Selenium Test account if not selected
+Sep 19,2016 16:19:13 [info]  Sep 19,2016 16:19:13 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.InfluenceHelper.verify_SurveysReport(InfluenceHelper.java:121)
+	at com.primeresponse.testcases.Influence.Verify_SurveysReport.testVerify_SurveysReport(Verify_SurveysReport.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 16:19:13 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Verify_SurveysReport
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:19:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Multiple_Customers and Test method testAdd_Multiple_Customers
+*****************************************************************************
+Sep 19,2016 16:19:27 [info]  open application giturl
+Sep 19,2016 16:19:56 [info]  log-in into application
+Sep 19,2016 16:19:57 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:20:02 [info]  Click on Add Multiple Customers link
+Sep 19,2016 16:20:08 [info]  Enter Customer1 Details
+Sep 19,2016 16:20:20 [info]  Click on submit button 
+Sep 19,2016 16:20:20 [info]  success message
+Sep 19,2016 16:20:21 [info]  Enter Customer2 Details
+Sep 19,2016 16:20:33 [info]  Click on submit button 
+Sep 19,2016 16:20:33 [info]  success message
+Sep 19,2016 16:20:34 [info]  Enter Customer3 Details
+Sep 19,2016 16:20:47 [info]  Click on submit button 
+Sep 19,2016 16:20:47 [info]  success message
+Sep 19,2016 16:20:47 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Multiple_Customers
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:21:05 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_PreSurveyCompleteDate and Test method testSort_PreSurveyCompleteDate
+*****************************************************************************
+Sep 19,2016 16:21:21 [info]  open application giturl
+Sep 19,2016 16:22:55 [info]  log-in into application
+Sep 19,2016 16:22:55 [info]  Select Selenium Test account if not selected
+Sep 19,2016 16:23:24 [info]  Verify sorting functionality of Pre Survey Complete Date column on survey events page.
+Sep 19,2016 16:23:24 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_PreSurveyCompleteDate
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:23:48 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_SurveyCompleteDate and Test method testSort_SurveyCompleteDate
+*****************************************************************************
+Sep 19,2016 16:23:57 [info]  open application giturl
+Sep 19,2016 16:24:56 [info]  log-in into application
+Sep 19,2016 16:24:57 [info]  Select Selenium Test account if not selected
+Sep 19,2016 16:25:19 [info]  Sep 19,2016 16:25:19 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.StringIndexOutOfBoundsException: String index out of range: -7
+	at java.lang.String.substring(Unknown Source)
+	at com.primeresponse.pagehelper.InfluenceHelper.sort_SurveyCompleteDate(InfluenceHelper.java:980)
+	at com.primeresponse.testcases.Influence.Sort_SurveyCompleteDate.testSort_SurveyCompleteDate(Sort_SurveyCompleteDate.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 16:25:19 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_SurveyCompleteDate
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:25:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_SurveyName and Test method testSort_SurveyName
+*****************************************************************************
+Sep 19,2016 16:25:37 [info]  open application giturl
+Sep 19,2016 16:26:09 [info]  log-in into application
+Sep 19,2016 16:26:09 [info]  Select Selenium Test account if not selected
+Sep 19,2016 16:26:37 [info]  Verify sorting functionality of Name column
+Sep 19,2016 16:26:37 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_SurveyName
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:26:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Survey and Test method testDelete_Survey
+*****************************************************************************
+Sep 19,2016 16:26:52 [info]  open application giturl
+Sep 19,2016 16:27:37 [info]  log-in into application
+Sep 19,2016 16:27:37 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:27:48 [info]  Go to Ifluence > Survey
+Sep 19,2016 16:29:57 [info]  Go to Ifluence > Campaigns
+Sep 19,2016 16:29:58 [info]  success message
+Sep 19,2016 16:29:58 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Survey
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:30:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Customers and Test method testDelete_Customers
+*****************************************************************************
+Sep 19,2016 16:30:25 [info]  open application giturl
+Sep 19,2016 16:30:54 [info]  log-in into application
+Sep 19,2016 16:30:55 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:31:05 [info]  Go to Ifluence > Customers
+Sep 19,2016 16:31:24 [info]  Click to delete the Shishir details 
+Sep 19,2016 16:31:30 [info]  success message
+Sep 19,2016 16:32:10 [info]  Click to delete the Customer1 details
+Sep 19,2016 16:32:15 [info]  success message
+Sep 19,2016 16:32:59 [info]  Click to delete the Customer2 details
+Sep 19,2016 16:33:04 [info]  success message
+Sep 19,2016 16:33:38 [info]  Click to delete the Customer3 details
+Sep 19,2016 16:33:42 [info]  success message
+Sep 19,2016 16:33:50 [info]  Click to delete the Customer3 details
+Sep 19,2016 16:33:54 [info]  success message
+Sep 19,2016 16:34:08 [info]  Click to delete the Customer3 details
+Sep 19,2016 16:34:12 [info]  success message
+Sep 19,2016 16:35:03 [info]  Click to delete the Customer3 details
+Sep 19,2016 16:35:03 [info]  success message
+Sep 19,2016 16:35:03 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Customers
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:35:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Sep 19,2016 16:35:28 [info]  open application giturl
+Sep 19,2016 16:35:58 [info]  log-in into application
+Sep 19,2016 16:35:58 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:36:10 [info]  Go to Ifluence > Lists
+Sep 19,2016 16:36:10 [info]  click on create new list link
+Sep 19,2016 16:36:31 [info]  Upload a CSV file as a list
+Sep 19,2016 16:38:39 [info]  Sep 19,2016 16:38:39 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 19,2016 16:38:39 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:38:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Customer and Test method testAdd_Customer
+*****************************************************************************
+Sep 19,2016 16:39:10 [info]  open application giturl
+Sep 19,2016 16:39:42 [info]  log-in into application
+Sep 19,2016 16:39:42 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:39:52 [info]  Go to Ifluence > Customers
+Sep 19,2016 16:39:53 [info]  click on create new customer link
+Sep 19,2016 16:39:59 [info]  Enter Customer Details
+Sep 19,2016 16:40:11 [info]  Click on submit button 
+Sep 19,2016 16:40:12 [info]  success message
+Sep 19,2016 16:40:12 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Customer
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:40:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Redirect and Test method testDelete_Redirect
+*****************************************************************************
+Sep 19,2016 16:40:27 [info]  open application giturl
+Sep 19,2016 16:41:12 [info]  log-in into application
+Sep 19,2016 16:41:12 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:41:24 [info]  Go to Influence > Redirects
+Sep 19,2016 16:41:27 [info]  Click to delete the redirect
+Sep 19,2016 16:41:31 [info]  success message
+Sep 19,2016 16:41:31 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Redirect
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:41:48 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_List and Test method testDelete_List
+*****************************************************************************
+Sep 19,2016 16:41:55 [info]  open application giturl
+Sep 19,2016 16:42:22 [info]  log-in into application
+Sep 19,2016 16:42:23 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:42:34 [info]  Go to Ifluence > Lists
+Sep 19,2016 16:43:55 [info]  Go to Ifluence > Campaigns
+Sep 19,2016 16:43:55 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_List
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:44:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_NewCampaign and Test method testCreate_NewCampaign
+*****************************************************************************
+Sep 19,2016 16:44:21 [info]  open application giturl
+Sep 19,2016 16:44:58 [info]  log-in into application
+Sep 19,2016 16:44:58 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:45:04 [info]  click on create new campaign link
+Sep 19,2016 16:45:19 [info]  Enter basic campaigns details
+Sep 19,2016 16:45:27 [info]  Select a sender
+Sep 19,2016 16:45:37 [info]  Select a recipients and verify preview list
+Sep 19,2016 16:45:45 [info]  Schedule the campaigns
+Sep 19,2016 16:45:52 [info]  Select Template
+Sep 19,2016 16:49:25 [info]  Enter campaign body contents
+Sep 19,2016 16:49:31 [info]  Click on send button
+Sep 19,2016 16:49:32 [info]  success message
+Sep 19,2016 16:49:32 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Create_NewCampaign
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:49:47 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Verify_SurveysEvents and Test method testVerify_SurveysReport
+*****************************************************************************
+Sep 19,2016 16:49:56 [info]  open application giturl
+Sep 19,2016 16:50:22 [info]  log-in into application
+Sep 19,2016 16:50:22 [info]  Select Selenium Test account if not selected
+Sep 19,2016 16:50:38 [info]  Verify events of surveys on Influence > Surveys page.
+Sep 19,2016 16:50:38 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Verify_SurveysEvents
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:50:53 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Check_Redirect_Counts and Test method testCheck_Redirect_Counts
+*****************************************************************************
+Sep 19,2016 16:51:02 [info]  open application giturl
+Sep 19,2016 16:51:36 [info]  log-in into application
+Sep 19,2016 16:51:36 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:51:47 [info]  Go to Influence > Redirects
+Sep 19,2016 16:52:38 [info]  Verify Redirect details which have been created in Add_Redirect scripts
+Sep 19,2016 16:53:10 [info]  Click on label 6 times
+Sep 19,2016 16:53:12 [info]  Check total count should be equal to 6
+Sep 19,2016 16:53:12 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Check_Redirect_Counts
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:53:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Sep 19,2016 16:53:43 [info]  open application giturl
+Sep 19,2016 16:55:04 [info]  log-in into application
+Sep 19,2016 16:55:05 [info]  Select Selenium Test Ford Account if not selected
+Sep 19,2016 16:55:16 [info]  Go to Influence > Redirects
+Sep 19,2016 16:55:16 [info]  click on create new Redirect link
+Sep 19,2016 16:55:25 [info]  Enter label and original url
+Sep 19,2016 16:55:35 [info]  Enter 1st destination url
+Sep 19,2016 16:55:35 [info]  success message
+Sep 19,2016 16:55:35 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:55:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_SurveyStartDate and Test method testSort_SurveyStartDate
+*****************************************************************************
+Sep 19,2016 16:55:50 [info]  open application giturl
+Sep 19,2016 16:56:50 [info]  log-in into application
+Sep 19,2016 16:56:51 [info]  Select Selenium Test account if not selected
+Sep 19,2016 16:57:18 [info]  Method to verify sorting functionality of Survey Start Date column
+Sep 19,2016 16:57:18 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_SurveyStartDate
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:57:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.VerifyWidgets_InfluenceDashboard and Test method testVerifyWidgets_InfluenceDashboard
+*****************************************************************************
+Sep 19,2016 16:57:41 [info]  open application giturl
+Sep 19,2016 16:58:02 [info]  log-in into application
+Sep 19,2016 16:58:02 [info]  Select Selenium Test account if not selected
+Sep 19,2016 16:58:13 [info]  Go to Influence > Survey
+Sep 19,2016 16:58:13 [info]  Get Surveys count on Survey page
+Sep 19,2016 16:58:42 [info]  Go to Influence > Dashboard
+Sep 19,2016 16:58:57 [info]  Method to verify the name of all available widgets on influence dashboard page
+Sep 19,2016 16:58:57 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.VerifyWidgets_InfluenceDashboard
+*****************************************************************************
+
+*****************************************************************************
+Sep 19,2016 16:59:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Copy_Survey and Test method testCopy_Survey
+*****************************************************************************
+Sep 19,2016 16:59:11 [info]  open application giturl
+Sep 19,2016 16:59:56 [info]  log-in into application
+Sep 19,2016 16:59:56 [info]  Select Selenium Test account if not selected
+Sep 19,2016 17:00:05 [info]  Verifying the functionality of copying surveys
+Sep 19,2016 17:00:05 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Copy_Survey
+*****************************************************************************

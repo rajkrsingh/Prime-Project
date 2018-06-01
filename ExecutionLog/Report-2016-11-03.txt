@@ -1,0 +1,741 @@
+
+*****************************************************************************
+Nov 03,2016 11:41:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_PreviewOfLandingPage and Test method testVerify_PreviewOfLandingPage
+*****************************************************************************
+Nov 03,2016 11:41:41 [info]  open application giturl
+Nov 03,2016 11:42:33 [info]  log-in into application
+Nov 03,2016 11:42:35 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 11:42:46 [info]  Go to Web > Landing Pages
+Nov 03,2016 11:43:17 [info]  Verify preview Of Landing Pages
+Nov 03,2016 11:43:17 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_PreviewOfLandingPage
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 11:43:35 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_ReferralAnalysis and Test method testVerify_ReferralAnalysis
+*****************************************************************************
+Nov 03,2016 11:43:48 [info]  open application giturl
+Nov 03,2016 11:44:19 [info]  log-in into application
+Nov 03,2016 11:44:19 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 11:44:32 [info]  Go to Web > Referral Analysis
+Nov 03,2016 11:44:43 [info]  Randomly select any referral analysis from list and verify its details on Web >Referral Analysis page
+Nov 03,2016 11:44:43 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_ReferralAnalysis
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 12:03:04 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 12:03:16 [info]  open application giturl
+Nov 03,2016 12:04:36 [info]  log-in into application
+Nov 03,2016 12:04:36 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 12:04:47 [info]  Go to Web > Tracking URLs
+Nov 03,2016 12:04:47 [info]  Nov 03,2016 12:04:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [rogres] but found [Testing is in progress...]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 12:04:47 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 13:38:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 13:39:00 [info]  open application giturl
+Nov 03,2016 13:40:29 [info]  log-in into application
+Nov 03,2016 13:40:30 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 13:40:41 [info]  Go to Web > Tracking URLs
+Nov 03,2016 13:40:41 [info]  Nov 03,2016 13:40:41 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [rogres] but found [Testing is in progress...]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 13:40:41 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 13:47:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 13:47:29 [info]  open application giturl
+Nov 03,2016 13:49:04 [info]  log-in into application
+Nov 03,2016 13:49:04 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 13:49:16 [info]  Go to Web > Tracking URLs
+Nov 03,2016 13:49:16 [info]  Nov 03,2016 13:49:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [utm_me] but found [test]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 13:49:16 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 13:55:03 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 13:55:11 [info]  open application giturl
+Nov 03,2016 13:56:34 [info]  log-in into application
+Nov 03,2016 13:56:34 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 13:56:45 [info]  Go to Web > Tracking URLs
+Nov 03,2016 13:56:45 [info]  Verify utm_content parameter
+Nov 03,2016 13:56:45 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:00:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:00:18 [info]  open application giturl
+Nov 03,2016 14:02:13 [info]  log-in into application
+Nov 03,2016 14:02:13 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:02:24 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:02:24 [info]  Nov 03,2016 14:02:24 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [Feb&] but found [8th Feb]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 14:02:24 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:17:54 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:18:11 [info]  open application giturl
+Nov 03,2016 14:19:53 [info]  log-in into application
+Nov 03,2016 14:19:53 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:20:04 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:20:04 [info]  Nov 03,2016 14:20:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:978)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 14:20:04 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:24:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:24:47 [info]  open application giturl
+Nov 03,2016 14:26:04 [info]  log-in into application
+Nov 03,2016 14:26:04 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:26:16 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:26:16 [info]  Nov 03,2016 14:26:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:978)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 14:26:16 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:31:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:31:43 [info]  open application giturl
+Nov 03,2016 14:33:11 [info]  log-in into application
+Nov 03,2016 14:33:11 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:33:22 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:33:22 [info]  Nov 03,2016 14:33:22 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [utm_con] but found [8th Feb]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 14:33:22 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:36:31 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:36:43 [info]  open application giturl
+Nov 03,2016 14:38:46 [info]  log-in into application
+Nov 03,2016 14:38:47 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:38:58 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:38:58 [info]  Nov 03,2016 14:38:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [8th+Feb] but found [8th Feb]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 14:38:58 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:41:04 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:41:15 [info]  open application giturl
+Nov 03,2016 14:42:43 [info]  log-in into application
+Nov 03,2016 14:42:43 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:42:56 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:42:56 [info]  Nov 03,2016 14:42:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [m=Displ] but found [Testing]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 14:42:56 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:45:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:45:44 [info]  open application giturl
+Nov 03,2016 14:47:15 [info]  log-in into application
+Nov 03,2016 14:47:15 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:47:26 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:47:26 [info]  Nov 03,2016 14:47:26 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [esting] but found [Testing]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at org.testng.Assert.assertEquals(Assert.java:176)
+	at org.testng.Assert.assertEquals(Assert.java:186)
+	at com.primeresponse.pagehelper.WebHelper.verify_Utm_ContentParameter(WebHelper.java:977)
+	at com.primeresponse.testcases.Web.Verify_Utm_ContentParameter.testVerify_Utm_ContentParameter(Verify_Utm_ContentParameter.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 14:47:26 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:50:23 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 14:50:36 [info]  open application giturl
+Nov 03,2016 14:52:22 [info]  log-in into application
+Nov 03,2016 14:52:23 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:52:34 [info]  Go to Web > Tracking URLs
+Nov 03,2016 14:52:34 [info]  Verify utm_content parameter
+Nov 03,2016 14:52:34 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 14:55:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 14:55:19 [info]  open application giturl
+Nov 03,2016 14:56:46 [info]  log-in into application
+Nov 03,2016 14:56:47 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 14:57:01 [info]  Go to Web > Google Campaigns
+Nov 03,2016 15:02:13 [info]  Nov 03,2016 15:02:13 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='data-wiselinks-container']//tbody[@class='products-body']/tr[1]/td[3]//div[@class='switch-animate switch-off']/span[2][contains(text(),'OFF')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.WebHelper.fetchGoogleCampaigns(WebHelper.java:804)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 15:02:13 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 15:12:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 15:13:12 [info]  open application giturl
+Nov 03,2016 15:15:05 [info]  log-in into application
+Nov 03,2016 15:15:05 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 15:15:17 [info]  Go to Web > Google Campaigns
+
+*****************************************************************************
+Nov 03,2016 15:21:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 15:21:50 [info]  open application giturl
+Nov 03,2016 15:23:52 [info]  log-in into application
+Nov 03,2016 15:23:52 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 15:24:07 [info]  Go to Web > Google Campaigns
+
+*****************************************************************************
+Nov 03,2016 15:38:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 15:38:25 [info]  open application giturl
+Nov 03,2016 15:40:29 [info]  log-in into application
+Nov 03,2016 15:40:29 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 15:40:45 [info]  Go to Web > Google Campaigns
+Nov 03,2016 15:45:56 [info]  Nov 03,2016 15:45:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='data-wiselinks-container']//tbody[@class='products-body']/tr[1]/td[3]//div[@class='switch-on switch-animate']/span[1][contains(text(),'ON')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.WebHelper.fetchGoogleCampaigns(WebHelper.java:805)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 15:45:56 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 16:07:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 16:07:47 [info]  open application giturl
+Nov 03,2016 16:09:12 [info]  log-in into application
+Nov 03,2016 16:09:12 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 16:09:28 [info]  Go to Web > Google Campaigns
+
+*****************************************************************************
+Nov 03,2016 16:10:49 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 16:11:00 [info]  open application giturl
+Nov 03,2016 16:12:24 [info]  log-in into application
+Nov 03,2016 16:12:24 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 16:12:41 [info]  Go to Web > Google Campaigns
+
+*****************************************************************************
+Nov 03,2016 16:14:39 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 16:14:49 [info]  open application giturl
+Nov 03,2016 16:16:36 [info]  log-in into application
+Nov 03,2016 16:16:36 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 16:16:52 [info]  Go to Web > Google Campaigns
+
+*****************************************************************************
+Nov 03,2016 16:21:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 16:21:50 [info]  open application giturl
+Nov 03,2016 16:23:31 [info]  log-in into application
+Nov 03,2016 16:23:31 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 16:23:49 [info]  Go to Web > Google Campaigns
+
+*****************************************************************************
+Nov 03,2016 16:29:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 16:29:51 [info]  open application giturl
+Nov 03,2016 16:31:37 [info]  log-in into application
+Nov 03,2016 16:31:37 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 16:31:53 [info]  Go to Web > Google Campaigns
+Nov 03,2016 16:32:13 [info]  Fetch total google campaigns
+Nov 03,2016 16:32:40 [info]  Go to Social > Content
+Nov 03,2016 16:34:59 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 03,2016 16:35:23 [info]  Go to Web > Google Campaigns
+Nov 03,2016 16:35:35 [info]  Click on Off button to disable all google campaigns.
+Nov 03,2016 16:35:49 [info]  Go to Social > Content
+Nov 03,2016 16:36:10 [info]  Verify that google campaigns are not showing on create post page after making it OFF
+Nov 03,2016 16:36:10 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 16:46:21 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 16:46:31 [info]  open application giturl
+Nov 03,2016 16:47:57 [info]  log-in into application
+Nov 03,2016 16:47:58 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 16:48:13 [info]  Go to Web > Google Campaigns
+Nov 03,2016 16:48:40 [info]  Fetch total google campaigns
+Nov 03,2016 16:48:59 [info]  Go to Social > Content
+Nov 03,2016 16:49:53 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 03,2016 16:50:17 [info]  Go to Web > Google Campaigns
+Nov 03,2016 16:50:28 [info]  Click on Off button to disable all google campaigns.
+Nov 03,2016 16:50:40 [info]  Go to Social > Content
+Nov 03,2016 16:51:02 [info]  Verify that google campaigns are not showing on create post page after making it OFF
+Nov 03,2016 16:51:02 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 16:51:49 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 16:51:58 [info]  open application giturl
+Nov 03,2016 16:53:31 [info]  log-in into application
+Nov 03,2016 16:53:31 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 16:53:46 [info]  Go to Web > Google Campaigns
+
+*****************************************************************************
+Nov 03,2016 19:10:30 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter and Test method testVerify_Utm_ContentParameter
+*****************************************************************************
+Nov 03,2016 19:10:40 [info]  open application giturl
+Nov 03,2016 19:12:18 [info]  log-in into application
+Nov 03,2016 19:12:19 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 19:12:33 [info]  Go to Web > Tracking URLs
+Nov 03,2016 19:12:33 [info]  Verify utm_content parameter
+Nov 03,2016 19:12:33 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_Utm_ContentParameter
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 19:18:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 19:18:53 [info]  open application giturl
+Nov 03,2016 19:20:40 [info]  log-in into application
+Nov 03,2016 19:20:40 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 19:20:55 [info]  Go to Web > Google Campaigns
+Nov 03,2016 19:26:07 [info]  Nov 03,2016 19:26:07 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='data-wiselinks-container']//tbody[@class='products-body']/tr[2]/td[3]//div[@class='switch-animate switch-off']/span[2][contains(text(),'OFF')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.WebHelper.fetchGoogleCampaigns(WebHelper.java:804)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 19:26:07 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 03,2016 19:29:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 03,2016 19:29:30 [info]  open application giturl
+Nov 03,2016 19:30:29 [info]  log-in into application
+Nov 03,2016 19:30:29 [info]  Select Selenium Test Account if not selected
+Nov 03,2016 19:30:45 [info]  Go to Web > Google Campaigns
+Nov 03,2016 19:35:55 [info]  Nov 03,2016 19:35:55 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='data-wiselinks-container']//tbody[@class='products-body']/tr[1]/td[3]//div[@class='switch-animate switch-off']/span[2][contains(text(),'OFF')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.WebHelper.fetchGoogleCampaigns(WebHelper.java:804)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 03,2016 19:35:55 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************

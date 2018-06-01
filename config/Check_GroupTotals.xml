@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Check_GroupTotals"
+	annotations="JDK">
+	<test name="Check_GroupTotals" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Enterprise.Check_GroupTotals" />
+		</classes>
+	</test>
+</suite> 

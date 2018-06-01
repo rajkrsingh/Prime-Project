@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    
+	<SegmentationButtons><![CDATA[//div[@class='btn-group']/a[contains(@href, '?period')]]]></SegmentationButtons>
+	<DefaultSegmentation><![CDATA[//div[@class='btn-group']/a[contains(@class, 'btn-primary')]]]></DefaultSegmentation>
+	<SummaryHeader><![CDATA[//span[contains(text(),'Track Summary')]]]></SummaryHeader>
+	<InfluenceDashboard><![CDATA[//span[contains(text(), 'Influence Dashboard')]]]></InfluenceDashboard>
+	<DashboardLink><![CDATA[//ul[@class='breadcrumb']/li/a[contains(text(), 'Dashboard')]]]></DashboardLink>
+	<SelectedGrp><![CDATA[//ul[@class='breadcrumb']/li[2]]]></SelectedGrp>
+	<NoOfAccount><![CDATA[//div[@id='group_account_ids_chzn']/ul/li]]></NoOfAccount>
+	<LoginIcon><![CDATA[//table[@class='sort-table']/tbody/tr[2]/td[1]/a/img]]></LoginIcon>
+	<GroupsRow><![CDATA[//div[@class='table']/table/tbody/tr]]></GroupsRow>
+	<NullGroups><![CDATA[//div[@id='group_child_ids_chzn']/ul/li/input[@value='Select Some Options']]]></NullGroups>
+	<NoOfGrps><![CDATA[//div[@id='group_child_ids_chzn']/ul/li]]></NoOfGrps>
+	<NoOfAccounts><![CDATA[//div[@id='group_account_ids_chzn']/ul/li]]></NoOfAccounts>
+	<Row><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr]]></Row>
+	
+	
+	<Dashboard>
+	    <TotalCount0><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[3]]]></TotalCount0>
+		<TotalCount1><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[4]]]></TotalCount1>
+		<TotalCount2><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[6]]]></TotalCount2>
+		<TotalCount3><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[7]]]></TotalCount3>
+		<TotalCount4><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[9]]]></TotalCount4>
+		<!--<TotalCount5><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[12]]]></TotalCount5> -->
+		<AllButton><![CDATA[//a[6][contains(text(),'All')]]]></AllButton> 
+	</Dashboard>
+	
+	<MyAccounts>
+	    <TotalCount0><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[3]]]></TotalCount0>
+		<TotalCount1><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[4]]]></TotalCount1>
+		<TotalCount2><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[6]]]></TotalCount2>
+		<TotalCount3><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[7]]]></TotalCount3>
+		<TotalCount4><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr[1]/td[9]]]></TotalCount4>
+		<Row><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr]]></Row>
+		<SortIcon><![CDATA[//span[contains(text(), 'Name')]]]></SortIcon>
+		<ReviewResponse><![CDATA[//span[contains(text(), 'Of Review Responses')]]]></ReviewResponse>
+		<FacebookLikes><![CDATA[//span[contains(text(), 'Facebook Likes')]]]></FacebookLikes>
+	</MyAccounts>
+	
+	<ExternalFeed>
+		<Row><![CDATA[//tbody[@id='dashboard-external-reviews']/tr]]></Row>
+		<RatingSortIcon><![CDATA[//a[contains(@href, 'rating')]/span[contains(text(), 'Rating')]/../span[2]]]></RatingSortIcon>
+		<GroupDropDownIcon><![CDATA[//div[contains(@id, 'parent_id_chzn')]/a/div/b]]></GroupDropDownIcon>
+		<SearchGrp><![CDATA[//div[contains(@id, 'external_feed_parent_id_chzn')]//input]]></SearchGrp>
+		<RandyGrp><![CDATA[//li[@id='external_feed_parent_id_chzn_o_482']]]></RandyGrp>
+		<ResponseFilter><![CDATA[//div[@id='external_feed_value_chzn']//span[contains(text(),'Response filter')]]]></ResponseFilter>
+		<ResponseFilterValue><![CDATA[//li[contains(text(),'Without Responses')]]]></ResponseFilterValue>
+		<SearchedGrp><![CDATA[//div[contains(@id, 'parent_id_chzn')]/div/ul/li[*]/em[contains(text(), 'Randy Test Group')]]]></SearchedGrp>
+		<SourceDropDownIcon><![CDATA[//div[@id='external_feed_filter_chzn']//span[contains(text(),'Select a Source')]]]></SourceDropDownIcon>
+		<Sources><![CDATA[//div[@id='external_feed_filter_chzn']/div/ul/li]]></Sources>
+		<GoToSite><![CDATA[//a[@title='Go to site']]]></GoToSite>
+		<ViewPopup>
+			<Title><![CDATA[//div[@class='content']//h4]]></Title>
+			<ReviewDate><![CDATA[//div/strong[contains(text(), 'Review Date')]/../text()]]></ReviewDate>
+			<Reviewer><![CDATA[//div/strong[contains(text(), 'Reviewer:')]/../text()]]></Reviewer>
+			<ReasonForVisit><![CDATA[//div/strong[contains(text(), 'Reason for Visit:')]/../text()]]></ReasonForVisit>
+			<Sentiment><![CDATA[//div/strong[contains(text(), 'Sentiment:')]/../text()]]></Sentiment>
+			<Comments><![CDATA[//div]]></Comments>
+			<ResponseDate><![CDATA[//div/strong[contains(text(), 'Date:')]/../text()]]></ResponseDate>
+			<ResponseUser><![CDATA[//div/strong[contains(text(), 'User:')]/../text()]]></ResponseUser>
+			<ResponseComments><![CDATA[//div[@class='content']//h6/../../..//div//strong[contains(text(), 'Comments:')]/../../div/text()]]></ResponseComments>
+			<Close><![CDATA[//img[@class='close_image']]]></Close>
+		</ViewPopup>
+	</ExternalFeed>
+	
+	<InternalFeed>
+		<Row><![CDATA[//tbody[@id='dashboard-internal-reviews']/tr]]></Row>
+		<RatingSortIcon><![CDATA[//a[contains(@href, 'rating')]/span[contains(text(), 'Rating')]/../span[2]]]></RatingSortIcon>
+		<CustomerName><![CDATA[//td[2]/div[1]/u/strong]]></CustomerName>
+		<SurveyName><![CDATA[//td[2]/div[1]/u]]></SurveyName>
+		<Description><![CDATA[//td[2]/div[2]]]></Description>
+		<AccountName><![CDATA[//td[2]/div[4]/strong/a]]></AccountName>
+		<ViewPopup>
+			<FirstName><![CDATA[//div[@id='facebox']//tr[2]/td[1]/strong[contains(text(),'First name')]]]></FirstName>
+			<LastName><![CDATA[//div[@id='facebox']//tr[3]/td[1]/strong[contains(text(), 'Last name')]]]></LastName>
+			<Email><![CDATA[//td/strong[contains(text(), 'Email')]/../../td/p]]></Email>
+			<SurveyStartDate><![CDATA[//td/strong[contains(text(), 'Survey start date')]/../../td/p]]></SurveyStartDate>
+			<SurveyCompleteDate><![CDATA[//td/strong[contains(text(), 'Survey complete date')]/../../td/p]]></SurveyCompleteDate>
+			<Close><![CDATA[//img[@class='close_image']]]></Close>
+		</ViewPopup>
+	</InternalFeed>
+	
+	<Summary>
+		<NoOfReviewBySite><![CDATA[//div/h1[contains(text(), 'Reviews by Site')]/..//table/tbody/tr]]></NoOfReviewBySite>
+	</Summary>
+	
+	<Reports>
+	  <GroupList><![CDATA[//span[contains(text(),'Choose a Group')]]]></GroupList>
+	  <GroupCount><![CDATA[//div[@id='group_id_chzn']/div/ul/li]]></GroupCount>
+	  <GroupName><![CDATA[//form[@action='/enterprise/reports']/div[2]//ul/li[contains(text(),'Randy Test Group')]]]></GroupName>
+	  <ReportListCount><![CDATA[//div[@id='report_chzn']/div/ul/li]]></ReportListCount>
+	  <ReportList><![CDATA[//span[contains(text(),'Select a report type')]]]></ReportList>
+	  <Report><![CDATA[//form[@action='/enterprise/reports']/div[3]//ul/li[contains(text(),'Review And Response - Items')]]]></Report>
+	  <Submitbutton><![CDATA[//input[@value='Submit']]]></Submitbutton>
+	  <CsvButton><![CDATA[//input[@value='CSV']]]></CsvButton>
+	  <DealerCodeCol><![CDATA[//span[contains(text(),'Dealer Code')]]]></DealerCodeCol>
+	  <DealerNameCol><![CDATA[//span[contains(text(),'Dealer Name')]]]></DealerNameCol>
+	  <SiteNameCol><![CDATA[//span[contains(text(),'Site Name')]]]></SiteNameCol>
+	  <RatingCol><![CDATA[//span[contains(text(),'Rating')]]]></RatingCol>
+	  <TitleCol><![CDATA[//span[contains(text(),'Title')]]]></TitleCol>
+	  <ReviewCol><![CDATA[//span[contains(text(),'Review')]]]></ReviewCol>
+	  <ResponseCol><![CDATA[//span[contains(text(),'Response')]]]></ResponseCol>
+	  <DateCol><![CDATA[//span[contains(text(),'Date')]]]></DateCol>
+	  <DealerNameCol><![CDATA[//span[contains(text(),'Dealer Name')]]]></DealerNameCol>
+	  <Row><![CDATA[//table[contains(@class,'table table-condensed')]/tbody/tr]]></Row>>
+	</Reports>
+	
+	<ResponsePenetrationDashboard>
+	    <GroupList><![CDATA[//div[@id='response_penetration_parent_id_chzn']/a/span]]></GroupList>
+	    <DropDownIcon><![CDATA[//a[contains(@id,'selected-interval')]/span[@class='caret']]]></DropDownIcon>
+		<Monthly><![CDATA[//a[@data-interval='month']]]></Monthly>
+		<Weekly><![CDATA[//a[contains(text(),'Weekly')]]]></Weekly>
+		<Daily><![CDATA[//a[contains(text(),'Daily')]]]></Daily>
+		<ResponseRateStatistics><![CDATA[//h5[contains(text(),'Response Rate Statistics')]]]></ResponseRateStatistics>
+		<ResponsePenetrationRate><![CDATA[//h5[contains(text(),'Response Penetration Rate')]]]></ResponsePenetrationRate>
+		<ResponseRateSite><![CDATA[//h5[contains(text(),'Response Rate by Site')]]]></ResponseRateSite>
+		<ResponsePenetrationRate><![CDATA[//div[@id='response_penetration']/div/div[2]/div[1]//h5[contains(text(),'Response Penetration Rate')]]]></ResponsePenetrationRate>
+		<ResponseRateSite><![CDATA[//h5[contains(text(),'Response Rate by Site')]]]></ResponseRateSite>
+		<ResponsePenetrationRateposNeg><![CDATA[//h5[contains(text(),'Response Penetration Rate (Positive & Negative)')]]]></ResponsePenetrationRateposNeg>
+		<ResponseTimeStatistics><![CDATA[//h5[contains(text(),'Response Time Statistics')]]]></ResponseTimeStatistics>
+		<AverageResponseTimeDays><![CDATA[//h5[contains(text(),'Average Response Time (Days)')]]]></AverageResponseTimeDays>
+		<RandyTestGroup><![CDATA[//span[contains(text(),'Randy Test Group')]]]></RandyTestGroup>
+		<PdfButton><![CDATA[//a[@id='pdf-url']]]></PdfButton>
+	</ResponsePenetrationDashboard>
+	
+</Locators>

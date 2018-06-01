@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Mark_As_Favorites"
+	annotations="JDK">
+	<test name="Mark_As_Favorites" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Social.Mark_As_Favorites" />
+		</classes>
+	</test>
+</suite> 
+

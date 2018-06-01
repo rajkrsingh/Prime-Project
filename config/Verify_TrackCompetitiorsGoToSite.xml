@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Verify_TrackCompetitiorsGoToSite"
+	annotations="JDK">
+	<test name="Verify_TrackCompetitiorsGoToSite" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Track.Verify_TrackCompetitiorsGoToSite" />
+		</classes>
+	</test>
+</suite>
+
+

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+	<Accounts>
+		<AccountsHeader><![CDATA[//ul[@class='nav']/li[2]/a[contains(text(),'Accounts')]]]></AccountsHeader>
+		<AccountsList><![CDATA[//li[@class='dropdown active open']/ul/li]]></AccountsList>
+		<SearchForAccount><![CDATA[//input[@id='account_search']]]></SearchForAccount>
+		<PageCount><![CDATA[//div[@class='flickr_pagination']/a]]></PageCount>
+		<Next><![CDATA[//a[@class='next_page']]]></Next>
+		<RowCount><![CDATA[//table/tbody[@id='account_index']/tr]]></RowCount>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		<SearchAccount><![CDATA[//div[@class='container_24 clearfix']//input[@id='account_search']]]></SearchAccount>
+		<NewAccount><![CDATA[//a[@class='link_new']]]></NewAccount>
+		<AccountInformation><![CDATA[//a[contains(text(),'Account Information')]]]></AccountInformation>
+		<OfficialProfile><![CDATA[//a[contains(text(),'Official Profile')]]]></OfficialProfile>
+		<Users><![CDATA[//a[contains(text(),'Users')]]]></Users>
+		<Contacts><![CDATA[//a[contains(text(),'Contacts')]]]></Contacts>
+		<Employees><![CDATA[//a[contains(text(),'Employees')]]]></Employees>
+		<AccessKeys><![CDATA[//a[contains(text(),'Access Keys')]]]></AccessKeys>
+		<AdminSettings><![CDATA[//a[contains(text(),'Admin Settings')]]]></AdminSettings>
+		<DeleteButton><![CDATA[//img[@title="Remove"]]]></DeleteButton>
+		<LoginIcon><![CDATA[//a[@title='Login to account']/img]]></LoginIcon>
+		<Logout><![CDATA[//a[@id='application-logout']]]></Logout>
+		<CreatedSortIcon><![CDATA[//span[contains(text(), 'Created')]/../span[2]]]></CreatedSortIcon>
+		<AgeSortingIcon><![CDATA[//div[@id='data-wiselinks-container']//th[4]/a/span[2]]]></AgeSortingIcon>
+		<AgeColumnValue><![CDATA[//tbody[@id='account_index']/tr/td[4]]]></AgeColumnValue>
+		<ABCFordName><![CDATA[//td[contains(text(),'ABC Ford')]]]></ABCFordName>
+		<ABCFordAddress><![CDATA[//div[contains(text(),'480 Pleasant Street')]]]></ABCFordAddress>
+		<ABCFordCreatedDate><![CDATA[//td[contains(text(),'02/23/11')]]]></ABCFordCreatedDate>
+		<SocialPostsPerWeek><![CDATA[account_social_posts_per_week]]></SocialPostsPerWeek>
+		<SupportCallsPerMonth><![CDATA[account_support_calls_per_month]]></SupportCallsPerMonth>
+		<NameCol><![CDATA[//span[contains(text(),'Name')]]]></NameCol>
+		<UserDropDown><![CDATA[//a[@id='user-dropdown-link']//div[2][@class='prime-sprite arrow-down-large-grey inline-block']]]></UserDropDown>
+		<AccountIcon><![CDATA[//span[@id='account-select-arrow']]]></AccountIcon>
+		<AccountList><![CDATA[//div[@id='account-search-results']/li]]></AccountList>
+		
+		<AccountsInformation>
+			<Name><![CDATA[//li[@id='account_name_input']/input[@id='account_name']]]></Name>
+			<Address1><![CDATA[//input[@id='account_addresses_attributes_0_address_1']]]></Address1>
+			<Address2><![CDATA[//input[@id='account_addresses_attributes_0_address_2']]]></Address2>
+			<ZipCode><![CDATA[//input[@id='account_addresses_attributes_0_zip_code']]]></ZipCode>
+			<ZipCodeClick><![CDATA[//div[3]/ul/li[1]]]></ZipCodeClick>
+			<VerticalSelect><![CDATA[//div[@id='account_vertical_id_chzn']/a/span[contains(text(),'Select an Option')]]]></VerticalSelect>
+			<VerticalListValue><![CDATA[//ul[@class='chzn-results']//li[contains(text( ),'Hotels')]]]></VerticalListValue>
+			<!--   <TrackerPackages><![CDATA[//*[@id='account_package_id_chzn']/a]]></TrackerPackages> -->
+			<TrackerPackages><![CDATA[//li[contains(@id,'account_package_ids_chzn')]]]></TrackerPackages>
+			<!-- <TrackerPackagesList><![CDATA[//div[@id='account_package_id_chzn']//li]]></TrackerPackagesList> -->
+			<TrackerPackagesList><![CDATA[//div[@id='account_package_ids_chzn']//li[contains(@id,'account_package_ids_chzn')]]]></TrackerPackagesList>
+			<City><![CDATA[//input[@id='account_addresses_attributes_0_city']]]></City>
+			<State><![CDATA[//select[@id='account_addresses_attributes_0_state']/option[contains(text(),'NY')]]]></State>
+			<TimeZone><![CDATA[//div[@id='user_time_zone_chzn']/a/span]]></TimeZone>
+			<TotalState><![CDATA[//select[@id='account_addresses_attributes_0_state']/option]]></TotalState>
+			<ApplicationProductList><![CDATA[//div[@id='account_application_product_ids_chzn']//div[@class='chzn-drop']//li]]></ApplicationProductList>
+			<ClickProductList><![CDATA[//div[@id='account_application_product_ids_chzn']//input[@value='Select Some Options']]]></ClickProductList>>
+		</AccountsInformation>
+
+		<OfficialProfile>
+		    <BusinessName><![CDATA[account_official_profile_attributes_business_name]]></BusinessName>
+			<LocalNumber><![CDATA[//input[@id='account_official_profile_attributes_local_number']]]></LocalNumber>
+			<Category1><![CDATA[//div[@id='account_official_profile_attributes_category_1_chzn']/a/span]]></Category1>
+			<SelectCatgory1Option><![CDATA[//li[@id='account_official_profile_attributes_category_1_chzn_o_2']]]></SelectCatgory1Option>
+			<Email><![CDATA[//input[@id='account_official_profile_attributes_email']]]></Email>
+			<Brands><![CDATA[//input[@id='account_official_profile_attributes_brands']]]></Brands>
+			<Products><![CDATA[//input[@id='account_official_profile_attributes_products']]]></Products>
+			<SubmitButton><![CDATA[//input[@value='Update Account']]]></SubmitButton>
+		</OfficialProfile>
+
+		<Contacts>
+			<NewContactsLink><![CDATA[//a[@class='link_new']]]></NewContactsLink>
+			<FirstName><![CDATA[//input[@id='contact_first_name']]]></FirstName>
+			<LastName><![CDATA[//input[@id='contact_last_name']]]></LastName>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</Contacts>
+
+		<Employees>
+			<NewEmployeeLink><![CDATA[//a[contains(text(),'New Employee')]]]></NewEmployeeLink>
+			<FirstName><![CDATA[//input[@id='employee_first_name']]]></FirstName>
+			<Email><![CDATA[//input[@id='employee_email']]]></Email>
+			<EmployeeNumber><![CDATA[//input[@id='employee_employee_number']]]></EmployeeNumber>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</Employees>
+
+		<AccessKeys>
+			<AcessKeysButton><![CDATA[//a[contains(text(),'New Access Key')]]]></AcessKeysButton>
+			<EnterUniqueKey><![CDATA[//input[@id='access_key_key']]]></EnterUniqueKey>
+			<ActionsAllButton><![CDATA[//form[@id='new_access_key']//div/table/tbody/tr/td[2]/a[contains(text(),'All')]]]></ActionsAllButton>
+			<DeleteButton><![CDATA[//a[2][@class='btn btn-danger']/i]]></DeleteButton>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</AccessKeys>
+
+		<Users>
+			<Row><![CDATA[//div[@class='table']/table/tbody/tr]]></Row>
+			<FirstName><![CDATA[//div[@id='profile-tab']/table/tbody/tr[1]/td[2]]]></FirstName>
+			<LastName><![CDATA[//div[@id='profile-tab']/table/tbody/tr[2]/td[2]]]></LastName>
+			<Email><![CDATA[//div[@id='profile-tab']/table/tbody/tr[3]/td[2]]]></Email>
+			<Employed><![CDATA[//input[@checked='checked']]]></Employed>
+			<EmployeeCheckBox><![CDATA[//input[@id='accounts_user_employee']]]></EmployeeCheckBox>
+			<BackLink><![CDATA[//a[contains(text(),'Back')]]]></BackLink>
+		</Users>
+
+		<AdminSettings>
+			<AccountTypes><![CDATA[//li[contains(@id,'account_account_type_ids')]/span[contains(text(),'Demo')]]]></AccountTypes>
+			<Groups><![CDATA[//div[@id='account_group_ids__chzn']/ul/li/input[contains(@value,'Select Some Options')]]]></Groups>
+			<GroupsList><![CDATA[//li[contains(@id,'account_group_ids__chzn_o_1')]]]></GroupsList>
+			<AdminNotes><![CDATA[account_admin_notes]]></AdminNotes>
+			<HeaderAdminNotes><![CDATA[//div[@id='header']//p[@class='admin-notes']]]></HeaderAdminNotes>
+			<ABServiceCID><![CDATA[//input[@id='account_account_native_ids_attributes_5_value']]]></ABServiceCID>
+			<AccountText><![CDATA[//input[@id='account_name']]]></AccountText>
+			<SelectAccount><![CDATA[//strong[contains(text(),'ABC Ford')]]]></SelectAccount>
+			<IvmCvdInventoryDealerLotKey><![CDATA[//input[@id='account_account_native_ids_attributes_4_value']]]></IvmCvdInventoryDealerLotKey>
+			<ABCAccountName><![CDATA[//strong[contains(text(),'Currently logged into')]/span]]></ABCAccountName>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</AdminSettings>
+
+		<GreatPlainsContracts>
+			<NewButton><![CDATA[//a[contains(text(),'New')]]]></NewButton>
+			<ContractNumberTextField><![CDATA[//input[@id='great_plains_contract_contract_number']]]></ContractNumberTextField>
+			<ActivationDateTextField><![CDATA[//input[@id='great_plains_contract_activation_date']]]></ActivationDateTextField>
+			<DeactivationDateTextField><![CDATA[//input[@id='great_plains_contract_deactivation_date']]]></DeactivationDateTextField>
+			<GreatPlainsProductDropDown><![CDATA[//div[@id='great_plains_contract_great_plains_product_id_chzn']//b]]></GreatPlainsProductDropDown>
+			<TotalListCount><![CDATA[//ul[@class='chzn-results']/li]]></TotalListCount>
+			<RowCount><![CDATA[//tbody[@class='great-plains-contracts-body']/tr]]></RowCount>
+			<NewTitle><![CDATA[//li[contains(text(),'New')]]]></NewTitle>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</GreatPlainsContracts>
+	</Accounts>
+</Locators>

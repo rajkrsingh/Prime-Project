@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Create_TrackingUrls"
+	annotations="JDK">
+	<test name="Create_TrackingUrls" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Web.Create_TrackingUrls" />
+		</classes>
+	</test>
+</suite> 
+

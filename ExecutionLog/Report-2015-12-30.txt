@@ -1,0 +1,306 @@
+
+*****************************************************************************
+Dec 30,2015 14:47:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_ActiveCheckBoxAtTrackSettings and Test method testVerify_ActiveCheckBoxAtTrackSettings
+*****************************************************************************
+Dec 30,2015 14:47:44 [info]  open application giturl
+Dec 30,2015 14:51:17 [info]  log-in into application
+Dec 30,2015 14:51:18 [info]  Select Selenium Test Account if not selected
+Dec 30,2015 14:51:33 [info]  Go to Settings>Track Listeners
+Dec 30,2015 14:52:42 [info]  Verify uncheck ACTIVE check box on Settings>Track listeners page
+Dec 30,2015 14:52:54 [info]  Go to Track > External Feed
+Dec 30,2015 14:52:54 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_ActiveCheckBoxAtTrackSettings
+*****************************************************************************
+
+*****************************************************************************
+Dec 30,2015 14:55:23 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Dec 30,2015 15:07:35 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Dec 30,2015 15:13:26 [info]  open application giturl
+Dec 30,2015 15:13:58 [info]  log-in into application
+Dec 30,2015 15:13:59 [info]  Select Selenium Test Ford Account if not selected
+Dec 30,2015 15:14:13 [info]  Go to Settings > Social Integration
+Dec 30,2015 15:19:39 [info]  Dec 30,2015 15:19:39 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://input[@id='Passwd'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:258)
+	at com.primeresponse.pagehelper.SettingHelper.verify_GoogleAnalyticsIntegrations(SettingHelper.java:303)
+	at com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations.testVerify_GoogleAnalyticsIntegrations(Verify_GoogleAnalyticsIntegrations.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 30,2015 15:19:39 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Dec 30,2015 15:48:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Dec 30,2015 15:53:51 [info]  open application giturl
+Dec 30,2015 15:54:28 [info]  log-in into application
+Dec 30,2015 15:54:28 [info]  Select Selenium Test Ford Account if not selected
+Dec 30,2015 15:54:42 [info]  Go to Settings > Social Integration
+Dec 30,2015 16:00:06 [info]  Dec 30,2015 16:00:06 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://input[@id='Passwd'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:258)
+	at com.primeresponse.pagehelper.SettingHelper.verify_GoogleAnalyticsIntegrations(SettingHelper.java:303)
+	at com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations.testVerify_GoogleAnalyticsIntegrations(Verify_GoogleAnalyticsIntegrations.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 30,2015 16:00:06 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Dec 30,2015 16:12:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Dec 30,2015 16:17:04 [info]  open application giturl
+Dec 30,2015 16:17:29 [info]  log-in into application
+Dec 30,2015 16:17:30 [info]  Select Selenium Test Ford Account if not selected
+Dec 30,2015 16:17:40 [info]  Go to Settings > Social Integration
+Dec 30,2015 16:17:55 [info]  Dec 30,2015 16:17:55 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.15 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.3.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 0e7d076a-f87b-45ba-9ac0-9c5479fe4e66
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=42.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.SettingHelper.verify_GoogleAnalyticsIntegrations(SettingHelper.java:307)
+	at com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations.testVerify_GoogleAnalyticsIntegrations(Verify_GoogleAnalyticsIntegrations.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.3.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous4453481930103946757webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous4453481930103946757webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous4453481930103946757webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous4453481930103946757webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Dec 30,2015 16:17:55 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Dec 30,2015 16:29:17 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Dec 30,2015 16:32:21 [info]  open application giturl
+Dec 30,2015 16:32:43 [info]  log-in into application
+Dec 30,2015 16:32:43 [info]  Select Selenium Test Ford Account if not selected
+Dec 30,2015 16:32:53 [info]  Go to Settings > Social Integration
+Dec 30,2015 16:33:09 [info]  Dec 30,2015 16:33:09 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.16 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.3.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: cfb55087-4e68-4bd4-9ba3-f50b24c186af
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=42.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.SettingHelper.verify_GoogleAnalyticsIntegrations(SettingHelper.java:307)
+	at com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations.testVerify_GoogleAnalyticsIntegrations(Verify_GoogleAnalyticsIntegrations.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.3.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous3080145539036391177webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous3080145539036391177webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous3080145539036391177webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous3080145539036391177webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Dec 30,2015 16:33:09 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Dec 30,2015 16:38:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Dec 30,2015 16:41:01 [info]  open application giturl
+Dec 30,2015 16:41:22 [info]  log-in into application
+Dec 30,2015 16:41:22 [info]  Select Selenium Test Ford Account if not selected
+Dec 30,2015 16:41:46 [info]  Go to Settings > Social Integration
+
+*****************************************************************************
+Dec 30,2015 16:43:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Dec 30,2015 16:45:27 [info]  open application giturl
+Dec 30,2015 16:45:44 [info]  log-in into application
+Dec 30,2015 16:45:45 [info]  Select Selenium Test Ford Account if not selected
+Dec 30,2015 16:45:53 [info]  Go to Settings > Social Integration
+Dec 30,2015 16:46:08 [info]  Dec 30,2015 16:46:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.04 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.3.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 54c29885-6628-4f03-bd84-eda8087b3748
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=42.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.SettingHelper.verify_GoogleAnalyticsIntegrations(SettingHelper.java:313)
+	at com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations.testVerify_GoogleAnalyticsIntegrations(Verify_GoogleAnalyticsIntegrations.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.3.41', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7594089674676294079webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7594089674676294079webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7594089674676294079webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7594089674676294079webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Dec 30,2015 16:46:08 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Dec 30,2015 16:48:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Dec 30,2015 16:50:33 [info]  open application giturl
+Dec 30,2015 16:50:55 [info]  log-in into application
+Dec 30,2015 16:50:56 [info]  Select Selenium Test Ford Account if not selected
+Dec 30,2015 16:51:05 [info]  Go to Settings > Social Integration
+Dec 30,2015 16:51:27 [info]  Integrate Accounts with Google Analytics and verify that account is showing OFF by default.
+Dec 30,2015 16:51:27 [info]  success message
+Dec 30,2015 16:51:27 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************

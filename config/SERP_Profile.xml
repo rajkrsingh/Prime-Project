@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="SERP_Profile"
+	annotations="JDK">
+	<test name="SERP_Profile" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Profile.SERP_Profile" />
+		</classes>
+	</test>
+</suite> 
+

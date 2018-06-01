@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Copy_Survey"
+	annotations="JDK">
+	<test name="Copy_Survey" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Influence.Copy_Survey"/>
+		</classes>
+	</test>
+</suite> 

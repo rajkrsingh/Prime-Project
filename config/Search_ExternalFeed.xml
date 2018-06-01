@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Search_ExternalFeed"
+	annotations="JDK">
+	<test name="Search_ExternalFeed" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Track.Search_ExternalFeed" />
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Check_Redirect_Counts"
+	annotations="JDK">
+	<test name="Check_Redirect_Counts" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Influence.Check_Redirect_Counts"/>
+		</classes>
+	</test>
+</suite> 
+

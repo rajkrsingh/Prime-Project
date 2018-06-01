@@ -1,0 +1,352 @@
+
+*****************************************************************************
+Oct 28,2016 14:35:31 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Create_GoogleCampaigns and Test method testCreate_GoogleCampaigns
+*****************************************************************************
+Oct 28,2016 14:35:45 [info]  open application giturl
+Oct 28,2016 14:37:14 [info]  log-in into application
+Oct 28,2016 14:37:14 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 14:37:25 [info]  Go to Web > Google Campaigns
+Oct 28,2016 14:37:40 [info]  Verify process to create 'Google Campaigns
+Oct 28,2016 14:39:47 [info]  Oct 28,2016 14:39:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Web.Create_GoogleCampaigns.testCreate_GoogleCampaigns(Create_GoogleCampaigns.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 28,2016 14:39:47 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Create_GoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 14:42:42 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Create_GoogleCampaigns and Test method testCreate_GoogleCampaigns
+*****************************************************************************
+Oct 28,2016 14:42:55 [info]  open application giturl
+Oct 28,2016 14:44:38 [info]  log-in into application
+Oct 28,2016 14:44:38 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 14:44:50 [info]  Go to Web > Google Campaigns
+Oct 28,2016 14:45:06 [info]  Verify process to create 'Google Campaigns
+Oct 28,2016 14:45:06 [info]  success message
+Oct 28,2016 14:45:06 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Create_GoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 14:50:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Create_LandingPages and Test method testCreate_LandingPages
+*****************************************************************************
+Oct 28,2016 14:50:26 [info]  open application giturl
+Oct 28,2016 14:52:18 [info]  log-in into application
+Oct 28,2016 14:52:18 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 14:52:30 [info]  Go to Web > Landing Pages
+Oct 28,2016 14:57:39 [info]  Oct 28,2016 14:57:39 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(),'New Landing Page')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.WebHelper.create_LandingPages(WebHelper.java:243)
+	at com.primeresponse.testcases.Web.Create_LandingPages.testCreate_LandingPages(Create_LandingPages.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 28,2016 14:57:39 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Create_LandingPages
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 15:03:00 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Create_LandingPages and Test method testCreate_LandingPages
+*****************************************************************************
+Oct 28,2016 15:03:17 [info]  open application giturl
+Oct 28,2016 15:04:42 [info]  log-in into application
+Oct 28,2016 15:04:42 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 15:04:54 [info]  Go to Web > Landing Pages
+Oct 28,2016 15:05:12 [info]  Verify process to create 'Landing Pages'
+Oct 28,2016 15:05:13 [info]  success message
+Oct 28,2016 15:05:13 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Create_LandingPages
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 15:07:36 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Create_TrackingUrls and Test method testCreate_TrackingUrls
+*****************************************************************************
+Oct 28,2016 15:07:48 [info]  open application giturl
+Oct 28,2016 15:09:08 [info]  log-in into application
+Oct 28,2016 15:09:08 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 15:09:20 [info]  Go to Web > Tracking URLs
+
+*****************************************************************************
+Oct 28,2016 15:13:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Create_TrackingUrls and Test method testCreate_TrackingUrls
+*****************************************************************************
+Oct 28,2016 15:13:18 [info]  open application giturl
+Oct 28,2016 15:15:02 [info]  log-in into application
+Oct 28,2016 15:15:13 [info]  Go to Web > Tracking URLs
+Oct 28,2016 15:15:28 [info]  Verify process to create 'Tracking URLs'
+Oct 28,2016 15:15:29 [info]  success message
+Oct 28,2016 15:15:29 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Create_TrackingUrls
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 15:18:53 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Delete_LandingPages and Test method testDelete_LandingPages
+*****************************************************************************
+Oct 28,2016 15:19:03 [info]  open application giturl
+Oct 28,2016 15:20:31 [info]  log-in into application
+Oct 28,2016 15:25:42 [info]  Oct 28,2016 15:25:42 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@class='ac_even ac_over']/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.LoginHelper.selectAccount(LoginHelper.java:49)
+	at com.primeresponse.util.DriverTestCase.selectAccount(DriverTestCase.java:122)
+	at com.primeresponse.testcases.Web.Delete_LandingPages.testDelete_LandingPages(Delete_LandingPages.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 28,2016 15:25:42 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Delete_LandingPages
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 15:31:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Delete_LandingPages and Test method testDelete_LandingPages
+*****************************************************************************
+Oct 28,2016 15:31:36 [info]  open application giturl
+Oct 28,2016 15:33:05 [info]  log-in into application
+Oct 28,2016 15:33:15 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 15:33:27 [info]  Go to Web > Landing Pages
+Oct 28,2016 15:33:28 [info]  Verify process to delete 'Landing Pages
+Oct 28,2016 15:35:34 [info]  Oct 28,2016 15:35:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Web.Delete_LandingPages.testDelete_LandingPages(Delete_LandingPages.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 28,2016 15:35:34 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Delete_LandingPages
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 15:52:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Delete_LandingPages and Test method testDelete_LandingPages
+*****************************************************************************
+Oct 28,2016 15:53:03 [info]  open application giturl
+Oct 28,2016 15:54:49 [info]  log-in into application
+Oct 28,2016 15:54:49 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 15:55:01 [info]  Go to Web > Landing Pages
+Oct 28,2016 15:55:02 [info]  Verify process to delete 'Landing Pages
+Oct 28,2016 15:57:09 [info]  Oct 28,2016 15:57:09 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Web.Delete_LandingPages.testDelete_LandingPages(Delete_LandingPages.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 28,2016 15:57:09 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Delete_LandingPages
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 16:12:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Delete_LandingPages and Test method testDelete_LandingPages
+*****************************************************************************
+Oct 28,2016 16:12:20 [info]  open application giturl
+Oct 28,2016 16:13:41 [info]  log-in into application
+Oct 28,2016 16:13:42 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 16:13:53 [info]  Go to Web > Landing Pages
+Oct 28,2016 16:13:53 [info]  Verify process to delete 'Landing Pages
+Oct 28,2016 16:16:00 [info]  Oct 28,2016 16:16:00 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Web.Delete_LandingPages.testDelete_LandingPages(Delete_LandingPages.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 28,2016 16:16:00 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Delete_LandingPages
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 16:19:30 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Delete_LandingPages and Test method testDelete_LandingPages
+*****************************************************************************
+Oct 28,2016 16:19:39 [info]  open application giturl
+Oct 28,2016 16:21:00 [info]  log-in into application
+Oct 28,2016 16:21:00 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 16:21:12 [info]  Go to Web > Landing Pages
+Oct 28,2016 16:21:16 [info]  Verify process to delete 'Landing Pages
+Oct 28,2016 16:21:23 [info]  success message
+Oct 28,2016 16:21:23 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Delete_LandingPages
+*****************************************************************************
+
+*****************************************************************************
+Oct 28,2016 16:41:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Filter_CampaignReport and Test method testFilter_CampaignReport
+*****************************************************************************
+Oct 28,2016 16:42:00 [info]  open application giturl
+Oct 28,2016 16:43:52 [info]  log-in into application
+Oct 28,2016 16:43:52 [info]  Select Selenium Test Account if not selected
+Oct 28,2016 16:44:04 [info]  Go to Web > Campaigns REport
+Oct 28,2016 16:47:36 [info]  Oct 28,2016 16:47:36 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='google_campaign_id_chzn']//b Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.WebHelper.filter_CampaignReport(WebHelper.java:870)
+	at com.primeresponse.testcases.Web.Filter_CampaignReport.testFilter_CampaignReport(Filter_CampaignReport.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 28,2016 16:47:36 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Filter_CampaignReport
+*****************************************************************************

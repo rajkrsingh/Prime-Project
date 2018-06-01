@@ -1,0 +1,1534 @@
+
+*****************************************************************************
+Jul 20,2016 10:29:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Check_Redirect_Counts and Test method testCheck_Redirect_Counts
+*****************************************************************************
+Jul 20,2016 10:30:18 [info]  open application giturl
+Jul 20,2016 10:33:15 [info]  log-in into application
+Jul 20,2016 10:33:15 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 10:33:26 [info]  Go to Influence > Redirects
+Jul 20,2016 10:34:11 [info]  Verify Redirect details which have been created in Add_Redirect scripts
+Jul 20,2016 10:36:10 [info]  Jul 20,2016 10:36:10 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://tbody/tr[5]/td[1]/div/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.clickonLabel(InfluenceHelper.java:574)
+	at com.primeresponse.testcases.Influence.Check_Redirect_Counts.testCheck_Redirect_Counts(Check_Redirect_Counts.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 10:36:10 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Check_Redirect_Counts
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 10:40:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Check_Redirect_Counts and Test method testCheck_Redirect_Counts
+*****************************************************************************
+Jul 20,2016 10:41:06 [info]  open application giturl
+Jul 20,2016 10:44:28 [info]  log-in into application
+Jul 20,2016 10:44:28 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 10:44:40 [info]  Go to Influence > Redirects
+Jul 20,2016 10:45:26 [info]  Verify Redirect details which have been created in Add_Redirect scripts
+Jul 20,2016 10:46:05 [info]  Click on label 6 times
+Jul 20,2016 10:46:11 [info]  Check total count should be equal to 6
+Jul 20,2016 10:46:11 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Check_Redirect_Counts
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 11:09:47 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Copy_Survey and Test method testCopy_Survey
+*****************************************************************************
+Jul 20,2016 11:10:01 [info]  open application giturl
+Jul 20,2016 11:10:59 [info]  log-in into application
+Jul 20,2016 11:11:00 [info]  Select Selenium Test account if not selected
+Jul 20,2016 11:16:19 [info]  Jul 20,2016 11:16:19 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://tbody/tr/td[contains(text(),'Survey was copied successfully as Testing copy')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.copySurvey(InfluenceHelper.java:687)
+	at com.primeresponse.testcases.Influence.Copy_Survey.testCopy_Survey(Copy_Survey.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 11:16:19 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Copy_Survey
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 11:18:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_NewCampaign and Test method testCreate_NewCampaign
+*****************************************************************************
+Jul 20,2016 11:18:20 [info]  open application giturl
+Jul 20,2016 11:19:11 [info]  log-in into application
+Jul 20,2016 11:19:11 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 11:19:17 [info]  click on create new campaign link
+Jul 20,2016 11:19:48 [info]  Enter basic campaigns details
+Jul 20,2016 11:20:00 [info]  Select a sender
+Jul 20,2016 11:20:14 [info]  Select a recipients and verify preview list
+Jul 20,2016 11:20:26 [info]  Schedule the campaigns
+Jul 20,2016 11:20:38 [info]  Select Template
+Jul 20,2016 11:24:03 [info]  Enter campaign body contents
+Jul 20,2016 11:27:16 [info]  Click on send button
+Jul 20,2016 11:27:17 [info]  success message
+Jul 20,2016 11:27:17 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Create_NewCampaign
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 11:27:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_Survey and Test method testCreate_Survey
+*****************************************************************************
+Jul 20,2016 11:28:14 [info]  open application giturl
+Jul 20,2016 11:28:47 [info]  log-in into application
+Jul 20,2016 11:28:48 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 11:28:53 [info]  click on create new Survey link
+Jul 20,2016 11:32:18 [info]  Enter Surveys Details
+Jul 20,2016 11:32:20 [info]  success message
+Jul 20,2016 11:32:20 [info]  Verify the notification when no question provided
+Jul 20,2016 11:34:22 [info]  Check visibility of question popup
+Jul 20,2016 11:34:22 [info]  Verify the notification when no question provided
+Jul 20,2016 11:34:24 [info]  Add 5 Star question with Overall category 
+Jul 20,2016 11:36:27 [info]  Check visibility of another question popup
+Jul 20,2016 11:36:29 [info]  Add Long Text question with Customer Service category  
+
+*****************************************************************************
+Jul 20,2016 11:45:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_Survey and Test method testCreate_Survey
+*****************************************************************************
+Jul 20,2016 11:45:21 [info]  open application giturl
+Jul 20,2016 11:45:49 [info]  log-in into application
+Jul 20,2016 11:45:49 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 11:45:55 [info]  click on create new Survey link
+Jul 20,2016 11:49:21 [info]  Enter Surveys Details
+Jul 20,2016 11:49:22 [info]  success message
+Jul 20,2016 11:49:23 [info]  Verify the notification when no question provided
+
+*****************************************************************************
+Jul 20,2016 11:50:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_Survey and Test method testCreate_Survey
+*****************************************************************************
+Jul 20,2016 11:50:50 [info]  open application giturl
+Jul 20,2016 11:52:37 [info]  log-in into application
+Jul 20,2016 11:52:37 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 11:52:44 [info]  click on create new Survey link
+Jul 20,2016 11:56:10 [info]  Enter Surveys Details
+Jul 20,2016 11:56:11 [info]  success message
+Jul 20,2016 11:56:12 [info]  Verify the notification when no question provided
+Jul 20,2016 11:58:14 [info]  Check visibility of question popup
+Jul 20,2016 11:58:14 [info]  Verify the notification when no question provided
+Jul 20,2016 11:58:16 [info]  Add 5 Star question with Overall category 
+Jul 20,2016 12:00:18 [info]  Check visibility of another question popup
+Jul 20,2016 12:00:19 [info]  Add Long Text question with Customer Service category  
+Jul 20,2016 12:02:22 [info]  Check visibility of another question popup
+Jul 20,2016 12:02:24 [info]  Add Short Text question with Customer Service category 
+Jul 20,2016 12:04:26 [info]  Check visibility of another question popup
+Jul 20,2016 12:04:28 [info]  Add Single Select question with Customer Service category 
+Jul 20,2016 12:06:30 [info]  Check visibility of answer popup
+Jul 20,2016 12:06:30 [info]  check message Question was successfully created. Now add an answer.
+Jul 20,2016 12:06:31 [info]  Add answer of Single Select Question  
+Jul 20,2016 12:06:31 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Create_Survey
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 12:13:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Campaign and Test method testDelete_Campaign
+*****************************************************************************
+Jul 20,2016 12:13:11 [info]  open application giturl
+Jul 20,2016 12:14:10 [info]  log-in into application
+Jul 20,2016 12:14:10 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 12:14:23 [info]  Go to Ifluence > Campaigns
+Jul 20,2016 12:14:28 [info]  Check if campaign status is sent then delete icon should not display else delete it
+Jul 20,2016 12:14:28 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Campaign
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 12:14:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Customers and Test method testDelete_Customers
+*****************************************************************************
+Jul 20,2016 12:15:02 [info]  open application giturl
+Jul 20,2016 12:15:33 [info]  log-in into application
+Jul 20,2016 12:15:34 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 12:15:43 [info]  Go to Ifluence > Customers
+Jul 20,2016 12:16:02 [info]  Click to delete the Shishir details 
+Jul 20,2016 12:16:08 [info]  success message
+Jul 20,2016 12:16:52 [info]  Click to delete the Customer1 details
+Jul 20,2016 12:16:57 [info]  success message
+Jul 20,2016 12:17:46 [info]  Click to delete the Customer2 details
+Jul 20,2016 12:17:50 [info]  success message
+Jul 20,2016 12:18:29 [info]  Click to delete the Customer3 details
+Jul 20,2016 12:18:33 [info]  success message
+Jul 20,2016 12:18:47 [info]  Click to delete the Customer3 details
+Jul 20,2016 12:18:51 [info]  success message
+Jul 20,2016 12:19:10 [info]  Click to delete the Customer3 details
+Jul 20,2016 12:19:14 [info]  success message
+Jul 20,2016 12:20:10 [info]  Click to delete the Customer3 details
+Jul 20,2016 12:20:11 [info]  success message
+Jul 20,2016 12:20:11 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Customers
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:26:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_List and Test method testDelete_List
+*****************************************************************************
+Jul 20,2016 13:26:24 [info]  open application giturl
+
+*****************************************************************************
+Jul 20,2016 13:26:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_List and Test method testDelete_List
+*****************************************************************************
+Jul 20,2016 13:26:38 [info]  open application giturl
+Jul 20,2016 13:27:44 [info]  log-in into application
+Jul 20,2016 13:27:44 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 13:27:51 [info]  log-in into application
+Jul 20,2016 13:27:51 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 13:27:55 [info]  Go to Ifluence > Lists
+Jul 20,2016 13:28:01 [info]  Go to Ifluence > Lists
+Jul 20,2016 13:29:16 [info]  Go to Ifluence > Campaigns
+Jul 20,2016 13:29:16 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_List
+*****************************************************************************
+Jul 20,2016 13:29:23 [info]  Go to Ifluence > Campaigns
+Jul 20,2016 13:29:23 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:32:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Redirect and Test method testDelete_Redirect
+*****************************************************************************
+Jul 20,2016 13:32:50 [info]  open application giturl
+Jul 20,2016 13:33:17 [info]  log-in into application
+Jul 20,2016 13:33:17 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 13:33:28 [info]  Go to Influence > Redirects
+Jul 20,2016 13:33:47 [info]  Click to delete the redirect
+Jul 20,2016 13:33:51 [info]  success message
+Jul 20,2016 13:33:51 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Redirect
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:34:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Delete_Survey and Test method testDelete_Survey
+*****************************************************************************
+Jul 20,2016 13:34:26 [info]  open application giturl
+Jul 20,2016 13:34:51 [info]  log-in into application
+Jul 20,2016 13:34:51 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 13:35:03 [info]  Go to Ifluence > Survey
+Jul 20,2016 13:37:12 [info]  Go to Ifluence > Campaigns
+Jul 20,2016 13:37:12 [info]  success message
+Jul 20,2016 13:37:12 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Delete_Survey
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:39:54 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 20,2016 13:40:04 [info]  open application giturl
+Jul 20,2016 13:41:03 [info]  log-in into application
+Jul 20,2016 13:41:03 [info]  Select Selenium Test Account if not selected
+Jul 20,2016 13:41:13 [info]  Go to Ifluence > Customers
+Jul 20,2016 13:41:37 [info]  Jul 20,2016 13:41:37 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCustomersCSV(InfluenceHelper.java:722)
+	at com.primeresponse.testcases.Influence.Download_CustomersCSV.testDownload_CustomersCSV(Download_CustomersCSV.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 13:41:37 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:43:36 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 20,2016 13:43:49 [info]  open application giturl
+Jul 20,2016 13:44:14 [info]  log-in into application
+Jul 20,2016 13:44:14 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 13:44:26 [info]  Go to Ifluence > Lists
+Jul 20,2016 13:44:33 [info]  Jul 20,2016 13:44:33 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:235)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 13:44:33 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:45:47 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Send_CampaignPreview and Test method testSend_CampaignPreview
+*****************************************************************************
+Jul 20,2016 13:45:56 [info]  open application giturl
+Jul 20,2016 13:46:47 [info]  log-in into application
+Jul 20,2016 13:46:47 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 13:46:59 [info]  Go to Influence > Campaigns
+Jul 20,2016 13:47:07 [info]  Method to verify the functionality of sending campaign preview
+Jul 20,2016 13:47:09 [info]  success message
+Jul 20,2016 13:47:09 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Send_CampaignPreview
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:47:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_PreSurveyCompleteDate and Test method testSort_PreSurveyCompleteDate
+*****************************************************************************
+Jul 20,2016 13:47:54 [info]  open application giturl
+Jul 20,2016 13:48:22 [info]  log-in into application
+Jul 20,2016 13:48:23 [info]  Select Selenium Test account if not selected
+Jul 20,2016 13:48:52 [info]  Verify sorting functionality of Pre Survey Complete Date column on survey events page.
+Jul 20,2016 13:48:52 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_PreSurveyCompleteDate
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:49:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_SurveyCompleteDate and Test method testSort_SurveyCompleteDate
+*****************************************************************************
+Jul 20,2016 13:49:28 [info]  open application giturl
+Jul 20,2016 13:50:07 [info]  log-in into application
+Jul 20,2016 13:50:07 [info]  Select Selenium Test account if not selected
+Jul 20,2016 13:50:39 [info]  Method to verify sorting functionality of survey complete date column
+Jul 20,2016 13:50:39 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_SurveyCompleteDate
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:51:01 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_SurveyName and Test method testSort_SurveyName
+*****************************************************************************
+Jul 20,2016 13:51:01 [info]  open application giturl
+Jul 20,2016 13:51:40 [info]  log-in into application
+Jul 20,2016 13:51:41 [info]  Select Selenium Test account if not selected
+Jul 20,2016 13:52:10 [info]  Verify sorting functionality of Name column
+Jul 20,2016 13:52:10 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_SurveyName
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:52:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Sort_SurveyStartDate and Test method testSort_SurveyStartDate
+*****************************************************************************
+Jul 20,2016 13:52:34 [info]  open application giturl
+Jul 20,2016 13:53:09 [info]  log-in into application
+Jul 20,2016 13:53:09 [info]  Select Selenium Test account if not selected
+Jul 20,2016 13:53:39 [info]  Method to verify sorting functionality of Survey Start Date column
+Jul 20,2016 13:53:39 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Sort_SurveyStartDate
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 13:54:10 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 20,2016 13:54:17 [info]  open application giturl
+Jul 20,2016 13:55:13 [info]  log-in into application
+Jul 20,2016 13:55:14 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 13:55:25 [info]  Go to Ifluence > Survey
+Jul 20,2016 13:56:59 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Jul 20,2016 13:57:05 [info]  Enter Customer Details
+Jul 20,2016 14:02:20 [info]  Jul 20,2016 14:02:20 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='answer 5_stars']/div[6]/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.fillSurvey(InfluenceHelper.java:400)
+	at com.primeresponse.testcases.Influence.Submit_InternalReview.testSubmit_InternalReview(Submit_InternalReview.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 14:02:20 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 14:21:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 20,2016 14:21:36 [info]  open application giturl
+Jul 20,2016 14:22:07 [info]  log-in into application
+Jul 20,2016 14:22:07 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 14:22:19 [info]  Go to Ifluence > Survey
+Jul 20,2016 14:23:49 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Jul 20,2016 14:23:55 [info]  Enter Customer Details
+
+*****************************************************************************
+Jul 20,2016 14:38:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Jul 20,2016 14:38:16 [info]  open application giturl
+Jul 20,2016 14:39:11 [info]  log-in into application
+Jul 20,2016 14:39:11 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 14:39:22 [info]  Go to Ifluence > Lists
+Jul 20,2016 14:39:23 [info]  click on create new list link
+Jul 20,2016 14:39:44 [info]  Upload a CSV file as a list
+Jul 20,2016 14:41:51 [info]  Jul 20,2016 14:41:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 14:41:51 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 14:52:26 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Verify_SurveysEvents and Test method testVerify_SurveysReport
+*****************************************************************************
+Jul 20,2016 14:52:35 [info]  open application giturl
+Jul 20,2016 14:53:01 [info]  log-in into application
+Jul 20,2016 14:53:01 [info]  Select Selenium Test account if not selected
+Jul 20,2016 14:53:17 [info]  Verify events of surveys on Influence > Surveys page.
+Jul 20,2016 14:53:17 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Verify_SurveysEvents
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 14:55:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Verify_SurveysReport and Test method testVerify_SurveysReport
+*****************************************************************************
+Jul 20,2016 14:55:35 [info]  open application giturl
+Jul 20,2016 14:56:05 [info]  log-in into application
+Jul 20,2016 14:56:05 [info]  Select Selenium Test account if not selected
+Jul 20,2016 14:56:40 [info]  Jul 20,2016 14:56:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.InfluenceHelper.verify_SurveysReport(InfluenceHelper.java:121)
+	at com.primeresponse.testcases.Influence.Verify_SurveysReport.testVerify_SurveysReport(Verify_SurveysReport.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 14:56:40 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Verify_SurveysReport
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 15:12:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.VerifyWidgets_InfluenceDashboard and Test method testVerifyWidgets_InfluenceDashboard
+*****************************************************************************
+Jul 20,2016 15:12:07 [info]  open application giturl
+Jul 20,2016 15:13:45 [info]  log-in into application
+Jul 20,2016 15:13:45 [info]  Select Selenium Test account if not selected
+Jul 20,2016 15:13:57 [info]  Go to Influence > Survey
+Jul 20,2016 15:13:58 [info]  Get Surveys count on Survey page
+Jul 20,2016 15:14:30 [info]  Go to Influence > Dashboard
+Jul 20,2016 15:14:44 [info]  Method to verify the name of all available widgets on influence dashboard page
+Jul 20,2016 15:14:44 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.VerifyWidgets_InfluenceDashboard
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 15:15:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Verify_SurveysReport and Test method testVerify_SurveysReport
+*****************************************************************************
+Jul 20,2016 15:15:38 [info]  open application giturl
+Jul 20,2016 15:16:06 [info]  log-in into application
+Jul 20,2016 15:16:06 [info]  Select Selenium Test account if not selected
+Jul 20,2016 15:16:33 [info]  Jul 20,2016 15:16:33 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.InfluenceHelper.verify_SurveysReport(InfluenceHelper.java:121)
+	at com.primeresponse.testcases.Influence.Verify_SurveysReport.testVerify_SurveysReport(Verify_SurveysReport.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 15:16:33 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Verify_SurveysReport
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 15:17:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 15:17:26 [info]  open application giturl
+Jul 20,2016 15:17:53 [info]  log-in into application
+Jul 20,2016 15:17:54 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 15:18:06 [info]  Go to Influence > Redirects
+Jul 20,2016 15:18:06 [info]  click on create new Redirect link
+Jul 20,2016 15:18:19 [info]  Jul 20,2016 15:18:19 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.13 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 24fd4825-b328-40b8-b3db-e04c1fb7a992
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3976444749349439482webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3976444749349439482webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3976444749349439482webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3976444749349439482webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 15:18:19 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 15:21:54 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 15:22:03 [info]  open application giturl
+Jul 20,2016 15:22:43 [info]  log-in into application
+Jul 20,2016 15:22:43 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 15:22:55 [info]  Go to Influence > Redirects
+Jul 20,2016 15:22:55 [info]  click on create new Redirect link
+Jul 20,2016 15:23:08 [info]  Jul 20,2016 15:23:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.07 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 2ecfc7ee-9b50-47c2-9bcd-2a87a8e2c206
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2043001449154270933webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2043001449154270933webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2043001449154270933webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2043001449154270933webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 15:23:08 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 15:46:36 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 15:46:43 [info]  open application giturl
+Jul 20,2016 15:47:14 [info]  log-in into application
+Jul 20,2016 15:47:14 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 15:47:27 [info]  Go to Influence > Redirects
+Jul 20,2016 15:47:27 [info]  click on create new Redirect link
+Jul 20,2016 15:47:40 [info]  Jul 20,2016 15:47:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.07 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 6edb2f24-a017-498f-811e-f9d3d4f90ab4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4428577560569836997webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4428577560569836997webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4428577560569836997webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4428577560569836997webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 15:47:40 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 15:58:39 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 15:58:49 [info]  open application giturl
+Jul 20,2016 15:59:29 [info]  log-in into application
+Jul 20,2016 15:59:29 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 15:59:40 [info]  Go to Influence > Redirects
+Jul 20,2016 15:59:40 [info]  click on create new Redirect link
+Jul 20,2016 15:59:53 [info]  Jul 20,2016 15:59:53 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.05 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 4bc6b91d-593e-4b10-8f4d-476f59c3db9d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous959115880242632246webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous959115880242632246webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous959115880242632246webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous959115880242632246webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 15:59:53 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:01:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:01:14 [info]  open application giturl
+Jul 20,2016 16:02:10 [info]  log-in into application
+Jul 20,2016 16:02:11 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:02:22 [info]  Go to Influence > Redirects
+Jul 20,2016 16:02:23 [info]  click on create new Redirect link
+Jul 20,2016 16:02:37 [info]  Jul 20,2016 16:02:37 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.12 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: f1a61d37-3a90-4eb9-bd7f-a637b1afaba0
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous909681522311461536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous909681522311461536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous909681522311461536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous909681522311461536webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 16:02:37 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:04:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:04:53 [info]  open application giturl
+Jul 20,2016 16:06:03 [info]  log-in into application
+Jul 20,2016 16:06:03 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:06:14 [info]  Go to Influence > Redirects
+Jul 20,2016 16:06:14 [info]  click on create new Redirect link
+Jul 20,2016 16:06:27 [info]  Jul 20,2016 16:06:27 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.13 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: df248643-7fb9-4d2d-95bf-269e0d81f00e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1338186260142525823webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1338186260142525823webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1338186260142525823webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1338186260142525823webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 16:06:27 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:10:28 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:10:42 [info]  open application giturl
+Jul 20,2016 16:11:26 [info]  log-in into application
+Jul 20,2016 16:11:26 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:11:37 [info]  Go to Influence > Redirects
+Jul 20,2016 16:11:37 [info]  click on create new Redirect link
+Jul 20,2016 16:11:50 [info]  Jul 20,2016 16:11:50 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.06 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: fd4e4f77-56cf-4700-93b4-e327f2ada393
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1579071043917969865webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1579071043917969865webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1579071043917969865webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous1579071043917969865webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 16:11:50 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:15:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:15:58 [info]  open application giturl
+Jul 20,2016 16:16:27 [info]  log-in into application
+Jul 20,2016 16:16:28 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:16:39 [info]  Go to Influence > Redirects
+Jul 20,2016 16:16:39 [info]  click on create new Redirect link
+Jul 20,2016 16:16:52 [info]  Jul 20,2016 16:16:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.17 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 706387af-b4da-4039-823f-c48e48a0492e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:502)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3866378885555629166webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3866378885555629166webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3866378885555629166webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3866378885555629166webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 16:16:52 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:26:01 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:26:17 [info]  open application giturl
+Jul 20,2016 16:27:27 [info]  log-in into application
+Jul 20,2016 16:27:27 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:27:39 [info]  Go to Influence > Redirects
+Jul 20,2016 16:27:40 [info]  click on create new Redirect link
+Jul 20,2016 16:33:00 [info]  Jul 20,2016 16:33:00 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[contains(text(),'AOL Auto')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterDestinationUrl1(InfluenceHelper.java:527)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:507)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 16:33:00 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:34:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:34:22 [info]  open application giturl
+Jul 20,2016 16:35:12 [info]  log-in into application
+Jul 20,2016 16:35:12 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:35:22 [info]  Go to Influence > Redirects
+Jul 20,2016 16:35:22 [info]  click on create new Redirect link
+Jul 20,2016 16:35:40 [info]  Jul 20,2016 16:35:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.08 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 40c75512-6f91-4d26-bcb9-d832b2ed6fe6
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterDestinationUrl1(InfluenceHelper.java:530)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:507)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6071568170244581914webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6071568170244581914webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6071568170244581914webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6071568170244581914webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 16:35:41 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:36:38 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:36:47 [info]  open application giturl
+Jul 20,2016 16:37:26 [info]  log-in into application
+Jul 20,2016 16:37:27 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:37:37 [info]  Go to Influence > Redirects
+Jul 20,2016 16:37:37 [info]  click on create new Redirect link
+Jul 20,2016 16:37:55 [info]  Jul 20,2016 16:37:55 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.12 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 537d851c-0347-4a00-acb2-c41ca563edc8
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:139)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:261)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterDestinationUrl1(InfluenceHelper.java:530)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterOriginalUrl(InfluenceHelper.java:507)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2006733180308783133webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2006733180308783133webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2006733180308783133webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2006733180308783133webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 16:37:55 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:40:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:40:19 [info]  open application giturl
+Jul 20,2016 16:40:51 [info]  log-in into application
+Jul 20,2016 16:40:52 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:41:03 [info]  Go to Influence > Redirects
+Jul 20,2016 16:41:04 [info]  click on create new Redirect link
+Jul 20,2016 16:41:23 [info]  Enter label and original url
+Jul 20,2016 16:41:23 [info]  success message
+Jul 20,2016 16:41:23 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:42:53 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Jul 20,2016 16:43:04 [info]  open application giturl
+Jul 20,2016 16:43:59 [info]  log-in into application
+Jul 20,2016 16:43:59 [info]  Select Selenium Test Ford Account if not selected
+Jul 20,2016 16:44:10 [info]  Go to Influence > Redirects
+Jul 20,2016 16:44:10 [info]  click on create new Redirect link
+Jul 20,2016 16:44:19 [info]  Enter label and original url
+Jul 20,2016 16:44:29 [info]  Enter 1st destination url
+Jul 20,2016 16:44:29 [info]  success message
+Jul 20,2016 16:44:29 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 16:46:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Copy_Survey and Test method testCopy_Survey
+*****************************************************************************
+Jul 20,2016 16:46:43 [info]  open application giturl
+Jul 20,2016 16:47:16 [info]  log-in into application
+Jul 20,2016 16:47:16 [info]  Select Selenium Test account if not selected
+Jul 20,2016 16:52:35 [info]  Jul 20,2016 16:52:35 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://tbody/tr/td[contains(text(),'Survey was copied successfully as Testing copy')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.copySurvey(InfluenceHelper.java:693)
+	at com.primeresponse.testcases.Influence.Copy_Survey.testCopy_Survey(Copy_Survey.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 16:52:35 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Copy_Survey
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 17:02:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Copy_Survey and Test method testCopy_Survey
+*****************************************************************************
+Jul 20,2016 17:02:25 [info]  open application giturl
+Jul 20,2016 17:02:58 [info]  log-in into application
+Jul 20,2016 17:02:58 [info]  Select Selenium Test account if not selected
+Jul 20,2016 17:03:07 [info]  Verifying the functionality of copying surveys
+Jul 20,2016 17:03:07 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Copy_Survey
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 17:07:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 20,2016 17:07:20 [info]  open application giturl
+Jul 20,2016 17:07:50 [info]  log-in into application
+Jul 20,2016 17:07:50 [info]  Select Selenium Test Account if not selected
+Jul 20,2016 17:08:00 [info]  Go to Ifluence > Customers
+Jul 20,2016 17:08:24 [info]  Jul 20,2016 17:08:24 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCustomersCSV(InfluenceHelper.java:726)
+	at com.primeresponse.testcases.Influence.Download_CustomersCSV.testDownload_CustomersCSV(Download_CustomersCSV.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 17:08:24 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 17:16:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 20,2016 17:16:27 [info]  open application giturl
+Jul 20,2016 17:16:52 [info]  log-in into application
+Jul 20,2016 17:16:53 [info]  Select Selenium Test Account if not selected
+Jul 20,2016 17:17:03 [info]  Go to Ifluence > Customers
+Jul 20,2016 17:17:26 [info]  Jul 20,2016 17:17:26 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCustomersCSV(InfluenceHelper.java:726)
+	at com.primeresponse.testcases.Influence.Download_CustomersCSV.testDownload_CustomersCSV(Download_CustomersCSV.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 20,2016 17:17:26 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 20,2016 17:22:36 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 20,2016 17:22:46 [info]  open application giturl
+Jul 20,2016 17:23:59 [info]  log-in into application
+Jul 20,2016 17:24:00 [info]  Select Selenium Test Account if not selected
+Jul 20,2016 17:24:05 [info]  Jul 20,2016 17:24:05 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.08 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 73aa4513-63a4-42bb-aacb-5fdeb47b30a2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonInfluenceCustomers(HeaderHelper.java:483)
+	at com.primeresponse.testcases.Influence.Download_CustomersCSV.testDownload_CustomersCSV(Download_CustomersCSV.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8890171050820815800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8890171050820815800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8890171050820815800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8890171050820815800webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 20,2016 17:24:05 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************

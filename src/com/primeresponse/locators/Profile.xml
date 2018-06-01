@@ -1,0 +1,57 @@
+<Locators>
+
+	<PageCapture>
+		<CreateCapture>
+			<NewPageCaptureLink><![CDATA[//a[@href='/profile/page_captures/new']]]></NewPageCaptureLink>
+			<Label><![CDATA[profile_page_capture_label]]></Label>
+			<Url><![CDATA[profile_page_capture_value]]></Url>
+			<Interval><![CDATA[profile_page_capture_run_every]]></Interval>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</CreateCapture>
+		<Row><![CDATA[//div[@class='serps']/div]]></Row>
+	</PageCapture>
+	
+	<SERP>
+		<CreateSERP>
+			<NewSearchEngineResultPageLink><![CDATA[//a[@href="/profile/serps/new"]]]></NewSearchEngineResultPageLink>
+			<Label><![CDATA[//input[@id='profile_serp_label']]]></Label>
+			<SearchTerm><![CDATA[//input[@id='profile_serp_value']]]></SearchTerm>
+			<Interval><![CDATA[//select[@id='profile_serp_run_every']]]></Interval>
+			<SearchTypeGoogle><![CDATA[//input[@id='profile_serp_source_type_google']]]></SearchTypeGoogle>
+			<SearchTypeBing><![CDATA[//input[@id='profile_serp_source_type_bing']]]></SearchTypeBing>
+			<SearchTypeYahoo><![CDATA[//input[@id='profile_serp_source_type_yahoo']]]></SearchTypeYahoo>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</CreateSERP>
+		<Row><![CDATA[//div[@class='serps']/div]]></Row>
+	</SERP>
+	<SiteDetail>
+	        
+			<Row><![CDATA[//table[@class='sort-table']/tbody/tr]]></Row>
+			<SiteDetail><![CDATA[//li[contains(text(),'Site Detail Dashboard')]]]></SiteDetail>
+			<SelectSourceDropDownList><![CDATA[//span[contains(text(),'Select a Source')]]]></SelectSourceDropDownList>
+			<AolAuto><![CDATA[//li[contains(text(),'AOL Auto')]]]></AolAuto>
+			<BetterBusinessBureau><![CDATA[//li[contains(text(),'Better Business Bureau')]]]></BetterBusinessBureau>
+			<BookingCom><![CDATA[//li[contains(text(),'Booking.com')]]]></BookingCom>
+			<YellowBot><![CDATA[//li[contains(text(),'YellowBot')]]]></YellowBot>
+			<Yelp><![CDATA[//li[contains(text(),'Yelp')]]]></Yelp>
+			<ProfileData><![CDATA[//strong[contains(text(),'Profile Data:')]]]></ProfileData>
+			<MonthlyReputationRating><![CDATA[//h2[contains(text(),'Monthly Reputation Rating')]]]></MonthlyReputationRating>
+			<About><![CDATA[//strong[contains(text(),'About')]]]></About>
+			<ResponseRateStatistics><![CDATA[//h5[contains(text(),'Response Rate Statistics')]]]></ResponseRateStatistics>
+			<MonthlyActivity><![CDATA[//h2[contains(text(),'Monthly Activity')]]]></MonthlyActivity>
+			<ResponseTimeStatistics><![CDATA[//h5[contains(text(),'Response Time Statistics')]]]></ResponseTimeStatistics>
+			<ResponsePenetrationRate><![CDATA[//div[@id='data-wiselinks-container']/div[3]//div[4]//h5[contains(text(),'Response Penetration Rate')]]]></ResponsePenetrationRate>
+			<ResponsePenetrationRatePosNeg><![CDATA[//h5[contains(text(),'Response Penetration Rate (Positive & Negative)')]]]></ResponsePenetrationRatePosNeg>
+			<AvgResponseTime><![CDATA[//h5[contains(text(),'Average Response Time')]]]></AvgResponseTime>
+			<ClickHerePageLink><![CDATA[//a[contains(text(),'Click here to see your page')]]]></ClickHerePageLink>
+			<SourceCol><![CDATA[//table[@class='sort-table']//span[contains(text(),'Source')]]]></SourceCol>
+			<DescCol><![CDATA[//table[@class='sort-table']//span[contains(text(),'Source')]]]></DescCol>
+			<SiteScoreCol><![CDATA[//table[@class='sort-table']//span[contains(text(),'Site Score')]]]></SiteScoreCol>
+			<ReviewsCol><![CDATA[//table[@class='sort-table']//span[contains(text(),'# of Reviews')]]]></ReviewsCol>
+			<RatingCol><![CDATA[//table[@class='sort-table']//span[contains(text(),'Rating')]]]></RatingCol>
+			
+			
+	</SiteDetail>
+	
+</Locators>
+

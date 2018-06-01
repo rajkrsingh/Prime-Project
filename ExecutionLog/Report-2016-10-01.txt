@@ -1,0 +1,182 @@
+
+*****************************************************************************
+Oct 01,2016 11:26:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Create_DarkPost and Test method testCreate_SocialPost
+*****************************************************************************
+Oct 01,2016 11:26:08 [info]  open application giturl
+Oct 01,2016 11:27:43 [info]  log-in into application
+Oct 01,2016 11:27:44 [info]  Select Selenium Test Ford Account if not selected
+Oct 01,2016 11:27:55 [info]  Go to Social > Posts
+Oct 01,2016 11:27:56 [info]  click on create social post button
+Oct 01,2016 11:29:58 [info]  Check visibility of post popup
+Oct 01,2016 11:30:14 [info]  Verify process to create dark post
+Oct 01,2016 11:30:17 [info]  success message
+Oct 01,2016 11:30:17 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Create_DarkPost
+*****************************************************************************
+
+*****************************************************************************
+Oct 01,2016 11:32:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet and Test method testCheckTwitterRetweet
+*****************************************************************************
+Oct 01,2016 11:32:19 [info]  open application giturl
+Oct 01,2016 11:33:23 [info]  log-in into application
+Oct 01,2016 11:33:23 [info]  Select Selenium Test Ford Account if not selected
+Oct 01,2016 11:33:37 [info]  Go to Social > Posts
+Oct 01,2016 11:33:45 [info]  Oct 01,2016 11:33:45 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SocialHelper.checkTwitterRetweet(SocialHelper.java:579)
+	at com.primeresponse.testcases.Social.CheckTwitterRetweet.testCheckTwitterRetweet(CheckTwitterRetweet.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 01,2016 11:33:45 [info]  End Execution of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet
+*****************************************************************************
+
+*****************************************************************************
+Oct 01,2016 11:34:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet and Test method testCheckTwitterRetweet
+*****************************************************************************
+Oct 01,2016 11:34:57 [info]  open application giturl
+Oct 01,2016 11:36:08 [info]  log-in into application
+Oct 01,2016 11:36:09 [info]  Select Selenium Test Ford Account if not selected
+Oct 01,2016 11:36:21 [info]  Go to Social > Posts
+Oct 01,2016 11:36:28 [info]  Oct 01,2016 11:36:28 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SocialHelper.checkTwitterRetweet(SocialHelper.java:579)
+	at com.primeresponse.testcases.Social.CheckTwitterRetweet.testCheckTwitterRetweet(CheckTwitterRetweet.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 01,2016 11:36:28 [info]  End Execution of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet
+*****************************************************************************
+
+*****************************************************************************
+Oct 01,2016 11:38:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet and Test method testCheckTwitterRetweet
+*****************************************************************************
+Oct 01,2016 11:38:26 [info]  open application giturl
+Oct 01,2016 11:39:46 [info]  log-in into application
+Oct 01,2016 11:39:46 [info]  Select Selenium Test Ford Account if not selected
+Oct 01,2016 11:39:59 [info]  Go to Social > Posts
+Oct 01,2016 11:40:05 [info]  Oct 01,2016 11:40:05 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SocialHelper.checkTwitterRetweet(SocialHelper.java:579)
+	at com.primeresponse.testcases.Social.CheckTwitterRetweet.testCheckTwitterRetweet(CheckTwitterRetweet.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 01,2016 11:40:05 [info]  End Execution of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet
+*****************************************************************************
+
+*****************************************************************************
+Oct 01,2016 11:43:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet and Test method testCheckTwitterRetweet
+*****************************************************************************
+Oct 01,2016 11:43:44 [info]  open application giturl
+Oct 01,2016 11:46:01 [info]  log-in into application
+Oct 01,2016 11:46:01 [info]  Select Selenium Test Ford Account if not selected
+Oct 01,2016 11:46:15 [info]  Go to Social > Posts
+Oct 01,2016 11:46:21 [info]  Oct 01,2016 11:46:21 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SocialHelper.checkTwitterRetweet(SocialHelper.java:581)
+	at com.primeresponse.testcases.Social.CheckTwitterRetweet.testCheckTwitterRetweet(CheckTwitterRetweet.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 01,2016 11:46:21 [info]  End Execution of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet
+*****************************************************************************

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="PageCapture_Profile"
+	annotations="JDK">
+	<test name="PageCapture_Profile" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Profile.PageCapture_Profile" />
+		</classes>
+	</test>
+</suite> 
+

@@ -1,0 +1,97 @@
+
+*****************************************************************************
+Jun 30,2016 14:46:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_ViewOriginalExternalFeed and Test method testVerify_ViewOriginalExternalFeed
+*****************************************************************************
+Jun 30,2016 14:46:59 [info]  open application giturl
+Jun 30,2016 14:49:08 [info]  log-in into application
+Jun 30,2016 14:49:09 [info]  Select Selenium Test Ford Account if not selected
+Jun 30,2016 14:49:21 [info]  Go to Enterprise > External Feed
+Jun 30,2016 14:49:32 [info]  Select Group at external feed screen
+
+*****************************************************************************
+Jun 30,2016 14:54:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_ViewOriginalInternalFeed and Test method testVerify_ViewOriginalInternalFeed
+*****************************************************************************
+Jun 30,2016 14:54:36 [info]  open application giturl
+Jun 30,2016 14:56:43 [info]  log-in into application
+Jun 30,2016 14:56:44 [info]  Select Selenium Test Ford Account if not selected
+Jun 30,2016 14:56:55 [info]  Go to Enterprise > Internal Feed
+Jun 30,2016 14:56:56 [info]   Click on view icon of External Feeds
+Jun 30,2016 14:58:54 [info]  Clicking on view icon should display popup
+Jun 30,2016 15:04:05 [info]  Jun 30,2016 15:04:05 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://td/strong[contains(text(), 'First name')]/../../td/p Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.EnterpriseHelper.storeSurveyDetails(EnterpriseHelper.java:718)
+	at com.primeresponse.testcases.Enterprise.Verify_ViewOriginalInternalFeed.testVerify_ViewOriginalInternalFeed(Verify_ViewOriginalInternalFeed.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 30,2016 15:04:05 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_ViewOriginalInternalFeed
+*****************************************************************************
+
+*****************************************************************************
+Jun 30,2016 16:38:05 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_ViewOriginalInternalFeed and Test method testVerify_ViewOriginalInternalFeed
+*****************************************************************************
+Jun 30,2016 16:38:15 [info]  open application giturl
+Jun 30,2016 16:43:29 [info]  log-in into application
+Jun 30,2016 16:43:30 [info]  Select Selenium Test Ford Account if not selected
+Jun 30,2016 16:43:41 [info]  Go to Enterprise > Internal Feed
+Jun 30,2016 16:43:42 [info]   Click on view icon of External Feeds
+Jun 30,2016 16:45:40 [info]  Clicking on view icon should display popup
+Jun 30,2016 16:50:52 [info]  Jun 30,2016 16:50:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://td/strong[contains(text(), 'Email')]/../../td/p Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.EnterpriseHelper.storeSurveyDetails(EnterpriseHelper.java:720)
+	at com.primeresponse.testcases.Enterprise.Verify_ViewOriginalInternalFeed.testVerify_ViewOriginalInternalFeed(Verify_ViewOriginalInternalFeed.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 30,2016 16:50:52 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_ViewOriginalInternalFeed
+*****************************************************************************

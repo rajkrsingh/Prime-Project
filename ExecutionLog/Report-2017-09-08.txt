@@ -1,0 +1,405 @@
+
+*****************************************************************************
+Sep 08,2017 13:49:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 13:49:50 [info]  open application giturl
+Sep 08,2017 13:50:18 [info]  log-in into application
+
+*****************************************************************************
+Sep 08,2017 13:53:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 13:53:27 [info]  open application giturl
+Sep 08,2017 13:53:41 [info]  log-in into application
+Sep 08,2017 13:58:47 [info]  Sep 08,2017 13:58:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='account-bar']/div/strong/span Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:303)
+	at com.primeresponse.pagehelper.LoginHelper.selectAccountttt(LoginHelper.java:49)
+	at com.primeresponse.util.DriverTestCase.selectAccount(DriverTestCase.java:114)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 08,2017 13:58:47 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 14:21:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 14:22:07 [info]  open application giturl
+Sep 08,2017 14:22:39 [info]  log-in into application
+Sep 08,2017 14:22:40 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 14:22:40 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 14:23:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 14:23:43 [info]  open application giturl
+Sep 08,2017 14:24:18 [info]  log-in into application
+Sep 08,2017 14:24:19 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 14:24:19 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 14:29:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 14:29:17 [info]  open application giturl
+Sep 08,2017 14:29:56 [info]  log-in into application
+Sep 08,2017 14:30:04 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 14:30:04 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 14:30:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 14:30:54 [info]  open application giturl
+Sep 08,2017 14:31:27 [info]  log-in into application
+Sep 08,2017 14:31:27 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 14:31:27 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 14:33:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 14:33:16 [info]  open application giturl
+Sep 08,2017 14:33:46 [info]  log-in into application
+Sep 08,2017 14:33:53 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 14:33:53 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 14:36:04 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 14:36:12 [info]  open application giturl
+Sep 08,2017 14:36:27 [info]  log-in into application
+Sep 08,2017 14:36:32 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 14:36:37 [info]  Go to Accounts > All
+Sep 08,2017 14:36:40 [info]  Search for account and match the Result
+Sep 08,2017 14:41:51 [info]  Sep 08,2017 14:41:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://a[@href='/accounts/logout'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:236)
+	at com.primeresponse.pagehelper.AccountsHelper.loginIconNotPresent(AccountsHelper.java:253)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 08,2017 14:41:51 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 14:58:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 14:58:55 [info]  open application giturl
+Sep 08,2017 14:59:12 [info]  log-in into application
+Sep 08,2017 14:59:13 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 14:59:19 [info]  Go to Accounts > All
+Sep 08,2017 14:59:22 [info]  Search for account and match the Result
+Sep 08,2017 14:59:28 [info]  Sep 08,2017 14:59:28 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-OCA4T00', ip: '192.168.4.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\RajS\AppData\Local\Temp\rust_mozprofile.nwyQhH1OJ1em, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=7796.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: d3daa062-3942-4bd6-990f-5ae0485a47f0
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:239)
+	at com.primeresponse.pagehelper.AccountsHelper.loginIconNotPresent(AccountsHelper.java:253)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 08,2017 14:59:28 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 15:00:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 15:01:07 [info]  open application giturl
+Sep 08,2017 15:02:52 [info]  log-in into application
+Sep 08,2017 15:02:52 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 15:02:58 [info]  Go to Accounts > All
+Sep 08,2017 15:03:03 [info]  Search for account and match the Result
+Sep 08,2017 15:03:08 [info]  Sep 08,2017 15:03:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotInteractableException: 
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'DESKTOP-OCA4T00', ip: '192.168.4.13', os.name: 'Windows 10', os.arch: 'x86', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\RajS\AppData\Local\Temp\rust_mozprofile.2zqrjvdKJsbC, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=10928.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 87f5d380-5b3f-417e-8f4b-60049a08142f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:272)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:82)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:239)
+	at com.primeresponse.pagehelper.AccountsHelper.loginIconNotPresent(AccountsHelper.java:254)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 08,2017 15:03:08 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 15:07:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 15:07:51 [info]  open application giturl
+Sep 08,2017 15:08:11 [info]  log-in into application
+Sep 08,2017 15:08:11 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 15:08:17 [info]  Go to Accounts > All
+Sep 08,2017 15:08:19 [info]  Search for account and match the Result
+Sep 08,2017 15:08:26 [info]  Check login Icon is not present for this account
+Sep 08,2017 15:11:32 [info]  Sep 08,2017 15:11:32 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:289)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:29)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 08,2017 15:11:32 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 15:32:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 15:32:46 [info]  open application giturl
+Sep 08,2017 15:33:06 [info]  log-in into application
+Sep 08,2017 15:33:07 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 15:33:12 [info]  Go to Accounts > All
+Sep 08,2017 15:33:20 [info]  Search for account and match the Result
+Sep 08,2017 15:33:27 [info]  Check login Icon is not present for this account
+
+*****************************************************************************
+Sep 08,2017 15:36:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 15:36:40 [info]  open application giturl
+Sep 08,2017 15:36:56 [info]  log-in into application
+Sep 08,2017 15:36:56 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 15:37:01 [info]  Go to Accounts > All
+Sep 08,2017 15:37:05 [info]  Search for account and match the Result
+Sep 08,2017 15:37:10 [info]  Go to Accounts > All
+Sep 08,2017 15:42:21 [info]  Sep 08,2017 15:42:21 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://a[@title='Login to account']/img Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:236)
+	at com.primeresponse.pagehelper.AccountsHelper.loginIconPresent(AccountsHelper.java:270)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 08,2017 15:42:22 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 15:57:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 15:57:20 [info]  open application giturl
+Sep 08,2017 15:57:33 [info]  log-in into application
+Sep 08,2017 15:57:40 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 15:57:45 [info]  Go to Accounts > All
+Sep 08,2017 15:57:48 [info]  Search for account and match the Result
+Sep 08,2017 15:57:53 [info]  Check login Icon is not present for this account
+Sep 08,2017 15:57:53 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Sep 08,2017 16:20:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Sep 08,2017 16:20:59 [info]  open application giturl
+Sep 08,2017 16:21:24 [info]  log-in into application
+Sep 08,2017 16:21:25 [info]  Select Selenium Test Account if not selected
+Sep 08,2017 16:21:30 [info]  Go to Accounts > All
+Sep 08,2017 16:21:33 [info]  Search for account and match the Result
+Sep 08,2017 16:21:39 [info]  Check login Icon is not present for this account
+Sep 08,2017 16:21:44 [info]  Go to Accounts > All
+Sep 08,2017 16:21:47 [info]  Search for account and match the Result
+Sep 08,2017 16:26:58 [info]  Sep 08,2017 16:26:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://a[@title='Login to account']/img Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:236)
+	at com.primeresponse.pagehelper.AccountsHelper.loginIconPresent(AccountsHelper.java:271)
+	at com.primeresponse.testcases.Accounts.Check_LoginIcon.testCreate_Account(Check_LoginIcon.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 08,2017 16:26:58 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************

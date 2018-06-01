@@ -1,0 +1,1318 @@
+
+*****************************************************************************
+Sep 26,2016 09:44:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Alert and Test method testCreate_Alert
+*****************************************************************************
+Sep 26,2016 09:44:27 [info]  open application giturl
+Sep 26,2016 09:45:35 [info]  log-in into application
+Sep 26,2016 09:45:35 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 09:45:46 [info]  Go to Settings > Alert 
+Sep 26,2016 09:52:04 [info]  Sep 26,2016 09:52:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='control-group']//div[@id='alert_source_chzn']/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SettingHelper.submitReviewAlerts(SettingHelper.java:87)
+	at com.primeresponse.testcases.Settings.Create_Alert.testCreate_Alert(Create_Alert.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 09:52:05 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Alert
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 09:58:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Alert and Test method testCreate_Alert
+*****************************************************************************
+Sep 26,2016 09:58:53 [info]  open application giturl
+Sep 26,2016 10:00:44 [info]  log-in into application
+Sep 26,2016 10:00:44 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 10:00:55 [info]  Go to Settings > Alert 
+
+*****************************************************************************
+Sep 26,2016 10:09:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Alert and Test method testCreate_Alert
+*****************************************************************************
+Sep 26,2016 10:09:43 [info]  open application giturl
+Sep 26,2016 10:11:12 [info]  log-in into application
+Sep 26,2016 10:11:12 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 10:11:24 [info]  Go to Settings > Alert 
+Sep 26,2016 10:16:44 [info]  Sep 26,2016 10:16:44 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='alert_interaction_type_id_chzn']/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SettingHelper.submitReviewAlerts(SettingHelper.java:95)
+	at com.primeresponse.testcases.Settings.Create_Alert.testCreate_Alert(Create_Alert.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 10:16:44 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Alert
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 10:34:10 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Alert and Test method testCreate_Alert
+*****************************************************************************
+Sep 26,2016 10:34:10 [info]  open application giturl
+Sep 26,2016 10:36:07 [info]  log-in into application
+Sep 26,2016 10:36:07 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 10:36:22 [info]  Go to Settings > Alert 
+Sep 26,2016 10:36:45 [info]  Enter details and create alerts
+Sep 26,2016 10:36:46 [info]  success message
+Sep 26,2016 10:36:46 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Alert
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 10:38:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Alert and Test method testCreate_Alert
+*****************************************************************************
+Sep 26,2016 10:38:58 [info]  open application giturl
+Sep 26,2016 10:40:20 [info]  log-in into application
+Sep 26,2016 10:40:21 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 10:40:32 [info]  Go to Settings > Alert 
+Sep 26,2016 10:40:55 [info]  Enter details and create alerts
+Sep 26,2016 10:40:55 [info]  success message
+Sep 26,2016 10:40:55 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Alert
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 10:41:59 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Competitor and Test method testCreate_Competitor
+*****************************************************************************
+Sep 26,2016 10:42:09 [info]  open application giturl
+Sep 26,2016 10:43:11 [info]  log-in into application
+Sep 26,2016 10:43:11 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 10:43:22 [info]  Go to Settings > Competitors 
+
+*****************************************************************************
+Sep 26,2016 10:52:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Competitor and Test method testCreate_Competitor
+*****************************************************************************
+Sep 26,2016 10:52:29 [info]  open application giturl
+Sep 26,2016 10:55:21 [info]  log-in into application
+Sep 26,2016 10:55:22 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 10:55:33 [info]  Go to Settings > Competitors 
+Sep 26,2016 11:00:51 [info]  Sep 26,2016 11:00:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@id='accounts_competitor_competitor_input']/div/div/ul/li Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getSize(DriverHelper.java:268)
+	at com.primeresponse.pagehelper.SettingHelper.submitCompetitorsDetails(SettingHelper.java:37)
+	at com.primeresponse.testcases.Settings.Create_Competitor.testCreate_Competitor(Create_Competitor.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 11:00:51 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Competitor
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 11:10:28 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Competitor and Test method testCreate_Competitor
+*****************************************************************************
+Sep 26,2016 11:10:28 [info]  open application giturl
+Sep 26,2016 11:12:31 [info]  log-in into application
+Sep 26,2016 11:12:32 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 11:12:42 [info]  Go to Settings > Competitors 
+Sep 26,2016 11:13:03 [info]  Submit competitors details and create it
+Sep 26,2016 11:13:03 [info]  success message
+Sep 26,2016 11:13:03 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Competitor
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 11:13:57 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_NewDigestSubscription and Test method testCreate_NewDigestSubscription
+*****************************************************************************
+Sep 26,2016 11:14:05 [info]  open application giturl
+Sep 26,2016 11:16:05 [info]  log-in into application
+Sep 26,2016 11:16:05 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 11:16:16 [info]  Go to Settings >Digest
+
+*****************************************************************************
+Sep 26,2016 11:22:17 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_NewDigestSubscription and Test method testCreate_NewDigestSubscription
+*****************************************************************************
+Sep 26,2016 11:22:30 [info]  open application giturl
+Sep 26,2016 11:24:07 [info]  log-in into application
+Sep 26,2016 11:24:08 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 11:24:18 [info]  Go to Settings >Digest
+Sep 26,2016 11:24:43 [info]  Method to create new digest subscription
+Sep 26,2016 11:24:43 [info]  success message
+Sep 26,2016 11:24:43 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_NewDigestSubscription
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 11:25:30 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_Competitor and Test method testDelete_Competitor
+*****************************************************************************
+Sep 26,2016 11:25:49 [info]  open application giturl
+Sep 26,2016 11:27:42 [info]  log-in into application
+Sep 26,2016 11:27:43 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 11:27:54 [info]  Go to Settings > Competitors 
+Sep 26,2016 11:33:03 [info]  Sep 26,2016 11:33:03 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='competitors']/table/tbody/tr Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getSize(DriverHelper.java:268)
+	at com.primeresponse.pagehelper.SettingHelper.deleteCompetitor(SettingHelper.java:146)
+	at com.primeresponse.testcases.Settings.Delete_Competitor.testDelete_Competitor(Delete_Competitor.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 11:33:03 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_Competitor
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 11:36:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_Competitor and Test method testDelete_Competitor
+*****************************************************************************
+Sep 26,2016 11:36:35 [info]  open application giturl
+Sep 26,2016 11:38:32 [info]  log-in into application
+Sep 26,2016 11:38:32 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 11:38:44 [info]  Go to Settings > Competitors 
+
+*****************************************************************************
+Sep 26,2016 11:49:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_Competitor and Test method testDelete_Competitor
+*****************************************************************************
+Sep 26,2016 11:49:28 [info]  open application giturl
+Sep 26,2016 11:50:58 [info]  log-in into application
+Sep 26,2016 11:50:59 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 11:51:11 [info]  Go to Settings > Competitors 
+Sep 26,2016 11:51:15 [info]  Submit competitors details and delete it
+Sep 26,2016 11:51:20 [info]  success message
+Sep 26,2016 11:51:20 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_Competitor
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 11:52:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_IntegratedGooglePlusAccount and Test method testDelete_IntegratedGooglePlusAccount
+*****************************************************************************
+Sep 26,2016 11:52:24 [info]  open application giturl
+Sep 26,2016 11:53:52 [info]  log-in into application
+Sep 26,2016 11:53:53 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 11:54:18 [info]  Go to Settings > Social Integration
+
+*****************************************************************************
+Sep 26,2016 12:14:48 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_IntegratedGooglePlusAccount and Test method testDelete_IntegratedGooglePlusAccount
+*****************************************************************************
+Sep 26,2016 12:15:04 [info]  open application giturl
+Sep 26,2016 12:16:47 [info]  log-in into application
+Sep 26,2016 12:16:57 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 12:17:09 [info]  Go to Settings > Social Integration
+Sep 26,2016 12:17:09 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_IntegratedGooglePlusAccount
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 12:17:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_NewDigestSubscription and Test method testDelete_NewDigestSubscription
+*****************************************************************************
+Sep 26,2016 12:18:05 [info]  open application giturl
+Sep 26,2016 12:19:53 [info]  log-in into application
+Sep 26,2016 12:19:53 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 12:20:04 [info]  Go to Settings >Digest
+Sep 26,2016 12:20:08 [info]  Method to Delete new digest subscription
+Sep 26,2016 12:20:13 [info]  success message
+Sep 26,2016 12:20:13 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_NewDigestSubscription
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 12:21:26 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 12:21:26 [info]  open application giturl
+Sep 26,2016 12:22:25 [info]  log-in into application
+Sep 26,2016 12:22:26 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 12:22:39 [info]  Go to Settings > Social Integration
+Sep 26,2016 12:28:04 [info]  Sep 26,2016 12:28:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://input[@value='Log In'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SettingHelper.integrateFacebook(SettingHelper.java:186)
+	at com.primeresponse.testcases.Settings.Integrate_Accounts.testIntegrate_Accounts(Integrate_Accounts.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 12:28:04 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 12:33:57 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 12:33:57 [info]  open application giturl
+
+*****************************************************************************
+Sep 26,2016 12:36:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Check_AddALink and Test method testCheck_AddALink
+*****************************************************************************
+Sep 26,2016 12:36:39 [info]  open application giturl
+Sep 26,2016 12:37:10 [info]  log-in into application
+Sep 26,2016 12:37:10 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 12:37:22 [info]  Go to Social > Posts
+Sep 26,2016 12:37:22 [info]  click on create social post button
+Sep 26,2016 12:39:25 [info]  Check visibility of post popup
+Sep 26,2016 12:39:25 [info]  Enter some hashtags and then check clicking on Analyze Hashtags functionality.
+Sep 26,2016 12:39:25 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Check_AddALink
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 12:39:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Verify_Categories and Test method testVerify_Categories
+*****************************************************************************
+Sep 26,2016 12:39:43 [info]  open application giturl
+Sep 26,2016 12:41:26 [info]  log-in into application
+Sep 26,2016 12:41:26 [info]  Select Selenium Test Account if not selected
+Sep 26,2016 12:42:04 [info]  Go to Social > Content
+Sep 26,2016 12:42:08 [info]  Sep 26,2016 12:42:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.ArrayIndexOutOfBoundsException: 21
+	at com.primeresponse.pagehelper.SocialHelper.verifySystemCategories(SocialHelper.java:783)
+	at com.primeresponse.testcases.Social.Verify_Categories.testVerify_Categories(Verify_Categories.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 12:42:08 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Verify_Categories
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 12:42:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Filter_ContentThisAccountAndPublic and Test method testFilter_ContentThisAccountAndPublic
+*****************************************************************************
+Sep 26,2016 12:42:36 [info]  open application giturl
+Sep 26,2016 12:43:35 [info]  log-in into application
+Sep 26,2016 12:43:35 [info]  Select Selenium Test Account if not selected
+Sep 26,2016 12:43:58 [info]  Go to Social > Content
+Sep 26,2016 12:44:31 [info]  Method to filter This Account And Public content
+Sep 26,2016 12:44:31 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Filter_ContentThisAccountAndPublic
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 12:44:49 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Verify_SocialDashboard and Test method testVerify_SocialDashboard
+*****************************************************************************
+Sep 26,2016 12:44:57 [info]  open application giturl
+Sep 26,2016 12:45:23 [info]  log-in into application
+Sep 26,2016 12:45:23 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 12:45:35 [info]  Go to Settings > Social Integration
+Sep 26,2016 12:56:28 [info]  Method to verify Integrated Accounts are ON on Integrations page
+Sep 26,2016 12:56:43 [info]  Go to Social > DashBoard
+Sep 26,2016 13:01:58 [info]  Sep 26,2016 13:01:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://ul[@class='chzn-results']/li[contains(text(),'Kumar Yadav')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.SocialHelper.verifySocialDashBoard(SocialHelper.java:349)
+	at com.primeresponse.testcases.Social.Verify_SocialDashboard.testVerify_SocialDashboard(Verify_SocialDashboard.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 13:01:58 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Verify_SocialDashboard
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:02:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Verify_ContentDetails and Test method testVerify_ContentDetails
+*****************************************************************************
+Sep 26,2016 13:02:28 [info]  open application giturl
+Sep 26,2016 13:02:52 [info]  log-in into application
+Sep 26,2016 13:02:52 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:03:06 [info]  Go to Social > Content
+Sep 26,2016 13:08:31 [info]  Sep 26,2016 13:08:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='social-content-feed-items']/div[5]/a/img Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.verify_ContentDetails(SocialHelper.java:211)
+	at com.primeresponse.testcases.Social.Verify_ContentDetails.testVerify_ContentDetails(Verify_ContentDetails.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+*****************************************************************************
+Sep 26,2016 13:08:49 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Show_OnlyMyActivity and Test method testShow_OnlyMyActivity
+*****************************************************************************
+Sep 26,2016 13:08:50 [info]  open application giturl
+Sep 26,2016 13:09:42 [info]  log-in into application
+Sep 26,2016 13:09:43 [info]  Select Selenium Test Account if not selected
+Sep 26,2016 13:09:57 [info]  Go to Settings > Social Integration
+Sep 26,2016 13:10:03 [info]  Method to verify Integrated Accounts are ON on Integrations page
+Sep 26,2016 13:10:14 [info]  Go to Social > Posts
+Sep 26,2016 13:15:25 [info]  Sep 26,2016 13:15:25 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://button[@data-filter='google_plus'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.showOnlyMyActivity(SocialHelper.java:1027)
+	at com.primeresponse.testcases.Social.Show_OnlyMyActivity.testShow_OnlyMyActivity(Show_OnlyMyActivity.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 13:15:25 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Show_OnlyMyActivity
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:15:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Create_DarkPost and Test method testCreate_SocialPost
+*****************************************************************************
+Sep 26,2016 13:15:44 [info]  open application giturl
+Sep 26,2016 13:16:33 [info]  log-in into application
+Sep 26,2016 13:16:33 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:16:47 [info]  Go to Social > Posts
+Sep 26,2016 13:16:47 [info]  click on create social post button
+Sep 26,2016 13:18:49 [info]  Check visibility of post popup
+Sep 26,2016 13:19:14 [info]  Sep 26,2016 13:19:14 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.04 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 376b620f-b28b-481c-abfb-37f4f923f83f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.SocialHelper.submitDarkPost(SocialHelper.java:153)
+	at com.primeresponse.testcases.Social.Create_DarkPost.testCreate_SocialPost(Create_DarkPost.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6468567504997163222webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6468567504997163222webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6468567504997163222webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6468567504997163222webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Sep 26,2016 13:19:15 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Create_DarkPost
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:19:31 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Check_FBLikeAndComment and Test method testCheck_FBLikeAndComment
+*****************************************************************************
+Sep 26,2016 13:19:31 [info]  open application giturl
+Sep 26,2016 13:20:44 [info]  log-in into application
+Sep 26,2016 13:20:44 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:20:55 [info]  Go to Social > Posts
+Sep 26,2016 13:26:05 [info]  Sep 26,2016 13:26:05 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(),'Kumar Yadav')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.check_FBLikeAndComment(SocialHelper.java:534)
+	at com.primeresponse.testcases.Social.Check_FBLikeAndComment.testCheck_FBLikeAndComment(Check_FBLikeAndComment.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 13:26:05 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Check_FBLikeAndComment
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:26:23 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Mark_As_Favorites and Test method testMark_As_Favorites
+*****************************************************************************
+Sep 26,2016 13:26:23 [info]  open application giturl
+Sep 26,2016 13:27:27 [info]  log-in into application
+Sep 26,2016 13:27:27 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:27:49 [info]  Go to Social > Content
+Sep 26,2016 13:28:26 [info]  Method to mark Content as Flagged
+
+*****************************************************************************
+Sep 26,2016 13:28:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Check_HashtagsResults and Test method testCheck_HashtagsResults
+*****************************************************************************
+Sep 26,2016 13:28:52 [info]  open application giturl
+Sep 26,2016 13:29:17 [info]  log-in into application
+Sep 26,2016 13:29:17 [info]  Select Selenium Test Account if not selected
+Sep 26,2016 13:29:29 [info]  Go to Social > Posts
+Sep 26,2016 13:29:39 [info]  Method to verify hashtags displays related results
+Sep 26,2016 13:29:40 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Check_HashtagsResults
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:29:59 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Pdf_DownloadSocialDashboardReport and Test method testPdf_DownloadSocialDashboardReport
+*****************************************************************************
+Sep 26,2016 13:30:07 [info]  open application giturl
+Sep 26,2016 13:30:33 [info]  log-in into application
+Sep 26,2016 13:30:33 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:30:45 [info]  Go to Social > DashBoard
+Sep 26,2016 13:30:58 [info]  Sep 26,2016 13:30:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SocialHelper.pdf_DownloadSocialDashboardReport(SocialHelper.java:406)
+	at com.primeresponse.testcases.Social.Pdf_DownloadSocialDashboardReport.testPdf_DownloadSocialDashboardReport(Pdf_DownloadSocialDashboardReport.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 13:30:58 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Pdf_DownloadSocialDashboardReport
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:31:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet and Test method testCheckTwitterRetweet
+*****************************************************************************
+Sep 26,2016 13:31:24 [info]  open application giturl
+Sep 26,2016 13:31:47 [info]  log-in into application
+Sep 26,2016 13:31:47 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:31:59 [info]  Go to Social > Posts
+Sep 26,2016 13:32:05 [info]  Sep 26,2016 13:32:05 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SocialHelper.checkTwitterRetweet(SocialHelper.java:570)
+	at com.primeresponse.testcases.Social.CheckTwitterRetweet.testCheckTwitterRetweet(CheckTwitterRetweet.java:41)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 13:32:05 [info]  End Execution of Test Class com.primeresponse.testcases.Social.CheckTwitterRetweet
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:32:23 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.PdfDownload_PinnedContentReport and Test method testVerify_PinnedContentReport
+*****************************************************************************
+Sep 26,2016 13:32:31 [info]  open application giturl
+Sep 26,2016 13:33:02 [info]  log-in into application
+Sep 26,2016 13:33:02 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:33:14 [info]  Go to Social > Pinned Content Report
+Sep 26,2016 13:38:26 [info]  Sep 26,2016 13:38:26 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@id='tag_chzn_o_44'][contains(text(),'Honda')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.pdfDownload_PinnedContentReport(SocialHelper.java:1191)
+	at com.primeresponse.testcases.Social.PdfDownload_PinnedContentReport.testVerify_PinnedContentReport(PdfDownload_PinnedContentReport.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 13:38:27 [info]  End Execution of Test Class com.primeresponse.testcases.Social.PdfDownload_PinnedContentReport
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:38:47 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Verify_SocialPostReport and Test method testVerify_SocialPostReport
+*****************************************************************************
+Sep 26,2016 13:38:56 [info]  open application giturl
+Sep 26,2016 13:39:23 [info]  log-in into application
+Sep 26,2016 13:39:23 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:39:33 [info]  Go to Social > Social Post Report
+Sep 26,2016 13:44:49 [info]  Sep 26,2016 13:44:49 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='report-range']//span[@class='caret'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.verify_SocialPostReport(SocialHelper.java:1070)
+	at com.primeresponse.testcases.Social.Verify_SocialPostReport.testVerify_SocialPostReport(Verify_SocialPostReport.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 13:44:49 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Verify_SocialPostReport
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:45:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Search_Content and Test method testSearch_Content
+*****************************************************************************
+Sep 26,2016 13:45:14 [info]  open application giturl
+Sep 26,2016 13:46:28 [info]  log-in into application
+Sep 26,2016 13:46:28 [info]  Select Selenium Test Account if not selected
+Sep 26,2016 13:47:06 [info]  Go to Social > Content
+Sep 26,2016 13:50:57 [info]  Method to search content
+Sep 26,2016 13:50:58 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Search_Content
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:51:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Add_Content and Test method testAdd_Content
+*****************************************************************************
+Sep 26,2016 13:51:28 [info]  open application giturl
+Sep 26,2016 13:52:22 [info]  log-in into application
+Sep 26,2016 13:52:23 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:52:37 [info]  Go to Social > Content
+Sep 26,2016 13:52:37 [info]  Click on Add Content button
+Sep 26,2016 13:54:30 [info]  Check visibility of content popup
+Sep 26,2016 13:54:30 [info]  Check Title of add content popup
+Sep 26,2016 13:54:34 [info]  Enter details and submit content
+Sep 26,2016 13:54:34 [info]  success message
+Sep 26,2016 13:54:34 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Add_Content
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 13:54:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Verify_PinnedContentReport and Test method testVerify_PinnedContentReport
+*****************************************************************************
+Sep 26,2016 13:54:50 [info]  open application giturl
+Sep 26,2016 13:55:47 [info]  log-in into application
+Sep 26,2016 13:55:47 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 13:55:57 [info]  Go to Social > Pinned Content Report
+Sep 26,2016 14:01:08 [info]  Sep 26,2016 14:01:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@id='tag_chzn_o_44'][contains(text(),'Honda')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.verify_PinnedContentReport(SocialHelper.java:1129)
+	at com.primeresponse.testcases.Social.Verify_PinnedContentReport.testVerify_PinnedContentReport(Verify_PinnedContentReport.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 14:01:08 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Verify_PinnedContentReport
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 14:01:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Check_AnalyzeHashtags and Test method testCheck_AnalyzeHashtags
+*****************************************************************************
+Sep 26,2016 14:02:22 [info]  open application giturl
+Sep 26,2016 14:03:14 [info]  log-in into application
+Sep 26,2016 14:03:14 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 14:03:26 [info]  Go to Social > Posts
+Sep 26,2016 14:03:27 [info]  click on create social post button
+Sep 26,2016 14:05:29 [info]  Check visibility of post popup
+Sep 26,2016 14:10:47 [info]  Sep 26,2016 14:10:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='btn-group bootstrap-select span6 show-tick open']/ul/li/a/span[contains(text(),'Kumar Yadav')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.analyzeHashtags(SocialHelper.java:432)
+	at com.primeresponse.testcases.Social.Check_AnalyzeHashtags.testCheck_AnalyzeHashtags(Check_AnalyzeHashtags.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 14:10:47 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Check_AnalyzeHashtags
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 14:11:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Create_SocialPost and Test method testCreate_SocialPost
+*****************************************************************************
+Sep 26,2016 14:11:20 [info]  open application giturl
+Sep 26,2016 14:12:03 [info]  log-in into application
+Sep 26,2016 14:12:04 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 14:12:16 [info]  Go to Social > Posts
+Sep 26,2016 14:12:16 [info]  click on create social post button
+Sep 26,2016 14:14:19 [info]  Check visibility of post popup
+Sep 26,2016 14:14:45 [info]  Enter details and submit content
+Sep 26,2016 14:16:52 [info]  Sep 26,2016 14:16:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Social.Create_SocialPost.testCreate_SocialPost(Create_SocialPost.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 14:16:53 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Create_SocialPost
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 14:17:10 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Mark_As_Flagged and Test method testMark_As_Flagged
+*****************************************************************************
+Sep 26,2016 14:17:21 [info]  open application giturl
+Sep 26,2016 14:17:53 [info]  log-in into application
+Sep 26,2016 14:17:53 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 14:18:18 [info]  Go to Social > Content
+Sep 26,2016 14:23:55 [info]  Sep 26,2016 14:23:55 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://*[@id='social-content-feed-items']/div[14]/a/img Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.markContentFlagged(SocialHelper.java:320)
+	at com.primeresponse.testcases.Social.Mark_As_Flagged.testMark_As_Flagged(Mark_As_Flagged.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+*****************************************************************************
+Sep 26,2016 14:24:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Check_ShortenUrl and Test method testCheck_ShortenUrl
+*****************************************************************************
+Sep 26,2016 14:24:14 [info]  open application giturl
+Sep 26,2016 14:25:02 [info]  log-in into application
+Sep 26,2016 14:25:03 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 14:25:17 [info]  Go to Social > Posts
+Sep 26,2016 14:25:17 [info]  click on create social post button
+Sep 26,2016 14:27:21 [info]  Check visibility of post popup
+Sep 26,2016 14:32:42 [info]  Sep 26,2016 14:32:42 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='btn-group bootstrap-select span6 show-tick open']/ul/li/a/span[contains(text(),'Kumar Yadav')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.shortenUrl(SocialHelper.java:493)
+	at com.primeresponse.testcases.Social.Check_ShortenUrl.testCheck_ShortenUrl(Check_ShortenUrl.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 14:32:42 [info]  End Execution of Test Class com.primeresponse.testcases.Social.Check_ShortenUrl
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 14:33:01 [info]   Execution Started of Test Class com.primeresponse.testcases.Social.Check_FilterResult and Test method testCheck_FilterResult
+*****************************************************************************
+Sep 26,2016 14:33:11 [info]  open application giturl
+Sep 26,2016 14:33:39 [info]  log-in into application
+Sep 26,2016 14:33:39 [info]  Select Selenium Test Account if not selected
+Sep 26,2016 14:33:54 [info]  Go to Social > Content
+
+*****************************************************************************
+Sep 26,2016 14:57:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 14:57:39 [info]  open application giturl
+Sep 26,2016 14:58:23 [info]  log-in into application
+Sep 26,2016 14:58:24 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 14:58:36 [info]  Go to Settings > Social Integration
+Sep 26,2016 14:59:00 [info]  Integrate Accounts with FaceBook
+Sep 26,2016 14:59:00 [info]  success message
+Sep 26,2016 14:59:18 [info]  Integrate Accounts with Twitter
+Sep 26,2016 14:59:30 [info]  success message
+
+*****************************************************************************
+Sep 26,2016 15:15:39 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 15:15:48 [info]  open application giturl
+Sep 26,2016 15:16:13 [info]  log-in into application
+Sep 26,2016 15:16:13 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 15:16:24 [info]  Go to Settings > Social Integration
+Sep 26,2016 15:16:50 [info]  Integrate Accounts with FaceBook
+Sep 26,2016 15:16:57 [info]  success message
+Sep 26,2016 15:17:14 [info]  Integrate Accounts with Twitter
+Sep 26,2016 15:17:22 [info]  success message
+Sep 26,2016 15:17:27 [info]  Sep 26,2016 15:17:27 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.08 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 24822a4e-e714-47a6-9ecb-6bd6e2431ad4
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.SettingHelper.integrateYouTube(SettingHelper.java:238)
+	at com.primeresponse.testcases.Settings.Integrate_Accounts.testIntegrate_Accounts(Integrate_Accounts.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous7908692740157140926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous7908692740157140926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous7908692740157140926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous7908692740157140926webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Sep 26,2016 15:17:27 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 15:19:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 15:19:55 [info]  open application giturl
+Sep 26,2016 15:20:55 [info]  log-in into application
+Sep 26,2016 15:20:55 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 15:21:07 [info]  Go to Settings > Social Integration
+Sep 26,2016 15:21:31 [info]  Integrate Accounts with FaceBook
+Sep 26,2016 15:21:32 [info]  success message
+Sep 26,2016 15:21:48 [info]  Integrate Accounts with Twitter
+Sep 26,2016 15:21:57 [info]  success message
+
+*****************************************************************************
+Sep 26,2016 15:28:02 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 15:28:02 [info]  open application giturl
+Sep 26,2016 15:28:40 [info]  log-in into application
+Sep 26,2016 15:28:41 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 15:28:52 [info]  Go to Settings > Social Integration
+Sep 26,2016 15:34:17 [info]  Sep 26,2016 15:34:17 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://input[@id='u_0_2'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SettingHelper.integrateFacebook(SettingHelper.java:186)
+	at com.primeresponse.testcases.Settings.Integrate_Accounts.testIntegrate_Accounts(Integrate_Accounts.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 15:34:19 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 15:35:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 15:35:32 [info]  open application giturl
+Sep 26,2016 15:35:57 [info]  log-in into application
+Sep 26,2016 15:35:58 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 15:36:09 [info]  Go to Settings > Social Integration
+Sep 26,2016 15:36:28 [info]  Integrate Accounts with FaceBook
+Sep 26,2016 15:36:29 [info]  success message
+Sep 26,2016 15:36:43 [info]  Integrate Accounts with Twitter
+Sep 26,2016 15:36:52 [info]  success message
+Sep 26,2016 15:36:58 [info]  Sep 26,2016 15:36:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.04 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: ec62cd5f-13de-4444-b114-c509af9e919b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.SettingHelper.integrateYouTube(SettingHelper.java:238)
+	at com.primeresponse.testcases.Settings.Integrate_Accounts.testIntegrate_Accounts(Integrate_Accounts.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6342860726598907020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6342860726598907020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6342860726598907020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous6342860726598907020webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Sep 26,2016 15:36:58 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 15:38:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 15:38:35 [info]  open application giturl
+Sep 26,2016 15:39:11 [info]  log-in into application
+Sep 26,2016 15:39:12 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 15:39:22 [info]  Go to Settings > Social Integration
+Sep 26,2016 15:42:51 [info]  Sep 26,2016 15:42:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://input[@id='u_0_2'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SettingHelper.integrateFacebook(SettingHelper.java:186)
+	at com.primeresponse.testcases.Settings.Integrate_Accounts.testIntegrate_Accounts(Integrate_Accounts.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 26,2016 15:42:51 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts
+*****************************************************************************
+
+*****************************************************************************
+Sep 26,2016 17:16:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Integrate_Accounts and Test method testIntegrate_Accounts
+*****************************************************************************
+Sep 26,2016 17:16:34 [info]  open application giturl
+Sep 26,2016 17:17:07 [info]  log-in into application
+Sep 26,2016 17:17:08 [info]  Select Selenium Test Ford Account if not selected
+Sep 26,2016 17:17:18 [info]  Go to Settings > Social Integration

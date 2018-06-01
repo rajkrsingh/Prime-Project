@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Upload_List"
+	annotations="JDK">
+	<test name="Upload_List" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Influence.Upload_List" />
+		</classes>
+	</test>
+</suite> 
+

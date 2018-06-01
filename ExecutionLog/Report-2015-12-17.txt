@@ -1,0 +1,482 @@
+
+*****************************************************************************
+Dec 17,2015 10:46:49 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_ChildGroup and Test method testCreate_ChildGroup
+*****************************************************************************
+Dec 17,2015 10:47:30 [info]  open application giturl
+Dec 17,2015 10:47:43 [info]  log-in into application
+Dec 17,2015 10:47:43 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 10:49:03 [info]  Enter child group details and submit it
+Dec 17,2015 10:49:04 [info]  success message
+Dec 17,2015 10:49:04 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Create_ChildGroup
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 10:50:10 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_GreatPlainProduct and Test method testCreate_GreatPlainProduct
+*****************************************************************************
+Dec 17,2015 10:50:51 [info]  open application giturl
+Dec 17,2015 10:51:05 [info]  log-in into application
+Dec 17,2015 10:51:05 [info]  Select Selenium Test Account if not selected
+Dec 17,2015 10:51:14 [info]  Method to create Great Plains Products from Admin menu
+Dec 17,2015 10:51:37 [info]  success message
+Dec 17,2015 10:51:46 [info]  Click on edit icon of logged account
+Dec 17,2015 10:52:05 [info]  Method to create Great Plains Contracts from Accounts menu
+Dec 17,2015 10:53:42 [info]  Dec 17,2015 10:53:42 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Admin.Create_GreatPlainProduct.testCreate_GreatPlainProduct(Create_GreatPlainProduct.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+*****************************************************************************
+Dec 17,2015 10:56:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_GreatPlainProduct and Test method testCreate_GreatPlainProduct
+*****************************************************************************
+Dec 17,2015 10:57:02 [info]  open application giturl
+Dec 17,2015 10:57:14 [info]  log-in into application
+Dec 17,2015 10:57:14 [info]  Select Selenium Test Account if not selected
+Dec 17,2015 10:57:21 [info]  Method to create Great Plains Products from Admin menu
+Dec 17,2015 10:57:41 [info]  success message
+Dec 17,2015 10:57:50 [info]  Click on edit icon of logged account
+Dec 17,2015 10:58:09 [info]  Method to create Great Plains Contracts from Accounts menu
+Dec 17,2015 10:58:10 [info]  success message
+
+*****************************************************************************
+Dec 17,2015 11:00:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_GreatPlainProduct and Test method testCreate_GreatPlainProduct
+*****************************************************************************
+Dec 17,2015 11:00:31 [info]  open application giturl
+Dec 17,2015 11:00:43 [info]  log-in into application
+Dec 17,2015 11:00:43 [info]  Select Selenium Test Account if not selected
+Dec 17,2015 11:00:52 [info]  Method to create Great Plains Products from Admin menu
+Dec 17,2015 11:00:52 [info]  success message
+Dec 17,2015 11:01:00 [info]  Click on edit icon of logged account
+Dec 17,2015 11:01:18 [info]  Method to create Great Plains Contracts from Accounts menu
+Dec 17,2015 11:01:19 [info]  success message
+
+*****************************************************************************
+Dec 17,2015 11:02:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Create_GreatPlainsImportFiles and Test method testCreate_GreatPlainsImportFiles
+*****************************************************************************
+Dec 17,2015 11:02:37 [info]  open application giturl
+Dec 17,2015 11:02:50 [info]  log-in into application
+Dec 17,2015 11:02:51 [info]  Select Selenium Test Account if not selected
+Dec 17,2015 11:02:59 [info]  Verify process of creating Great Plains Import Files
+
+*****************************************************************************
+Dec 17,2015 11:04:59 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_KPI_Template and Test method testDelete_KPI_Template
+*****************************************************************************
+Dec 17,2015 11:07:29 [info]  open application giturl
+Dec 17,2015 11:07:44 [info]  log-in into application
+Dec 17,2015 11:07:44 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:13:03 [info]  Dec 17,2015 11:13:03 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='data-wiselinks-container']//tbody/tr[22]/td[5]//a[2] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.AdminHelper.delete_KPI_Template(AdminHelper.java:1276)
+	at com.primeresponse.testcases.Admin.Delete_KPI_Template.testDelete_KPI_Template(Delete_KPI_Template.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 17,2015 11:13:03 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_KPI_Template
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:22:53 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_KPI_Template and Test method testDelete_KPI_Template
+*****************************************************************************
+Dec 17,2015 11:23:04 [info]  open application giturl
+Dec 17,2015 11:23:15 [info]  log-in into application
+Dec 17,2015 11:23:16 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:23:30 [info]  Verify process of deleting KPI template
+Dec 17,2015 11:23:33 [info]  success message
+Dec 17,2015 11:23:33 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_KPI_Template
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:27:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_Package and Test method testDelete_Package
+*****************************************************************************
+Dec 17,2015 11:28:32 [info]  open application giturl
+Dec 17,2015 11:28:44 [info]  log-in into application
+Dec 17,2015 11:28:44 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:29:39 [info]  Enter email in search text field for search and delete the user
+Dec 17,2015 11:31:16 [info]  Dec 17,2015 11:31:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Admin.Delete_Package.testDelete_Package(Delete_Package.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 17,2015 11:31:16 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_Package
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:35:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_Package and Test method testDelete_Package
+*****************************************************************************
+Dec 17,2015 11:36:34 [info]  open application giturl
+Dec 17,2015 11:36:46 [info]  log-in into application
+Dec 17,2015 11:36:46 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:37:46 [info]  Enter email in search text field for search and delete the user
+Dec 17,2015 11:37:46 [info]  success message
+Dec 17,2015 11:37:46 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_Package
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:38:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_ParentGroup and Test method testDelete_ParentGroup
+*****************************************************************************
+Dec 17,2015 11:40:56 [info]  open application giturl
+Dec 17,2015 11:41:14 [info]  log-in into application
+Dec 17,2015 11:41:14 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:44:39 [info]  Click on Admin > Groups
+Dec 17,2015 11:44:43 [info]  success message
+Dec 17,2015 11:44:43 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_ParentGroup
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:46:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_Template and Test method testDelete_Template
+*****************************************************************************
+Dec 17,2015 11:46:09 [info]  open application giturl
+Dec 17,2015 11:47:56 [info]  log-in into application
+Dec 17,2015 11:47:57 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:48:06 [info]  Click on Admin->Email Templates
+Dec 17,2015 11:48:18 [info]  Delete Template
+Dec 17,2015 11:48:19 [info]  success message
+Dec 17,2015 11:48:19 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_Template
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:49:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_User and Test method testDelete_User
+*****************************************************************************
+Dec 17,2015 11:51:19 [info]  open application giturl
+Dec 17,2015 11:51:37 [info]  log-in into application
+Dec 17,2015 11:51:37 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:51:54 [info]  Enter email in search text field for search and delete the user
+Dec 17,2015 11:51:55 [info]  success message
+Dec 17,2015 11:51:55 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_User
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:52:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Admin.Delete_WhiteLabel and Test method testDelete_WhiteLabel
+*****************************************************************************
+Dec 17,2015 11:52:32 [info]  open application giturl
+Dec 17,2015 11:54:05 [info]  log-in into application
+Dec 17,2015 11:54:05 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:54:12 [info]  Delete white lable
+Dec 17,2015 11:54:13 [info]  success message
+Dec 17,2015 11:54:20 [info]  logo does not change in to default
+Dec 17,2015 11:54:20 [info]  End Execution of Test Class com.primeresponse.testcases.Admin.Delete_WhiteLabel
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 11:56:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Dec 17,2015 11:58:12 [info]  open application giturl
+Dec 17,2015 11:58:26 [info]  log-in into application
+Dec 17,2015 11:58:27 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 11:58:36 [info]  Go to Influence > Redirects
+Dec 17,2015 11:58:37 [info]  click on create new Redirect link
+Dec 17,2015 11:58:41 [info]  Enter label and original url
+Dec 17,2015 12:03:52 [info]  Dec 17,2015 12:03:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://form[@id='new_redirect']/p/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterDestinationUrl1(InfluenceHelper.java:504)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 17,2015 12:03:52 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 13:17:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Dec 17,2015 13:19:21 [info]  open application giturl
+Dec 17,2015 13:19:36 [info]  log-in into application
+Dec 17,2015 13:19:36 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 13:19:44 [info]  Go to Influence > Redirects
+Dec 17,2015 13:19:45 [info]  click on create new Redirect link
+Dec 17,2015 13:19:48 [info]  Enter label and original url
+Dec 17,2015 13:24:58 [info]  Dec 17,2015 13:24:58 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='redirect_destination fields'][1]/input[1] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getAttribute(DriverHelper.java:325)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterDestinationUrl1(InfluenceHelper.java:506)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 17,2015 13:24:58 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 14:11:30 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Dec 17,2015 14:12:01 [info]  open application giturl
+Dec 17,2015 14:12:13 [info]  log-in into application
+Dec 17,2015 14:12:13 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 14:12:22 [info]  Go to Influence > Redirects
+Dec 17,2015 14:12:22 [info]  click on create new Redirect link
+Dec 17,2015 14:12:26 [info]  Enter label and original url
+
+*****************************************************************************
+Dec 17,2015 14:19:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Dec 17,2015 14:20:02 [info]  open application giturl
+Dec 17,2015 14:20:14 [info]  log-in into application
+Dec 17,2015 14:20:15 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 14:20:23 [info]  Go to Influence > Redirects
+Dec 17,2015 14:20:23 [info]  click on create new Redirect link
+Dec 17,2015 14:20:27 [info]  Enter label and original url
+Dec 17,2015 14:25:38 [info]  Dec 17,2015 14:25:38 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator : Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.sendKeys(DriverHelper.java:258)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterDestinationUrl1(InfluenceHelper.java:508)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 17,2015 14:25:38 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 14:53:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Dec 17,2015 14:54:32 [info]  open application giturl
+Dec 17,2015 14:54:47 [info]  log-in into application
+Dec 17,2015 14:54:47 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 14:54:57 [info]  Go to Influence > Redirects
+Dec 17,2015 14:54:57 [info]  click on create new Redirect link
+Dec 17,2015 14:55:02 [info]  Enter label and original url
+Dec 17,2015 14:55:07 [info]  Enter 1st destination url
+Dec 17,2015 15:00:18 [info]  Dec 17,2015 15:00:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://a[contains(text(),'Add a custom URL')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.enterDestinationUrl2(InfluenceHelper.java:535)
+	at com.primeresponse.testcases.Influence.Add_Redirects.testAdd_Redirects(Add_Redirects.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 17,2015 15:00:18 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 15:03:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Add_Redirects and Test method testAdd_Redirects
+*****************************************************************************
+Dec 17,2015 15:04:54 [info]  open application giturl
+Dec 17,2015 15:05:08 [info]  log-in into application
+Dec 17,2015 15:05:09 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 15:05:17 [info]  Go to Influence > Redirects
+Dec 17,2015 15:05:20 [info]  click on create new Redirect link
+Dec 17,2015 15:05:21 [info]  Enter label and original url
+Dec 17,2015 15:05:26 [info]  Enter 1st destination url
+Dec 17,2015 15:05:26 [info]  success message
+Dec 17,2015 15:05:26 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Add_Redirects
+*****************************************************************************
+
+*****************************************************************************
+Dec 17,2015 15:07:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_NewCampaign and Test method testCreate_NewCampaign
+*****************************************************************************
+Dec 17,2015 15:08:44 [info]  open application giturl
+Dec 17,2015 15:09:01 [info]  log-in into application
+Dec 17,2015 15:09:01 [info]  Select Selenium Test Ford Account if not selected
+Dec 17,2015 15:09:10 [info]  click on create new campaign link
+Dec 17,2015 15:09:18 [info]  Dec 17,2015 15:09:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.NoSuchElementException: Cannot locate element with text: TLP Test
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.1.15', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:150)
+	at com.primeresponse.util.DriverHelper.selectDropDown(DriverHelper.java:285)
+	at com.primeresponse.pagehelper.InfluenceHelper.submitBasicDetails(InfluenceHelper.java:47)
+	at com.primeresponse.testcases.Influence.Create_NewCampaign.testCreate_NewCampaign(Create_NewCampaign.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Dec 17,2015 15:09:18 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Create_NewCampaign
+*****************************************************************************

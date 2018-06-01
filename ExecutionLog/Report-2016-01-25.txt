@@ -1,0 +1,54 @@
+
+*****************************************************************************
+Jan 25,2016 12:09:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Jan 25,2016 12:09:37 [info]  open application giturl
+Jan 25,2016 12:10:02 [info]  log-in into application
+Jan 25,2016 12:10:03 [info]  Select Selenium Test Ford Account if not selected
+Jan 25,2016 12:10:12 [info]  Go to Settings > Social Integration
+Jan 25,2016 12:10:33 [info]  Integrate Accounts with Google Analytics and verify that account is showing OFF by default.
+Jan 25,2016 12:10:33 [info]  success message
+Jan 25,2016 12:10:33 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Jan 25,2016 12:14:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_ReviewsCountOnListenersAndExternalFeed and Test method testVerify_ReviewsCountOnListenersAndExternalFeed
+*****************************************************************************
+Jan 25,2016 12:14:54 [info]  open application giturl
+Jan 25,2016 12:15:08 [info]  log-in into application
+Jan 25,2016 12:15:08 [info]  Select Selenium Test Account if not selected
+Jan 25,2016 12:15:20 [info]  Go to Settings>Track Listeners
+Jan 25,2016 12:20:32 [info]  Jan 25,2016 12:20:32 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://form[@id='edit_account_13594']//tr[1]/td[2]//tr[1]/td[1]/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.SettingHelper.verify_ReviewsCountOnListenersAndExternalFeed(SettingHelper.java:1143)
+	at com.primeresponse.testcases.Settings.Verify_ReviewsCountOnListenersAndExternalFeed.testVerify_ReviewsCountOnListenersAndExternalFeed(Verify_ReviewsCountOnListenersAndExternalFeed.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jan 25,2016 12:20:32 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_ReviewsCountOnListenersAndExternalFeed
+*****************************************************************************

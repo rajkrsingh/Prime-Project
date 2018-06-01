@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+    
+    <ReferralAnalysis>
+			<ReferralAnalysisHeader><![CDATA[//li[contains(text(),'Referral Analysis')]]]></ReferralAnalysisHeader>
+			<ViewList><![CDATA[//div[@id='id_chzn']/a]]></ViewList>
+			<TotalViewList><![CDATA[//div[@id='id_chzn']//ul/li]]></TotalViewList>
+			<OverAllTrafficSources><![CDATA[//h4[contains(text(),'Overall Traffic Sources')]]]></OverAllTrafficSources>
+			<ReferralSourcesBreakdown><![CDATA[//h4[contains(text(),'Referral Sources Breakdown')]]]></ReferralSourcesBreakdown>
+			<SocialSiteReferral><![CDATA[//h4[contains(text(),'Social Site Referrals')]]]></SocialSiteReferral>
+			<ReputationSiteReferrals><![CDATA[//h4[contains(text(),'Reputation Site Referrals')]]]></ReputationSiteReferrals>
+			<TotalReputationTraffic><![CDATA[//th[contains(text(),'% of Total Reputation Traffic')]]]></TotalReputationTraffic>
+			<NoDataExistMsg><![CDATA[//div[contains(text(),'No data exists for the specified time period')]]]></NoDataExistMsg>
+			<GotoSite><![CDATA[//table[contains(@class,'table table-striped')]//tr[3]/td/a[@title='Go to site']]]></GotoSite>
+			<ReputationSiteRow><![CDATA[//div[@id='analytics-tracked-referrals']/table/tbody/tr]]></ReputationSiteRow>
+			<SocialSiteReferralsRow><![CDATA[//div[@id='analytics-social-referrals']/table/tbody/tr]]></SocialSiteReferralsRow>
+			<RatingSortIcon><![CDATA[//th[contains(text(),'Avg Rating')]/span]]></RatingSortIcon>
+			<SourceIcon><![CDATA[//div[@id='analytics-tracked-referrals']//th[2][contains(text(),'Source')]/span]]></SourceIcon>
+			<NoReviewsCol><![CDATA[//div[@id='analytics-tracked-referrals']//th[contains(text(),'Number of Reviews')]/span]]></NoReviewsCol>
+			<TotalSocialTrafficCol><![CDATA[//div[@id='analytics-social-referrals']//th[contains(text(),'Total Social Traffic')]/span]]></TotalSocialTrafficCol>
+			<BounceRateCol><![CDATA[//div[@id='analytics-social-referrals']//th[contains(text(),'Bounce Rate')]/span]]></BounceRateCol>
+			<AvgTimeSite><![CDATA[//div[@id='analytics-social-referrals']//th[contains(text(),'Avg Time on Site')]/span]]></AvgTimeSite>
+			<PagesVisit><![CDATA[//div[@id='analytics-social-referrals']//th[contains(text(),'Pages / Visit')]/span]]></PagesVisit>
+			<TotalSocialTraffic><![CDATA[//div[@id='analytics-social-referrals']//th[contains(text(),'of Total Social Traffic')]/span]]></TotalSocialTraffic>
+			<ReputationAvgTimeSite><![CDATA[//div[@id='analytics-tracked-referrals']//th[contains(text(),'Avg Time on Site (minutes)')]]]></ReputationAvgTimeSite>
+    </ReferralAnalysis>
+    <SerpCapture>
+    		<NewSearchEngineResultPageLink><![CDATA[//a[contains(text(),'New Search Engine Result Page')]]]></NewSearchEngineResultPageLink>
+    		<Label><![CDATA[//input[@id='profile_serp_label']]]></Label>
+    		<SearchTerm><![CDATA[//input[@id='profile_serp_value']]]></SearchTerm>
+    		<Interval><![CDATA[]]></Interval>
+    		<SourceType><![CDATA[//input[@id='profile_serp_source_type_google']]]></SourceType>
+    		<CreateSerpButton><![CDATA[//li[@id='profile_serp_submit_action']/input[@value='Create Serp']]]></CreateSerpButton>
+    		<DeleteIcon><![CDATA[//a[@data-method='delete']/img]]></DeleteIcon>
+    </SerpCapture>
+    <LandingPages>
+             <NewLandingPage><![CDATA[//a[@href='/web/landing_pages/new']]]></NewLandingPage>
+             <Name><![CDATA[landing_page_name]]></Name>
+             <EditButton><![CDATA[//a[@data-original-title='Edit']/i]]></EditButton>
+             <Title><![CDATA[landing_page_title]]></Title>
+             <Discoverable><![CDATA[landing_page_discoverable]]></Discoverable>
+             <TextAreaSource><![CDATA[//span[contains(@class,'cke_button_icon cke_button__source_icon')]]]></TextAreaSource>
+             <TextArea><![CDATA[//textarea[contains(@class,'cke_source cke_reset cke_enable_context_menu cke_editable')]]]></TextArea>
+             <DeleteButton><![CDATA[//a[@data-original-title='Delete']/i]]></DeleteButton>
+             <Row><![CDATA[//table[contains(@class,'landing-page-table')]/tbody/tr]]></Row>
+             <BackLink><![CDATA[//a[contains(text(),'Back')]]]></BackLink>
+             <PreviewButton><![CDATA[//a[@data-original-title='Preview']]]></PreviewButton>
+             <PreviewPage><![CDATA[//div[@id='wrapper']/div[2]]]></PreviewPage>
+             <TextAreaValue><![CDATA[//div[@id='cke_landing_page_main_html']//div/textarea]]></TextAreaValue>
+             <SubmitButton><![CDATA[//input[@value='Create Landing page']]]></SubmitButton>
+             
+    </LandingPages>
+    
+    <GoogleCampaigns>
+            <Row><![CDATA[//tbody[@class='products-body']/tr]]></Row>
+    		<NewButton><![CDATA[//a[contains(text(),'New')]]]></NewButton>
+    		<Name><![CDATA[google_campaign_name]]></Name>
+    		<SubmitButton><![CDATA[//input[@value='Save']]]></SubmitButton>
+    </GoogleCampaigns>
+    
+   <CampaignReport>
+        <ReportTitle><![CDATA[//li[contains(text(),'Campaign Report')]]]></ReportTitle>
+        <SiteTraffic><![CDATA[//span[contains(text(),'Site Traffic')]]]></SiteTraffic>
+        <Visits><![CDATA[//h4[contains(text(),'Visits')]]]></Visits>
+        <Acquisition><![CDATA[//b[contains(text(),'Acquisition')]]]></Acquisition>
+        <Behavior><![CDATA[//b[contains(text(),'Behavior')]]]></Behavior>
+        <Conversion><![CDATA[//b[contains(text(),'Conversion')]]]></Conversion>
+        <SourceMedium><![CDATA[//td[contains(text(),'Source / Medium')]]]></SourceMedium>
+        <CampaignListIcon><![CDATA[//div[@id='google_campaign_id_chzn']//b]]></CampaignListIcon>
+        <CampaignList><![CDATA[//div[@id='google_campaign_id_chzn']//li]]></CampaignList>
+        <DatePicker><![CDATA[datepicker-span]]></DatePicker>
+        <LastMonth><![CDATA[//li[contains(text(),'Last Month')]]]></LastMonth>
+        <SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+        <CampaingsList><![CDATA[//div[@id='google_campaign_id_chzn']/a]]></CampaingsList>
+        <TotalCampaignList><![CDATA[//div[@id='google_campaign_id_chzn']//li]]></TotalCampaignList>
+   </CampaignReport>
+   
+   <TrackingUrls>
+         <NewButton><![CDATA[//a[contains(text(),' New')]]]></NewButton>
+         <AdName><![CDATA[tracking_url_ad_name]]></AdName>
+         <BaseUrl><![CDATA[tracking_url_base_url]]></BaseUrl>
+         <Description><![CDATA[tracking_url_description]]></Description>
+         <GoogleCampaignOption><![CDATA[//div[@id='tracking_url_google_campaign_id_chzn']//span[contains(text(),'Select an Option')]]]></GoogleCampaignOption>
+         <GoogleCampaign><![CDATA[//div[@id='tracking_url_google_campaign_id_chzn']//li[1]]]></GoogleCampaign>
+         <MarkettingProductOption><![CDATA[//div[@id='tracking_url_marketing_product_id_chzn']//span[contains(text(),'Select an Option')]]]></MarkettingProductOption>
+         <MarkettingProduct><![CDATA[//div[@id='tracking_url_marketing_product_id_chzn']//li[1]]]></MarkettingProduct>
+         <GetAdName><![CDATA[//table[@class='table table-striped']//td[4]]]></GetAdName>
+         <ClipboardButton><![CDATA[//table[@class='table table-striped']//td[5]/a]]></ClipboardButton>
+         <SubmitButton><![CDATA[//input[@value='Save']]]></SubmitButton>
+   </TrackingUrls>
+	
+</Locators>
+

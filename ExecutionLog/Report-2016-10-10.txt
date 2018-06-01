@@ -1,0 +1,832 @@
+
+*****************************************************************************
+Oct 10,2016 10:15:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Delete_Note and Test method testDelete_Note
+*****************************************************************************
+Oct 10,2016 10:16:46 [info]  open application giturl
+Oct 10,2016 10:17:26 [info]  log-in into application
+Oct 10,2016 10:22:48 [info]  Oct 10,2016 10:22:48 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@class='ac_even ac_over']/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.LoginHelper.selectAccount(LoginHelper.java:57)
+	at com.primeresponse.util.DriverTestCase.selectAccount(DriverTestCase.java:122)
+	at com.primeresponse.testcases.Support.Delete_Note.testDelete_Note(Delete_Note.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 10:22:48 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Delete_Note
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 10:27:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Delete_Note and Test method testDelete_Note
+*****************************************************************************
+Oct 10,2016 10:27:41 [info]  open application giturl
+Oct 10,2016 10:28:31 [info]  log-in into application
+Oct 10,2016 10:28:50 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 10:34:22 [info]  Oct 10,2016 10:34:22 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://tbody[@id='support-notes']/tr[1]/td[2]/div[1]/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.SupportHelper.deleteNote(SupportHelper.java:152)
+	at com.primeresponse.testcases.Support.Delete_Note.testDelete_Note(Delete_Note.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 10:34:22 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Delete_Note
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 10:50:16 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Create_Note and Test method testCreate_Note
+*****************************************************************************
+Oct 10,2016 10:50:25 [info]  open application giturl
+Oct 10,2016 10:51:08 [info]  log-in into application
+Oct 10,2016 10:51:08 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 10:51:34 [info]   Enter Note details and submit it
+Oct 10,2016 10:51:34 [info]  success message
+Oct 10,2016 10:51:34 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Create_Note
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 10:51:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Delete_Note and Test method testDelete_Note
+*****************************************************************************
+Oct 10,2016 10:52:04 [info]  open application giturl
+Oct 10,2016 10:53:32 [info]  log-in into application
+Oct 10,2016 10:53:32 [info]  Select Selenium Test Ford Account if not selected
+
+*****************************************************************************
+Oct 10,2016 10:57:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Delete_Note and Test method testDelete_Note
+*****************************************************************************
+Oct 10,2016 10:57:55 [info]  open application giturl
+Oct 10,2016 10:58:30 [info]  log-in into application
+Oct 10,2016 10:58:31 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 10:58:43 [info]   Delete Note
+Oct 10,2016 10:58:50 [info]  success message
+Oct 10,2016 10:58:50 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Delete_Note
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:07:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Delete_Report and Test method testDelete_Report
+*****************************************************************************
+Oct 10,2016 11:07:58 [info]  open application giturl
+Oct 10,2016 11:08:22 [info]  log-in into application
+Oct 10,2016 11:08:22 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:08:33 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:08:38 [info]  success message
+Oct 10,2016 11:08:42 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:08:47 [info]  success message
+Oct 10,2016 11:08:51 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:08:56 [info]  success message
+Oct 10,2016 11:09:00 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:09:04 [info]  success message
+Oct 10,2016 11:09:08 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:09:14 [info]  success message
+Oct 10,2016 11:09:18 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:09:22 [info]  success message
+Oct 10,2016 11:09:26 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:09:31 [info]  success message
+Oct 10,2016 11:09:34 [info]  Delete all report created in create report scripts
+Oct 10,2016 11:09:40 [info]  success message
+Oct 10,2016 11:09:40 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Delete_Report
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:11:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Generate_PdfReport and Test method testGenerate_PdfReport
+*****************************************************************************
+Oct 10,2016 11:11:19 [info]  open application giturl
+Oct 10,2016 11:11:43 [info]  log-in into application
+Oct 10,2016 11:11:44 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:11:56 [info]  Oct 10,2016 11:11:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.generate_PdfReport(SupportHelper.java:945)
+	at com.primeresponse.testcases.Support.Generate_PdfReport.testGenerate_PdfReport(Generate_PdfReport.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 11:11:56 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Generate_PdfReport
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:13:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Generate_PdfReport and Test method testGenerate_PdfReport
+*****************************************************************************
+Oct 10,2016 11:13:29 [info]  open application giturl
+Oct 10,2016 11:14:04 [info]  log-in into application
+Oct 10,2016 11:14:05 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:14:22 [info]  Oct 10,2016 11:14:22 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.generate_PdfReport(SupportHelper.java:945)
+	at com.primeresponse.testcases.Support.Generate_PdfReport.testGenerate_PdfReport(Generate_PdfReport.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 11:14:22 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Generate_PdfReport
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:16:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Generate_PdfReport and Test method testGenerate_PdfReport
+*****************************************************************************
+Oct 10,2016 11:16:44 [info]  open application giturl
+Oct 10,2016 11:17:30 [info]  log-in into application
+Oct 10,2016 11:17:31 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:17:48 [info]  Verify process of sending reports to recipients
+Oct 10,2016 11:17:48 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Generate_PdfReport
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:18:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Generate_PdfReport and Test method testGenerate_PdfReport
+*****************************************************************************
+Oct 10,2016 11:18:17 [info]  open application giturl
+Oct 10,2016 11:19:28 [info]  log-in into application
+Oct 10,2016 11:19:28 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:19:45 [info]  Verify process of sending reports to recipients
+Oct 10,2016 11:19:45 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Generate_PdfReport
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:21:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 11:21:49 [info]  open application giturl
+Oct 10,2016 11:25:01 [info]  log-in into application
+Oct 10,2016 11:25:02 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:26:20 [info]  Oct 10,2016 11:26:20 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1095)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 11:26:20 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:40:48 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 11:41:05 [info]  open application giturl
+Oct 10,2016 11:41:37 [info]  log-in into application
+Oct 10,2016 11:41:37 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:42:30 [info]  Oct 10,2016 11:42:30 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1096)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 11:42:30 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:44:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 11:44:58 [info]  open application giturl
+Oct 10,2016 11:45:23 [info]  log-in into application
+Oct 10,2016 11:45:23 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 11:46:15 [info]  Oct 10,2016 11:46:15 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1096)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 11:46:15 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 11:50:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 12:03:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 12:03:56 [info]  open application giturl
+Oct 10,2016 12:08:12 [info]  log-in into application
+Oct 10,2016 12:08:13 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 12:09:53 [info]  Oct 10,2016 12:09:53 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1096)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 12:09:53 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 12:11:35 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 12:11:52 [info]  open application giturl
+Oct 10,2016 12:12:16 [info]  log-in into application
+Oct 10,2016 12:12:17 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 12:13:18 [info]  Oct 10,2016 12:13:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1096)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 12:13:19 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 12:13:54 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 12:14:07 [info]  open application giturl
+Oct 10,2016 12:14:29 [info]  log-in into application
+Oct 10,2016 12:14:29 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 12:15:31 [info]  Oct 10,2016 12:15:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1096)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 12:15:31 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 12:17:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 12:18:01 [info]  open application giturl
+Oct 10,2016 12:18:25 [info]  log-in into application
+Oct 10,2016 12:18:25 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 12:19:31 [info]  Oct 10,2016 12:19:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1097)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 12:19:31 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 12:24:26 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 12:24:36 [info]  open application giturl
+Oct 10,2016 12:25:09 [info]  log-in into application
+Oct 10,2016 12:25:10 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 12:26:09 [info]  Oct 10,2016 12:26:09 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.pdf_DownloadConversionRates(SupportHelper.java:1097)
+	at com.primeresponse.testcases.Support.Pdf_DownloadConversionRates.testPdf_DownloadConversionRates(Pdf_DownloadConversionRates.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 12:26:09 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 12:29:57 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 12:30:07 [info]  open application giturl
+Oct 10,2016 12:30:35 [info]  log-in into application
+Oct 10,2016 12:30:35 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 12:31:45 [info]  Verify filter functionality of conversion rates by randomly selecting resolutions
+Oct 10,2016 12:31:45 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 12:32:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates and Test method testPdf_DownloadConversionRates
+*****************************************************************************
+Oct 10,2016 12:32:21 [info]  open application giturl
+Oct 10,2016 12:32:56 [info]  log-in into application
+Oct 10,2016 12:32:56 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 12:33:56 [info]  Verify filter functionality of conversion rates by randomly selecting resolutions
+Oct 10,2016 12:33:56 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadConversionRates
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 13:26:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Pdf_DownloadEngagementReport and Test method testPdf_DownloadEngagementReport
+*****************************************************************************
+Oct 10,2016 13:26:30 [info]  open application giturl
+Oct 10,2016 13:26:53 [info]  log-in into application
+Oct 10,2016 13:26:53 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 13:28:16 [info]  Verify filter functionality of Engagement dashboard
+Oct 10,2016 13:29:12 [info]  Verify that Engagement Report is downloaded in pdf format
+Oct 10,2016 13:29:12 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Pdf_DownloadEngagementReport
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 13:30:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol and Test method testSort_AccountStatuses_DateCol
+*****************************************************************************
+Oct 10,2016 13:30:33 [info]  open application giturl
+Oct 10,2016 13:31:04 [info]  log-in into application
+Oct 10,2016 13:31:05 [info]  Select Selenium Test Ford Account if not selected
+
+*****************************************************************************
+Oct 10,2016 13:41:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol and Test method testSort_AccountStatuses_DateCol
+*****************************************************************************
+Oct 10,2016 13:41:59 [info]  open application giturl
+Oct 10,2016 13:42:22 [info]  log-in into application
+Oct 10,2016 13:42:22 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 14:07:40 [info]  Verify sorting functionality of date column on Support > Account Statuses page.
+Oct 10,2016 14:07:40 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 14:11:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol and Test method testSort_AccountStatuses_DateCol
+*****************************************************************************
+Oct 10,2016 14:11:37 [info]  open application giturl
+Oct 10,2016 14:12:03 [info]  log-in into application
+Oct 10,2016 14:12:03 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 14:37:46 [info]  Verify sorting functionality of date column on Support > Account Statuses page.
+Oct 10,2016 14:37:46 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_DateCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 14:39:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_VerticalCol and Test method testSort_AccountStatuses_VerticalCol
+*****************************************************************************
+Oct 10,2016 14:39:56 [info]  open application giturl
+Oct 10,2016 14:41:04 [info]  log-in into application
+Oct 10,2016 14:41:05 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 15:06:24 [info]  Verify sorting functionality of vertical column on Support > Account Statuses page
+Oct 10,2016 15:06:24 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_AccountStatuses_VerticalCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 15:06:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsAccountCol and Test method testSort_MetricsAccountCol
+*****************************************************************************
+Oct 10,2016 15:07:11 [info]  open application giturl
+Oct 10,2016 15:09:42 [info]  log-in into application
+Oct 10,2016 15:09:43 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 15:10:48 [info]  Verify sorting functionality of 'Account' column 
+Oct 10,2016 15:10:48 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsAccountCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 15:31:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsEmailSentCol and Test method testSort_MetricsEmailSentCol
+*****************************************************************************
+Oct 10,2016 15:32:04 [info]  open application giturl
+Oct 10,2016 15:34:19 [info]  log-in into application
+Oct 10,2016 15:34:19 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 15:35:23 [info]  Verify process of sorting Email sent column
+Oct 10,2016 15:35:23 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsEmailSentCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 15:58:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsExternalReviewsCol and Test method testSort_MetricsExternalReviewsCol
+*****************************************************************************
+Oct 10,2016 15:58:22 [info]  open application giturl
+Oct 10,2016 16:00:26 [info]  log-in into application
+Oct 10,2016 16:00:26 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 16:01:30 [info]  Verify sorting functionality of 'External Reviews' column 
+Oct 10,2016 16:01:30 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsExternalReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 16:03:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsLastDataUploadCol and Test method testSort_MetricsLastDataUploadCol
+*****************************************************************************
+Oct 10,2016 16:03:35 [info]  open application giturl
+Oct 10,2016 16:05:41 [info]  log-in into application
+Oct 10,2016 16:05:41 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 16:06:46 [info]  Verify sorting functionality of 'Last Data Upload' column.
+Oct 10,2016 16:06:46 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsLastDataUploadCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 16:07:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsLastSupportCol and Test method testSort_MetricsLastSupportCol
+*****************************************************************************
+Oct 10,2016 16:07:31 [info]  open application giturl
+Oct 10,2016 16:09:49 [info]  log-in into application
+Oct 10,2016 16:09:49 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 16:10:51 [info]  Verify sorting functionality of 'Last Support' column
+Oct 10,2016 16:10:52 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsLastSupportCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 16:11:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Sort_MetricsVerticalsCol and Test method testSort_MetricsVerticalsCol
+*****************************************************************************
+Oct 10,2016 16:12:25 [info]  open application giturl
+Oct 10,2016 16:14:33 [info]  log-in into application
+Oct 10,2016 16:14:34 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 16:15:38 [info]  Verify process of sorting verticals column
+Oct 10,2016 16:15:38 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Sort_MetricsVerticalsCol
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 16:15:59 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Verify_DrillDownToAccount and Test method testVerify_DrillDownToAccount
+*****************************************************************************
+Oct 10,2016 16:16:52 [info]  open application giturl
+Oct 10,2016 16:18:56 [info]  log-in into application
+Oct 10,2016 16:18:57 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 16:24:54 [info]  Oct 10,2016 16:24:54 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://img[@title='Drill down into account'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SupportHelper.verify_DrillDownToAccount(SupportHelper.java:1056)
+	at com.primeresponse.testcases.Support.Verify_DrillDownToAccount.testVerify_DrillDownToAccount(Verify_DrillDownToAccount.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 16:24:55 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Verify_DrillDownToAccount
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 16:33:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Verify_EngagementReport and Test method testVerify_EngagementReport
+*****************************************************************************
+Oct 10,2016 16:33:35 [info]  open application giturl
+Oct 10,2016 16:35:36 [info]  log-in into application
+Oct 10,2016 16:40:47 [info]  Oct 10,2016 16:40:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@class='ac_even ac_over']/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.LoginHelper.selectAccount(LoginHelper.java:49)
+	at com.primeresponse.util.DriverTestCase.selectAccount(DriverTestCase.java:122)
+	at com.primeresponse.testcases.Support.Verify_EngagementReport.testVerify_EngagementReport(Verify_EngagementReport.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 16:40:47 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Verify_EngagementReport
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 16:45:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Verify_ReportsEmailToMe and Test method testVerify_ReportsEmailToMe
+*****************************************************************************
+Oct 10,2016 16:45:44 [info]  open application giturl
+Oct 10,2016 16:47:41 [info]  log-in into application
+Oct 10,2016 16:47:50 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 16:47:58 [info]  Verify process of sending reports to recipients
+Oct 10,2016 16:48:06 [info]  success message
+Oct 10,2016 16:48:06 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Verify_ReportsEmailToMe
+*****************************************************************************
+
+*****************************************************************************
+Oct 10,2016 16:48:49 [info]   Execution Started of Test Class com.primeresponse.testcases.Support.Verify_ReportsOverView and Test method testVerify_ReportsOverView
+*****************************************************************************
+Oct 10,2016 16:49:38 [info]  open application giturl
+Oct 10,2016 16:51:16 [info]  log-in into application
+Oct 10,2016 16:51:16 [info]  Select Selenium Test Ford Account if not selected
+Oct 10,2016 16:51:34 [info]  Oct 10,2016 16:51:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.SupportHelper.verify_ReportsOverView(SupportHelper.java:961)
+	at com.primeresponse.testcases.Support.Verify_ReportsOverView.testVerify_ReportsOverView(Verify_ReportsOverView.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Oct 10,2016 16:51:34 [info]  End Execution of Test Class com.primeresponse.testcases.Support.Verify_ReportsOverView
+*****************************************************************************

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Add_Multiple_Customers"
+	annotations="JDK">
+	<test name="Add_Multiple_Customers" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Influence.Add_Multiple_Customers"/>
+		</classes>
+	</test>
+</suite> 
+

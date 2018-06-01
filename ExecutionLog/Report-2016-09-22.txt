@@ -1,0 +1,909 @@
+
+*****************************************************************************
+Sep 22,2016 09:28:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Sep 22,2016 09:29:04 [info]  open application giturl
+Sep 22,2016 09:30:50 [info]  log-in into application
+Sep 22,2016 09:30:50 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 09:31:04 [info]  Go to Ifluence > Lists
+Sep 22,2016 09:31:04 [info]  click on create new list link
+Sep 22,2016 09:31:31 [info]  Upload a CSV file as a list
+Sep 22,2016 09:33:39 [info]  Sep 22,2016 09:33:39 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 09:33:39 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 11:10:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Sep 22,2016 11:10:41 [info]  open application giturl
+Sep 22,2016 11:12:23 [info]  log-in into application
+Sep 22,2016 11:12:23 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 11:12:38 [info]  Go to Ifluence > Lists
+Sep 22,2016 11:12:38 [info]  click on create new list link
+Sep 22,2016 11:13:06 [info]  Upload a CSV file as a list
+Sep 22,2016 11:15:14 [info]  Sep 22,2016 11:15:14 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 11:15:14 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 11:23:21 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Sep 22,2016 11:23:34 [info]  open application giturl
+Sep 22,2016 11:26:37 [info]  log-in into application
+Sep 22,2016 11:26:37 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 11:26:47 [info]  Go to Ifluence > Lists
+Sep 22,2016 11:26:48 [info]  click on create new list link
+Sep 22,2016 11:27:23 [info]  Upload a CSV file as a list
+Sep 22,2016 11:27:23 [info]  success message
+Sep 22,2016 11:27:31 [info]  Read the column name from sheet and match it
+Sep 22,2016 11:27:31 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 11:31:00 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 11:31:09 [info]  open application giturl
+Sep 22,2016 11:33:10 [info]  log-in into application
+Sep 22,2016 11:33:10 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 11:33:23 [info]  Go to Enterprise > External Feed
+Sep 22,2016 11:33:30 [info]  Select Group at external feed screen
+Sep 22,2016 11:38:47 [info]  Sep 22,2016 11:38:47 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='external_feed_filter_chzn']/a/span[contains(text(),'Select a Source')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.selectSource(EnterpriseHelper.java:525)
+	at com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite.testVerify_RedirectionOfGotoSite_List(Verify_RedirectionOfGotoSite.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 11:38:47 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 11:47:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 11:47:44 [info]  open application giturl
+Sep 22,2016 11:49:58 [info]  log-in into application
+Sep 22,2016 11:49:59 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 11:50:10 [info]  Go to Enterprise > External Feed
+Sep 22,2016 11:50:16 [info]  Select Group at external feed screen
+
+*****************************************************************************
+Sep 22,2016 12:05:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 12:05:32 [info]  open application giturl
+Sep 22,2016 12:06:07 [info]  log-in into application
+Sep 22,2016 12:06:08 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 12:06:19 [info]  Go to Enterprise > External Feed
+Sep 22,2016 12:06:33 [info]  Select Group at external feed screen
+Sep 22,2016 12:06:50 [info]  Select source at external feed screen
+Sep 22,2016 12:06:51 [info]  Click on go to site icon and check redirection
+Sep 22,2016 12:06:51 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:11:37 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 12:11:47 [info]  open application giturl
+Sep 22,2016 12:12:50 [info]  log-in into application
+Sep 22,2016 12:12:50 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 12:13:02 [info]  Go to Enterprise > External Feed
+Sep 22,2016 12:13:08 [info]  Select Group at external feed screen
+
+*****************************************************************************
+Sep 22,2016 12:20:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 12:20:52 [info]  open application giturl
+Sep 22,2016 12:22:28 [info]  log-in into application
+Sep 22,2016 12:22:28 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 12:22:40 [info]  Go to Enterprise > External Feed
+Sep 22,2016 12:22:46 [info]  Select Group at external feed screen
+
+*****************************************************************************
+Sep 22,2016 12:32:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 12:33:06 [info]  open application giturl
+Sep 22,2016 12:33:34 [info]  log-in into application
+Sep 22,2016 12:33:34 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 12:33:45 [info]  Go to Enterprise > External Feed
+Sep 22,2016 12:34:00 [info]  Select Group at external feed screen
+Sep 22,2016 12:34:18 [info]  Select source at external feed screen
+Sep 22,2016 12:34:20 [info]  Click on go to site icon and check redirection
+Sep 22,2016 12:34:20 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:34:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Manage_OffIntegratedAccounts and Test method testManage_OffIntegratedAccounts
+*****************************************************************************
+Sep 22,2016 12:34:58 [info]  open application giturl
+Sep 22,2016 12:36:22 [info]  log-in into application
+Sep 22,2016 12:36:22 [info]  Select 'Selenium Test' Account if not selected
+Sep 22,2016 12:36:40 [info]  Go to Settings > Social Integration
+
+*****************************************************************************
+Sep 22,2016 12:36:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Check_DigestSubscriptions and Test method testCheck_DigestSubscriptions
+*****************************************************************************
+Sep 22,2016 12:37:10 [info]  open application giturl
+Sep 22,2016 12:37:33 [info]  log-in into application
+Sep 22,2016 12:37:34 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 12:37:44 [info]  Go to Settings >Digest
+Sep 22,2016 12:37:48 [info]  Method to check digest subscription
+Sep 22,2016 12:37:53 [info]  success message
+Sep 22,2016 12:37:53 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Check_DigestSubscriptions
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:38:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GooglePlusIntegration and Test method testVerify_GooglePlusIntegration
+*****************************************************************************
+Sep 22,2016 12:38:32 [info]  open application giturl
+Sep 22,2016 12:39:27 [info]  log-in into application
+Sep 22,2016 12:39:28 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 12:39:41 [info]  Go to Settings > Social Integration
+Sep 22,2016 12:44:53 [info]  Sep 22,2016 12:44:53 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://a[contains(text(),'Google Plus')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SettingHelper.verify_GooglePlusIntegration(SettingHelper.java:253)
+	at com.primeresponse.testcases.Settings.Verify_GooglePlusIntegration.testVerify_GooglePlusIntegration(Verify_GooglePlusIntegration.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 12:44:54 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GooglePlusIntegration
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:45:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_Feeds and Test method testDelete_Feeds
+*****************************************************************************
+Sep 22,2016 12:45:22 [info]  open application giturl
+Sep 22,2016 12:46:27 [info]  log-in into application
+Sep 22,2016 12:46:28 [info]  Select Selenium Test Account if not selected
+Sep 22,2016 12:46:42 [info]  Go to Settings >Feeds
+Sep 22,2016 12:46:47 [info]  Verify the process of deleting feeds on Settings >Feeds page
+Sep 22,2016 12:46:55 [info]  success message
+Sep 22,2016 12:46:55 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_Feeds
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:47:17 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_SameSourceOnListenersAndExternalFeed and Test method testVerify_SameSourceOnListenersAndExternalFeed
+*****************************************************************************
+Sep 22,2016 12:47:17 [info]  open application giturl
+Sep 22,2016 12:48:03 [info]  log-in into application
+Sep 22,2016 12:48:03 [info]  Select Selenium Test Account if not selected
+Sep 22,2016 12:48:18 [info]  Go to Settings>Track Listeners
+Sep 22,2016 12:48:44 [info]  Verify that total reviews count is same on Listeners and External feeds page.
+Sep 22,2016 12:48:56 [info]  Go to Track > External Feed
+Sep 22,2016 12:54:09 [info]  Sep 22,2016 12:54:09 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(),'Select a Source')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.TrackHelper.verifySourceOnExternalfeed(TrackHelper.java:1003)
+	at com.primeresponse.testcases.Settings.Verify_SameSourceOnListenersAndExternalFeed.testVerify_SameSourceOnListenersAndExternalFeed(Verify_SameSourceOnListenersAndExternalFeed.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 12:54:10 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_SameSourceOnListenersAndExternalFeed
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:54:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_ActiveCheckBoxAtTrackSettings and Test method testVerify_ActiveCheckBoxAtTrackSettings
+*****************************************************************************
+Sep 22,2016 12:54:43 [info]  open application giturl
+Sep 22,2016 12:55:40 [info]  log-in into application
+Sep 22,2016 12:55:40 [info]  Select Selenium Test Account if not selected
+Sep 22,2016 12:55:51 [info]  Go to Settings>Track Listeners
+Sep 22,2016 12:56:02 [info]  Verify uncheck ACTIVE check box on Settings>Track listeners page
+Sep 22,2016 12:56:13 [info]  Go to Track > External Feed
+Sep 22,2016 12:56:13 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_ActiveCheckBoxAtTrackSettings
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:56:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Feeds and Test method testCreate_Feeds
+*****************************************************************************
+Sep 22,2016 12:56:33 [info]  open application giturl
+Sep 22,2016 12:57:03 [info]  log-in into application
+Sep 22,2016 12:57:04 [info]  Select Selenium Test Account if not selected
+Sep 22,2016 12:57:16 [info]  Go to Settings >Feeds
+Sep 22,2016 12:58:18 [info]  Verify the process of Creating new feeds on Settings >Feeds page
+Sep 22,2016 12:58:18 [info]  success message
+Sep 22,2016 12:58:18 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Feeds
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 12:58:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations and Test method testVerify_GoogleAnalyticsIntegrations
+*****************************************************************************
+Sep 22,2016 12:58:40 [info]  open application giturl
+Sep 22,2016 12:59:44 [info]  log-in into application
+Sep 22,2016 12:59:44 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 12:59:58 [info]  Go to Settings > Social Integration
+Sep 22,2016 13:06:02 [info]  Integrate Accounts with Google Analytics and verify that account is showing OFF by default.
+Sep 22,2016 13:06:03 [info]  success message
+Sep 22,2016 13:06:03 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_GoogleAnalyticsIntegrations
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 13:06:23 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_SiteMap and Test method testCreate_SiteMap
+*****************************************************************************
+Sep 22,2016 13:06:23 [info]  open application giturl
+Sep 22,2016 13:08:07 [info]  log-in into application
+Sep 22,2016 13:08:07 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 13:08:19 [info]  Go to Settings >SiteMap
+Sep 22,2016 13:08:35 [info]  Go to Settings >SiteMap
+Sep 22,2016 13:08:35 [info]  success message
+Sep 22,2016 13:08:35 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_SiteMap
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 13:08:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_NewDigestSubscription and Test method testDelete_NewDigestSubscription
+*****************************************************************************
+Sep 22,2016 13:08:52 [info]  open application giturl
+Sep 22,2016 13:09:26 [info]  log-in into application
+Sep 22,2016 13:09:26 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 13:09:38 [info]  Go to Settings >Digest
+Sep 22,2016 13:09:48 [info]  Sep 22,2016 13:09:48 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.NoAlertPresentException: No alert is present (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 8.38 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 592928e8-e836-4c7b-89fa-b446d7e4f826
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:670)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1007)
+	at com.primeresponse.util.DriverHelper.acceptAlert(DriverHelper.java:357)
+	at com.primeresponse.pagehelper.SettingHelper.deleteNewDigestSubscription(SettingHelper.java:698)
+	at com.primeresponse.testcases.Settings.Delete_NewDigestSubscription.testDelete_NewDigestSubscription(Delete_NewDigestSubscription.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 13:09:48 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_NewDigestSubscription
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 13:10:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Check_SiteMapEnteries and Test method testCheck_SiteMapEnteries
+*****************************************************************************
+Sep 22,2016 13:10:35 [info]  open application giturl
+Sep 22,2016 13:10:59 [info]  log-in into application
+Sep 22,2016 13:10:59 [info]  Select Selenium Test Account if not selected
+Sep 22,2016 13:11:12 [info]  Go to Settings >SiteMap
+Sep 22,2016 13:11:12 [info]  Method to verify site map entries
+Sep 22,2016 13:11:12 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Check_SiteMapEnteries
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 13:11:31 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_Alert and Test method testDelete_Alert
+*****************************************************************************
+Sep 22,2016 13:11:31 [info]  open application giturl
+Sep 22,2016 13:12:06 [info]  log-in into application
+Sep 22,2016 13:12:06 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 13:12:19 [info]  Go to Settings > Alert 
+Sep 22,2016 13:12:43 [info]  Delete Alert
+Sep 22,2016 13:12:49 [info]  success message
+Sep 22,2016 13:12:49 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_Alert
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 13:13:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_CompetitorsOnTrackAndSettings and Test method testVerify_CompetitorsOnTrackAndSettings
+*****************************************************************************
+Sep 22,2016 13:13:10 [info]  open application giturl
+Sep 22,2016 13:16:00 [info]  log-in into application
+Sep 22,2016 13:16:00 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 13:16:12 [info]  Go to Settings > Competitors 
+Sep 22,2016 13:21:23 [info]  Sep 22,2016 13:21:23 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='competitors']/table/tbody/tr Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getSize(DriverHelper.java:268)
+	at com.primeresponse.pagehelper.SettingHelper.fetchCompetitor(SettingHelper.java:65)
+	at com.primeresponse.testcases.Settings.Verify_CompetitorsOnTrackAndSettings.testVerify_CompetitorsOnTrackAndSettings(Verify_CompetitorsOnTrackAndSettings.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 13:21:23 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Verify_CompetitorsOnTrackAndSettings
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 13:21:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Delete_IntegratedAccounts and Test method testDelete_IntegratedAccounts
+*****************************************************************************
+Sep 22,2016 13:22:04 [info]  open application giturl
+Sep 22,2016 13:24:08 [info]  log-in into application
+Sep 22,2016 13:24:09 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 13:24:09 [info]  success message
+Sep 22,2016 13:24:09 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Delete_IntegratedAccounts
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 13:24:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Verify_ReviewsCountOnListenersAndExternalFeed and Test method testVerify_ReviewsCountOnListenersAndExternalFeed
+*****************************************************************************
+Sep 22,2016 13:24:41 [info]  open application giturl
+Sep 22,2016 13:26:29 [info]  log-in into application
+Sep 22,2016 13:26:29 [info]  Select Selenium Test Account if not selected
+Sep 22,2016 13:26:40 [info]  Go to Settings>Track Listeners
+
+*****************************************************************************
+Sep 22,2016 13:57:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 13:57:17 [info]  open application giturl
+Sep 22,2016 13:58:14 [info]  log-in into application
+Sep 22,2016 13:58:14 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 13:58:26 [info]  Go to Enterprise > External Feed
+Sep 22,2016 13:58:32 [info]  Select Group at external feed screen
+
+*****************************************************************************
+Sep 22,2016 14:08:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:09:03 [info]  open application giturl
+Sep 22,2016 14:09:52 [info]  log-in into application
+Sep 22,2016 14:09:52 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 14:10:03 [info]  Go to Enterprise > External Feed
+Sep 22,2016 14:10:09 [info]  Select Group at external feed screen
+
+*****************************************************************************
+Sep 22,2016 14:12:42 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:12:42 [info]  open application giturl
+Sep 22,2016 14:13:22 [info]  log-in into application
+Sep 22,2016 14:13:22 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 14:13:33 [info]  Go to Enterprise > External Feed
+Sep 22,2016 14:13:49 [info]  Select Group at external feed screen
+Sep 22,2016 14:14:07 [info]  Select source at external feed screen
+Sep 22,2016 14:14:07 [info]  Click on go to site icon and check redirection
+Sep 22,2016 14:14:07 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 14:15:05 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:15:15 [info]  open application giturl
+Sep 22,2016 14:15:37 [info]  log-in into application
+Sep 22,2016 14:15:37 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 14:15:48 [info]  Go to Enterprise > External Feed
+Sep 22,2016 14:16:02 [info]  Select Group at external feed screen
+Sep 22,2016 14:16:21 [info]  Select source at external feed screen
+Sep 22,2016 14:16:22 [info]  Click on go to site icon and check redirection
+Sep 22,2016 14:16:22 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 14:27:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:27:22 [info]  open application giturl
+Sep 22,2016 14:27:48 [info]  log-in into application
+Sep 22,2016 14:27:49 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 14:28:00 [info]  Go to Enterprise > External Feed
+Sep 22,2016 14:28:09 [info]  Sep 22,2016 14:28:09 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 7.43 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 8ceee37f-845a-4a80-abaa-967b8faa0774
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.EnterpriseHelper.selectGroupAtEnterprise(EnterpriseHelper.java:511)
+	at com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite.testVerify_RedirectionOfGotoSite_List(Verify_RedirectionOfGotoSite.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2269197825436350477webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2269197825436350477webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2269197825436350477webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous2269197825436350477webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Sep 22,2016 14:28:09 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 14:35:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:35:56 [info]  open application giturl
+Sep 22,2016 14:36:27 [info]  log-in into application
+Sep 22,2016 14:36:27 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 14:36:42 [info]  Go to Enterprise > External Feed
+Sep 22,2016 14:36:54 [info]  Sep 22,2016 14:36:54 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.03 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: ef1a71d3-d7b4-405d-910a-d8d7e14868fb
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.EnterpriseHelper.selectGroupAtEnterprise(EnterpriseHelper.java:521)
+	at com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite.testVerify_RedirectionOfGotoSite_List(Verify_RedirectionOfGotoSite.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.18', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4920620789767509032webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4920620789767509032webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4920620789767509032webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4920620789767509032webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Sep 22,2016 14:36:54 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 14:37:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:38:15 [info]  open application giturl
+Sep 22,2016 14:40:34 [info]  Sep 22,2016 14:40:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.util.DriverTestCase.login(DriverTestCase.java:111)
+	at com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite.testVerify_RedirectionOfGotoSite_List(Verify_RedirectionOfGotoSite.java:30)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 14:40:34 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 14:42:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:42:24 [info]  open application giturl
+Sep 22,2016 14:44:24 [info]  log-in into application
+Sep 22,2016 14:44:24 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 14:44:39 [info]  Go to Enterprise > External Feed
+Sep 22,2016 14:44:53 [info]  Select Group at external feed screen
+Sep 22,2016 14:45:14 [info]  Select source at external feed screen
+Sep 22,2016 14:45:14 [info]  Click on go to site icon and check redirection
+Sep 22,2016 14:45:14 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 14:47:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 14:47:27 [info]  open application giturl
+Sep 22,2016 14:49:24 [info]  log-in into application
+Sep 22,2016 14:49:25 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 14:49:36 [info]  Go to Enterprise > External Feed
+Sep 22,2016 14:50:00 [info]  Select Group at external feed screen
+Sep 22,2016 14:50:19 [info]  Select source at external feed screen
+Sep 22,2016 14:50:19 [info]  Click on go to site icon and check redirection
+Sep 22,2016 14:50:19 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 15:07:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite and Test method testVerify_RedirectionOfGotoSite_List
+*****************************************************************************
+Sep 22,2016 15:08:06 [info]  open application giturl
+Sep 22,2016 15:09:42 [info]  log-in into application
+Sep 22,2016 15:09:43 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 15:09:54 [info]  Go to Enterprise > External Feed
+Sep 22,2016 15:10:18 [info]  Select Group at external feed screen
+Sep 22,2016 15:10:37 [info]  Select source at external feed screen
+Sep 22,2016 15:10:38 [info]  Click on go to site icon and check redirection
+Sep 22,2016 15:10:38 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_RedirectionOfGotoSite
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 15:22:17 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol and Test method testSort_MyAccount_FacebookLikesCol
+*****************************************************************************
+Sep 22,2016 15:22:33 [info]  open application giturl
+Sep 22,2016 15:25:01 [info]  log-in into application
+Sep 22,2016 15:25:01 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 15:25:14 [info]  Go to Enterprise > My Accounts
+Sep 22,2016 15:25:14 [info]  Find out no. of rows
+Sep 22,2016 15:30:24 [info]  Sep 22,2016 15:30:24 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Facebook Likes')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkFacebookLikesSort(EnterpriseHelper.java:203)
+	at com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol.testSort_MyAccount_FacebookLikesCol(Sort_MyAccount_FacebookLikesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 15:30:24 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 15:43:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Verify_EnterpriseSummaryReviewsCount and Test method testVerify_EnterpriseSummaryReviewsCount
+*****************************************************************************
+Sep 22,2016 15:44:00 [info]  open application giturl
+Sep 22,2016 15:46:26 [info]  log-in into application
+Sep 22,2016 15:46:26 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 15:47:04 [info]  Go to  Enterprise > Summary
+Sep 22,2016 15:52:15 [info]  Sep 22,2016 15:52:15 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@id='external_feed_parent_id_chzn_o_482'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.selectGroupAtEnterprise(EnterpriseHelper.java:515)
+	at com.primeresponse.testcases.Enterprise.Verify_EnterpriseSummaryReviewsCount.testVerify_EnterpriseSummaryReviewsCount(Verify_EnterpriseSummaryReviewsCount.java:45)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 15:52:16 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Verify_EnterpriseSummaryReviewsCount
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 17:12:35 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Check_AlertSubscription and Test method testCheck_AlertSubscription
+*****************************************************************************
+Sep 22,2016 17:12:46 [info]  open application giturl
+Sep 22,2016 17:13:13 [info]  log-in into application
+Sep 22,2016 17:13:14 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 17:13:31 [info]  Go to Settings > Alert 
+Sep 22,2016 17:13:44 [info]  Verify current user is already subscribed
+Sep 22,2016 17:13:44 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Check_AlertSubscription
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 17:19:01 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Check_DigestSubscriptions and Test method testCheck_DigestSubscriptions
+*****************************************************************************
+Sep 22,2016 17:19:10 [info]  open application giturl
+Sep 22,2016 17:20:14 [info]  log-in into application
+Sep 22,2016 17:20:15 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 17:20:28 [info]  Go to Settings >Digest
+Sep 22,2016 17:20:32 [info]  Method to check digest subscription
+Sep 22,2016 17:20:39 [info]  success message
+Sep 22,2016 17:20:39 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Check_DigestSubscriptions
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 17:23:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Check_SiteMapEnteries and Test method testCheck_SiteMapEnteries
+*****************************************************************************
+Sep 22,2016 17:23:23 [info]  open application giturl
+Sep 22,2016 17:24:20 [info]  log-in into application
+Sep 22,2016 17:24:20 [info]  Select Selenium Test Account if not selected
+Sep 22,2016 17:24:34 [info]  Go to Settings >SiteMap
+Sep 22,2016 17:24:35 [info]  Method to verify site map entries
+Sep 22,2016 17:24:35 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Check_SiteMapEnteries
+*****************************************************************************
+
+*****************************************************************************
+Sep 22,2016 17:25:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Settings.Create_Alert and Test method testCreate_Alert
+*****************************************************************************
+Sep 22,2016 17:25:06 [info]  open application giturl
+Sep 22,2016 17:26:11 [info]  log-in into application
+Sep 22,2016 17:26:11 [info]  Select Selenium Test Ford Account if not selected
+Sep 22,2016 17:26:24 [info]  Go to Settings > Alert 
+Sep 22,2016 17:32:45 [info]  Sep 22,2016 17:32:45 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='control-group']//div[@id='alert_source_chzn']/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SettingHelper.submitReviewAlerts(SettingHelper.java:87)
+	at com.primeresponse.testcases.Settings.Create_Alert.testCreate_Alert(Create_Alert.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Sep 22,2016 17:32:45 [info]  End Execution of Test Class com.primeresponse.testcases.Settings.Create_Alert
+*****************************************************************************

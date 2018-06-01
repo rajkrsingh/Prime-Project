@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Pdf_DownloadSocialDashboardReport"
+	annotations="JDK">
+	<test name="Pdf_DownloadSocialDashboardReport" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Social.Pdf_DownloadSocialDashboardReport" />
+		</classes>
+	</test>
+</suite>

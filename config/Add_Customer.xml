@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Add_Customer"
+	annotations="JDK">
+	<test name="Add_Customer" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Influence.Add_Customer"/>
+		</classes>
+	</test>
+</suite> 
+

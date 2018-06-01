@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locator>
+   <Training>
+        <NewPage>
+   				<NewPageLink><![CDATA[//a[contains(text(),'New Page')]]]></NewPageLink>
+   				<Title><![CDATA[help_page_title]]></Title>
+   				<Source><![CDATA[//span[@class='cke_button_icon cke_button__source_icon']]]></Source>
+   				<TextArea><![CDATA[//textarea[@class='cke_source cke_reset cke_enable_context_menu cke_editable cke_editable_themed cke_contents_ltr']]]></TextArea>
+   				<RolesList><![CDATA[//input[contains(@value,'Select Some Options')]]]></RolesList>
+   				<RolesValue><![CDATA[//li[contains(text(),'Administrator')]]]></RolesValue>
+   				<CategoryList><![CDATA[//span[contains(text(),'Select an Option')]]]></CategoryList>
+   				<CategoryValue><![CDATA[//li[contains(text(),'Frequently Asked Questions')]]]></CategoryValue>
+   				<Submitbutton><![CDATA[//input[@type='submit']]]></Submitbutton>
+   				<TotalTitle><![CDATA[//div[@id='data-wiselinks-container']//div/h1/a]]></TotalTitle>
+   				<DeleteLink><![CDATA[//a[contains(text(),'Delete')]]]></DeleteLink>
+   		</NewPage>
+   		<SearchByTags>
+   		      <SearchTagsTextField><![CDATA[help_page_tags]]></SearchTagsTextField>
+   		      <SelectTags><![CDATA[//div[@class='generic-auto-complete-results']/ul/li]]></SelectTags>
+   		</SearchByTags>
+   		
+   		<Faq>
+   			<FaqLink><![CDATA[//a[contains(text(),'Frequently Asked Questions')]]]></FaqLink>
+   			<ClickingHereLink><![CDATA[//a[contains(text(),'Clicking Here')]]]></ClickingHereLink>
+   		</Faq>
+   		
+   		<NewCategory>
+   				<NewCategoryLink><![CDATA[//a[contains(text(),'New Category')]]]></NewCategoryLink>
+   				<Name><![CDATA[help_category_name]]></Name>
+   				<Submitbutton><![CDATA[//input[@type='submit']]]></Submitbutton>
+   		</NewCategory>
+   		
+   		<Webinars>
+   				<WebinarsLink><![CDATA[//a[contains(text(),'Webinars')]]]></WebinarsLink>
+   				<RecordingUrl><![CDATA[//div[@id='data-wiselinks-container']//a[@target='_blank']]]></RecordingUrl>
+         </Webinars>
+         
+         <RecommendedGuidelines>
+         		<RecommendedGuidelinesLink><![CDATA[//a[contains(text(),'Recommended Guidelines')]]]></RecommendedGuidelinesLink>
+         		<ClickHereLink><![CDATA[//a[contains(text(),'Click Here')]]]></ClickHereLink>
+         </RecommendedGuidelines>
+   </Training>
+
+
+</Locator>

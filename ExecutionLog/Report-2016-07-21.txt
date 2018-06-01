@@ -1,0 +1,780 @@
+
+*****************************************************************************
+Jul 21,2016 09:50:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 21,2016 09:51:02 [info]  open application giturl
+Jul 21,2016 09:52:03 [info]  log-in into application
+
+*****************************************************************************
+Jul 21,2016 09:57:44 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 21,2016 09:57:58 [info]  open application giturl
+Jul 21,2016 09:58:27 [info]  log-in into application
+Jul 21,2016 09:58:36 [info]  Select Selenium Test Account if not selected
+Jul 21,2016 09:58:46 [info]  Go to Ifluence > Customers
+Jul 21,2016 09:59:08 [info]  Jul 21,2016 09:59:08 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCustomersCSV(InfluenceHelper.java:726)
+	at com.primeresponse.testcases.Influence.Download_CustomersCSV.testDownload_CustomersCSV(Download_CustomersCSV.java:44)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 09:59:08 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 10:27:42 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 21,2016 10:27:53 [info]  open application giturl
+Jul 21,2016 10:29:52 [info]  log-in into application
+Jul 21,2016 10:29:52 [info]  Select Selenium Test Account if not selected
+Jul 21,2016 10:30:02 [info]  Go to Ifluence > Customers
+Jul 21,2016 10:30:34 [info]  Method to download customers in .CSV file
+Jul 21,2016 10:30:34 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 10:33:00 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 21,2016 10:33:23 [info]  open application giturl
+Jul 21,2016 10:35:15 [info]  log-in into application
+Jul 21,2016 10:35:15 [info]  Select Selenium Test Account if not selected
+Jul 21,2016 10:35:21 [info]  Jul 21,2016 10:35:21 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.11 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 258db9e1-7030-4d2c-8d8b-8b26329e18a2
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=44.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonInfluenceCustomers(HeaderHelper.java:483)
+	at com.primeresponse.testcases.Influence.Download_CustomersCSV.testDownload_CustomersCSV(Download_CustomersCSV.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.4.55', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous5284373440062320530webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous5284373440062320530webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous5284373440062320530webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous5284373440062320530webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jul 21,2016 10:35:21 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 10:37:36 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 21,2016 10:37:48 [info]  open application giturl
+Jul 21,2016 10:39:35 [info]  log-in into application
+Jul 21,2016 10:39:35 [info]  Select Selenium Test Account if not selected
+Jul 21,2016 10:39:45 [info]  Go to Ifluence > Customers
+Jul 21,2016 10:40:16 [info]  Method to download customers in .CSV file
+Jul 21,2016 10:40:16 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 10:42:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 10:42:46 [info]  open application giturl
+Jul 21,2016 10:44:00 [info]  log-in into application
+Jul 21,2016 10:44:00 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 10:44:11 [info]  Go to Ifluence > Lists
+Jul 21,2016 10:44:17 [info]  Jul 21,2016 10:44:17 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:235)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 10:44:17 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 10:50:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 10:51:04 [info]  open application giturl
+Jul 21,2016 10:51:53 [info]  log-in into application
+Jul 21,2016 10:51:53 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 10:52:06 [info]  Go to Ifluence > Lists
+Jul 21,2016 10:52:12 [info]  Jul 21,2016 10:52:12 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:235)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 10:52:12 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 10:56:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 10:56:54 [info]  open application giturl
+Jul 21,2016 10:58:48 [info]  log-in into application
+Jul 21,2016 10:58:48 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 10:58:58 [info]  Go to Ifluence > Lists
+Jul 21,2016 10:59:07 [info]  Jul 21,2016 10:59:07 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:235)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 10:59:07 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 11:11:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 11:11:48 [info]  open application giturl
+Jul 21,2016 11:12:25 [info]  log-in into application
+Jul 21,2016 11:12:25 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 11:12:35 [info]  Go to Ifluence > Lists
+Jul 21,2016 11:12:41 [info]  Jul 21,2016 11:12:41 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:235)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 11:12:41 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 11:13:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV and Test method testDownload_CustomersCSV
+*****************************************************************************
+Jul 21,2016 11:13:45 [info]  open application giturl
+Jul 21,2016 11:15:58 [info]  log-in into application
+Jul 21,2016 11:15:59 [info]  Select Selenium Test Account if not selected
+Jul 21,2016 11:16:09 [info]  Go to Ifluence > Customers
+Jul 21,2016 11:16:40 [info]  Method to download customers in .CSV file
+Jul 21,2016 11:16:40 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Download_CustomersCSV
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 11:21:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 11:21:59 [info]  open application giturl
+Jul 21,2016 11:23:44 [info]  log-in into application
+Jul 21,2016 11:23:45 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 11:23:58 [info]  Go to Ifluence > Lists
+Jul 21,2016 11:24:06 [info]  Jul 21,2016 11:24:06 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:235)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 11:24:06 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 11:34:01 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 11:34:17 [info]  open application giturl
+Jul 21,2016 11:34:42 [info]  log-in into application
+Jul 21,2016 11:34:42 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 11:34:55 [info]  Go to Ifluence > Lists
+Jul 21,2016 11:35:02 [info]  Jul 21,2016 11:35:02 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.UnsatisfiedLinkError: C:\Users\360LP036\AppData\Local\Temp\tmplib\VisionProxy.dll: Can't find dependent libraries
+	at java.lang.ClassLoader$NativeLibrary.load(Native Method)
+	at java.lang.ClassLoader.loadLibrary1(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary0(Unknown Source)
+	at java.lang.ClassLoader.loadLibrary(Unknown Source)
+	at java.lang.Runtime.load0(Unknown Source)
+	at java.lang.System.load(Unknown Source)
+	at com.wapmx.nativeutils.jniloader.NativeLoader.loadLibrary(NativeLoader.java:44)
+	at org.sikuli.script.Finder.<clinit>(Finder.java:33)
+	at org.sikuli.script.Region.doFind(Region.java:1029)
+	at org.sikuli.script.Region$RepeatableFind.run(Region.java:1232)
+	at org.sikuli.script.Region$Repeatable.repeat(Region.java:1203)
+	at org.sikuli.script.Region.wait(Region.java:497)
+	at org.sikuli.script.Region.find(Region.java:381)
+	at org.sikuli.script.Region.getLocationFromPSRML(Region.java:1129)
+	at org.sikuli.script.Region.click(Region.java:606)
+	at org.sikuli.script.Region.click(Region.java:593)
+	at com.primeresponse.pagehelper.InfluenceHelper.downloadCSV_List(InfluenceHelper.java:235)
+	at com.primeresponse.testcases.Influence.DownloadCSV_List.testDownloadCSV_List(DownloadCSV_List.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 11:35:02 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 12:06:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 12:06:43 [info]  open application giturl
+Jul 21,2016 12:07:20 [info]  log-in into application
+Jul 21,2016 12:07:21 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 12:07:33 [info]  Go to Ifluence > Lists
+Jul 21,2016 12:07:54 [info]  Verify that list is downloading in CSV file.
+Jul 21,2016 12:07:54 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 12:10:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 12:10:38 [info]  open application giturl
+Jul 21,2016 12:11:56 [info]  log-in into application
+Jul 21,2016 12:11:57 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 12:12:09 [info]  Go to Ifluence > Lists
+Jul 21,2016 12:12:30 [info]  Verify that list is downloading in CSV file.
+Jul 21,2016 12:12:30 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 12:13:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List and Test method testDownloadCSV_List
+*****************************************************************************
+Jul 21,2016 12:13:56 [info]  open application giturl
+Jul 21,2016 12:15:10 [info]  log-in into application
+Jul 21,2016 12:15:10 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 12:15:21 [info]  Go to Ifluence > Lists
+Jul 21,2016 12:15:42 [info]  Verify that list is downloading in CSV file.
+Jul 21,2016 12:15:42 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.DownloadCSV_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 12:16:36 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 21,2016 12:16:45 [info]  open application giturl
+Jul 21,2016 12:17:52 [info]  log-in into application
+Jul 21,2016 12:17:53 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 12:18:07 [info]  Go to Ifluence > Survey
+Jul 21,2016 12:19:48 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Jul 21,2016 12:19:54 [info]  Enter Customer Details
+
+*****************************************************************************
+Jul 21,2016 13:38:16 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 21,2016 13:38:16 [info]  open application giturl
+Jul 21,2016 13:39:45 [info]  log-in into application
+Jul 21,2016 13:39:45 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 13:39:56 [info]  Go to Ifluence > Survey
+Jul 21,2016 13:41:45 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+
+*****************************************************************************
+Jul 21,2016 13:44:51 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 21,2016 13:44:59 [info]  open application giturl
+Jul 21,2016 13:46:17 [info]  log-in into application
+Jul 21,2016 13:46:17 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 13:46:29 [info]  Go to Ifluence > Survey
+Jul 21,2016 13:48:12 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Jul 21,2016 13:48:17 [info]  Enter Customer Details
+
+*****************************************************************************
+Jul 21,2016 14:27:16 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 21,2016 14:27:24 [info]  open application giturl
+Jul 21,2016 14:27:57 [info]  log-in into application
+Jul 21,2016 14:28:07 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 14:28:19 [info]  Go to Ifluence > Survey
+Jul 21,2016 14:30:04 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Jul 21,2016 14:30:13 [info]  Enter Customer Details
+
+*****************************************************************************
+Jul 21,2016 14:35:59 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 21,2016 14:36:07 [info]  open application giturl
+Jul 21,2016 14:37:34 [info]  log-in into application
+Jul 21,2016 14:37:34 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 14:37:44 [info]  Go to Ifluence > Survey
+Jul 21,2016 14:39:34 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Jul 21,2016 14:39:40 [info]  Enter Customer Details
+
+*****************************************************************************
+Jul 21,2016 14:41:19 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview and Test method testSubmit_InternalReview
+*****************************************************************************
+Jul 21,2016 14:41:27 [info]  open application giturl
+Jul 21,2016 14:42:04 [info]  log-in into application
+Jul 21,2016 14:42:04 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 14:42:15 [info]  Go to Ifluence > Survey
+Jul 21,2016 14:43:57 [info]  open Pre-Survey Url of survey created via Webdriver scripts
+Jul 21,2016 14:44:05 [info]  Enter Customer Details
+Jul 21,2016 14:49:15 [info]  Jul 21,2016 14:49:15 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='answer 5_stars']/div[6]/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.InfluenceHelper.fillSurvey(InfluenceHelper.java:421)
+	at com.primeresponse.testcases.Influence.Submit_InternalReview.testSubmit_InternalReview(Submit_InternalReview.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 14:49:15 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Submit_InternalReview
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 14:52:10 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Jul 21,2016 14:52:20 [info]  open application giturl
+Jul 21,2016 14:53:32 [info]  log-in into application
+Jul 21,2016 14:53:32 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 14:53:45 [info]  Go to Ifluence > Lists
+Jul 21,2016 14:53:45 [info]  click on create new list link
+Jul 21,2016 14:54:05 [info]  Upload a CSV file as a list
+Jul 21,2016 14:56:13 [info]  Jul 21,2016 14:56:13 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 14:56:13 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 14:58:50 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Jul 21,2016 14:59:07 [info]  open application giturl
+Jul 21,2016 15:00:44 [info]  log-in into application
+Jul 21,2016 15:00:44 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 15:00:56 [info]  Go to Ifluence > Lists
+Jul 21,2016 15:00:57 [info]  click on create new list link
+Jul 21,2016 15:01:18 [info]  Upload a CSV file as a list
+Jul 21,2016 15:03:25 [info]  Jul 21,2016 15:03:25 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 15:03:26 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+
+*****************************************************************************
+Jul 21,2016 15:07:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Jul 21,2016 15:07:18 [info]  open application giturl
+Jul 21,2016 15:09:00 [info]  log-in into application
+Jul 21,2016 15:09:01 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 15:09:11 [info]  Go to Ifluence > Lists
+Jul 21,2016 15:09:11 [info]  click on create new list link
+Jul 21,2016 15:09:34 [info]  Upload a CSV file as a list
+
+*****************************************************************************
+Jul 21,2016 15:10:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Upload_List and Test method testUpload_List
+*****************************************************************************
+Jul 21,2016 15:10:44 [info]  Jul 21,2016 15:10:44 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 15:10:44 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************
+Jul 21,2016 15:10:53 [info]  open application giturl
+Jul 21,2016 15:12:15 [info]  log-in into application
+Jul 21,2016 15:12:15 [info]  Select Selenium Test Ford Account if not selected
+Jul 21,2016 15:12:27 [info]  Go to Ifluence > Lists
+Jul 21,2016 15:12:27 [info]  click on create new list link
+Jul 21,2016 15:12:50 [info]  Upload a CSV file as a list
+Jul 21,2016 15:14:57 [info]  Jul 21,2016 15:14:57 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Influence.Upload_List.testUpload_List(Upload_List.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jul 21,2016 15:14:57 [info]  End Execution of Test Class com.primeresponse.testcases.Influence.Upload_List
+*****************************************************************************

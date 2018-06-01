@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" verbose="1" name="Filter_ContentThisAccountAndPublic"
+	annotations="JDK">
+	<test name="Filter_ContentThisAccountAndPublic" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Social.Filter_ContentThisAccountAndPublic"/>
+		</classes>
+	</test>
+</suite>

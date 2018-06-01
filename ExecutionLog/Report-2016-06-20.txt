@@ -1,0 +1,583 @@
+
+*****************************************************************************
+Jun 20,2016 12:12:31 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_FacebookLikesCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 12:12:40 [info]  open application giturl
+Jun 20,2016 12:13:31 [info]  log-in into application
+Jun 20,2016 12:13:31 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 12:13:39 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 12:13:40 [info]  Find out no. of rows
+Jun 20,2016 12:18:50 [info]  Jun 20,2016 12:18:50 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Facebook Likes')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkFacebookLikesSort(EnterpriseHelper.java:202)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_FacebookLikesCol.testSort_Dashboard_ReviewsCol(Sort_Dashboard_FacebookLikesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 20,2016 12:18:50 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_FacebookLikesCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 12:21:21 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol and Test method testSort_Dashboard_ReviewResponsesCol
+*****************************************************************************
+Jun 20,2016 12:21:49 [info]  open application giturl
+Jun 20,2016 12:23:01 [info]  log-in into application
+Jun 20,2016 12:28:13 [info]  Jun 20,2016 12:28:13 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@class='ac_even ac_over']/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.LoginHelper.selectAccount(LoginHelper.java:49)
+	at com.primeresponse.util.DriverTestCase.selectAccount(DriverTestCase.java:121)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol.testSort_Dashboard_ReviewResponsesCol(Sort_Dashboard_ReviewResponsesCol.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+*****************************************************************************
+Jun 20,2016 12:34:05 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol and Test method testSort_Dashboard_ReviewResponsesCol
+*****************************************************************************
+Jun 20,2016 12:34:15 [info]  open application giturl
+Jun 20,2016 12:34:54 [info]  log-in into application
+Jun 20,2016 12:34:54 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 12:35:03 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 12:35:03 [info]  Find out no. of rows
+
+*****************************************************************************
+Jun 20,2016 12:39:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol and Test method testSort_Dashboard_ReviewResponsesCol
+*****************************************************************************
+Jun 20,2016 12:39:26 [info]  open application giturl
+Jun 20,2016 12:41:11 [info]  log-in into application
+Jun 20,2016 12:41:11 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 12:41:20 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 12:41:20 [info]  Find out no. of rows
+Jun 20,2016 12:46:34 [info]  Jun 20,2016 12:46:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Of Review Responses')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkReviewResponsesSort(EnterpriseHelper.java:167)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol.testSort_Dashboard_ReviewResponsesCol(Sort_Dashboard_ReviewResponsesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+*****************************************************************************
+Jun 20,2016 13:40:49 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol and Test method testSort_Dashboard_ReviewResponsesCol
+*****************************************************************************
+Jun 20,2016 13:41:07 [info]  open application giturl
+Jun 20,2016 13:42:48 [info]  log-in into application
+Jun 20,2016 13:42:48 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 13:42:56 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 13:42:56 [info]  Find out no. of rows
+
+*****************************************************************************
+Jun 20,2016 13:53:43 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol and Test method testSort_Dashboard_ReviewResponsesCol
+*****************************************************************************
+Jun 20,2016 13:53:52 [info]  open application giturl
+Jun 20,2016 13:54:38 [info]  log-in into application
+Jun 20,2016 13:54:39 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 13:54:47 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 13:54:47 [info]  Find out no. of rows
+Jun 20,2016 13:59:57 [info]  Jun 20,2016 13:59:57 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Of Review Responses')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkReviewResponsesSort(EnterpriseHelper.java:167)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol.testSort_Dashboard_ReviewResponsesCol(Sort_Dashboard_ReviewResponsesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+
+*****************************************************************************
+Jun 20,2016 14:02:03 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewResponsesCol and Test method testSort_Dashboard_ReviewResponsesCol
+*****************************************************************************
+Jun 20,2016 14:02:12 [info]  open application giturl
+Jun 20,2016 14:03:03 [info]  log-in into application
+Jun 20,2016 14:03:03 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 14:03:11 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 14:03:11 [info]  Find out no. of rows
+Jun 20,2016 14:03:17 [info]  Store the Review Responses in array and check sorting
+
+*****************************************************************************
+Jun 20,2016 14:13:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 14:14:19 [info]  open application giturl
+
+*****************************************************************************
+Jun 20,2016 14:15:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 14:15:19 [info]  open application giturl
+Jun 20,2016 14:15:58 [info]  log-in into application
+Jun 20,2016 14:15:59 [info]  Select Selenium Test Account if not selected
+Jun 20,2016 14:16:08 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 14:16:08 [info]  Find out no. of rows
+Jun 20,2016 14:21:18 [info]  Jun 20,2016 14:21:18 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='wrapper']/div[3]/div/div/div/div[3]/div/table/thead/tr[2]/th[4] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.storeReviews(EnterpriseHelper.java:79)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol.testSort_Dashboard_ReviewsCol(Sort_Dashboard_ReviewsCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 20,2016 14:21:19 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 15:08:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 15:08:43 [info]  open application giturl
+Jun 20,2016 15:09:29 [info]  log-in into application
+Jun 20,2016 15:09:30 [info]  Select Selenium Test Account if not selected
+Jun 20,2016 15:09:40 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 15:09:40 [info]  Find out no. of rows
+Jun 20,2016 15:10:33 [info]  Jun 20,2016 15:10:33 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='enterprise-dashboard']//table[@class='table table-striped sort-table']/thead/tr[2]/th[+j+] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.storeReviews(EnterpriseHelper.java:79)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol.testSort_Dashboard_ReviewsCol(Sort_Dashboard_ReviewsCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 20,2016 15:10:33 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 15:21:39 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 15:21:51 [info]  open application giturl
+Jun 20,2016 15:23:34 [info]  log-in into application
+Jun 20,2016 15:23:34 [info]  Select Selenium Test Account if not selected
+Jun 20,2016 15:23:43 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 15:23:44 [info]  Find out no. of rows
+Jun 20,2016 15:24:37 [info]  Jun 20,2016 15:24:37 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='data-wiselinks-container']//table[@class='table table-striped sort-table']/thead/tr[2]/th[+j+] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.storeReviews(EnterpriseHelper.java:79)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol.testSort_Dashboard_ReviewsCol(Sort_Dashboard_ReviewsCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 20,2016 15:24:37 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 15:33:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 15:33:20 [info]  open application giturl
+Jun 20,2016 15:34:23 [info]  log-in into application
+Jun 20,2016 15:34:24 [info]  Select Selenium Test Account if not selected
+Jun 20,2016 15:34:30 [info]  Jun 20,2016 15:34:30 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.09 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.4.74', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: 909efd65-d39c-46c2-91ad-2f601af95220
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=42.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonEnterpriseDashboard(HeaderHelper.java:140)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol.testSort_Dashboard_ReviewsCol(Sort_Dashboard_ReviewsCol.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.4.74', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7906293442303129184webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7906293442303129184webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7906293442303129184webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous7906293442303129184webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jun 20,2016 15:34:30 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 15:53:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 15:54:10 [info]  open application giturl
+
+*****************************************************************************
+Jun 20,2016 15:58:35 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 15:58:43 [info]  open application giturl
+Jun 20,2016 15:59:20 [info]  log-in into application
+Jun 20,2016 15:59:20 [info]  Select Selenium Test Account if not selected
+Jun 20,2016 15:59:30 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 15:59:30 [info]  Find out no. of rows
+Jun 20,2016 16:00:24 [info]  Jun 20,2016 16:00:24 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='enterprise-dashboard']//table[@class='table table-striped sort-table']/thead/tr[2]/th[+j+] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.storeReviews(EnterpriseHelper.java:79)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol.testSort_Dashboard_ReviewsCol(Sort_Dashboard_ReviewsCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 20,2016 16:00:24 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 16:01:28 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_NameCol and Test method testSort_Dashboard_NameCol
+*****************************************************************************
+Jun 20,2016 16:01:37 [info]  open application giturl
+Jun 20,2016 16:02:06 [info]  log-in into application
+Jun 20,2016 16:02:06 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 16:02:15 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 16:02:15 [info]  Find out no. of rows
+Jun 20,2016 16:07:26 [info]  Jun 20,2016 16:07:26 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table[@class='sort-table']/tbody/tr[2]/td[2] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkNameSort(EnterpriseHelper.java:42)
+	at com.primeresponse.testcases.Enterprise.Sort_Dashboard_NameCol.testSort_Dashboard_NameCol(Sort_Dashboard_NameCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 20,2016 16:07:26 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_NameCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 16:10:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_NameCol and Test method testSort_Dashboard_NameCol
+*****************************************************************************
+Jun 20,2016 16:11:21 [info]  open application giturl
+
+*****************************************************************************
+Jun 20,2016 16:12:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_NameCol and Test method testSort_Dashboard_NameCol
+*****************************************************************************
+Jun 20,2016 16:12:19 [info]  open application giturl
+Jun 20,2016 16:13:10 [info]  log-in into application
+Jun 20,2016 16:13:10 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 16:13:19 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 16:13:19 [info]  Find out no. of rows
+Jun 20,2016 16:13:22 [info]  Store the accounts name in array row wise
+Jun 20,2016 16:13:22 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_NameCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 16:22:18 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol and Test method testSort_Dashboard_ReviewsCol
+*****************************************************************************
+Jun 20,2016 16:22:18 [info]  open application giturl
+Jun 20,2016 16:23:20 [info]  log-in into application
+Jun 20,2016 16:23:20 [info]  Select Selenium Test Account if not selected
+Jun 20,2016 16:23:29 [info]  Go to Enterprise > Dashboard
+Jun 20,2016 16:23:29 [info]  Find out no. of rows
+Jun 20,2016 16:24:16 [info]  Store the reviews in array and check the sorting 
+Jun 20,2016 16:24:16 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_Dashboard_ReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 16:24:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_GroupReport_DealerNameCol and Test method testSort_GroupReport_DealerNameCol
+*****************************************************************************
+Jun 20,2016 16:25:06 [info]  open application giturl
+Jun 20,2016 16:26:17 [info]  log-in into application
+Jun 20,2016 16:26:17 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 16:26:25 [info]  Go to Enterprise > Reports
+Jun 20,2016 16:26:53 [info]  Method to sort dealer name column on enterprise reporting page
+Jun 20,2016 16:26:53 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_GroupReport_DealerNameCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 16:28:34 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol and Test method testSort_MyAccount_FacebookLikesCol
+*****************************************************************************
+Jun 20,2016 16:29:21 [info]  open application giturl
+
+*****************************************************************************
+Jun 20,2016 16:32:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol and Test method testSort_MyAccount_FacebookLikesCol
+*****************************************************************************
+Jun 20,2016 16:32:35 [info]  open application giturl
+Jun 20,2016 16:33:30 [info]  log-in into application
+Jun 20,2016 16:33:30 [info]  Select Selenium Test Ford Account if not selected
+Jun 20,2016 16:33:38 [info]  Go to Enterprise > My Accounts
+Jun 20,2016 16:33:38 [info]  Find out no. of rows
+Jun 20,2016 16:38:48 [info]  Jun 20,2016 16:38:48 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://span[contains(text(), 'Facebook Likes')] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.EnterpriseHelper.checkFacebookLikesSort(EnterpriseHelper.java:203)
+	at com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol.testSort_MyAccount_FacebookLikesCol(Sort_MyAccount_FacebookLikesCol.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 20,2016 16:38:48 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_FacebookLikesCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 17:07:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_NameCol and Test method testSort_MyAccount_NameCol
+*****************************************************************************
+Jun 20,2016 17:08:06 [info]  open application giturl
+Jun 20,2016 17:09:05 [info]  log-in into application
+Jun 20,2016 17:09:06 [info]  select Account if its not selected
+Jun 20,2016 17:09:14 [info]  Go to Enterprise > My Accounts
+Jun 20,2016 17:09:15 [info]  Find out no. of rows
+Jun 20,2016 17:09:15 [info]  Store the accounts name in array row wise
+Jun 20,2016 17:09:15 [info]  End Execution of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_NameCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 20,2016 17:11:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Enterprise.Sort_MyAccount_ReviewResponsesCol and Test method testSort_MyAccount_ReviewResponsesCol
+*****************************************************************************
+Jun 20,2016 17:12:01 [info]  open application giturl

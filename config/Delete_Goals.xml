@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" verbose="1" name="Delete_Goals"
+	annotations="JDK">
+	<test name="Delete_Goals" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Support.Delete_Goals" />
+		</classes>
+	</test>
+</suite>

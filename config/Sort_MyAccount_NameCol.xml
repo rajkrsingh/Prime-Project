@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="Sort_MyAccount_NameCol"
+	annotations="JDK">
+	<test name="Sort_MyAccount_NameCol" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Enterprise.Sort_MyAccount_NameCol" />
+		</classes>
+	</test>
+</suite> 
+

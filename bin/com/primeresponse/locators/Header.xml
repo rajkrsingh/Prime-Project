@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+	<TopRightIcons>
+		<Logo><![CDATA[//div[@id='header']/div[1]/img]]></Logo>
+		<UserEmail><![CDATA[//div[@id='header']/div[2]/div[1]/div]]></UserEmail>
+		<ViewNoteIcon><![CDATA[//div[@id='note-button']/a[1]/i]]></ViewNoteIcon>
+		<SubmitNoteIcon><![CDATA[//div[@id='note-button']/a/span[@class='fa fa-caret-down']]]></SubmitNoteIcon>
+		<ViewSupportNoteIcon><![CDATA[//div[@id='support-item-button']/a[1]/i]]></ViewSupportNoteIcon>
+		<SubmitSupportNoteIcon><![CDATA[//div[@id='support-item-button']/a[2]/span]]></SubmitSupportNoteIcon>
+		<LoadingImg><![CDATA[//img[@src='/assets/spinner_small.gif']]]></LoadingImg>
+		<EditAccount><![CDATA[//div[@id='account-bar']/div/strong/a[contains(text(),'Edit')]]]></EditAccount>
+		<EditLoggedInUser><![CDATA[//a[@href='/users/edit']/i]]></EditLoggedInUser>
+		<HelpIcon><![CDATA[//div[@id='header']/div[2]/div[1]/div/div[4]/a]]></HelpIcon>
+		<LogOut><![CDATA[//div[@id='header']/div[2]/div[1]/div/div[3]/a[2]/i]]></LogOut>
+		<LockIcon><![CDATA[//div[@id='account-bar']/div/img]]></LockIcon>
+		<SelectedAccount><![CDATA[//div[@id='account-bar']/div/strong/span]]></SelectedAccount>
+		<EditAccount><![CDATA[//a[@href='/accounts/13594/edit']]]></EditAccount>
+		<AccountLogout><![CDATA[//div[@id='account-bar']/div/strong/span]]></AccountLogout>
+	</TopRightIcons>
+	<SupportNote>
+			<ContactName><![CDATA[//input[@id='support_item_contact_name']]]></ContactName>
+			<ContactEmail><![CDATA[//input[@id='support_item_contact_email']]]></ContactEmail>
+			<ContactPhone><![CDATA[//input[@id='support_item_contact_phone']]]></ContactPhone>
+			<Comments><![CDATA[//textarea[@id='support_item_comments']]]></Comments>
+			<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+	</SupportNote>
+			
+	<SubmitNote>
+			<AssignTo><![CDATA[//span[contains(text(),'shishirj@360logica.com')]]]></AssignTo>
+			<Description><![CDATA[//textarea[@id='note_description']]]></Description>
+			<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+	</SubmitNote>
+
+	<Header>
+		<Enterprise><![CDATA[//a[contains(text(),'Enterprise')]]]></Enterprise>
+		<Accounts><![CDATA[//li[contains(@class,'dropdown-submenu')]/a[contains(text(),'Accounts')]]]></Accounts>
+		<Reputation><![CDATA[//div[@id='header']//li[3]/a[contains(text(),'Reputation')]]]></Reputation>
+		<Social><![CDATA[//ul[@class='nav']/li[4]/a[contains(text(),'Social')]]]></Social>
+		<Web><![CDATA[//li[5]/a[contains(text(),'Web')]]]></Web>
+		<Settings><![CDATA[//div[@id='header']//ul[@class='nav']//a[contains(text(),'Settings')]]]></Settings>
+		<Support><![CDATA[//li[9]/ul/li[3]/a[contains(text(),'Support')]]]></Support>
+		<Training><![CDATA[//a[contains(text(),'Training')]]]></Training>
+		<Admin><![CDATA[//a[contains(text(),'Admin')]]]></Admin>
+		<More><![CDATA[//a[contains(text(),'More')]]]></More>
+		<HeaderAdminNotes><![CDATA[//div[@id='header']//p[@class='admin-notes']]]></HeaderAdminNotes>
+	</Header>
+
+	<SubMenu>
+
+		<EnterpriseSubMenu>
+			<Dashboard><![CDATA[//a[contains(@href, '/dashboard')]]]></Dashboard>
+			<Summary><![CDATA[//a[contains(@href, '/dashboard/summary')]]]></Summary>
+			<ExternalFeed><![CDATA[//ul[@class='dropdown-menu']/li/a[contains(@href, '/dashboard/external_feed')]]]></ExternalFeed>
+			<InternalFeed><![CDATA[//ul[@class='dropdown-menu']/li/a[contains(@href, '/dashboard/internal_feed')]]]></InternalFeed>
+			<ProductReviewFeed><![CDATA[//a[@href='/dashboard/product_feed?path=&period=30']]]></ProductReviewFeed>
+			<MyAccounts><![CDATA[//ul[@class='dropdown-menu']/li/a[contains(text(), 'My Accounts')]]]></MyAccounts>
+			<ResponsePenetration><![CDATA[//a[contains(text(),'Response Penetration')]]]></ResponsePenetration>
+			<Reports><![CDATA[//a[@href='/enterprise/reports']]]></Reports>
+		</EnterpriseSubMenu>
+
+		<AccountsSubmenu>
+			<AccountsMenuList><![CDATA[//div[@id='header']/div//ul/li/ul/li[@class='dropdown-submenu active']/ul/li]]></AccountsMenuList>
+			<All><![CDATA[//ul[@class='dropdown-menu']/li[1]/a[@href='/accounts?page=1']]]></All>
+			<Demo><![CDATA[//*[@id='header']/div[3]/div/div/div/div/ul/li[2]/ul/li[2]/a]]></Demo>
+			<Production><![CDATA[//*[@id='header']/div[3]/div/div/div/div/ul/li[2]/ul/li[3]/a]]></Production>
+			<Competitors><![CDATA[//*[@id='header']/div[3]/div/div/div/div/ul/li[2]/ul/li[4]/a]]></Competitors>
+			<OfficialProfile><![CDATA[//div[@id='header']//a[contains(text(),'Official Profile')]]]></OfficialProfile>
+			<Users><![CDATA[//li[@class='dropdown-submenu active']//a[contains(text(),'Users')]]]></Users>
+			<Contacts><![CDATA[//div[@id='header']/div/div/div/div/div/ul/li/ul/li/a[contains(text(),'Contacts')]]]></Contacts>
+			<AdminSettings><![CDATA[//div[@id='header']/div/div/div/div/div/ul/li/ul/li/a[contains(text(),'Admin Settings')]]]></AdminSettings>
+			<Employee><![CDATA[//div[@id='header']/div/div/div/div/div/ul/li/ul/li/a[contains(text(),'Employees')]]]></Employee>
+			<AccessKeys><![CDATA[//a[contains(text(),'Access Keys')]]]></AccessKeys>
+			<GreatPlainsContract><![CDATA[//a[contains(text(),'Great Plains Contracts')]]]></GreatPlainsContract>
+			<SupportSettings><![CDATA[//a[contains(text(),'Support Settings')]]]></SupportSettings>
+		</AccountsSubmenu>
+
+		<ReputationSubmenu>
+			<Profile><![CDATA[//a[contains(text(), 'Profile')]]]></Profile>
+			<Track><![CDATA[//a[contains(text(), 'Track')]]]></Track>
+			<Influence><![CDATA[//a[contains(text(), 'Influence')]]]></Influence>
+		</ReputationSubmenu>
+
+		<ProfileSubmenu>
+			<AccountProfile><![CDATA[//a[@href='/profile']]]></AccountProfile>
+			<SiteDetail><![CDATA[//a[contains(text(), 'Site Detail')]]]></SiteDetail>
+			<All><![CDATA[//a[@href='/track/site_detail?filter=&period=30']]]></All>
+			<PageCapture><![CDATA[//a[@href='/profile/page_captures']]]></PageCapture>
+		</ProfileSubmenu>
+
+		<TrackSubmenu>
+			<Summary><![CDATA[//a[@href='/track']]]></Summary>
+			<ExternalFeed><![CDATA[//div[@id='header']//ul/li[2]/a[@href='/track/external_feed']]]></ExternalFeed>
+			<InternalFeed><![CDATA[//a[@href='/track/internal_feed/internal']]]></InternalFeed>
+			<ProductReviewFeed><![CDATA[//a[@href='/track/product_feed']]]></ProductReviewFeed>
+			<Competitors><![CDATA[//a[@href='/track/competitors']]]></Competitors>
+		</TrackSubmenu>
+
+		<InfluenceSubmenu>
+			<Dashboards><![CDATA[//a[@href='/influence']]]></Dashboards>
+			<Redirects><![CDATA[//a[@href='/influence/redirects']]]></Redirects>
+			<Lists><![CDATA[//a[@href='/influence/lists']]]></Lists>
+			<Customers><![CDATA[//a[@href='/influence/customers']]]></Customers>
+			<Surveys><![CDATA[//a[@href='/influence/surveys']]]></Surveys>
+			<Campaigns><![CDATA[//a[@href='/influence/campaigns']]]></Campaigns>
+		</InfluenceSubmenu>
+
+
+		<SocialSubmenu>
+			<Dashboard><![CDATA[//a[@href='/social/dashboard']]]></Dashboard>
+			<Content><![CDATA[//a[@href='/social/contents/categories']]]></Content>
+			<Posts><![CDATA[//a[@href='/social/accounts']]]></Posts>
+			<Report><![CDATA[//a[@href='/social/report']]]></Report>
+			<PinnedContentReport><![CDATA[//a[@href='/social/reports/pinned_content_report']]]></PinnedContentReport>
+		</SocialSubmenu>
+
+		<WebSubMenu>
+			<Dashboard><![CDATA[//a[@href='/track/google_analytics']]]></Dashboard>
+			<ReferralAnalysis><![CDATA[//a[@href='/profile/site_analytics']]]></ReferralAnalysis>
+			<SERPCapture><![CDATA[//a[@href='/profile/serps']]]></SERPCapture>
+			<SERPSpy><![CDATA[//a[@href='/profile/serp_spy']]]></SERPSpy>
+			<SERPSpySetup><![CDATA[//a[@href='/profile/serp_spy']]]></SERPSpySetup>
+			<LandingPages><![CDATA[//a[@href='/web/landing_pages']]]></LandingPages>
+			<GoogleCampaigns><![CDATA[//a[contains(text(),'Google Campaigns')]]]></GoogleCampaigns>
+			<CampaignsReport><![CDATA[//a[contains(text(),'Campaign Report')]]]></CampaignsReport>
+			<TrackUrl><![CDATA[//a[contains(text(),'Tracking URLs')]]]></TrackUrl>
+			
+		</WebSubMenu>
+
+		<SettingsSubmenu>
+			<Integrations><![CDATA[//a[@href='/settings']]]></Integrations>
+			<Feeds><![CDATA[//div[@id='header']//li[7]//a[@href='/feeds']]]></Feeds>
+			<TrackListeners><![CDATA[//a[@href='/track/settings']]]></TrackListeners>
+			<Alerts><![CDATA[//a[@href='/alerts']]]></Alerts>
+			<Digest><![CDATA[//a[@href='/digest_subscriptions']]]></Digest>
+			<Competitors><![CDATA[//a[@href='/accounts_competitors']]]></Competitors>
+			<SiteMap><![CDATA[//a[contains(@href, '/site_maps')]]]></SiteMap>
+		</SettingsSubmenu>
+
+		<SupportSubmenu>
+			<Metrics><![CDATA[//a[@href='/support/metrics']]]></Metrics>
+			<Notes><![CDATA[//a[@href='/support/notes']]]></Notes>
+			<Reports><![CDATA[//a[@href='/support/reports']]]></Reports>
+			<AccountsStatuses><![CDATA[//a[@href='/support/account_statuses']]]></AccountsStatuses>
+			<Communications><![CDATA[//a[@href='/support/support_items']]]></Communications>
+			<ConversionsRates><![CDATA[//a[@href='/support/conversions']]]></ConversionsRates>
+			<Engagement><![CDATA[//a[@href='/support/engagements']]]></Engagement>
+			<Goals><![CDATA[//a[@href='/support/goals']]]></Goals>
+		</SupportSubmenu>
+
+		<AdminSubmenu>
+			<ApplicationProduct><![CDATA[//a[@href='/admin/application_products']]]></ApplicationProduct>
+			<Categories><![CDATA[//a[@href='/admin/categories']]]></Categories>
+			<EmailTemplates><![CDATA[//a[@href='/admin/email_templates']]]></EmailTemplates>
+			<RecipientTemplates><![CDATA[//a[@href='/admin/recipient_criteria_templates']]]></RecipientTemplates>
+			<GMIntegralinkFiles><![CDATA[//a[@href='/admin/gm_integralink_files']]]></GMIntegralinkFiles>
+			<GreatPlainsProducts><![CDATA[//a[@href='/admin/great_plains_products']]]></GreatPlainsProducts>
+			<GreatPlainsImport><![CDATA[//span[contains(text(),'Great Plains Import Files')]]]></GreatPlainsImport>
+			<Groups><![CDATA[//a[@href='/admin/groups']]]></Groups>
+			<Jobs><![CDATA[//a[@href='/admin/jobs']]]></Jobs>
+			<Listeners><![CDATA[//a[@href='/admin/listeners']]]></Listeners>
+			<Notifications><![CDATA[//a[@href='/admin/notifications']]]></Notifications>
+			<ReviewImportFiles><![CDATA[//a[@href='/admin/review_import_files']]]></ReviewImportFiles>
+			<Roles><![CDATA[//a[@href='/admin/roles']]]></Roles>
+			<RssSeeds><![CDATA[//a[@href='/admin/rss_seeds']]]></RssSeeds>
+			<Soap><![CDATA[//a[@href='admin/soap_requests?filter=pending']]]></Soap>
+			<TrackerPackages><![CDATA[//a[@href='/admin/tracker_packages']]]></TrackerPackages>
+			<Users><![CDATA[//a[contains(text(),'Users')]]]></Users>
+			<Verticals><![CDATA[//a[@href='/admin/verticals']]]></Verticals>
+			<WhiteLabels><![CDATA[//a[@href='/admin/white_labels']]]></WhiteLabels>
+			<Kpi><![CDATA[//a[@href='/admin/kpi_templates']]]></Kpi>
+			
+		</AdminSubmenu>
+
+	</SubMenu>
+
+	<Row><![CDATA[//table/tbody/tr]]></Row>
+	<RowElement><![CDATA[//div[@class='table']/table/tbody/tr["+i+"]/td[contains(text(), '"+text+"')]]]></RowElement>
+	<DeleteIcon><![CDATA[//div[@class='table']/table/tbody/tr["+i+"]/td["+no_column+"]/a[*]/img[@title='Remove']]]></DeleteIcon>
+	<FlashMessage><![CDATA[//div[@id='flash_notice']/div]]></FlashMessage>
+	<Facebox><![CDATA[//div[@id='facebox']/div[@class='popup']]]></Facebox>
+	<FaceboxLoadingSpinner><![CDATA[//div[@id='facebox']/div/table/tbody/tr[2]/td[2]/div[3]/img]]></FaceboxLoadingSpinner>
+
+</Locators>

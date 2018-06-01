@@ -1,0 +1,93 @@
+<Locators>
+
+	<InternalFeed>
+		<Row><![CDATA[//tbody[@id='feed-items']/tr]]></Row>
+		<ShareButton><![CDATA[//div[1]/div/a[3]/i[@class='icon-share']]]></ShareButton>
+		<SelectWhereToShareDropDown><![CDATA[//button[@data-id='social_post_authentication_account_ids']]]></SelectWhereToShareDropDown>
+		<SelectFbAccount><![CDATA[//ul[@class='dropdown-menu']//span[@class='text']//small[@class='muted' and text()='Kumar Yadav']]]></SelectFbAccount>
+		<SelectTwtrAccount><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'test')]]]></SelectTwtrAccount>
+		<SelectYouTubeAccount><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'Qa 15')]]]></SelectYouTubeAccount>
+		<SocialMonitorPopUp><![CDATA[//div[@class='panel']/h1[contains(text(),'Social Monitor')]]]></SocialMonitorPopUp>
+		<CloseIcon><![CDATA[//img[@title='close']]]></CloseIcon>
+		<CommentsTextArea><![CDATA[//textarea[@id='review_resolution_comments']]]></CommentsTextArea>
+		<SaveButton><![CDATA[//button[contains(text(),'Save')]]]></SaveButton>
+		<RatingSortIcon><![CDATA[//a[contains(@href, 'rating')]/span[contains(text(), 'Rating')]/../span[2]]]></RatingSortIcon>
+		<DateSortIcon><![CDATA[//th[4]/a/span[contains(@class,'ui-icon')]]]></DateSortIcon>
+	</InternalFeed>
+
+	<ExternalFeed>
+		<Row><![CDATA[//tbody[@id='feed-items']/tr]]></Row>
+		<DeleteButton><![CDATA[//a[@data-original-title='Remove']]]></DeleteButton>
+		<DisbaledButton><![CDATA[//div[@class='grid_11 alpha']/a[@class='button manage-delete-button disabled']]]></DisbaledButton>
+		<EnableDeleteButton><![CDATA[//div[@class='grid_11 alpha']/a[@class='button manage-delete-button']]]></EnableDeleteButton>
+		<CheckBox><![CDATA[//div[@class='grid_11 alpha']/a[@class='button manage-delete-button disabled']]]></CheckBox>
+		<ShareButton><![CDATA[//div[1]/div/a[4]/i[@class='icon-share']]]></ShareButton>
+		<SelectWhereToShareDropDown><![CDATA[//button[@data-id='social_post_authentication_account_ids']]]></SelectWhereToShareDropDown>
+		<SelectFbAccount><![CDATA[//ul[@class='dropdown-menu']//span[@class='text']//small[@class='muted' and text()='Kumar Yadav']]]></SelectFbAccount>
+		<SelectTwtrAccount><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'test')]]]></SelectTwtrAccount>
+		<SelectYouTubeAccount><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'Qa 15')]]]></SelectYouTubeAccount>
+		<CloseIcon><![CDATA[//img[@title='close']]]></CloseIcon>
+		<SocialMonitorPopUp><![CDATA[//div[@class='panel']/h1[contains(text(),'Social Monitor')]]]></SocialMonitorPopUp>
+		<CommentsTextArea><![CDATA[//textarea[@id='review_resolution_comments']]]></CommentsTextArea>
+		<SaveButton><![CDATA[//button[contains(text(),'Save')]]]></SaveButton>
+		<GoToSite><![CDATA[//a[@data-original-title='Go to site']/i]]></GoToSite>
+		<RatingSortIcon><![CDATA[//a[contains(@href, 'rating')]/span[contains(text(), 'Rating')]/../span[2]]]></RatingSortIcon>
+		<PublishedSortIcon><![CDATA[//table[@id='feed-items-table']//tr/th[5]/a]]></PublishedSortIcon>
+		<SourceSortIcon><![CDATA[//th[2]/a/span[contains(@class,'ui-icon')]]]></SourceSortIcon>
+		<SiteUrl><![CDATA[//div[@class='row-fluid']//a[3]]]></SiteUrl>
+		<SelectSourceList><![CDATA[//button[@data-id='tracker_ids-bootstrap-select']/span[1][contains(text(),'Nothing selected')]]]></SelectSourceList>
+		<SourceCount><![CDATA[//div[@id='feed-filter-dropdown']//li[2]//li/a]]></SourceCount>
+		<ShareListFbAccount><![CDATA[//form[@class='new_social_post']//small[contains(text(),'Kumar Yadav')]]]></ShareListFbAccount>
+		<ShareListTwitterAccount><![CDATA[//form[@class='new_social_post']//small[contains(text(),'testshweta')]]]></ShareListTwitterAccount>
+		<SendNowButton><![CDATA[//button[contains(text(),'Send Now')]]]></SendNowButton>
+		<ViewMoreButton><![CDATA[//tbody[@id='feed-items']//a[1][@data-original-title='View More']/i]]></ViewMoreButton>
+		<ReviewDate><![CDATA[//strong[contains(text(),'Review Date')]]]></ReviewDate>
+		<Reviewer><![CDATA[//strong[contains(text(),'Reviewer')]]]></Reviewer>
+		<Sentiment><![CDATA[//strong[contains(text(),'Sentiment')]]]></Sentiment>
+		<Comments><![CDATA[//strong[contains(text(),'Comments')]]]></Comments>
+		<Response><![CDATA[//span[contains(text(),'Response')]]]></Response>
+		<FilterButton><![CDATA[//a[@id='feed-filter-dropdown-btn']]]></FilterButton>
+		<UpdateResultButton><![CDATA[//button[contains(text(),'Update Results')]]]></UpdateResultButton>
+	</ExternalFeed>
+
+	<Summary>
+		<Row><![CDATA[//div[@remote='https://app.prime-response.com/widgets/13?period=12']/table/tbody/tr]]></Row>
+		<AllTab><![CDATA[//div[@id='data-wiselinks-container']//a[6][contains(text(),'All')]]]></AllTab>
+		<Segment365On><![CDATA[//a[contains(@class, 'btn-primary')][contains(text(), '365')]]]></Segment365On>
+		<Segment365><![CDATA[//a[contains(text(), '365')]]]></Segment365>
+		<ReviewsBySite><![CDATA[//h1[contains(text(),'Reviews by Site')]]]></ReviewsBySite>
+		<Chart><![CDATA[//div[contains(@id,'external_reviews_by_site_chartChart')]]]></Chart>
+		<TotalActivityPerMonth><![CDATA[//h1[contains(text(),'Total Activity Per Month')]]]></TotalActivityPerMonth>
+		<Day365Trends><![CDATA[//h3[contains(text(),'365-Day Trends')]]]></Day365Trends>
+		<WebReviews><![CDATA[//h4[contains(text(),'Web Reviews')]]]></WebReviews>
+		<InternalSurveys><![CDATA[//h4[contains(text(),'Internal Surveys')]]]></InternalSurveys>
+		<ExternalCustomerSentiment><![CDATA[//h1[contains(text(),'External Customer Sentiment')]]]></ExternalCustomerSentiment>
+		<PositiveReview><![CDATA[//table[@id='overall_customer_sentiment']//tr[1]/td[3]]]></PositiveReview>
+		<NegativeReview><![CDATA[//table[@id='overall_customer_sentiment']//tr[2]/td[3]]]></NegativeReview>
+		<SocialMonitor><![CDATA[//h1[contains(text(),'Social Monitor')]]]></SocialMonitor>
+		<YrProductSpecialist><![CDATA[//div[@id='data-wiselinks-container']//h1[contains(text(),'Your Product Specialist')]]]></YrProductSpecialist>
+	</Summary>
+	<Reputation>
+			<Row><![CDATA[//tbody[@id='competitors-reviews']/tr]]></Row>
+			<PublishedSortIcon><![CDATA[//th[5]/a/span[contains(@class,'ui-icon')]]]></PublishedSortIcon>
+	</Reputation>
+	<ProductReviewFeed>
+			<FilterByProductDropDown><![CDATA[//span[contains(text(),'Filter by product')]]]></FilterByProductDropDown>
+			<ProductCount><![CDATA[//div[@id='product_id_chzn']//li]]></ProductCount>
+			<Product><![CDATA[//th[contains(text(),'Product')]]]></Product>
+			<Rating><![CDATA[//th[contains(text(),'Rating')]]]></Rating>
+			<Comments><![CDATA[//th[contains(text(),'Comments')]]]></Comments>
+			<Published><![CDATA[//th[contains(text(),'Published')]]]></Published>
+	</ProductReviewFeed>
+			
+	<Competitors>
+			<Row><![CDATA[//tbody[@id='competitors-reviews']/tr]]></Row>
+			<GoToSite><![CDATA[//tbody[@id='competitors-reviews']/tr[12]/td[5]/div[2]/a]]></GoToSite>
+			<RatingSortIcon><![CDATA[//th[4]/a/span[contains(@class,'ui-icon')]]]></RatingSortIcon>
+			<AccountSortIcon><![CDATA[//th[2]/a/span[contains(@class,'ui-icon')]]]></AccountSortIcon>
+			<DescriptionSortIcon><![CDATA[//th[3]/a/span[contains(@class,'ui-icon')]]]></DescriptionSortIcon>
+			<TotalCompetitors><![CDATA[//div[@class='tags ui-accordion ui-widget ui-helper-reset']/div]]></TotalCompetitors>
+			
+	</Competitors>
+
+</Locators>

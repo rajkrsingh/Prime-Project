@@ -1,0 +1,24 @@
+
+*****************************************************************************
+Jan 12,2017 11:03:00 [info]   Execution Started of Test Class com.primeresponse.testcases.Track.Verify_FeedsOnSharedExternalFeed and Test method testVerify_FeedsOnSharedExternalFeed
+*****************************************************************************
+Jan 12,2017 11:03:14 [info]  open application giturl
+Jan 12,2017 11:04:39 [info]  log-in into application
+Jan 12,2017 11:04:40 [info]  Select Selenium Test Ford Account if not selected
+Jan 12,2017 11:04:51 [info]  Go to Track > External Feed
+Jan 12,2017 11:04:57 [info]  Fetch feeds from 'where to share list
+Jan 12,2017 11:05:31 [info]  Go to Settings >Feeds
+Jan 12,2017 11:05:31 [info]  Verify that all feeds are showing on 'Select where to share' list on external feed page.
+Jan 12,2017 11:05:31 [info]  End Execution of Test Class com.primeresponse.testcases.Track.Verify_FeedsOnSharedExternalFeed
+*****************************************************************************
+
+*****************************************************************************
+Jan 12,2017 11:46:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Track.Verify_TotalRatingsOnExternalFeedAndSummary and Test method testVerify_TotalRatingsOnExternalFeedAndSummary
+*****************************************************************************
+Jan 12,2017 11:46:30 [info]  open application giturl
+Jan 12,2017 11:48:29 [info]  log-in into application
+Jan 12,2017 11:48:29 [info]  Select Selenium Test Ford Account if not selected
+Jan 12,2017 11:49:01 [info]  Go to Track > Summary
+Jan 12,2017 11:49:32 [info]  Verify total number of ratings on External Feed and Summary page.
+Jan 12,2017 11:49:32 [info]  End Execution of Test Class com.primeresponse.testcases.Track.Verify_TotalRatingsOnExternalFeedAndSummary
+*****************************************************************************

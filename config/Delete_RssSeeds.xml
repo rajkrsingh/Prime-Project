@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Delete_RssSeeds"
+	annotations="JDK">
+	<test name="Delete_RssSeeds" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Admin.Delete_RssSeeds" />
+		</classes>
+	</test>
+</suite

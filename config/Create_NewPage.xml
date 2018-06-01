@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite thread-count="5" verbose="1" name="Create_NewPage"
+	annotations="JDK">
+	<test name="Create_NewPage" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Training.Create_NewPage"/>
+		</classes>
+	</test>
+</suite>
+

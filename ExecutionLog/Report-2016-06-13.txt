@@ -1,0 +1,1360 @@
+
+*****************************************************************************
+Jun 13,2016 10:50:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon and Test method testCreate_Account
+*****************************************************************************
+Jun 13,2016 10:51:05 [info]  open application giturl
+Jun 13,2016 10:52:18 [info]  log-in into application
+Jun 13,2016 10:52:18 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 10:52:25 [info]  Search for account and match the Result
+Jun 13,2016 10:52:30 [info]  Check login Icon is not present for this account
+Jun 13,2016 10:52:33 [info]  Check success message that account has been logged out
+Jun 13,2016 10:53:21 [info]  Go to Accounts > All
+Jun 13,2016 10:53:30 [info]  Check Login Icon should present and if so then click on it to login again
+Jun 13,2016 10:53:30 [info]  Clicking on login icon should display success message
+Jun 13,2016 10:53:30 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Check_LoginIcon
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 10:55:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Create_AccessKey and Test method testCreate_AccessKey
+*****************************************************************************
+Jun 13,2016 10:56:26 [info]  open application giturl
+Jun 13,2016 10:57:00 [info]  log-in into application
+Jun 13,2016 10:57:00 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 10:57:09 [info]  Click on logged in user edit link
+Jun 13,2016 10:57:17 [info]  Click on Accounts->Access Keys
+Jun 13,2016 10:57:24 [info]  Method to Create Access Keys
+Jun 13,2016 10:57:25 [info]  success message
+Jun 13,2016 10:57:25 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Create_AccessKey
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 10:59:20 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Create_Account and Test method testCreate_Account
+*****************************************************************************
+Jun 13,2016 11:00:26 [info]  open application giturl
+Jun 13,2016 11:02:57 [info]  log-in into application
+Jun 13,2016 11:02:57 [info]  Select Selemium Test Account if not selected
+Jun 13,2016 11:03:03 [info]  Click on 'New Account'navigation link and verify 'Account Information' element is present on Account Information page
+Jun 13,2016 11:03:14 [info]  Fill all details on Account Information page
+Jun 13,2016 11:03:15 [info]  Account creation success message
+Jun 13,2016 11:03:16 [info]  Check Accounts Menu List after Accounts Created 
+Jun 13,2016 11:03:29 [info]  Jun 13,2016 11:03:29 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.05 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.4.74', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Session ID: db2ee951-4875-4d38-b923-f6401361d67b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=42.0}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.AccountsHelper.submitOfficialProfileDetails(AccountsHelper.java:144)
+	at com.primeresponse.testcases.Accounts.Create_Account.testCreate_Account(Create_Account.java:65)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.4.74', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous2349163182782365270webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous2349163182782365270webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous2349163182782365270webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/Shivani/AppData/Local/Temp/anonymous2349163182782365270webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Jun 13,2016 11:03:29 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Create_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:04:02 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Create_Account and Test method testCreate_Account
+*****************************************************************************
+Jun 13,2016 11:04:09 [info]  open application giturl
+Jun 13,2016 11:04:55 [info]  log-in into application
+Jun 13,2016 11:04:55 [info]  Select Selemium Test Account if not selected
+Jun 13,2016 11:05:03 [info]  Click on 'New Account'navigation link and verify 'Account Information' element is present on Account Information page
+Jun 13,2016 11:05:14 [info]  Fill all details on Account Information page
+Jun 13,2016 11:05:14 [info]  Account creation success message
+Jun 13,2016 11:05:15 [info]  Check Accounts Menu List after Accounts Created 
+Jun 13,2016 11:05:38 [info]  Submit Official Profile Details
+Jun 13,2016 11:05:39 [info]  Official Profile updating success message
+Jun 13,2016 11:05:42 [info]  Verify logged in email with Profile page
+Jun 13,2016 11:05:50 [info]  Submit Contacts Details
+Jun 13,2016 11:05:50 [info]  Contacts updating success message
+Jun 13,2016 11:05:58 [info]  Submit Employee Details
+Jun 13,2016 11:05:59 [info]  Contacts updating success message
+Jun 13,2016 11:06:24 [info]  Verify default account type is demo
+Jun 13,2016 11:06:24 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Create_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:06:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Create_AccountsGreatPlainsContracts and Test method testCreate_GreatPlainsContracts
+*****************************************************************************
+Jun 13,2016 11:06:41 [info]  open application giturl
+Jun 13,2016 11:07:22 [info]  log-in into application
+Jun 13,2016 11:07:22 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:07:29 [info]  Click on logged in user edit link
+Jun 13,2016 11:07:39 [info]  Method to CREATE Great Plains Contracts
+Jun 13,2016 11:07:39 [info]  success message
+Jun 13,2016 11:07:39 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Create_AccountsGreatPlainsContracts
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:08:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_AccessKey and Test method testDelete_AccessKey
+*****************************************************************************
+Jun 13,2016 11:08:23 [info]  open application giturl
+Jun 13,2016 11:09:01 [info]  log-in into application
+Jun 13,2016 11:09:01 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:09:10 [info]  Click on logged in user edit link
+Jun 13,2016 11:09:18 [info]  Method to Create Access Keys
+Jun 13,2016 11:09:20 [info]  success message
+Jun 13,2016 11:09:20 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_AccessKey
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:09:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Jun 13,2016 11:09:49 [info]  open application giturl
+Jun 13,2016 11:10:22 [info]  log-in into application
+Jun 13,2016 11:10:22 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 11:10:32 [info]  Search for acocunt and delete it
+Jun 13,2016 11:12:34 [info]  Jun 13,2016 11:12:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Accounts.Delete_Account.testDeleteAccount(Delete_Account.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 11:12:34 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:12:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Jun 13,2016 11:13:09 [info]  open application giturl
+Jun 13,2016 11:13:57 [info]  log-in into application
+Jun 13,2016 11:13:57 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 11:14:09 [info]  Search for acocunt and delete it
+Jun 13,2016 11:16:11 [info]  Jun 13,2016 11:16:11 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Accounts.Delete_Account.testDeleteAccount(Delete_Account.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 11:16:11 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:18:32 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_AccountsGreatPlainsContracts and Test method testDelete_AccountsGreatPlainsContracts
+*****************************************************************************
+Jun 13,2016 11:18:44 [info]  open application giturl
+Jun 13,2016 11:19:39 [info]  log-in into application
+Jun 13,2016 11:19:39 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:19:48 [info]  Click on logged in user edit link
+Jun 13,2016 11:19:54 [info]  Method to DELETE Great Plains Contracts
+Jun 13,2016 11:19:55 [info]  success message
+Jun 13,2016 11:19:55 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_AccountsGreatPlainsContracts
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:20:17 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Filter_AccountsAndVerifyResults and Test method testFilter_AccountsAndVerifyResults
+*****************************************************************************
+Jun 13,2016 11:20:27 [info]  open application giturl
+Jun 13,2016 11:21:11 [info]  log-in into application
+Jun 13,2016 11:21:11 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:21:17 [info]  Filter Accounts and verify its filter results.
+Jun 13,2016 11:21:17 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Filter_AccountsAndVerifyResults
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:22:16 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Filter_AccountsAndVerifyResults and Test method testFilter_AccountsAndVerifyResults
+*****************************************************************************
+Jun 13,2016 11:22:26 [info]  open application giturl
+Jun 13,2016 11:23:15 [info]  log-in into application
+Jun 13,2016 11:23:15 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:23:23 [info]  Filter Accounts and verify its filter results.
+Jun 13,2016 11:23:23 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Filter_AccountsAndVerifyResults
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:23:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 11:23:51 [info]  open application giturl
+Jun 13,2016 11:24:55 [info]  log-in into application
+Jun 13,2016 11:24:55 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:25:04 [info]  Click on logged in account edit icon
+Jun 13,2016 11:30:31 [info]  Jun 13,2016 11:30:31 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:445)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 11:30:31 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:33:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 11:34:08 [info]  open application giturl
+Jun 13,2016 11:35:05 [info]  log-in into application
+Jun 13,2016 11:35:05 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:35:14 [info]  Click on logged in account edit icon
+Jun 13,2016 11:35:20 [info]  Method to tick employee check box 
+Jun 13,2016 11:35:28 [info]  Click on Accounts->Users
+Jun 13,2016 11:35:33 [info]  Jun 13,2016 11:35:33 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:478)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 11:35:33 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:39:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Search_Account and Test method testSearch_Account
+*****************************************************************************
+Jun 13,2016 11:39:35 [info]  open application giturl
+Jun 13,2016 11:41:11 [info]  log-in into application
+Jun 13,2016 11:41:11 [info]  select Account if its not selected
+Jun 13,2016 11:41:21 [info]  Random click on any page count
+Jun 13,2016 11:41:27 [info]  Search for account and match the Result
+Jun 13,2016 11:41:27 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Search_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:41:48 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Send_SocialIntegrationEmail and Test method testSend_SocialIntegrationEmail
+*****************************************************************************
+Jun 13,2016 11:41:57 [info]  open application giturl
+Jun 13,2016 11:43:25 [info]  log-in into application
+Jun 13,2016 11:43:25 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:43:35 [info]  Click on logged in account edit icon
+Jun 13,2016 11:43:42 [info]  Method to Send Social Integration
+Jun 13,2016 11:43:44 [info]  success message
+Jun 13,2016 11:43:44 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Send_SocialIntegrationEmail
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:44:15 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Sort_AgeColumn and Test method testSort_AgeColumn
+*****************************************************************************
+Jun 13,2016 11:44:26 [info]  open application giturl
+Jun 13,2016 11:46:04 [info]  log-in into application
+Jun 13,2016 11:46:04 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:46:27 [info]  Method to sort age column
+Jun 13,2016 11:46:27 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Sort_AgeColumn
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:46:48 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Sort_CreatedColumn and Test method testCreate_Account
+*****************************************************************************
+Jun 13,2016 11:47:02 [info]  open application giturl
+Jun 13,2016 11:49:03 [info]  log-in into application
+Jun 13,2016 11:49:03 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 11:49:09 [info]  Randomly go to any page count
+Jun 13,2016 11:49:26 [info]  Go to any sub menu of accounts
+Jun 13,2016 11:49:26 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Sort_CreatedColumn
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:50:10 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Sort_NameCol and Test method testSort_NameCol
+*****************************************************************************
+Jun 13,2016 11:50:26 [info]  open application giturl
+Jun 13,2016 11:53:12 [info]  log-in into application
+Jun 13,2016 11:53:13 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 11:53:21 [info]  Randomly go to any page count
+Jun 13,2016 11:53:42 [info]  Check sorting of name columns
+Jun 13,2016 11:53:42 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Sort_NameCol
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:54:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Submit_NewSupportNote and Test method testCreate_AccessKey
+*****************************************************************************
+Jun 13,2016 11:54:38 [info]  open application giturl
+Jun 13,2016 11:56:53 [info]  log-in into application
+Jun 13,2016 11:56:54 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 11:57:21 [info]  Verify process of submiting new support note.
+Jun 13,2016 11:57:23 [info]  success message
+Jun 13,2016 11:57:23 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Submit_NewSupportNote
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 11:57:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Submit_NoteToLoggedInUser and Test method testSubmit_NoteToLoggedInUser
+*****************************************************************************
+Jun 13,2016 11:57:57 [info]  open application giturl
+Jun 13,2016 11:59:56 [info]  log-in into application
+Jun 13,2016 11:59:57 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 12:00:04 [info]  Verify process of submiting new support note.
+Jun 13,2016 12:00:05 [info]  success message
+Jun 13,2016 12:00:05 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Submit_NoteToLoggedInUser
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:00:33 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_AbServiceAndIvmCvdInventory_NonUniqueKey and Test method testVerifyAdminNotesOnPages
+*****************************************************************************
+Jun 13,2016 12:00:46 [info]  open application giturl
+Jun 13,2016 12:04:39 [info]  log-in into application
+Jun 13,2016 12:04:40 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 12:05:00 [info]  Fetch 'AB Service CID' and 'Ivm cvd inventory dealer lot key' from Admin settings page.
+Jun 13,2016 12:05:00 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_AbServiceAndIvmCvdInventory_NonUniqueKey
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:05:30 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_AccountNameOnList and Test method testVerify_AccountNameOnList
+*****************************************************************************
+Jun 13,2016 12:06:01 [info]  open application giturl
+Jun 13,2016 12:06:41 [info]  log-in into application
+Jun 13,2016 12:11:53 [info]  Jun 13,2016 12:11:53 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@class='ac_even ac_over']/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.LoginHelper.selectAccount(LoginHelper.java:49)
+	at com.primeresponse.util.DriverTestCase.selectAccount(DriverTestCase.java:121)
+	at com.primeresponse.testcases.Accounts.Verify_AccountNameOnList.testVerify_AccountNameOnList(Verify_AccountNameOnList.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 12:11:53 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_AccountNameOnList
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:16:48 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_AccountOnOfficialProfile and Test method testVerify_AccountOnOfficialProfile
+*****************************************************************************
+Jun 13,2016 12:18:37 [info]  open application giturl
+Jun 13,2016 12:20:49 [info]  log-in into application
+Jun 13,2016 12:20:49 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 12:20:58 [info]  Click on logged in user edit link
+Jun 13,2016 12:21:04 [info]  Go to Account > Official Profile
+Jun 13,2016 12:24:06 [info]  Verify current logged in account on official profile page
+Jun 13,2016 12:24:06 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_AccountOnOfficialProfile
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:30:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_NameColDefaultSorting and Test method testCreate_Account
+*****************************************************************************
+Jun 13,2016 12:30:22 [info]  open application giturl
+Jun 13,2016 12:31:57 [info]  log-in into application
+Jun 13,2016 12:31:58 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 12:32:07 [info]  Randomly go to any page count
+Jun 13,2016 12:32:41 [info]  Go to any sub menu of accounts
+Jun 13,2016 12:32:41 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_NameColDefaultSorting
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:33:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_SupportSettings and Test method testVerify_SupportSettings
+*****************************************************************************
+Jun 13,2016 12:33:18 [info]  open application giturl
+Jun 13,2016 12:34:51 [info]  log-in into application
+Jun 13,2016 12:34:52 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 12:35:01 [info]  Click on logged in user edit link
+Jun 13,2016 12:35:08 [info]  Verify that support settings is successfully updated
+Jun 13,2016 12:35:08 [info]  success message
+Jun 13,2016 12:35:08 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_SupportSettings
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:35:31 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_TimeZone and Test method testVerify_TimeZone
+*****************************************************************************
+Jun 13,2016 12:35:40 [info]  open application giturl
+Jun 13,2016 12:36:34 [info]  log-in into application
+Jun 13,2016 12:36:36 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 12:37:06 [info]  Click on edit icon of logged in user
+Jun 13,2016 12:37:06 [info]  Method to fetch timezone from user information page
+Jun 13,2016 12:37:16 [info]  Click on logged in user account
+Jun 13,2016 12:37:25 [info]  Method to fetch State from Account Information
+Jun 13,2016 12:37:34 [info]  Go to Social > Posts
+Jun 13,2016 12:37:39 [info]  Method to verify TimeZone on Post page
+Jun 13,2016 12:37:39 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_TimeZone
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:46:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Verify_UserDetails and Test method testVerify_UserDetails
+*****************************************************************************
+Jun 13,2016 12:47:07 [info]  open application giturl
+Jun 13,2016 12:48:15 [info]  log-in into application
+Jun 13,2016 12:48:16 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 12:48:58 [info]  Click on logged in account edit icon
+Jun 13,2016 12:49:08 [info]  Method to verify user details
+Jun 13,2016 12:49:39 [info]  Search user on Admin's user page
+Jun 13,2016 12:49:54 [info]  Verify Account's user information on Admin's users page
+Jun 13,2016 12:49:54 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Verify_UserDetails
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 12:50:24 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.VerifyAdminNotesOnPages and Test method testVerifyAdminNotesOnPages
+*****************************************************************************
+Jun 13,2016 12:50:35 [info]  open application giturl
+Jun 13,2016 12:51:26 [info]  log-in into application
+Jun 13,2016 12:51:27 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 12:51:35 [info]  Go to Training page
+Jun 13,2016 12:51:50 [info]  Click on EnterPrise >Dashboard
+Jun 13,2016 12:51:50 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.VerifyAdminNotesOnPages
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 13:43:30 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Jun 13,2016 13:43:30 [info]  open application giturl
+Jun 13,2016 13:45:05 [info]  log-in into application
+Jun 13,2016 13:45:06 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 13:45:16 [info]  Search for acocunt and delete it
+Jun 13,2016 13:47:17 [info]  Jun 13,2016 13:47:17 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Accounts.Delete_Account.testDeleteAccount(Delete_Account.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 13:47:17 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 13:47:57 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Jun 13,2016 13:48:05 [info]  open application giturl
+Jun 13,2016 13:49:03 [info]  log-in into application
+Jun 13,2016 13:49:04 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 13:49:14 [info]  Search for acocunt and delete it
+Jun 13,2016 13:51:16 [info]  Jun 13,2016 13:51:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='flash_notice']/div Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.isTextPresent(DriverHelper.java:291)
+	at com.primeresponse.pagehelper.HeaderHelper.checkSuccessMessage(HeaderHelper.java:27)
+	at com.primeresponse.testcases.Accounts.Delete_Account.testDeleteAccount(Delete_Account.java:48)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 13:51:16 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 13:53:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Delete_Account and Test method testDeleteAccount
+*****************************************************************************
+Jun 13,2016 13:53:22 [info]  open application giturl
+Jun 13,2016 13:55:08 [info]  log-in into application
+Jun 13,2016 13:55:09 [info]  Select ABC Ford Account if not selected
+Jun 13,2016 13:55:27 [info]  Search for acocunt and delete it
+Jun 13,2016 13:55:30 [info]  success message
+Jun 13,2016 13:55:30 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Delete_Account
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 13:56:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 13:57:00 [info]  open application giturl
+Jun 13,2016 13:58:38 [info]  log-in into application
+Jun 13,2016 13:58:39 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 13:58:47 [info]  Click on logged in account edit icon
+Jun 13,2016 13:58:53 [info]  Method to tick employee check box 
+Jun 13,2016 13:59:00 [info]  Click on Accounts->Users
+Jun 13,2016 13:59:06 [info]  Jun 13,2016 13:59:06 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:478)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 13:59:06 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 14:05:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:05:16 [info]  open application giturl
+Jun 13,2016 14:06:11 [info]  log-in into application
+Jun 13,2016 14:06:12 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 14:06:21 [info]  Click on logged in account edit icon
+Jun 13,2016 14:11:34 [info]  Jun 13,2016 14:11:34 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[12]/td[6]/a[2]/img Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:450)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 14:11:34 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 14:14:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:14:58 [info]  open application giturl
+Jun 13,2016 14:16:13 [info]  log-in into application
+Jun 13,2016 14:16:14 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 14:16:22 [info]  Click on logged in account edit icon
+Jun 13,2016 14:16:28 [info]  Method to tick employee check box 
+Jun 13,2016 14:16:40 [info]  Click on Accounts->Users
+Jun 13,2016 14:16:46 [info]  Jun 13,2016 14:16:46 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:478)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 14:16:46 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 14:19:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:19:35 [info]  open application giturl
+Jun 13,2016 14:20:57 [info]  log-in into application
+Jun 13,2016 14:20:58 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 14:21:08 [info]  Click on logged in account edit icon
+Jun 13,2016 14:21:15 [info]  Method to tick employee check box 
+Jun 13,2016 14:21:22 [info]  Click on Accounts->Users
+Jun 13,2016 14:26:40 [info]  Jun 13,2016 14:26:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:471)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 14:26:40 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 14:32:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:32:14 [info]  open application giturl
+Jun 13,2016 14:33:11 [info]  log-in into application
+Jun 13,2016 14:33:12 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 14:33:23 [info]  Click on logged in account edit icon
+
+*****************************************************************************
+Jun 13,2016 14:34:09 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:34:13 [info]  Jun 13,2016 14:34:13 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: 'Raj_Nch', ip: '192.168.4.74', os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_79'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:641)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:311)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:927)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:25)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:620)
+	... 27 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 42 more
+Jun 13,2016 14:34:14 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 14:35:03 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:35:16 [info]  open application giturl
+Jun 13,2016 14:36:55 [info]  log-in into application
+Jun 13,2016 14:36:57 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 14:37:06 [info]  Click on logged in account edit icon
+Jun 13,2016 14:37:12 [info]  Method to tick employee check box 
+Jun 13,2016 14:37:21 [info]  Click on Accounts->Users
+Jun 13,2016 14:37:27 [info]  Jun 13,2016 14:37:27 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:481)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 14:37:27 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:38:49 [info]  Jun 13,2016 14:38:49 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:445)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 14:38:49 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 14:41:14 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:41:23 [info]  open application giturl
+Jun 13,2016 14:43:13 [info]  log-in into application
+Jun 13,2016 14:43:14 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 14:43:22 [info]  Click on logged in account edit icon
+Jun 13,2016 14:43:34 [info]  Method to tick employee check box 
+Jun 13,2016 14:43:45 [info]  Click on Accounts->Users
+Jun 13,2016 14:43:50 [info]  Jun 13,2016 14:43:50 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:484)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 14:43:50 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 14:54:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 14:54:54 [info]  open application giturl
+Jun 13,2016 14:55:41 [info]  log-in into application
+Jun 13,2016 14:55:42 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 14:55:50 [info]  Click on logged in account edit icon
+
+*****************************************************************************
+Jun 13,2016 15:00:56 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 15:01:05 [info]  open application giturl
+Jun 13,2016 15:02:17 [info]  log-in into application
+Jun 13,2016 15:02:18 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 15:02:26 [info]  Click on logged in account edit icon
+Jun 13,2016 15:05:37 [info]  Method to tick employee check box 
+Jun 13,2016 15:05:48 [info]  Click on Accounts->Users
+Jun 13,2016 15:05:56 [info]  Jun 13,2016 15:05:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:485)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 15:05:56 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 15:07:29 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 15:07:36 [info]  open application giturl
+Jun 13,2016 15:08:37 [info]  log-in into application
+Jun 13,2016 15:08:38 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 15:08:47 [info]  Click on logged in account edit icon
+Jun 13,2016 15:08:53 [info]  Method to tick employee check box 
+Jun 13,2016 15:09:02 [info]  Click on Accounts->Users
+Jun 13,2016 15:09:16 [info]  Jun 13,2016 15:09:16 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:489)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 15:09:16 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 15:10:05 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 15:10:17 [info]  open application giturl
+Jun 13,2016 15:11:18 [info]  log-in into application
+Jun 13,2016 15:11:19 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 15:11:48 [info]  Click on logged in account edit icon
+Jun 13,2016 15:17:14 [info]  Jun 13,2016 15:17:14 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:445)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 15:17:14 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 15:24:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 15:24:24 [info]  open application giturl
+Jun 13,2016 15:25:40 [info]  log-in into application
+Jun 13,2016 15:25:41 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 15:25:49 [info]  Click on logged in account edit icon
+Jun 13,2016 15:26:00 [info]  Method to tick employee check box 
+Jun 13,2016 15:26:07 [info]  Click on Accounts->Users
+Jun 13,2016 15:26:13 [info]  Jun 13,2016 15:26:13 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.AccountsHelper.verifyUserTickIcon(AccountsHelper.java:483)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 15:26:13 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 15:28:01 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 15:28:12 [info]  open application giturl
+Jun 13,2016 15:29:24 [info]  log-in into application
+Jun 13,2016 15:29:45 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 15:29:55 [info]  Click on logged in account edit icon
+Jun 13,2016 15:35:17 [info]  Jun 13,2016 15:35:17 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:445)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 15:35:17 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 15:55:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 15:55:37 [info]  open application giturl
+Jun 13,2016 15:57:17 [info]  log-in into application
+Jun 13,2016 15:57:18 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 15:57:28 [info]  Click on logged in account edit icon
+Jun 13,2016 16:02:51 [info]  Jun 13,2016 16:02:51 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:445)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 16:02:51 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 16:12:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 16:13:09 [info]  open application giturl
+Jun 13,2016 16:14:01 [info]  log-in into application
+Jun 13,2016 16:14:02 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 16:14:10 [info]  Click on logged in account edit icon
+Jun 13,2016 16:19:30 [info]  Jun 13,2016 16:19:30 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:446)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 16:19:30 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************
+
+*****************************************************************************
+Jun 13,2016 16:25:41 [info]   Execution Started of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee and Test method testMark_UserEmployee
+*****************************************************************************
+Jun 13,2016 16:25:41 [info]  open application giturl
+Jun 13,2016 16:27:20 [info]  log-in into application
+Jun 13,2016 16:27:21 [info]  Select Selenium Test Account if not selected
+Jun 13,2016 16:27:30 [info]  Click on logged in account edit icon
+Jun 13,2016 16:32:57 [info]  Jun 13,2016 16:32:57 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@class='table']/table/tbody/tr[13]/td[3] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.getText(DriverHelper.java:305)
+	at com.primeresponse.pagehelper.AccountsHelper.markEmployeeCheckbox(AccountsHelper.java:446)
+	at com.primeresponse.testcases.Accounts.Mark_UserEmployee.testMark_UserEmployee(Mark_UserEmployee.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Jun 13,2016 16:32:57 [info]  End Execution of Test Class com.primeresponse.testcases.Accounts.Mark_UserEmployee
+*****************************************************************************

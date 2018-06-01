@@ -1,0 +1,1091 @@
+
+*****************************************************************************
+Nov 01,2016 10:37:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Filter_CampaignReport and Test method testFilter_CampaignReport
+*****************************************************************************
+Nov 01,2016 10:37:23 [info]  open application giturl
+Nov 01,2016 10:38:56 [info]  log-in into application
+Nov 01,2016 10:38:56 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 10:39:07 [info]  Go to Web > Campaigns REport
+Nov 01,2016 10:44:17 [info]  Nov 01,2016 10:44:17 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='google_campaign_id_chzn']//b Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.WebHelper.filter_CampaignReport(WebHelper.java:870)
+	at com.primeresponse.testcases.Web.Filter_CampaignReport.testFilter_CampaignReport(Filter_CampaignReport.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 10:44:18 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Filter_CampaignReport
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 10:47:27 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Filter_CampaignReport and Test method testFilter_CampaignReport
+*****************************************************************************
+Nov 01,2016 10:47:36 [info]  open application giturl
+Nov 01,2016 10:48:43 [info]  log-in into application
+Nov 01,2016 10:48:54 [info]  Go to Web > Campaigns REport
+
+*****************************************************************************
+Nov 01,2016 10:55:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_ReputationSite_AvgTimeOnSite and Test method testSort_ReputationSite_AvgTimeOnSite
+*****************************************************************************
+Nov 01,2016 10:55:18 [info]  open application giturl
+Nov 01,2016 10:56:27 [info]  log-in into application
+Nov 01,2016 11:01:38 [info]  Nov 01,2016 11:01:38 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://li[@class='ac_even ac_over']/strong Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.LoginHelper.selectAccount(LoginHelper.java:49)
+	at com.primeresponse.util.DriverTestCase.selectAccount(DriverTestCase.java:122)
+	at com.primeresponse.testcases.Web.Sort_ReputationSite_AvgTimeOnSite.testSort_ReputationSite_AvgTimeOnSite(Sort_ReputationSite_AvgTimeOnSite.java:35)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 11:01:38 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_ReputationSite_AvgTimeOnSite
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:03:40 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_ReputationSite_AvgTimeOnSite and Test method testSort_ReputationSite_AvgTimeOnSite
+*****************************************************************************
+Nov 01,2016 11:03:48 [info]  open application giturl
+Nov 01,2016 11:05:08 [info]  log-in into application
+Nov 01,2016 11:05:17 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:05:29 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:05:41 [info]  Verify sorting functionality of 'Avg time on site' column
+Nov 01,2016 11:05:41 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_ReputationSite_AvgTimeOnSite
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:06:28 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_ReputationSite_TotalReputationTraffic and Test method testSort_ReputationSite_TotalReputationTraffic
+*****************************************************************************
+Nov 01,2016 11:06:39 [info]  open application giturl
+Nov 01,2016 11:07:56 [info]  log-in into application
+Nov 01,2016 11:07:56 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:08:11 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:08:24 [info]  Verify sorting functionality of Total Reputation Traffic
+Nov 01,2016 11:08:24 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_ReputationSite_TotalReputationTraffic
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:09:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_ReputationSiteReferralsNumberOfReviewsCol and Test method testSort_ReputationSiteReferralsNumberOfReviewsCol
+*****************************************************************************
+Nov 01,2016 11:10:04 [info]  open application giturl
+Nov 01,2016 11:11:12 [info]  log-in into application
+Nov 01,2016 11:11:12 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:11:24 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:11:36 [info]  Verify sorting functionality of 'Number Of Reviews' column
+Nov 01,2016 11:11:36 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_ReputationSiteReferralsNumberOfReviewsCol
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:12:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_ReputationSiteReferralsSourceCol and Test method testSort_ReputationSiteReferralsSourceCol
+*****************************************************************************
+Nov 01,2016 11:12:16 [info]  open application giturl
+Nov 01,2016 11:13:38 [info]  log-in into application
+Nov 01,2016 11:13:39 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:13:51 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:14:07 [info]  Verify sorting functionality of 'source' column
+Nov 01,2016 11:14:07 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_ReputationSiteReferralsSourceCol
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:14:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralAvgTimeOnSiteCol and Test method testSort_SocialSiteReferralAvgTimeOnSiteCol
+*****************************************************************************
+Nov 01,2016 11:14:30 [info]  open application giturl
+Nov 01,2016 11:15:45 [info]  log-in into application
+Nov 01,2016 11:15:46 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:15:59 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:16:13 [info]  Verify sorting functionality of 'Total Social Traffic' column 
+Nov 01,2016 11:16:13 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralAvgTimeOnSiteCol
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:18:04 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralBounceRateCol and Test method testSort_SocialSiteReferralBounceRateCol
+*****************************************************************************
+Nov 01,2016 11:18:13 [info]  open application giturl
+Nov 01,2016 11:19:18 [info]  log-in into application
+Nov 01,2016 11:19:19 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:19:30 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:19:43 [info]  Verify sorting functionality of 'Total Social Traffic' column 
+Nov 01,2016 11:19:43 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralBounceRateCol
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:20:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralsPagesVisit and Test method testSort_SocialSiteReferralsPagesVisit
+*****************************************************************************
+Nov 01,2016 11:20:16 [info]  open application giturl
+Nov 01,2016 11:21:37 [info]  log-in into application
+Nov 01,2016 11:21:37 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:21:49 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:22:02 [info]  /Verify sorting functionality of 'Pages/Visit' column 
+Nov 01,2016 11:22:02 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralsPagesVisit
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:23:52 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralTrafficCol and Test method testSort_SocialSiteReferralTrafficCol
+*****************************************************************************
+Nov 01,2016 11:24:01 [info]  open application giturl
+Nov 01,2016 11:24:56 [info]  log-in into application
+Nov 01,2016 11:24:57 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:25:11 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:25:24 [info]  Verify sorting functionality of 'Total Social Traffic' column 
+Nov 01,2016 11:25:24 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteReferralTrafficCol
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:25:55 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteRefTotalSocialTraffic and Test method testSort_SocialSiteRefTotalSocialTraffic
+*****************************************************************************
+Nov 01,2016 11:26:05 [info]  open application giturl
+Nov 01,2016 11:27:38 [info]  log-in into application
+Nov 01,2016 11:27:38 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:27:50 [info]  Go to Web > Referral Analysis
+Nov 01,2016 11:28:04 [info]  Verify sorting functionality of 'of Total Social Traffic' column
+Nov 01,2016 11:28:04 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Sort_SocialSiteRefTotalSocialTraffic
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:28:42 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_CampaignReport and Test method testVerify_CampaignReport
+*****************************************************************************
+Nov 01,2016 11:28:50 [info]  open application giturl
+Nov 01,2016 11:30:06 [info]  log-in into application
+Nov 01,2016 11:30:06 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:30:21 [info]  Go to Web > Campaigns REport
+Nov 01,2016 11:30:57 [info]  Verify process to create 'Google Campaigns
+Nov 01,2016 11:30:57 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_CampaignReport
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:34:46 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnReport and Test method testVerify_GoogleCampaignsOnReport
+*****************************************************************************
+Nov 01,2016 11:34:57 [info]  open application giturl
+Nov 01,2016 11:36:02 [info]  log-in into application
+Nov 01,2016 11:36:02 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:36:14 [info]  Go to Web > Google Campaigns
+Nov 01,2016 11:36:17 [info]  Fetch total google campaigns
+Nov 01,2016 11:36:29 [info]  Go to Web > Campaigns REport
+Nov 01,2016 11:41:40 [info]  Nov 01,2016 11:41:40 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[@id='google_campaign_id_chzn']/a Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.WebHelper.verify_GoogleCampaignsOnReport(WebHelper.java:896)
+	at com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnReport.testVerify_GoogleCampaignsOnReport(Verify_GoogleCampaignsOnReport.java:54)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 11:41:40 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnReport
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 11:48:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts and Test method testVerify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+Nov 01,2016 11:48:16 [info]  open application giturl
+Nov 01,2016 11:49:36 [info]  log-in into application
+Nov 01,2016 11:49:36 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 11:49:48 [info]  Go to Web > Google Campaigns
+Nov 01,2016 11:49:53 [info]  Fetch total google campaigns
+Nov 01,2016 11:50:23 [info]  Go to Social > Content
+Nov 01,2016 11:56:04 [info]  Nov 01,2016 11:56:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[1]/div/a/i[@class='icon-edit'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.verify_GoogleCampaignsOnSiteMapPosts(SocialHelper.java:243)
+	at com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts.testVerify_GoogleCampaignsOnSiteMapPosts(Verify_GoogleCampaignsOnSiteMapPosts.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 11:56:04 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 12:03:45 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts and Test method testVerify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+Nov 01,2016 12:03:56 [info]  open application giturl
+Nov 01,2016 12:05:30 [info]  log-in into application
+Nov 01,2016 12:05:31 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 12:05:42 [info]  Go to Web > Google Campaigns
+Nov 01,2016 12:05:46 [info]  Fetch total google campaigns
+Nov 01,2016 12:06:05 [info]  Go to Social > Content
+Nov 01,2016 12:11:44 [info]  Nov 01,2016 12:11:44 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[1]/div/a/i[@class='icon-edit'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.verify_GoogleCampaignsOnSiteMapPosts(SocialHelper.java:243)
+	at com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts.testVerify_GoogleCampaignsOnSiteMapPosts(Verify_GoogleCampaignsOnSiteMapPosts.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 12:11:44 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 12:20:12 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts and Test method testVerify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+Nov 01,2016 12:20:26 [info]  open application giturl
+Nov 01,2016 12:21:54 [info]  log-in into application
+Nov 01,2016 12:21:54 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 12:22:05 [info]  Go to Web > Google Campaigns
+Nov 01,2016 12:22:10 [info]  Fetch total google campaigns
+Nov 01,2016 12:22:32 [info]  Go to Social > Content
+Nov 01,2016 12:28:10 [info]  Nov 01,2016 12:28:10 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[1]/div/a/i[@class='icon-edit'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.verify_GoogleCampaignsOnSiteMapPosts(SocialHelper.java:243)
+	at com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts.testVerify_GoogleCampaignsOnSiteMapPosts(Verify_GoogleCampaignsOnSiteMapPosts.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 12:28:10 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 13:33:04 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts and Test method testVerify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+Nov 01,2016 13:33:15 [info]  open application giturl
+Nov 01,2016 13:34:42 [info]  log-in into application
+Nov 01,2016 13:34:43 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 13:34:54 [info]  Go to Web > Google Campaigns
+Nov 01,2016 13:34:58 [info]  Fetch total google campaigns
+Nov 01,2016 13:35:18 [info]  Go to Social > Content
+Nov 01,2016 13:40:57 [info]  Nov 01,2016 13:40:57 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: Element Locator ://div[1]/div/a/i[@class='icon-edit'] Not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:238)
+	at com.primeresponse.pagehelper.SocialHelper.verify_GoogleCampaignsOnSiteMapPosts(SocialHelper.java:243)
+	at com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts.testVerify_GoogleCampaignsOnSiteMapPosts(Verify_GoogleCampaignsOnSiteMapPosts.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 13:40:57 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 13:48:22 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts and Test method testVerify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+Nov 01,2016 13:48:31 [info]  open application giturl
+Nov 01,2016 13:48:55 [info]  log-in into application
+Nov 01,2016 13:48:55 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 13:49:06 [info]  Go to Web > Google Campaigns
+Nov 01,2016 13:49:10 [info]  Fetch total google campaigns
+Nov 01,2016 13:49:23 [info]  Go to Social > Content
+Nov 01,2016 13:49:52 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 13:49:52 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GoogleCampaignsOnSiteMapPosts
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 13:53:02 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal and Test method testVerify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+Nov 01,2016 13:53:10 [info]  open application giturl
+Nov 01,2016 13:53:34 [info]  log-in into application
+Nov 01,2016 13:53:48 [info]  Go to Web > Referral Analysis
+Nov 01,2016 13:54:07 [info]  Nov 01,2016 13:54:07 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.WebHelper.verify_GotoSiteReputationSiteRefferal(WebHelper.java:83)
+	at com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal.testVerify_GotoSiteReputationSiteRefferal(Verify_GotoSiteReputationSiteRefferal.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 13:54:07 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 13:56:21 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal and Test method testVerify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+Nov 01,2016 13:56:34 [info]  open application giturl
+Nov 01,2016 13:57:21 [info]  log-in into application
+Nov 01,2016 13:57:35 [info]  Go to Web > Referral Analysis
+Nov 01,2016 13:57:54 [info]  Nov 01,2016 13:57:54 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.WebHelper.verify_GotoSiteReputationSiteRefferal(WebHelper.java:83)
+	at com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal.testVerify_GotoSiteReputationSiteRefferal(Verify_GotoSiteReputationSiteRefferal.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 13:57:54 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 14:02:06 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal and Test method testVerify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+Nov 01,2016 14:02:16 [info]  open application giturl
+Nov 01,2016 14:02:50 [info]  log-in into application
+Nov 01,2016 14:02:56 [info]  Nov 01,2016 14:02:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.09 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 80fcead8-b41c-4682-8f60-617c8c498db3
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickOnWebReferralAnalysis(HeaderHelper.java:655)
+	at com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal.testVerify_GotoSiteReputationSiteRefferal(Verify_GotoSiteReputationSiteRefferal.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8586928169136924084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8586928169136924084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8586928169136924084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8586928169136924084webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 14:02:56 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 14:12:07 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal and Test method testVerify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+Nov 01,2016 14:12:17 [info]  open application giturl
+Nov 01,2016 14:13:19 [info]  log-in into application
+Nov 01,2016 14:13:32 [info]  Go to Web > Referral Analysis
+Nov 01,2016 14:13:48 [info]  Nov 01,2016 14:13:48 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at com.primeresponse.pagehelper.WebHelper.verify_GotoSiteReputationSiteRefferal(WebHelper.java:83)
+	at com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal.testVerify_GotoSiteReputationSiteRefferal(Verify_GotoSiteReputationSiteRefferal.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Nov 01,2016 14:13:48 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 14:41:11 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal and Test method testVerify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+Nov 01,2016 14:41:29 [info]  open application giturl
+Nov 01,2016 14:42:43 [info]  log-in into application
+Nov 01,2016 14:42:55 [info]  Go to Web > Referral Analysis
+Nov 01,2016 14:43:09 [info]  Verify user redirect to same url which will open in new window
+Nov 01,2016 14:43:09 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 14:44:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal and Test method testVerify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+Nov 01,2016 14:44:32 [info]  open application giturl
+Nov 01,2016 14:45:52 [info]  log-in into application
+Nov 01,2016 14:46:16 [info]  Go to Web > Referral Analysis
+Nov 01,2016 14:46:28 [info]  Verify user redirect to same url which will open in new window
+Nov 01,2016 14:46:28 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_GotoSiteReputationSiteRefferal
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 14:53:10 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 01,2016 14:53:26 [info]  open application giturl
+Nov 01,2016 14:54:36 [info]  log-in into application
+Nov 01,2016 14:54:36 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 14:54:48 [info]  Go to Web > Google Campaigns
+Nov 01,2016 14:54:51 [info]  Fetch total google campaigns
+Nov 01,2016 14:55:12 [info]  Go to Social > Content
+Nov 01,2016 14:55:50 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 14:55:56 [info]  Nov 01,2016 14:55:56 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.10 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: e7187d8f-35a8-4f15-842a-09059766321f
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonWebGoogleCampaigns(HeaderHelper.java:666)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4906217102200546995webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4906217102200546995webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4906217102200546995webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4906217102200546995webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 14:55:56 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 15:23:13 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 01,2016 15:23:23 [info]  open application giturl
+Nov 01,2016 15:24:47 [info]  log-in into application
+Nov 01,2016 15:24:47 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 15:24:58 [info]  Go to Web > Google Campaigns
+Nov 01,2016 15:25:01 [info]  Fetch total google campaigns
+Nov 01,2016 15:25:25 [info]  Go to Social > Content
+Nov 01,2016 15:25:59 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 15:26:04 [info]  Nov 01,2016 15:26:04 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.07 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: fc428983-dae9-4ca3-b315-681078bf832e
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonWebGoogleCampaigns(HeaderHelper.java:666)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8633377534769748863webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8633377534769748863webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8633377534769748863webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8633377534769748863webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 15:26:05 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 16:46:25 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 01,2016 16:46:35 [info]  open application giturl
+Nov 01,2016 16:47:54 [info]  log-in into application
+Nov 01,2016 16:47:54 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 16:48:06 [info]  Go to Web > Google Campaigns
+Nov 01,2016 16:48:09 [info]  Fetch total google campaigns
+Nov 01,2016 16:48:31 [info]  Go to Social > Content
+Nov 01,2016 16:50:04 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 16:50:10 [info]  Nov 01,2016 16:50:10 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.13 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 4fefbeae-6e1d-4f31-acb8-c0d11e4afa7d
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonWebGoogleCampaigns(HeaderHelper.java:666)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous9187175311604880160webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous9187175311604880160webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous9187175311604880160webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous9187175311604880160webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 16:50:10 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 16:54:08 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 01,2016 16:54:18 [info]  open application giturl
+Nov 01,2016 16:56:09 [info]  log-in into application
+Nov 01,2016 16:56:09 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 16:56:23 [info]  Go to Web > Google Campaigns
+Nov 01,2016 16:56:27 [info]  Fetch total google campaigns
+Nov 01,2016 16:56:45 [info]  Go to Social > Content
+Nov 01,2016 16:57:20 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 16:57:26 [info]  Nov 01,2016 16:57:26 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.12 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 192318ff-c97a-4b3c-9104-3c93901753cc
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonWebGoogleCampaigns(HeaderHelper.java:666)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4613763779030549368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4613763779030549368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4613763779030549368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4613763779030549368webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 16:57:26 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 17:00:02 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 01,2016 17:00:12 [info]  open application giturl
+Nov 01,2016 17:01:34 [info]  log-in into application
+Nov 01,2016 17:01:34 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 17:01:46 [info]  Go to Web > Google Campaigns
+Nov 01,2016 17:01:49 [info]  Fetch total google campaigns
+Nov 01,2016 17:02:08 [info]  Go to Social > Content
+Nov 01,2016 17:02:41 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 17:02:52 [info]  Nov 01,2016 17:02:52 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.10 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 4d4aa09f-3850-49e5-9c9c-0391a5bd8292
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonWebGoogleCampaigns(HeaderHelper.java:676)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4088483504256839884webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4088483504256839884webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4088483504256839884webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous4088483504256839884webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 17:02:52 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 17:07:26 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 01,2016 17:07:36 [info]  open application giturl
+Nov 01,2016 17:08:51 [info]  log-in into application
+Nov 01,2016 17:08:51 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 17:09:06 [info]  Go to Web > Google Campaigns
+Nov 01,2016 17:09:11 [info]  Fetch total google campaigns
+Nov 01,2016 17:09:30 [info]  Go to Social > Content
+Nov 01,2016 17:10:12 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 17:10:32 [info]  Nov 01,2016 17:10:32 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.13 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 4a7fd26c-3a1c-49e9-b3ec-2527b554dbbf
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonWebGoogleCampaigns(HeaderHelper.java:676)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3926561256438156137webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3926561256438156137webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3926561256438156137webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous3926561256438156137webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 17:10:32 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************
+
+*****************************************************************************
+Nov 01,2016 17:38:57 [info]   Execution Started of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns and Test method testVerify_OnOffGoogleCampaigns
+*****************************************************************************
+Nov 01,2016 17:39:08 [info]  open application giturl
+Nov 01,2016 17:40:30 [info]  log-in into application
+Nov 01,2016 17:40:30 [info]  Select Selenium Test Account if not selected
+Nov 01,2016 17:40:45 [info]  Go to Web > Google Campaigns
+Nov 01,2016 17:40:49 [info]  Fetch total google campaigns
+Nov 01,2016 17:41:07 [info]  Go to Social > Content
+Nov 01,2016 17:41:41 [info]  Verify google campaigns are same on Contents > Site Map entries > new post page.
+Nov 01,2016 17:42:00 [info]  Nov 01,2016 17:42:00 [info]  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Error message >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.04 seconds
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Session ID: 015c948f-9233-43cc-b814-2d35e6aef41b
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=40.0.3}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:326)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at com.primeresponse.util.DriverHelper.clickOn(DriverHelper.java:241)
+	at com.primeresponse.pagehelper.HeaderHelper.clickonWebGoogleCampaigns(HeaderHelper.java:676)
+	at com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns.testVerify_OnOffGoogleCampaigns(Verify_OnOffGoogleCampaigns.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: '2.48.2', revision: '41bccdd', time: '2015-10-09 19:59:12'
+System info: host: '360LP0089', ip: '192.168.14.34', os.name: 'Windows 8', os.arch: 'x86', os.version: '6.2', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8644919806912314631webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9981)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8644919806912314631webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12517)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8644919806912314631webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12534)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/360LP036/AppData/Local/Temp/anonymous8644919806912314631webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:621)
+Nov 01,2016 17:42:00 [info]  End Execution of Test Class com.primeresponse.testcases.Web.Verify_OnOffGoogleCampaigns
+*****************************************************************************

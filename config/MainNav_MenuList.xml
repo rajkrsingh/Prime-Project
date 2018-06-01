@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="5" verbose="1" name="MainNav_MenuList"
+	annotations="JDK">
+	<test name="MainNav_MenuList" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Enetrprise.MainNav_MenuList" />
+		</classes>
+	</test>
+</suite> 

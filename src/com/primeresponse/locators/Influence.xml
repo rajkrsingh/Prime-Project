@@ -1,0 +1,181 @@
+<Locators>
+
+	<Dashboard>
+		 <InternalSurveysResponse><![CDATA[//h1[contains(text(),'Internal Survey Response Snapshot')]]]></InternalSurveysResponse>
+		 <TransactionSummary><![CDATA[//h1[contains(text(),'Transaction Summary')]]]></TransactionSummary>
+		 <ActivityByMonth><![CDATA[//h1[contains(text(),'Activity by Month')]]]></ActivityByMonth>
+		 <ReputationEngagement><![CDATA[//h1[contains(text(),'Reputation Engagement')]]]></ReputationEngagement>
+		 <DetailedSurveyResults><![CDATA[//h1[contains(text(),'Detailed Survey Results')]]]></DetailedSurveyResults>
+		 <DetailedSurveyCount><![CDATA[//div[@class='surveys ui-accordion ui-widget ui-helper-reset']/h3]]></DetailedSurveyCount>
+	</Dashboard>
+
+	<Redirects>
+		<CreateRedirect>
+			<NewRedirectLink><![CDATA[//a[@href='/influence/redirects/new']]]></NewRedirectLink>
+			<Label><![CDATA[redirect_label]]></Label>
+			<OriginalUrl><![CDATA[redirect_origin_url]]></OriginalUrl>
+			<ShowAdvOptions><![CDATA[//div[@id='redirect-show-advanced-options-link']/a[contains(text(),'Show Advanced Options')]]]></ShowAdvOptions>
+			<AddUrlLink><![CDATA[//a[contains(text(),'Add a custom URL')]]]></AddUrlLink>
+			<AddUrl><![CDATA[//input[@placeholder='Enter a URL']]]></AddUrl>
+			<TrackerList><![CDATA[//span[contains(text(),'Select a tracker')]]]></TrackerList>
+			<TrackerValue><![CDATA[//li[contains(text(),'CarGurus')]]]></TrackerValue>
+			<TrackerWeight><![CDATA[//input[contains(@id,'weight')]]]></TrackerWeight>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		</CreateRedirect>
+		<Row><![CDATA[//div[@class='table']/table/tbody/tr]]></Row>
+	</Redirects>
+
+	<List>
+		<UploadList>
+			<NewListLink><![CDATA[//a[@href='/influence/lists/new']]]></NewListLink>
+			<Name><![CDATA[list_name]]></Name>
+			<Browse><![CDATA[list_file]]></Browse>
+			<ReadDisclaimer><![CDATA[list_read_disclaimer]]></ReadDisclaimer>
+			<DropDownName><![CDATA[//div[contains(@id, '0_customer_attribute_key_id_chzn')]/a/span]]></DropDownName>
+			<MapName><![CDATA[//li[contains(@id, '0_customer_attribute_key_id_chzn')][contains(text(), 'first_name')]]]></MapName>
+			<DropDownEmail><![CDATA[//div[contains(@id, '1_customer_attribute_key_id_chzn')]/a/span]]></DropDownEmail>
+			<MapEmail><![CDATA[//li[contains(@id, '1_customer_attribute_key_id_chzn')][starts-with(text(), 'email')]]]></MapEmail>
+			<DropDownDate><![CDATA[//div[contains(@id, '2_customer_attribute_key_id_chzn')]/a/span]]></DropDownDate>
+			<MapDate><![CDATA[//li[contains(@id, '2_customer_attribute_key_id_chzn')][starts-with(text(), 'transaction_date')]]]></MapDate>
+			<UploadButton><![CDATA[//fieldset[@class='actions']/ol/input[@value='Upload']]]></UploadButton>
+		</UploadList>
+		<FileLink><![CDATA[//a[contains(text(),'Upload_list.csv')]]]></FileLink>
+	</List>
+
+	<Customers>
+		<CreateCustomer>
+			<AddMultipleCustomer><![CDATA[//a[@href='/influence/customers/new/repeat']]]></AddMultipleCustomer>
+			<NewCustomerLink><![CDATA[//a[@href='/influence/customers/new']]]></NewCustomerLink>
+			<Email><![CDATA[customer_email]]></Email>
+			<FName><![CDATA[customer_first_name]]></FName>
+			<LName><![CDATA[customer_last_name]]></LName>
+		</CreateCustomer>
+		<Row><![CDATA[//div[@id='customers-index-page']//tbody[@id='customers-table']/tr]]></Row>
+		<NextButton><![CDATA[//div[@class='flickr_pagination']/a[contains(text(), 'Next »')]]]></NextButton>
+		<DownLoadCsvButton><![CDATA[//a[@id='customer-export-button']]]></DownLoadCsvButton>
+		<DisabledDownloadBtn><![CDATA[//a[contains(@class, 'disabled')]]]></DisabledDownloadBtn>
+		<SuccessMsg><![CDATA[//div[contains(text(),'Your report has been generated successfully')]]]></SuccessMsg>
+	</Customers>
+
+	<Surveys>
+		<Row><![CDATA[//table/tbody/tr]]></Row>
+		<CreateSurvey>
+			<NewSurveyButton><![CDATA[//a[@href='/influence/surveys/new']]]></NewSurveyButton>
+			<Name><![CDATA[survey_name]]></Name>
+			<EditBox><![CDATA[//span[@id='cke_survey_welcome_text']/span[2]]]></EditBox>
+			<WelcomeTab><![CDATA[ui-id-1]]></WelcomeTab>
+			<WelcomeTextArea><![CDATA[//div[@id='cke_survey_welcome_text']//textarea]]></WelcomeTextArea>
+			<WelcomeSource><![CDATA[//div[@id='cke_survey_welcome_text']//span[contains(@class, 'button__source_icon')]]]></WelcomeSource>
+			<ThankYouTab><![CDATA[ui-id-2]]></ThankYouTab>
+			<ThankYouTextArea><![CDATA[//div[@id='cke_survey_thank_you_text']//textarea]]></ThankYouTextArea>
+			<ThankYouSource><![CDATA[//div[@id='cke_survey_thank_you_text']//span[contains(@class, 'button__source_icon')]]]></ThankYouSource>
+			<PreSurveyTab><![CDATA[ui-id-4]]></PreSurveyTab>
+			<EnablePreSurvey><![CDATA[survey_enable_pre_survey]]></EnablePreSurvey>
+			<NoQuestion><![CDATA[//div[@id='questions']/div/div/div]]></NoQuestion>
+		</CreateSurvey>
+
+		<AddQuestion>
+			<FlashInfo><![CDATA[//div[contains(@id, 'flash')]/div]]></FlashInfo>
+			<QuestionType><![CDATA[question_question_type_id]]></QuestionType>
+			<Category><![CDATA[question_category_id]]></Category>
+			<QuesText><![CDATA[question_value]]></QuesText>
+			<IncludeCommentBox><![CDATA[question_has_comments]]></IncludeCommentBox>
+			<IncludeCommentInReview><![CDATA[question_include_in_review_text]]></IncludeCommentInReview>
+			<AnsText><![CDATA[answer_value]]></AnsText>
+		</AddQuestion>
+
+		<SubmitSurvey>
+			<Row><![CDATA[//table[contains(@class, 'survey-table')]/tbody/tr]]></Row>
+			<CustomerFName><![CDATA[customer_first_name]]></CustomerFName>
+			<CustomerEmail><![CDATA[customer_email]]></CustomerEmail>
+			<ThreeStar><![CDATA[//div[@class='answer 5_stars']/div[6]/a]]></ThreeStar>
+			<Comment1><![CDATA[//textarea[contains(@id, '0_response_answers_attributes_1_value')]]]></Comment1>
+			<LongText><![CDATA[//textarea[contains(@id, '1_response_answers_attributes_0_value')]]]></LongText>
+			<Comment2><![CDATA[//textarea[contains(@id, '1_response_answers_attributes_1_value')]]]></Comment2>
+			<ShortText><![CDATA[//input[contains(@id, '2_response_answers_attributes_0_value')]]]></ShortText>
+			<Comment3><![CDATA[//textarea[contains(@id, '2_response_answers_attributes_1_value')]]]></Comment3>
+			<ThanksText><![CDATA[//center[contains(text(), 'Thank You Webdriver Scripts')]]]></ThanksText>
+		</SubmitSurvey>
+
+		<CopyButton><![CDATA[//div[@class='action-btn btn-group']/a[5]/i]]></CopyButton>
+		<NameColumn><![CDATA[//table[@class='table table-striped survey-table']/tbody/tr/td[1]]]></NameColumn>
+		<CurrentAccount><![CDATA[//input[@id='account_source_current'][@checked='checked']]]></CurrentAccount>
+		<SeleniumAccount><![CDATA[//td[contains(text(),'Selenium Test')]]]></SeleniumAccount>
+		<CopyStatus><![CDATA[//tbody/tr/td[contains(text(),'Survey was copied successfully')]]]></CopyStatus>
+		<CloseIcon><![CDATA[//a[@class='close']/img]]></CloseIcon>
+		<QuestionIcon><![CDATA[//i[contains(@class,'icon-question-sign')]]]></QuestionIcon>
+		<AddQuestionLink><![CDATA[//a[@id='new_question']]]></AddQuestionLink>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		
+		<Reports>
+			<ReportButton><![CDATA[//a[contains(@data-original-title,'Report')]]]></ReportButton>
+			<SurveySummaryChart><![CDATA[//span[contains(text(),'Summary')]]]></SurveySummaryChart>
+			<DateCreated><![CDATA[//h1[contains(text(),'Date Created:')]]]></DateCreated>
+			<NumberofSurveysCompleted><![CDATA[//h1[contains(text(),'Number of Surveys Completed:')]]]></NumberofSurveysCompleted>
+			<ResponsePercent><![CDATA[//div[@id='data-wiselinks-container']//div/table/thead/tr/th[3]]]></ResponsePercent>
+			<ResponseCount><![CDATA[//div[@id='data-wiselinks-container']//div/table/thead/tr/th[4]]]></ResponseCount>
+		</Reports>
+		<Events>
+		    <Row><![CDATA[//div[@id='data-wiselinks-container']//tbody/tr]]></Row>
+			<EventsButton><![CDATA[//a[@href='/influence/surveys/events']]]></EventsButton>
+			<SurveysEventTitle><![CDATA[//h1[contains(text(),'Survey Events')]]]></SurveysEventTitle>
+			<Name><![CDATA[//span[contains(text(),'Name')]]]></Name>
+			<PreSurveyCompleteDate><![CDATA[//span[contains(text(),'Pre survey complete date')]]]></PreSurveyCompleteDate>
+			<SurveyStartDate><![CDATA[//span[contains(text(),'Pre survey complete date')]]]></SurveyStartDate>
+			<SurveyCompleteDate><![CDATA[//span[contains(text(),'Survey complete date')]]]></SurveyCompleteDate>
+			
+		</Events>
+
+	</Surveys>
+
+	<Campaigns>
+		<CreateCampaigns>
+			<NewCampaignLink><![CDATA[//a[@href='/influence/campaigns/new']]]></NewCampaignLink>
+			<BasicTab><![CDATA[//div[@class='active-step']/span[contains (text(), 'Basic')]]]></BasicTab>
+			<Name><![CDATA[//input[@id='campaign_name']]]></Name>
+			<Subject><![CDATA[//input[@id='campaign_subject']]]></Subject>
+			<Description><![CDATA[//textarea[@id='campaign_description']]]></Description>
+			<Survey><![CDATA[//select[@id='campaign_survey_id']]]></Survey>
+			<NoSurveyMessage><![CDATA[//li[@id='campaign_survey_input'][contains(. , 'There are no surveys available.')]]]></NoSurveyMessage>
+			<NextButton><![CDATA[//input[@type='submit']]]></NextButton>
+			<SenderTab><![CDATA[//div[@class='active-step']/a[contains(text(), 'Sender')]]]></SenderTab>
+			<SelectUserRadio><![CDATA[//input[@id='campaign_is_custom_from_false'][@checked='checked']]]></SelectUserRadio>
+			<SelectUser><![CDATA[campaign_from_user_id]]></SelectUser>
+			<RecipientsTab><![CDATA[//div[@class='active-step']/a[contains(text(), 'Recipients')]]]></RecipientsTab>
+			<SelectRecipientsRadio><![CDATA[campaign_query_type_list]]></SelectRecipientsRadio>
+			<ListDropDown><![CDATA[//div[contains(@id, 'campaign_list_attributes')]/a/span]]></ListDropDown>
+			<ListName><![CDATA[//div[contains(@id, 'campaign_list_attributes')]/div/ul/li[contains(text(), 'List uploaded by Webdriver')]]]></ListName>
+			<PreviewLink><![CDATA[//a[@class='preview_link']]]></PreviewLink>
+			<PreviewTitle><![CDATA[//h5[contains(text(), 'Campaign Preview Results')]]]></PreviewTitle>
+			<RecipientsCount><![CDATA[//div[@class='content']/table/tbody/tr]]></RecipientsCount>
+			<ClosePreview><![CDATA[//img[@class='close_image']]]></ClosePreview>
+			<ScheduleTab><![CDATA[//div[@class='active-step']/a[contains(text(),'Schedule')]]]></ScheduleTab>
+			<OneTimeRadioButton><![CDATA[campaign_is_recurring_false]]></OneTimeRadioButton>
+			<OverSendingCheckBox><![CDATA[campaign_over_sending]]></OverSendingCheckBox>
+			<TemplateTab><![CDATA[//div[@class='active-step']/a[contains (text(), 'Template')]]]></TemplateTab>
+			<ContentTab><![CDATA[//div[@class='active-step']/a[contains (text(), 'Content')]]]></ContentTab>
+			<TextBody><![CDATA[//span[@id='cke_campaign_content']]]></TextBody>
+			<MergeFields><![CDATA[merge_fields]]></MergeFields>
+			<InsertLink><![CDATA[//a[@class='insert_merge_field link_new']]]></InsertLink>
+			<ReviewTab><![CDATA[//div[@class='active-step']/a[contains (text(), 'Review')]]]></ReviewTab>
+			<PreviewImage><![CDATA[//img[@class='img-polaroid']]]></PreviewImage>
+			<SendButton><![CDATA[//li[@id='campaign_submit_action']/input[@value='Send']]]></SendButton>
+		</CreateCampaigns>
+		<SendPreviewButton><![CDATA[//a[@title='Send Preview']/img]]></SendPreviewButton>
+		<RecipientPreviewEmailDialog>
+			<Email><![CDATA[//div[@class='form-horizontal']//input[contains(@name,'pseudo_customer[0][email]')]]]></Email>
+			<Email1><![CDATA[//form[@id='campaign-preview-recipients-form']/div[2]/div[3]/div[1]//div/input[contains(@name,'[email]')]]]></Email1>
+			<FirstName><![CDATA[//input[@id='pseudo_customer_0_first_name']]]></FirstName>
+			<FirstName1><![CDATA[//form[@id='campaign-preview-recipients-form']/div[2]/div[3]/div[1]//div/input[contains(@name,'[first_name]')]]]></FirstName1>
+			<LastName><![CDATA[//input[@id='pseudo_customer_0_last_name']]]></LastName>
+			<LastName1><![CDATA[//form[@id='campaign-preview-recipients-form']/div[2]/div[3]/div[1]//div/input[contains(@name,'[last_name]')]]]></LastName1>
+			<RemoveLink><![CDATA[//a[contains(text(),'Remove')]]]></RemoveLink>
+			<AddRecipientbutton><![CDATA[//a[contains(text(),'Add recipient')]]]></AddRecipientbutton>
+			<SendButton><![CDATA[//input[@type='submit']]]></SendButton>
+			<CancelButton><![CDATA[//a[contains(text(),'Cancel')]]]></CancelButton>
+		</RecipientPreviewEmailDialog>
+	</Campaigns>
+
+	<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+
+</Locators>

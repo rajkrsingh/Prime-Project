@@ -1,0 +1,8 @@
+
+*****************************************************************************
+Jan 13,2017 10:09:58 [info]   Execution Started of Test Class com.primeresponse.testcases.Influence.Create_Survey and Test method testCreate_Survey
+*****************************************************************************
+Jan 13,2017 10:10:08 [info]  open application giturl
+Jan 13,2017 10:11:10 [info]  log-in into application
+Jan 13,2017 10:11:10 [info]  Select Selenium Test Ford Account if not selected
+Jan 13,2017 10:11:17 [info]  click on create new Survey link

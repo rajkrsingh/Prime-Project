@@ -1,0 +1,131 @@
+<Locators>
+
+	<Metrics>
+	    <Row><![CDATA[//tbody[@id='support-metrics']/tr]]></Row>
+	    <ExternalReviewsCol><![CDATA[//span[contains(text(),'External Reviews')]]]></ExternalReviewsCol>
+	    <LastSupportCol><![CDATA[//span[contains(text(),'Last Support')]]]></LastSupportCol>
+	    <AccountCol><![CDATA[//span[contains(text(),'Account')]]]></AccountCol>
+	    <LastDataUpload><![CDATA[//span[contains(text(),'Last Data Upload')]]]></LastDataUpload>
+	    <VerticalsCol><![CDATA[//span[contains(text(),'Verticals')]]]></VerticalsCol>
+	    <EmailSentCol><![CDATA[//span[contains(text(),'Email Sent')]]]></EmailSentCol>
+	    
+	</Metrics>
+	
+	<Communication>
+		<Row><![CDATA[//tbody[@id='support-items-body']/tr]]></Row>
+		<NewCommLink><![CDATA[//a[@href='/support/support_items/new']]]></NewCommLink>
+		<Name><![CDATA[support_item_contact_name]]></Name>
+		<Email><![CDATA[support_item_contact_email]]></Email>
+		<Phone><![CDATA[support_item_contact_phone]]></Phone>
+		<Type><![CDATA[support_item_contact_type]]></Type>
+		<SelectedAccount><![CDATA[//div[@id='support_item_account_id_chzn']/a/span]]></SelectedAccount>
+		<Comment><![CDATA[support_item_comments]]></Comment>
+		<SubmitBtn><![CDATA[//input[@name='commit']]]></SubmitBtn>
+		<NameOnGrid><![CDATA[//div[@class='table']/table/tbody/tr[1]/td[1]]]></NameOnGrid>
+		<TypeOnGrid><![CDATA[//div[@class='table']/table/tbody/tr[1]/td[2]]]></TypeOnGrid>
+		<DateOnGrid><![CDATA[//div[@class='table']/table/tbody/tr[1]/td[3]]]></DateOnGrid>
+		<TopIcon></TopIcon>
+	</Communication>
+
+	<Notes>
+		<Row><![CDATA[//tbody[@id='support-notes']/tr]]></Row>
+		<NewNoteLink><![CDATA[//a[@href='/support/notes/new']]]></NewNoteLink>
+		<Assignee><![CDATA[note_assignee_id]]></Assignee>
+		<Description><![CDATA[note_description]]></Description>
+		<CheckBoxNotPresent><![CDATA[//li[@id='note_email_note_to_assignee_input']/@style[contains(., 'display: none')]]]></CheckBoxNotPresent>
+		<CheckBox><![CDATA[note_email_note_to_assignee]]></CheckBox>
+		<SubmitBtn><![CDATA[//input[@name='commit']]]></SubmitBtn>
+		<RedNoteIcon><![CDATA[//a[@href='/notes'][@data-original-title='You have unread notes.']]]></RedNoteIcon>
+	</Notes>
+	
+	<Reports>
+		<Row><![CDATA[//tbody[@id='support-reports']/tr]]></Row>
+		<NewReportBtn><![CDATA[//a[@href='/support/reports/new']]]></NewReportBtn>
+		<Title><![CDATA[report_title]]></Title>
+		<ReportType><![CDATA[report_report_type_id]]></ReportType>
+		<TotalActivityPerMonth><![CDATA[report_show_total_activity_per_month]]></TotalActivityPerMonth>
+		<SitesReportedOne><![CDATA[report_show_sites_reported_on]]></SitesReportedOne>
+		<RunOnAMonthlyBasis><![CDATA[report_is_recurring]]></RunOnAMonthlyBasis>
+		<ScheduleRunDate><![CDATA[report_schedule_run_date]]></ScheduleRunDate>
+		<ComparisonDateRange><![CDATA[report_comparison_date_range]]></ComparisonDateRange>
+		<MonthToDate><![CDATA[//a[contains(text(), 'Month to date')]]]></MonthToDate>
+		<MonthlyDateRange><![CDATA[report_monthly_date_range]]></MonthlyDateRange>
+		<Recipients><![CDATA[//form[@id='new_report']//p/a[contains(text(),'Add Recipient')]]]></Recipients>
+		<Select><![CDATA[//select[contains(@id, 'report_recipients')]]]></Select>
+		<Input><![CDATA[//input[contains(@id, 'report_recipients')]]]></Input>
+		<Comments><![CDATA[report_comments]]></Comments>
+		<EmailToMe><![CDATA[//input[@value='Email to me']]]></EmailToMe>
+		<EmailToMeButton><![CDATA[//a[@data-original-title='Email to me']/i]]></EmailToMeButton>
+		<CreateReport><![CDATA[//input[@value='Create Report']]]></CreateReport>
+		<GeneratePDFButton><![CDATA[//a[@data-original-title='Generate PDF']/i]]></GeneratePDFButton>
+		<ViewButton><![CDATA[//a[@data-original-title='View']/i]]></ViewButton>
+		<ResponseOverView><![CDATA[//h1[contains(text(),'Response Overview')]]]></ResponseOverView>
+		<ReviewBySite><![CDATA[//h1[contains(text(),'Reviews by Site')]]]></ReviewBySite>
+		<Site><![CDATA[//td[contains(text(),'Site')]]]></Site>
+		<NoOfRatings><![CDATA[//span[contains(text(),'Number Of Ratings')]]]></NoOfRatings>
+		<AvgRating><![CDATA[//td[contains(text(),'Avg Rating')]]]></AvgRating>
+		<MonthlyActivity><![CDATA[//span[contains(text(),'Monthly Activity')]]]></MonthlyActivity>
+		<Suggestions><![CDATA[//h3[contains(text(),'Suggestions')]]]></Suggestions>
+		
+	</Reports>
+	<Engagement>
+			<ChooseResolution><![CDATA[//span[contains(text(),'Choose a resolution')]]]></ChooseResolution>
+			<TotalResolutionList><![CDATA[//div[@id='engagement_options_select_by_chzn']/div/ul/li]]></TotalResolutionList>
+			<UpdateButton><![CDATA[//a[contains(text(),'Update')]]]></UpdateButton>	
+			<EngagementReport><![CDATA[//h1[contains(text(),'Engagement Report')]]]></EngagementReport>
+			<ReputationEngamement><![CDATA[//h5[contains(text(),'Reputation Engagement')]]]></ReputationEngamement>
+			<EngagementByDevice><![CDATA[//h5[contains(text(),'Engagement by Device')]]]></EngagementByDevice>
+			<EngagementByPlatform><![CDATA[//h5[contains(text(),'Engagement by Platform')]]]></EngagementByPlatform>
+			<EngagementByBrowser><![CDATA[//h5[contains(text(),'Engagement by Browser')]]]></EngagementByBrowser>
+			<EngagementByTimeDay><![CDATA[//h5[contains(text(),'Engagement by Time of Day')]]]></EngagementByTimeDay>
+			<ReputationDestination><![CDATA[//h5[contains(text(),'Reputation Destination')]]]></ReputationDestination>
+			<OverallSentiment><![CDATA[//h5[contains(text(),'Overall Sentiment')]]]></OverallSentiment>
+			<ChooseVerticalList><![CDATA[//div[@id='engagement_options_vertical_id_chzn']//span[contains(text(),'Choose a vertical')]]]></ChooseVerticalList>
+			<ChooseVerticalValue><![CDATA[//div[@id='engagement_options_vertical_id_chzn']//li[contains(text(),'Day Spas')]]]></ChooseVerticalValue>
+			<ChooseGroupList><![CDATA[//div[@id='engagement_options_group_id_chzn']//span[contains(text(),'Choose a group')]]]></ChooseGroupList>
+			<ChooseGroupValue><![CDATA[//div[@id='engagement_options_group_id_chzn']//li[contains(text(),'Randy Test Group')]]]></ChooseGroupValue>
+			<ChooseAccountList><![CDATA[//div[@id='engagement_options_account_id_chzn']//span[contains(text(),'Choose an account')]]]></ChooseAccountList>
+			<ChooseAccountValue><![CDATA[//div[@id='engagement_options_account_id_chzn']//li[contains(text(),'Selenium Test')]]]></ChooseAccountValue>
+			<PdfButton><![CDATA[pdf-url]]></PdfButton>
+			
+	</Engagement>
+	<AccountStatuses>
+			<CsvButton><![CDATA[//a[@href='/support/account_statuses.csv']]]></CsvButton>
+			<Row><![CDATA[//tbody[@id='support-metrics']/tr]]></Row>
+			<VerticalCol><![CDATA[//span[contains(text(),'Vertical')]]]></VerticalCol>
+			<DateCol><![CDATA[//span[contains(text(),'Date')]]]></DateCol>
+			<ChooseAccountStatusList><![CDATA[//span[contains(text(),'Choose an Account Status')]]]></ChooseAccountStatusList>
+			<DeployingAcountStatus><![CDATA[//li[contains(text(),'Deploying')]]]></DeployingAcountStatus>
+			
+	</AccountStatuses>
+	
+	<ConversionRates>
+			<ChooseResolutionList><![CDATA[//span[contains(text(),'Choose a resolution')]]]></ChooseResolutionList>
+			<TotalResolutionList><![CDATA[//div[@id='drilldown_options_select_by_chzn']//li]]></TotalResolutionList>
+			<SelectVertical><![CDATA[//li[contains(text(),'Vertical')]]]></SelectVertical>
+			<DrillDowmImg><![CDATA[//img[@title='Drill down into account']]]></DrillDowmImg>
+			<AccountName><![CDATA[//div[@id='data-wiselinks-container']/div[3]//table/tbody/tr/td[1]]]></AccountName>
+			<ListAccountVal><![CDATA[//div[@id='drilldown_options_account_id_chzn']//span]]></ListAccountVal>
+			<DateRange><![CDATA[//div[@id='date-range']/a]]></DateRange>
+			<Today><![CDATA[//li[contains(text(),'Today')]]]></Today>
+			<UpdateButton><![CDATA[//a[contains(text(),'Update')]]]></UpdateButton>
+			<ChooseVertical><![CDATA[//span[contains(text(),'Choose a vertical')]]]></ChooseVertical>
+			<SelectVerticalValue><![CDATA[//li[contains(text(),'Canadian Automotive')]]]></SelectVerticalValue>
+			<ChooseGroup><![CDATA[//span[contains(text(),'Choose a group')]]]></ChooseGroup>
+			<SelectGroupValue><![CDATA[//li[contains(text(),'123 Movers')]]]></SelectGroupValue>
+			<ChooseAccount><![CDATA[//span[contains(text(),'Choose an account')]]]></ChooseAccount>
+			<SelectAccountValue><![CDATA[//li[contains(text(),'1st Inn Limon - 66603672')]]]></SelectAccountValue>
+			<PdfButton><![CDATA[pdf-url]]></PdfButton>
+	</ConversionRates>
+	<Goals>
+		<NewGoalButton><![CDATA[//a[@href='/support/goals/new']]]></NewGoalButton>
+		<Description><![CDATA[goal_description]]></Description>
+		<GroupDropDownList><![CDATA[//div[@id='goal_group_ids_chzn']//input[@value='Select Some Options']]]></GroupDropDownList>
+		<SelectRandyGrp><![CDATA[//li[contains(text(),'Randy Test Group')]]]></SelectRandyGrp>
+		<OpenDateCal><![CDATA[goal_end_date]]></OpenDateCal>
+		<SelectDate><![CDATA[//div[@id='ui-datepicker-div']//a[contains(@class,'ui-state-default ui-state-highlight')]]]></SelectDate>
+		<Row><![CDATA[//tbody[@id='support-goals']/tr]]></Row>
+		<SubmitBtn><![CDATA[//input[@name='commit']]]></SubmitBtn>
+		
+	</Goals>
+</Locators>

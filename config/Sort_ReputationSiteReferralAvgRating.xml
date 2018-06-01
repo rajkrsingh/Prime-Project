@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Sort_ReputationSiteReferralAvgRating"
+	annotations="JDK">
+	<test name="Sort_ReputationSiteReferralAvgRating" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Web.Sort_ReputationSiteReferralAvgRating" />
+		</classes>
+	</test>
+</suite>

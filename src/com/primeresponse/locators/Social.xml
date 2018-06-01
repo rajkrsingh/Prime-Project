@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+
+<Dashboard>
+	   <DashBoardDropDown><![CDATA[//span[contains(text(),'Dashboard')]]]></DashBoardDropDown>> 
+   	   <SelectFbAccount><![CDATA[//ul[@class='chzn-results']/li[contains(text(),'Kumar Yadav')]]]></SelectFbAccount>
+   	   <SelectTwtrAccount><![CDATA[//ul[@class='dropdown-menu']//small[contains(text(),'testshweta')]]]></SelectTwtrAccount>
+       <MonthlyDropDown><![CDATA[//button[@data-id='interval']]]></MonthlyDropDown>
+       <Monthly><![CDATA[//span[contains(text(),'Monthly')]]]></Monthly>
+       <Weekly><![CDATA[//span[contains(text(),'Weekly')]]]></Weekly>>
+       <Daily><![CDATA[//span[contains(text(),'Daily')]]]></Daily>
+        <UpdateButton><![CDATA[//button[contains(text(),'Update')]]]></UpdateButton>
+        <AllWidgets><![CDATA[//div[@id='data-wiselinks-container']/div[2]/div/div/h4]]></AllWidgets>
+        <SaveToPdfDropDown><![CDATA[//div[@class='btn-group']/a[@href='#nogo']]]></SaveToPdfDropDown>
+        <SaveToPdfList><![CDATA[//a[contains(text(),'Save to PDF')]]]></SaveToPdfList>
+ </Dashboard>
+
+	<Content>
+		<AddContent>
+			<PopUpTitle><![CDATA[//h4[contains(text(), 'Add Content')]]]></PopUpTitle>
+			<AddContentButton><![CDATA[//a[@href='/social/contents/new']]]></AddContentButton>
+			<Title><![CDATA[//input[@id='content_title']]]></Title>
+			<Description><![CDATA[//textarea[@id='content_description']]]></Description>
+			<AttachImage><![CDATA[//input[@id='content_attachments_file']]]></AttachImage>
+			<Image><![CDATA[//input[@id='content_attachments_file']]]></Image>
+			<Submitbutton><![CDATA[//input[@id='submit-form']]]></Submitbutton>
+		</AddContent>
+
+		<CloseIcon><![CDATA[//img[@title='close']]]></CloseIcon>
+		<PostButton><![CDATA[//div[@id='social-content-feed-items']//a[1][@data-title='Post']/i]]></PostButton>
+		<ViewAllButton><![CDATA[//a[contains(text(),'View All')]]]></ViewAllButton>
+		<TotalContentCount><![CDATA[//div[@id='social-content-feed-items']/div]]></TotalContentCount>
+		<MarkAsFavoriteButton><![CDATA[//div[@id='social-content-modal']//a[contains(@class,'btn mark-as-favorite')]//i]]></MarkAsFavoriteButton>
+		<CloseButton><![CDATA[//button[contains(text(),'Close')]]]></CloseButton>
+		<FilterDropDown><![CDATA[//a[@id='social-content-filter-dropdown-btn']]]></FilterDropDown>
+		<CategoryFilter><![CDATA[//button[@data-id="content-filter"]]]></CategoryFilter>
+		<SelectFavorites><![CDATA[//span[contains(text(),'Favorites')]]]></SelectFavorites>
+		<UpdateResultsButton><![CDATA[//input[@value='Update Results']]]></UpdateResultsButton>
+		<MarkAsFlaggedButton><![CDATA[//div[@id='social-content-modal']//a[contains(@class,'btn mark-as-flagged')]//i]]></MarkAsFlaggedButton>
+		<SelectFlagged><![CDATA[//span[contains(text(),'Flagged')]]]></SelectFlagged>
+		<TotalFlaggedCount><![CDATA[//div[@id='social-content-feed-items']/div]]></TotalFlaggedCount>
+		<SelectFbAccount><![CDATA[//ul[@class='dropdown-menu']//span[@class='text']//small[@class='muted' and text()='Kumar Yadav']]]></SelectFbAccount>
+		<SelectTwtrAccount><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'test')]]]></SelectTwtrAccount>
+		<SelectYouTubeAccount><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'Qa 15')]]]></SelectYouTubeAccount>
+		<SocialMonitorPopUp><![CDATA[//div[@class='panel']/h1[contains(text(),'Social Monitor')]]]></SocialMonitorPopUp>
+		<ContentLibrary><![CDATA[//a[contains(text(),'Content Library')]]]></ContentLibrary>
+		<SiteMapEntry><![CDATA[//ul[@class='nav nav-list']/li/label[contains(text(),'Site Map Entry')]/input[@checked='checked']]]></SiteMapEntry>
+		<ShowAll><![CDATA[//ul[@class='nav nav-list']/li/label[contains(text(),'Show All')]/input[@checked='checked']]]></ShowAll>
+		<ThisAccount><![CDATA[//ul[@class='nav nav-list']/li/label[contains(text(),'This Account')]/input[@checked='checked']]]></ThisAccount>
+		<TooltipMessage><![CDATA[//div[@data-title='Google Analytics tracking is available for this content item']]]></TooltipMessage>
+		<ClickOnPage><![CDATA[//div[@class='prime-breadcrumb']/ul]]></ClickOnPage>
+		<SearchField><![CDATA[//input[@id='q']]]></SearchField>
+		<TotalRow><![CDATA[//div[@id='social-content-items']/fieldset[2]/div]]></TotalRow>
+		<ContentTitle><![CDATA[//div[@id='social-content-modal']//h3]]></ContentTitle>
+		<CreatedDate><![CDATA[//div[@class='content_created_at']]]></CreatedDate>
+		<MyContent><![CDATA[//div[contains(text(),'My Content')]]]></MyContent>
+		<PinTitleButton><![CDATA[//a[@data-title='Pin content to top of feed']/i]]></PinTitleButton>
+		<PinTitle><![CDATA[//h3[contains(text(),'Pin Content')]]]></PinTitle>
+		<PinButton><![CDATA[//div[contains(text(),'Pin')]]]></PinButton>
+		<GoogleCampaignsList><![CDATA[//button[@data-id='social_post_google_campaign_id']/span[contains(text(),'Select a Google Campaign')]]]></GoogleCampaignsList>
+		<TotallGoogleCampaign><![CDATA[//div[@id='google-campaign-select']//li/a/span]]></TotallGoogleCampaign>
+
+		<Filter>
+			<TextFilter><![CDATA[//label[contains(text(),'Text')]]]></TextFilter>
+			<ImageFilter><![CDATA[//label[contains(text(),'Image')]]]></ImageFilter>
+			<GalleryFilter><![CDATA[//label[contains(text(),'Gallery')]]]></GalleryFilter>
+			<VideoFilter><![CDATA[//label[contains(text(),'Video')]]]></VideoFilter>
+			<ReviewFilter><![CDATA[//label[contains(text(),'Review')]]]></ReviewFilter>
+			<SiteMapEntryFilter><![CDATA[//label[contains(text(),'Site Map Entry')]]]></SiteMapEntryFilter>
+			<InventoryFilter><![CDATA[//label[contains(text(),'Inventory')]]]></InventoryFilter>
+			<TextResult><![CDATA[//div[@id='social-content-feed-items']/div/a/div[@class='description word_wrap']]]></TextResult>
+			<ImageResult><![CDATA[//div[@id='social-content-feed-items']/div/a/img]]></ImageResult>
+			<GalleryResult><![CDATA[//div[@id='social-content-feed-items']/div/a//div/div[contains(@class,'content-gallery-icon')]]]></GalleryResult>
+			<VideoResult><![CDATA[//div[@id='social-content-feed-items']/div/a/img]]></VideoResult>
+			<VideoPlayButton><![CDATA[//div[@class='mejs-overlay mejs-layer mejs-overlay-play']]]></VideoPlayButton>
+			<ReviewResult><![CDATA[//div[@id='social-content-feed-items']/div/a/div/div/div]]></ReviewResult>
+			<SiteMapEntryResult><![CDATA[//div[contains(text(),'Entry from')]]]></SiteMapEntryResult>
+			<ThisAccountPublic><![CDATA[//label[contains(text(),'This Account + Public')]]]></ThisAccountPublic>
+			<InventoryResult><![CDATA[//div[@id='social-content-feed-items']/div/a[@data-toggle='modal']/div]]></InventoryResult>
+			<Submitbutton><![CDATA[//button[contains(text(),'Close')]]]></Submitbutton>
+		</Filter>
+
+	</Content>
+
+	<Posts>
+		<CreatePost>
+			<NoAccountIntegrated><![CDATA[//div[@id='flash_info']/div[contains(., 'There are currently no social accounts integrated')]]]></NoAccountIntegrated>
+			<NewPostButton><![CDATA[//a[@data-original-title='Make a new post']]]></NewPostButton>
+			<Title><![CDATA[//input[@id='social_post_title']]]></Title>
+			<Description><![CDATA[//textarea[@id='social_post_content']]]></Description>
+			<AnalyzeHashtagsbtn><![CDATA[analyze-hashtags-btn]]></AnalyzeHashtagsbtn>
+			<AnalyzeHashtagsSuggestion><![CDATA[//div[@id='social-post-content-analyzed-hashtags']/div]]></AnalyzeHashtagsSuggestion>
+			<Shortenbutton><![CDATA[//button[@id='shorten-btn']]]></Shortenbutton>
+			<Shortening><![CDATA[//button[@id='shorten-btn'][contains(text(), 'Shortening...')]]]></Shortening>
+			<AccountDropDown><![CDATA[//div[contains(@class, 'show-tick')]/button[@data-id='social_post_authentication_account_ids']]]></AccountDropDown>
+			<SelectFbAccount><![CDATA[//form[@id='fileupload']//li[3]/a/span/small[contains(text(),'Kumar Yadav')]]]></SelectFbAccount>
+			<FBPreview><![CDATA[//div[@class='facebook-style-content']/div[1]]]></FBPreview>
+			<SelectTwtrAccount><![CDATA[//ul[@class='dropdown-menu']//small[contains(text(),'testshweta')]]]></SelectTwtrAccount>
+			<TwtrPreview><![CDATA[//div[@class='twitter-style-content']/div[2]]]></TwtrPreview>
+			<SelectYouTubeAccount><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'Qa 15')]]]></SelectYouTubeAccount>
+			<SelectCategory><![CDATA[//ul[@class='dropdown-menu']/li[*]/a/span[contains(text(), 'Brand')]]]></SelectCategory>
+			<AttachImage><![CDATA[//span/input[@id='social_post_attachment_file']]]></AttachImage>
+			<TwtrPreviewTab><![CDATA[twitter-preview-tab]]></TwtrPreviewTab>
+			<Sendbutton><![CDATA[//button[@id='send-post-btn']]]></Sendbutton>
+			<DisabledSendBtn><![CDATA[//div[@class='btn disabled'][@style='display: inline-block']]]></DisabledSendBtn>
+			<SelectShareToDropDown><![CDATA[//button[@data-id='social_post_authentication_account_ids']]]></SelectShareToDropDown>
+			<CloseIcon><![CDATA[//img[@title='close']]]></CloseIcon>
+			<SocialMonitorPopUp><![CDATA[//h1[contains(text(),'Social Monitor')]]]></SocialMonitorPopUp>
+			<SchedulePost><![CDATA[//button[@id='schedule-pick']]]></SchedulePost>
+			<UserTimeZoneButton><![CDATA[//button[@id='user-timezone-button']]]></UserTimeZoneButton>
+			<AccountTimeZoneButton><![CDATA[//button[@id='account-timezone-button']]]></AccountTimeZoneButton>
+			<TimeZoneDropDown><![CDATA[//button[@id='select-timezone-button']]]></TimeZoneDropDown>
+			<PostTimeZone><![CDATA[//label[@id='timezone-label']]]></PostTimeZone>
+			<EstTime><![CDATA[//label[contains(text(),'Eastern Time (US & Canada)')]]]></EstTime>
+			<CstTime><![CDATA[//label[contains(text(),'Central Time (US & Canada)')]]]></CstTime>
+			<PstTime><![CDATA[//label[contains(text(),'Pacific Time (US & Canada)')]]]></PstTime>
+			<MstTime><![CDATA[//label[contains(text(),'Mountain Time (US & Canada)')]]]></MstTime>
+			<AlaskaTime><![CDATA[//label[contains(text(),'Alaska')]]]></AlaskaTime>
+			<HawaiiTime><![CDATA[//label[contains(text(),'Hawaii')]]]></HawaiiTime>
+			<US_RicoTime><![CDATA[//label[contains(text(),'America/Puerto_Rico')]]]></US_RicoTime>
+			<EasternTime><![CDATA[//a[contains(text(),'Eastern Time (US & Canada)')]]]></EasternTime>
+			<CentralTime><![CDATA[//a[contains(text(),'Central Time (US & Canada)')]]]></CentralTime>
+			<MountainTime><![CDATA[//a[contains(text(),'Mountain Time (US & Canada)')]]]></MountainTime>
+			<PacificTime><![CDATA[//a[contains(text(),'Pacific Time (US & Canada)')]]]></PacificTime>
+			<Alaska><![CDATA[//a[contains(text(),'Alaska')]]]></Alaska>
+			<Hawaii><![CDATA[//a[contains(text(),'Hawaii')]]]></Hawaii>
+			<DarkPost><![CDATA[//button[@id='post-dark-post-btn']]]></DarkPost>
+			<NewFbAcct><![CDATA[//form[@id='fileupload']//li[3]/a/span/small[contains(text(),'Kumar Yadav')]]]></NewFbAcct>
+		</CreatePost>
+
+		<PostPage>
+			<ListViewButton><![CDATA[//button[@data-view='list']]]></ListViewButton>
+			<SocialAccountsList><![CDATA[//button[@data-id='filter_authentication_account_ids']]]></SocialAccountsList>
+		   <FaceBookButton><![CDATA[//button[@data-filter='facebook']]]></FaceBookButton>
+		   <TwitterButton><![CDATA[//button[@data-filter='twitter']]]></TwitterButton>
+		   <YoutubeButton><![CDATA[//button[@data-filter='youtube']]]></YoutubeButton>
+		   <FbAccount><![CDATA[//span[contains(text(),'Kumar Yadav')]]]></FbAccount>
+		   <TwitterAccount><![CDATA[//ul[@class='dropdown-menu']/li[2]//small[contains(text(),'testshweta')]]]></TwitterAccount>
+		   <SocialAccountDropDown><![CDATA[//span[contains(text(),'Social Accounts...')]]]></SocialAccountDropDown>
+		   <Google_plusButton><![CDATA[//button[@data-filter='google_plus']]]></Google_plusButton>
+		   <UserLikeCount><![CDATA[//div[2]/div[1]//div[@data-str-retweeted='Retweeted']/span[@class='facebook-style-like-count']]]></UserLikeCount>
+		   <LikeLink><![CDATA[//a[contains(@class,'facebook-like')]]]></LikeLink>
+		   <CommentText><![CDATA[//input[@id='comment']]]></CommentText>
+		   <PostedCommnet><![CDATA[//div[contains(@id,'social-comments')]//div[@class='span11']//span[contains(text()]]></PostedCommnet>
+		   <TestUsrTwitterAccount><![CDATA[//div[@data-str-retweeted='Retweeted']/a[@class='retweet']]]></TestUsrTwitterAccount>
+		   <TestUsrRetweet><![CDATA[//div[@id='513964857889423361']//input[@id='comment']]]></TestUsrRetweet>
+		   <TwitterUserName><![CDATA[//input[@name='session[username_or_email]']]]></TwitterUserName>
+		   <TwitterPwd><![CDATA[//input[@name='session[password]']]]></TwitterPwd>
+		   <ShowOnlyMyActivity><![CDATA[//button[@data-original-title='Show Only My Activity']]]></ShowOnlyMyActivity>
+		   <Row><![CDATA[//div[@id='feed']//div[@class='row-fluid aasp']//div[contains(@class,'facebook-style-name')]]]></Row>
+		   <HashTag><![CDATA[//div[contains(@class,'twitter-style-message-text word_wrap_all')]/span]]></HashTag>
+		   <HashTagResult><![CDATA[//div[@id='search-modal-body']/div/div[2]/p[3]]]></HashTagResult>
+		   <Submitbutton><![CDATA[//input[@type='submit']]]></Submitbutton>
+		</PostPage>
+
+	</Posts>
+
+	<Reports>
+	 	<SocialPostReport><![CDATA[//li[contains(text(),'Social Post Report')]]]></SocialPostReport>
+	 	<DateDropDownIcon><![CDATA[//div[@id='report-range']//span[@class='caret']]]></DateDropDownIcon>
+	 	<Last30Days><![CDATA[//li[contains(text(),'Last 30 Days')]]]></Last30Days>
+	 	<ApplyButton><![CDATA[//button[contains(text(),'Apply')]]]></ApplyButton>
+	 	<StoryType><![CDATA[//th[contains(text(),'Story Type')]]]></StoryType>
+	 	<FbContentBrkDown><![CDATA[//div[@id='facebook-post-report']//h4]]></FbContentBrkDown>
+	 	<FbAvg><![CDATA[//div[@id='facebook-post-report']//th[contains(text(),'Avg')]]]></FbAvg>
+	 	<FbTotal><![CDATA[//div[@id='facebook-post-report']//th[contains(text(),'Total')]]]></FbTotal>
+	 	<FbPost><![CDATA[//div[@id='facebook-post-report']//th[contains(text(),'Post')]]]></FbPost>
+	 	<TweetType><![CDATA[//th[contains(text(),'Tweet Type')]]]></TweetType>
+	 	<TweetContentBrkDown><![CDATA[//div[@id='twitter-post-report']//h4]]></TweetContentBrkDown>
+	 	<TweetAvg><![CDATA[//div[@id='twitter-post-report']//th[contains(text(),'Avg')]]]></TweetAvg>
+	 	<TweetTotal><![CDATA[//div[@id='twitter-post-report']//th[contains(text(),'Total')]]]></TweetTotal>
+	 	<TweeterTweet><![CDATA[//div[@id='twitter-post-report']//th[contains(text(),'Tweet')]]]></TweeterTweet>
+	 	<ChooseDropDown><![CDATA[//a[@id='facebook-account-select-dropdown']]]></ChooseDropDown>
+	 	<SelectPage><![CDATA[//ul[@id='facebook-account-dropdown']/li[2]/a]]></SelectPage>
+	 	
+	</Reports>
+	
+	<PinnedContentRepor>
+	     <Title><![CDATA[//li[contains(text(),'Pinned Content Report')]]]></Title>
+	     <SelectTag><![CDATA[//span[contains(text(),'Select a tag')]]]></SelectTag>
+	     <HondaTag><![CDATA[//li[@id='tag_chzn_o_69']]]></HondaTag>
+	     <PinnedContentSummary><![CDATA[//h4[contains(text(),'Pinned Content Summary')]]]></PinnedContentSummary>
+	     <PinnedContentCount><![CDATA[//th[contains(text(),'Pinned Content Count')]]]></PinnedContentCount>
+	     <UniquePinnedContentCount><![CDATA[//th[contains(text(),'Unique')]]]></UniquePinnedContentCount>
+	     <PostsPinnedContent><![CDATA[//th[contains(text(),'Posts from Pinned Content')]]]></PostsPinnedContent>
+	     <AccountsUsePinnedContent><![CDATA[//th[contains(text(),'Accounts to Use Pinned Content')]]]></AccountsUsePinnedContent>
+	     <TotalPosts><![CDATA[//p[contains(text(),'Total Posts')]]]></TotalPosts>
+	     <TotalAccounts><![CDATA[//p[contains(text(),'Total Accounts')]]]></TotalAccounts>
+	     <TotalSocialAccounts><![CDATA[//p[contains(text(),'Total Social Accounts')]]]></TotalSocialAccounts>
+	     <AccountName><![CDATA[//th[contains(text(),'Account Name')]]]></AccountName>
+	     <SocialAccount><![CDATA[//th[contains(text(),'Social Account')]]]></SocialAccount>
+	     <Network><![CDATA[//th[contains(text(),'Network')]]]></Network>
+	     <PostDate><![CDATA[//th[contains(text(),'Post Date')]]]></PostDate>
+	     <UtilizationSummary><![CDATA[//div[contains(text(),'Utilization Summary')]]]></UtilizationSummary>
+	     <DetailedPostReport><![CDATA[//h5[contains(text(),'Detailed Post Report')]]]></DetailedPostReport>
+	     <Submitbutton><![CDATA[//input[@value='Generate']]]></Submitbutton>
+	     <Pdf><![CDATA[//a[@id='pinned-content-report-pdf']]]></Pdf>
+	     <BrandName><![CDATA[//h4[contains(text(),'Brand: Honda')]]]></BrandName>
+	     <DateRange><![CDATA[//span[@id='report-range-date']]]></DateRange>
+	     <ReportDateRange><![CDATA[//h4[contains(text(),'Date Range')]]]></ReportDateRange>
+	     <CurrentDate><![CDATA[//div[@id='pinned-content-report-container']//div[@class='pull-right']/h3]]></CurrentDate>
+	 </PinnedContentRepor>
+
+</Locators>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Locators>
+	<Users>
+		<NewUser><![CDATA[//a[@class='link_new']]]></NewUser>
+		<FirstName><![CDATA[//input[@id='user_first_name']]]></FirstName>
+		<LastName><![CDATA[//input[@id='user_last_name']]]></LastName>
+		<Email><![CDATA[//input[@id='user_email']]]></Email>
+		<AccountsOptions><![CDATA[//div[@id='user_account_ids_chzn']/ul/li/input]]></AccountsOptions>
+		<Accounts><![CDATA[//div[@id='user_account_ids_chzn']/div/ul/li[contains(text(), 'Selenium Test')]]]></Accounts>
+		<GroupsOptions><![CDATA[//div[@id='user_group_ids_chzn']/ul/li/input]]></GroupsOptions>
+		<Groups><![CDATA[//div[@id='user_group_ids_chzn']/div/ul/li[contains(text(), '123 Movers')]]]></Groups>
+		<RoleOptions><![CDATA[//div[@id='user_role_ids_chzn']/ul/li/input]]></RoleOptions>
+		<Roles><![CDATA[//div[@id='user_role_ids_chzn']/div/ul/li[contains(text(), 'Administrator')]]]></Roles>
+		<WhiteLabelOptions><![CDATA[//div[@id='user_white_labelable_attributes_white_label_id_chzn']/a/span]]></WhiteLabelOptions>
+		<WhiteLabel><![CDATA[//li[contains(text(),'Prime png')]]]></WhiteLabel>
+		<GlobalAdmin><![CDATA[//input[@id='user_super_admin']]]></GlobalAdmin>
+		<SearchUserText><![CDATA[//input[@id='user_filter']]]></SearchUserText>
+		<DeleteAccount><![CDATA[//img[@alt='Cross-circle']]]></DeleteAccount>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		<AdminRoleDropDown><![CDATA[//div[@id='role_select_chzn']//a//span[contains(text(),'Administrator')]]]></AdminRoleDropDown>
+		<SelectRole><![CDATA[//div[@id='role_select_chzn']//a//span[contains(text(),'Select a Role')]]]></SelectRole>
+		<SearchEmail><![CDATA[//div[@class='table']//tr[@class='line_color_1']//td[3]]]></SearchEmail>
+		<EditUser><![CDATA[//a[@title='Edit']/img]]></EditUser>
+	</Users>
+
+	<TrackerPackage>
+		<Row><![CDATA[//tbody[@class='tracker_packages-body']/tr]]></Row>
+		<NewTrackerPackageLink><![CDATA[//a[@href='/admin/tracker_packages/new']]]></NewTrackerPackageLink>
+		<TrackerPackageName><![CDATA[//input[@id='package_tracker_package_name']]]></TrackerPackageName>
+		<ClickTrackersList><![CDATA[//li[@class='search-field']/input[@value='Add trackers']]]></ClickTrackersList>
+		<Trackers1><![CDATA[//li[@id='package_tracker_package_tracker_ids_chzn_o_1']]]></Trackers1>
+		<Trackers2><![CDATA[//li[@id='package_tracker_package_tracker_ids_chzn_o_2']]]></Trackers2>
+		<Trackers3><![CDATA[//li[@id='package_tracker_package_tracker_ids_chzn_o_3']]]></Trackers3>
+		<Trackers4><![CDATA[//li[@id='package_tracker_package_tracker_ids_chzn_o_4']]]></Trackers4>
+		<Trackers5><![CDATA[//li[@id='package_tracker_package_tracker_ids_chzn_o_5']]]></Trackers5>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+	</TrackerPackage>
+
+	<VerticalPage>
+		<NewVerticalLink><![CDATA[//div/a[contains(text(),'New Vertical')]]]></NewVerticalLink>
+		<Name><![CDATA[//input[@id='vertical_name']]]></Name>
+		<NewVerticalText><![CDATA[//div[@id='data-wiselinks-container']/div/h1[contains(text(),'New Vertical')]]]></NewVerticalText>
+		<AvailableListColumn><![CDATA[//a[@id='ui-id-1'][contains(text(),'Available List Columns')]]]></AvailableListColumn>
+		<TransactionTypes><![CDATA[//a[@id='ui-id-2'][contains(text(),'Transaction Types')]]]></TransactionTypes>
+		<Products><![CDATA[//a[@id='ui-id-3'][contains(text(),'Products')]]]></Products>
+		<DataTypeHiddenField1><![CDATA[//select[@id='vertical_customer_attribute_keys_attributes_0_customer_attribute_key_data_type_id' and @disabled='disabled']]]></DataTypeHiddenField1>
+		<DataTypeHiddenField2><![CDATA[//input[@id='vertical_customer_attribute_keys_attributes_1_customer_attribute_key_data_type_id'][@type='hidden']]]></DataTypeHiddenField2>
+		<DataTypeHiddenField3><![CDATA[//input[@id='vertical_customer_attribute_keys_attributes_2_customer_attribute_key_data_type_id'][@type='hidden']]]></DataTypeHiddenField3>
+		<AddAvailableColumnLink><![CDATA[//a[@class="link_new"]]]></AddAvailableColumnLink>
+		<SelectField1><![CDATA[//tbody[@id='customer_attribute_keys']//tr[7]/td/select]]></SelectField1>
+		<SelectField2><![CDATA[//tbody[@id="customer_attribute_keys"]/tr[9]/td/select]]></SelectField2>
+		<SelectField3><![CDATA[//tbody[@id="customer_attribute_keys"]/tr[11]/td/select]]></SelectField3>
+		<TextField1><![CDATA[//tbody[@id="customer_attribute_keys"]/tr[7]/td[2]/input]]></TextField1>
+		<TextField2><![CDATA[//tbody[@id="customer_attribute_keys"]/tr[9]/td[2]/input]]></TextField2>
+		<TextField3><![CDATA[//tbody[@id="customer_attribute_keys"]/tr[11]/td[2]/input]]></TextField3>
+		<InputTextField1><![CDATA[//input[@id='vertical_customer_attribute_keys_attributes_1403788222556_value']]]></InputTextField1>
+		<InputTextField2><![CDATA[//input[@id='vertical_customer_attribute_keys_attributes_1403795182950_value']]]></InputTextField2>
+		<InputTextField3><![CDATA[//input[@id='vertical_customer_attribute_keys_attributes_1403795183920_value']]]></InputTextField3>
+		<HiddenCheckBox><![CDATA[//tbody/tr[9]/td[3]/input[2][@type="checkbox"]]]></HiddenCheckBox>
+		<MandatoryCheckBox><![CDATA[//tbody/tr[11]/td[4]/input[2][@type="checkbox"]]]></MandatoryCheckBox>
+		<AddTransactionTypeLink><![CDATA[//a[contains(text(),'Add Transaction Type')]]]></AddTransactionTypeLink>
+		<TransactionName><![CDATA[//tbody/tr[1]/td[1]/input[@type='text']]]></TransactionName>
+		<AddProductLink><![CDATA[//a[contains(text(),'Add Product')]]]></AddProductLink>
+		<ProductsName><![CDATA[//div[@id='products']//div//tbody/tr/td[1]/input]]></ProductsName>
+		<ProductsTags><![CDATA[//div[@id='products']//div//tbody/tr/td[2]/input]]></ProductsTags>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		<VerticalCount><![CDATA[//div[@class='table']/table/tbody/tr]]></VerticalCount>
+		<MarketingProduct><![CDATA[//a[@id='ui-id-4'][contains(text(),'Marketing Products')]]]></MarketingProduct>
+		<AddMarketingProduct><![CDATA[//a[contains(text(),'Add Marketing Product')]]]></AddMarketingProduct>
+		<Label><![CDATA[//div[@id='marketing-products']//tr//input[contains(@id,'label')]]]></Label>
+		<Medium><![CDATA[//div[@id='marketing-products']//tr//input[contains(@id,'medium')]]]></Medium>
+		<Source><![CDATA[//div[@id='marketing-products']//tr//input[contains(@id,'source')]]]></Source>
+		<Campaign><![CDATA[//div[@id='marketing-products']//tr//input[contains(@id,'campaign')]]]></Campaign>
+		<AccountAttributes><![CDATA[//a[@id='ui-id-5'][contains(text(),'Account Attributes')]]]></AccountAttributes>
+		<AddAccountAttribute><![CDATA[//span[contains(text(),'Add Account Attribute')]]]></AddAccountAttribute>
+		<AccountAttributeLabel><![CDATA[//tbody[@id='account_attribute_keys']/tr[1]/td[1]/input[3]]]></AccountAttributeLabel>
+		<AccountAttributeField><![CDATA[//tbody[@id='account_attribute_keys']/tr[1]/td[2]/input]]></AccountAttributeField>
+		
+	</VerticalPage>
+
+	<EmailTemplates>
+		<NewEmailTemplatesLink><![CDATA[//a[@class='link_new'][contains(text(),'New Email Template')]]]></NewEmailTemplatesLink>
+		<NewEmailTemplatesText><![CDATA[//div[@class='panel']/h1[contains(text(),'New Email Template')]]]></NewEmailTemplatesText>
+		<Name><![CDATA[//input[@id='email_template_name']]]></Name>
+		<VerticalsDropDown><![CDATA[//li[@class='search-field']/input[@value='Select Some Options']]]></VerticalsDropDown>
+		<VerticalsList><![CDATA[//div[@class='chzn-drop']/ul/li[contains(text(),'Day Spas')]]]></VerticalsList>
+		<AccountsDropDown><![CDATA[//div[@id='email_template_account_ids_chzn']/ul/li/input[@value='Select Some Options']]]></AccountsDropDown>
+		<AccountsList><![CDATA[//div[@class='chzn-drop']/ul/li[contains(text(),'3 Peaks Resort and Beach Club')]]]></AccountsList>
+		<TagList><![CDATA[//input[@id='email_template_tag_list']]]></TagList>
+		<TextAreaSource><![CDATA[//div[@id='cke_email_template_body']//span[contains(@class, 'button__source_icon')]]]></TextAreaSource>
+		<TextArea><![CDATA[//div[@id='cke_email_template_body']//textarea]]></TextArea>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		<TagName><![CDATA[//a[@href='#'][contains(text(),'test')]]]></TagName>
+		<LoadingImg><![CDATA[//div[contains(., 'loading, please wait')]/img]]></LoadingImg>
+		<NameCount><![CDATA[//div[@class='table']/table/tbody/tr]]></NameCount>
+	</EmailTemplates>
+
+	<Categories>
+		<NewCategorybtn><![CDATA[//a[@href='/admin/categories/new']]]></NewCategorybtn>
+		<Name><![CDATA[category_name]]></Name>
+		<TypeDropDown><![CDATA[//div[@id='category_type_chzn']//b]]></TypeDropDown>
+		<Type><![CDATA[//li[contains(text(), 'CategoryContent')]]]></Type>
+		<AttachImg><![CDATA[category_image_attributes_file]]></AttachImg>
+		<ImportKey><![CDATA[category_import_key]]></ImportKey>
+		<SubmitButton><![CDATA[//input[@name='commit']]]></SubmitButton>
+		<ThumbnailTitle><![CDATA[//div[@class='headline'][contains(text(), 'Test360 Category')]]]></ThumbnailTitle>
+		<ThimnailImg><![CDATA[//img[@class='category-image'][@alt='Lighthouse']]]></ThimnailImg>
+		<CategoryContent><![CDATA[//a[contains(text(), 'CategoryContent')]]]></CategoryContent>
+		<Row><![CDATA[//div[@id='category-categorycontent']/table/tbody/tr]]></Row>
+	</Categories>
+
+	<WhiteLabels>
+		<NewWhiteLableLink><![CDATA[//a[@href='/admin/white_labels/new']]]></NewWhiteLableLink>
+		<Name><![CDATA[white_label_name]]></Name>
+		<AttachImg><![CDATA['white_label_logo_attributes_file']]></AttachImg>
+		<Submitbtn><![CDATA[//input[@name='commit']]]></Submitbtn>
+		<Logo><![CDATA[//img[contains(@alt, 'lighthouse')]]]></Logo>
+		<Row><![CDATA[//table/tbody/tr]]></Row>
+	</WhiteLabels>
+
+	<ApplicationProduct>
+		<Row><![CDATA[//tbody[@class='products-body']/tr]]></Row>
+		<NewProductButton><![CDATA[//a[@href='/admin/application_products/new']]]></NewProductButton>
+		<Name><![CDATA[application_product_name]]></Name>
+		<ProductId><![CDATA[application_product_product_id]]></ProductId>
+		<Submitbtn><![CDATA[//input[@name='commit']]]></Submitbtn>
+		<AppProductIds><![CDATA[//div[@id='account_application_product_ids_chzn']/ul/li/input]]></AppProductIds>
+		<SelectProd><![CDATA[//li[contains(text(), 'Test360 Appication Product')]]]></SelectProd>
+		
+	</ApplicationProduct>
+
+	<Groups>
+		<Row><![CDATA[//div[@class='table']/table/tbody/tr]]></Row>
+		<NewRow><![CDATA[//table[@class='table table-striped sort-table']/tbody/tr]]></NewRow>
+		<NewGroupLink><![CDATA[//a[@href='/admin/groups/new']]]></NewGroupLink>
+		<Name><![CDATA[group_name]]></Name>
+		<Description><![CDATA[group_description]]></Description>
+		<DropDownIcon><![CDATA[//div[@id='group_parent_id_chzn']/a/div/b]]></DropDownIcon>
+		<GroupName><![CDATA[//input[@id='group_name']]]></GroupName>
+		<ParentGroupName><![CDATA[//div[contains(@id,'group_parent_id')]/a/span]]></ParentGroupName>
+		<ParentGroup><![CDATA[//li[contains(text(),'Sirva')]]]></ParentGroup>
+		<ChildTextBox><![CDATA[//div[@id='group_child_ids_chzn']/ul/li/input]]></ChildTextBox>
+		<ChildGroup><![CDATA[//div[@id='group_child_ids_chzn']/div/ul/li[1]]]></ChildGroup>
+		<RemoveAccount><![CDATA[//div[contains(@id, 'group_account_ids')]/ul/li/a]]></RemoveAccount>
+		<RemoveChildGrp><![CDATA[//div[@id='group_child_ids_chzn']/ul/li[1]/a]]></RemoveChildGrp>
+		<AccountInputBox><![CDATA[//div[@id='group_account_ids_chzn']/ul/li/input]]></AccountInputBox>
+		<Account><![CDATA[//div[@id='group_account_ids_chzn']/div/ul/li[contains(text(), 'ABC Ford')]]]></Account>
+		<ChildGrpInlineError><![CDATA[//li[@id='group_children_input']/p]]></ChildGrpInlineError>
+		<AccInLIneError><![CDATA[//li[@id='group_accounts_input']/p[@class='inline-errors']]]></AccInLIneError>
+		<SFTPCheckBox><![CDATA[group_sftp_account_attributes__destroy]]></SFTPCheckBox>
+		<SFTPFields><![CDATA[//div[@id='sftp_accounts']/div/fieldset/ol/li[2][contains(@style, 'display: none')]]]></SFTPFields>
+		<Submitbtn><![CDATA[//input[@name='commit']]]></Submitbtn>
+	</Groups>
+
+	<RecipientTemplates>
+		<NewTemplateButton><![CDATA[//a[@href="/admin/recipient_criteria_templates/new"]]]></NewTemplateButton>
+		<Name><![CDATA[//input[@id='recipient_criteria_template_name'][@type='text']]]></Name>
+		<Description><![CDATA[//textarea[@id='recipient_criteria_template_description']]]></Description>
+		<VerticalDropDown><![CDATA[//a[@class="chzn-single chzn-default"]/span[contains(text(),'Select a Vertical')]]]></VerticalDropDown>
+		<VerticalDropDownValue><![CDATA[//ul[@class='chzn-results']//li[contains(text(),'US Automotive')]]]></VerticalDropDownValue>
+		<ConditionDropDownValue><![CDATA[//a[@class='chzn-single']/span[contains(text(),'account_id')]]]></ConditionDropDownValue>
+		<DropDownSelectFirstName><![CDATA[//li[contains(text(),'first_name')]]]></DropDownSelectFirstName>
+		<ConditionTextValue><![CDATA[//input[@id='recipient_criteria_template_query_attributes_query_groups_attributes_0_query_conditions_attributes_0_value'][@type='text']]]></ConditionTextValue>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		<Row><![CDATA[//table[@class='table table-striped']/tbody/tr]]></Row>
+	</RecipientTemplates>
+
+	<GreatPlainsProducts>
+		<NewButton><![CDATA[//a[contains(text(),'New')]]]></NewButton>
+		<NameTextField><![CDATA[//input[@id='great_plains_product_name']]]></NameTextField>
+		<RowCount><![CDATA[//table[@class='table table-striped']/tbody[@class='great-plains-products-body']/tr]]></RowCount>
+		<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+	</GreatPlainsProducts>
+	
+	<GreatPlainsImport>
+	    <Row><![CDATA[//tbody[@class='great-plains-products-body']/tr]]></Row>
+	    <NewButton><![CDATA[//a[contains(text(),'New')]]]></NewButton>
+	    <Name><![CDATA[great_plains_import_file_name]]></Name>
+	    <Browse><![CDATA[//input[@id='great_plains_import_file_file']]]></Browse>
+	    <SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+		
+	</GreatPlainsImport>
+	
+	<Jobs>
+	    <ChooseFilter><![CDATA[//span[contains(text(),'Choose an Object')]]]></ChooseFilter>
+	    <Row><![CDATA[//div[@id='job_payload_object_chzn']//li]]></Row>
+	</Jobs>
+
+	<Listeners>
+		<SubMenus><![CDATA[//ul[@class='nav nav-pills pull-right']/li]]></SubMenus>
+		<Row><![CDATA[//div[@id='data-wiselinks-container']//tbody/tr]]></Row>
+	</Listeners>
+	<Notifications>
+	        <Row><![CDATA[//div[@id='data-wiselinks-container']//tbody/tr]]></Row>
+			<NewNotifications><![CDATA[//a[contains(text(),'New Notification')]]]></NewNotifications>
+			<WhomToNotifyList><![CDATA[//span[contains(text(),'Select a Role')]]]></WhomToNotifyList>
+			<Administrator><![CDATA[//li[contains(text(),'Administrator')]]]></Administrator>
+			<DateRangeList><![CDATA[//input[@id='notification_date_range']]]></DateRangeList>
+			<TodayOnlyDate><![CDATA[//a[contains(text(),'Today only')]]]></TodayOnlyDate>
+			<DescriptionTextArea><![CDATA[//textarea[@id='notification_description']]]></DescriptionTextArea>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+	</Notifications>
+	<RssSeeds>
+	        <Row><![CDATA[//tbody[@id='rss_seeds-body']/tr]]></Row>
+			<NewSeedButton><![CDATA[//a[contains(text(),'New Seed')]]]></NewSeedButton>
+			<Name><![CDATA[//input[@id='rss_seed_name']]]></Name>
+			<Url><![CDATA[//textarea[@id='rss_seed_value']]]></Url>
+			<LocationList><![CDATA[//input[@value='Begin typing to search for a location']]]></LocationList>
+			<LocationValue><![CDATA[//li[contains(text(),'Tea SD 57064')]]]></LocationValue>
+			<BrandList><![CDATA[//input[@id='rss_seed_brand_list']]]></BrandList>
+			<Category><![CDATA[//form[@id='new_rss_seed']//button/span[contains(@class,'caret')]]]></Category>
+			<CategoryValue><![CDATA[//span[contains(text(),'Automotive Industry')]]]></CategoryValue>
+			<New><![CDATA[//li[contains(text(),'New')]]]></New>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+	</RssSeeds>
+	
+	<KpiTemplate>
+	        <Row><![CDATA[//div[@id='data-wiselinks-container']//tbody/tr]]></Row>
+			<CreateKpiTemplateButton><![CDATA[//a[contains(text(),'New KPI Template')]]]></CreateKpiTemplateButton>
+			<Name><![CDATA[kpi_template_name]]></Name>
+			<Description><![CDATA[kpi_template_description]]></Description>
+			<VerticalList><![CDATA[//span[contains(text(),'Select a Vertical')]]]></VerticalList>
+			<VerticalValue><![CDATA[//div[@id='kpi_template_vertical_id_chzn']//li[2]]]></VerticalValue>
+			<AddSegmentation><![CDATA[//a[contains(text(),'Add Segmentation')]]]></AddSegmentation>
+			<SegmentName><![CDATA[//input[contains(@id,'kpi_template_google_analytics_segmentations_attributes')][@type='text']]]></SegmentName>
+			<AddGroupLink><![CDATA[//a[contains(text(),'Add Group')]]]></AddGroupLink>
+			<AddCondition><![CDATA[//a[contains(text(),'Add Condition')]]]></AddCondition>
+			<ConditionValue><![CDATA[//input[contains(@id,'api_query_conditions_attributes_')][contains(@class,'kpi-form-item')]]]></ConditionValue>
+			<SubmitButton><![CDATA[//input[@type='submit']]]></SubmitButton>
+	</KpiTemplate>
+	
+</Locators>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite thread-count="5" verbose="1" name="Send_CampaignPreview"
+	annotations="JDK">
+	<test name="Send_CampaignPreview" junit="false"
+		preserve-order="true">
+		<classes>
+			<class name="com.primeresponse.testcases.Influence.Send_CampaignPreview" />
+		</classes>
+	</test>
+</suite>
